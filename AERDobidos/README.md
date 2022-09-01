@@ -1,8 +1,8 @@
-# AER Dekoruma Web Scraping
+# AER Dobidos Web Scraping
 
 ### Runtime
 
-**0:19:57.549275**
+**0:00:17.696194**
 
 ### Entry Point File
 

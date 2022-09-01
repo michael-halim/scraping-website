@@ -158,19 +158,6 @@ def get_every_detail():
                     product_desc = replace_multiple_tags(product_desc,'<','>')
                     product_desc = re.sub(r'\s{2,}',' ',product_desc)
 
-                    # Get Additional Description and Preprocess it
-                    additional_description = ''
-                    for count, add_desc in enumerate(additional_descs_object):
-                        # Because data is in table tr td, if it's a new td add \n
-                        if count % 2 == 0 and count != 0 :
-                            additional_description += '<br>'
-
-                        tmp_additional_description = add_desc.get_attribute('innerHTML')
-                        tmp_additional_description = tmp_additional_description.encode('ascii', 'ignore').decode()
-                        tmp_additional_description = replace_multiple_tags(tmp_additional_description,'<','>') 
-                        additional_description += tmp_additional_description + ' '
-                        
-
                     char_to_replace = {
                         'hitam':'black',
                         'metalik':'metalic',
@@ -195,86 +182,71 @@ def get_every_detail():
                         'campuran':'',
                         'finishing':'',
                     }
-                    
-                    # Get Product Color from Additional Description with Regex
+                    # Get Additional Description and Preprocess it
+                    additional_description = ''
+                    isNext = [None,None]
                     product_color = ''
-                    try:
-                        res = re.search(r'[wW]arna\s?[^\n]+',additional_description)
-                        product_color = res.group(0)
-                        product_color = product_color.lower()
-                        product_color = replace_multiple_char(product_color,char_to_replace)
-                        
-                    except AttributeError as ae:
-                        print('REGEX COLOR #1 FAILED')
-                        print(ae)
-
-                    finally:
-                        product_color = product_color.replace('warna','')
-                        product_color = product_color.split(',')
-                        product_color = [ x.strip() for x in product_color if x.strip() and x.strip() != ',' and x.strip() != '.' ]
-                    
-                    # Get Material from Additional Description with Regex
                     material = ''
-                    try:
-                        res = re.search(r'[mM]aterial\s?[^\n]+',additional_description)
-                        material = res.group(0)
-                        material = material.lower()
-                        material = replace_multiple_char(material,char_to_replace)
-
-                    except AttributeError as ae:
-                        print('REGEX MATERIAL #1 FAILED')
-                        print(ae)
-
-                    finally:
-                        material = material.replace('materials','').replace('material','').replace('dan',',')
-                        material = material.split(',')
-                        material = [ x.strip() for x in material if x.strip() and x.strip() != ',' and x.strip() != '.' ]
-
-
-                    # Get Dimension from Additional Description with Regex
                     dimension_length = ''  
                     dimension_width = ''
                     dimension_height = ''
                     dimension_unit = 'cm'
-                    try:
-                        res = re.search(r'[Uu]kuran\s?[bB]arang\s?([\d.,]+)\s?(cm|m)?\s?[xX]?\s?([\d.,]+)\s?(cm|m)?\s?[xX]?\s?([\d.,]+)\s?(cm|m)',additional_description)
-                        dimension_length = res.group(1)
-                        dimension_width = res.group(3)
-                        dimension_height = res.group(5)
-
-                        dimension_length = dimension_length.replace(',','.')
-                        dimension_width = dimension_width.replace(',','.')
-                        dimension_height = dimension_height.replace(',','.')
-
-                        if res.group(2) == res.group(4) == res.group(6):
-                            dimension_unit = res.group(2)
-
-                    except AttributeError as ae:
-                        print('REGEX DIMENSION #1 FAILED')
-                        print(ae)
-
-                    finally:
-                        dimension_length = dimension_length.strip()
-                        dimension_width = dimension_width.strip()
-                        dimension_height = dimension_height.strip()
-                        dimension_unit = dimension_unit.lower().strip()
-
-
-                    # Get Weight from Additional Description with Regex
                     weight = ''
-                    weight_unit = ''
-                    try:
-                        res = re.search(r'[bB]erat\s?([\d.]+)\s?(\w+)',additional_description)
-                        weight = res.group(1)
-                        weight_unit = res.group(2)
+                    weight_unit = 'kg'
+                    for count, add_desc in enumerate(additional_descs_object):
+                        tmp_additional_description = add_desc.get_attribute('innerHTML')
+                        tmp_additional_description = tmp_additional_description.encode('ascii', 'ignore').decode()
+                        tmp_additional_description = replace_multiple_tags(tmp_additional_description,'<','>') 
 
-                    except AttributeError as ae:
-                        print('REGEX WEIGHT #1 FAILED')
-                        print(ae)
+                        if isNext[0] and isNext[1] == 'warna':
+                            product_color = tmp_additional_description.lower()
+                            product_color = replace_multiple_char(product_color,char_to_replace)
+                            product_color = product_color.split(',')
+                            product_color = [ x.strip() for x in product_color if x.strip() and x.strip() != ',' and x.strip() != '.' ]
 
-                    finally:
-                        weight = weight.strip()
-                        weight_unit = weight_unit.lower().strip()
+                        elif isNext[0] and isNext[1] == 'material':
+                            material = tmp_additional_description.lower()
+                            material = replace_multiple_char(material,char_to_replace)
+                            material = material.split(',')
+                            material = [ x.strip() for x in material if x.strip() and x.strip() != ',' and x.strip() != '.' ]
+
+                        elif isNext[0] and isNext[1] == 'ukuran barang':
+                            res = re.search(r'([\d.,]+)\s?(cm|m)?\s?[xX]?\s?([\d.,]+)\s?(cm|m)?\s?[xX]?\s?([\d.,]+)\s?(cm|m)',tmp_additional_description)
+                            dimension_length = res.group(1)
+                            dimension_width = res.group(3)
+                            dimension_height = res.group(5)
+
+                            dimension_length = dimension_length.replace(',','.')
+                            dimension_width = dimension_width.replace(',','.')
+                            dimension_height = dimension_height.replace(',','.')
+
+                            if res.group(2) == res.group(4) == res.group(6):
+                                dimension_unit = res.group(2)
+
+                        elif isNext[0] and isNext[1] == 'berat':
+                            res = re.search(r'([\d.,]+)\s?(?:kg|g)',tmp_additional_description)
+                            weight = res.group(1)
+                            weight = weight.replace(',','.')
+
+                        if isNext[0]:
+                            isNext[0] = False
+                            isNext[1] = None
+
+                        if tmp_additional_description.lower() == 'warna' or \
+                            tmp_additional_description.lower() == 'material' or \
+                                tmp_additional_description.lower() == 'ukuran barang' or \
+                                    tmp_additional_description.lower() == 'berat':
+                            isNext[0] = True
+                            isNext[1] = tmp_additional_description.lower()
+
+                        # Because data is in table tr td, if it's a new td add \n
+                        if count % 2 == 0 and count != 0 :
+                            additional_description += '<br>'
+                        else:
+                            tmp_additional_description = replace_multiple_char(tmp_additional_description,char_to_replace)
+
+                        additional_description += tmp_additional_description + ' '
+
 
                     print('==================')
                     print(product_desc)
@@ -302,8 +274,8 @@ def get_every_detail():
                             'furnitureLocation': data['furnitureLocation'],
                             'isProduct': data['isProduct'],
                             'material': material,
-                            'weight':'',
-                            'weight_unit':'',
+                            'weight':weight,
+                            'weight_unit':weight_unit,
                             'dimension_length': dimension_length,
                             'dimension_width': dimension_width,
                             'dimension_height': dimension_height,

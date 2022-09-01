@@ -243,6 +243,7 @@ def get_every_detail():
                         dimension_unit = ''
 
                         for title,value in zip(additional_desc_title,additional_desc_value):
+                            
                             tmp_title = title.get_attribute('innerHTML')
                             tmp_value = value.get_attribute('innerHTML')
                             tmp_value = tmp_value.encode('ascii', 'ignore').decode()
@@ -256,12 +257,16 @@ def get_every_detail():
                             additional_desc += tmp_title + ': ' + tmp_value + '<br>'
 
                             if tmp_title.lower() == 'colour':
-                                product_color += tmp_value.lower()
-                                product_color = product_color.replace('\n','')
+                                product_color = tmp_value.lower()
+                                product_color = product_color.replace('<br>','')
+                                product_color = product_color.split(',')
+                                product_color = [ x.strip() for x in product_color if x.strip() and x.strip() != ',' and x.strip() != '.' ]
 
                             elif tmp_title.lower() == 'material':
-                                material += tmp_value.lower()
-                                material = material.replace('\n','')
+                                material = tmp_value.lower()
+                                material = material.replace('<br>','')
+                                material = material.split(',')
+                                material = [ x.strip() for x in material if x.strip() and x.strip() != ',' and x.strip() != '.' ]
 
                             elif tmp_title.lower() == 'weight':
                                 res = re.search(r'(\d+)\s?([a-z]+)',tmp_value)

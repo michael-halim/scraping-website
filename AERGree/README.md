@@ -1,8 +1,8 @@
-# AER Dekoruma Web Scraping
+# AER Gree Web Scraping
 
 ### Runtime
 
-**0:19:57.549275**
+**0:00:35.707231**
 
 ### Entry Point File
 

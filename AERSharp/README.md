@@ -1,8 +1,8 @@
-# AER Dekoruma Web Scraping
+# AER Sharp Web Scraping
 
 ### Runtime
 
-**0:19:57.549275**
+**0:01:06.191526**
 
 ### Entry Point File
 

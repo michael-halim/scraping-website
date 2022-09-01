@@ -1,8 +1,8 @@
-# AER Dekoruma Web Scraping
+# AER TEKA Web Scraping
 
 ### Runtime
 
-**0:19:57.549275**
+**0:01:46.690952**
 
 ### Entry Point File
 
@@ -28,7 +28,7 @@
 |       link        |   ✅   |
 |    description    |   ✅   |
 |       tags        |   ✅   |
-|  additional_desc  |   ✅   |
+|  additional_desc  |   ❌   |
 |     material      |   ✅   |
 |      weight       |   ✅   |
 |    weight_unit    |   ✅   |

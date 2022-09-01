@@ -24,34 +24,26 @@
 
 # print(b)
 
-# import re
+import re
 
 
-# string = 'rattan, metal, copper(20%), jati (teakwood), anjuing (50%),(asdsad, asdasd)'
-# string = re.sub(r'[^a-z(),\s]*','',string)
-# print('====')
-# print(string)
-# string = re.sub(r'(?:\(|\)|\(\)|\(\w+\)|\(\w+|\w+\))','',string)
-# print('====')
-# print(string)
-# string = string.split(',')
-# string = [x.strip() for x in string if x.strip()]
-# # re.
+string = '500 g'
+res = re.search(r'(\d+)\s?([a-z]+)',string)
+weight = res.group(1)
+weight_unit = res.group(2)
 
-# print('====')
-# print(string)
+print(weight)
+print(weight_unit)
 
-
-
-def replace_text_in_between(text,start,end,replace_with=''):
-    idx_start = text.index(start) if start in text else None
-    idx_end = text.index(end) + len(end) if end in text else None
+# def replace_text_in_between(text,start,end,replace_with=''):
+#     idx_start = text.index(start) if start in text else None
+#     idx_end = text.index(end) + len(end) if end in text else None
     
-    if idx_start == None or idx_end == None:
-        return text
-    return str(text[0:idx_start]) + replace_with + str(text[idx_end:])
+#     if idx_start == None or idx_end == None:
+#         return text
+#     return str(text[0:idx_start]) + replace_with + str(text[idx_end:])
 
-a = 'abcdefghijkl'
+# a = 'abcdefghijkl'
 
-res = remove_text_in_between(a,'c','g','#')
-print(res)
+# res = remove_text_in_between(a,'c','g','#')
+# print(res)

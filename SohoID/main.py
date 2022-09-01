@@ -37,10 +37,8 @@ def save_to_file(filename, itemList, automatic_overwrite = True):
     with open(dest_path + '.txt','w') as file:
         file.write(filename + ' = [')
         for count,product in enumerate(itemList):
-            # if count == 0: file.write(str(product).replace('}',' }'))
-            # else: file.write(str(product))
             file.write(str(product))
-            
+
             if count == len(itemList):
                 file.write('\n')
             else:
@@ -182,8 +180,14 @@ def get_every_product():
                     product_price = product_price.strip()
                    
                     tags = [child['title']]
-                    furnitureLocation = [title] 
-                    
+                    furnitureLocation = [ title.lower() ]
+
+                    if title.lower() == 'ruang kerja':
+                        furnitureLocation = ['ruang kerja','kamar tidur']
+
+                    if title.lower() == 'dapur ruang makan':
+                        furnitureLocation = ['dapur','ruang makan']
+
                     if title == 'Seri SOHO':
                         tags = ['Seri SOHO',child['title']]
                         furnitureLocation = []
@@ -214,8 +218,8 @@ def get_every_product():
 def get_every_detail():
     try:
         from front_page import front_page as DATASET
-        dataset_copy = DATASET
-        for data in dataset_copy:
+        dataset_copy = []
+        for data in DATASET:
             try:
                 driver.get(data['link'])
 
@@ -242,8 +246,8 @@ def get_every_detail():
 
                     # Remove Excess Whitespace in the middle of the string
                     product_desc = re.sub('\s{2,}',' ', product_desc)
+                    product_desc = product_desc.encode('ascii', 'ignore').decode()
                     product_desc = product_desc.strip()
-
                     splitted_info = product_desc.split()
 
                     # Get Material from Description
@@ -339,16 +343,29 @@ def get_every_detail():
                     print('COLOR ',color)
                     print('================')
 
-                    data['material'] = material
-                    data['weight'] = ''
-                    data['weight_unit'] = ''
-                    data['dimension_length'] = dimension_length
-                    data['dimension_width'] = dimension_width
-                    data['dimension_height'] = dimension_height
-                    data['dimension_unit'] = dimension_unit
-                    data['color'] = color.split()
-                    data['description'] = product_desc
-                    data['additional_desc'] = ''
+                    dataset_object = {
+                            'name': data['name'],
+                            'pic': data['pic'],
+                            'price': data['price'],
+                            'link': data['link'], 
+                            'address': data['address'], 
+                            'contact_phone':  data['contact_phone'],
+                            'tags': data['tags'],
+                            'furnitureLocation': data['furnitureLocation'],
+                            'isProduct': data['isProduct'],
+                            'material': material,
+                            'weight':'',
+                            'weight_unit':'',
+                            'dimension_length': dimension_length,
+                            'dimension_width': dimension_width,
+                            'dimension_height': dimension_height,
+                            'dimension_unit': dimension_unit,
+                            'additional_desc': '',
+                            'color': color.split(','),
+                            'description': product_desc,
+                    }
+
+                    dataset_copy.append(dataset_object)
 
             except WebDriverException as e:
                 print(e)

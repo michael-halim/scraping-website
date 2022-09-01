@@ -7,16 +7,28 @@ from AtesonHome import all_data as Ateson_Home_All_Data
 from Balkaliving import all_data as Balkaliving_All_Data
 from Nagarey import all_data as Nagarey_All_Data
 from SohoID import all_data as SohoID_All_Data
+from AERTEKA import all_data as AER_TEKA_All_Data
+from AERDobidos import all_data as AER_Dobidos_All_Data
+from AERGree import all_data as AER_Gree_All_Data
+from AERSharp import all_data as AER_Sharp_All_Data
+from AERPaloma import all_data as AER_Paloma_All_Data
 
+
+AER_Dekoruma_All_Data = AER_Dekoruma_All_Data.all_data
+Ateson_Home_All_Data = Ateson_Home_All_Data.all_data
+Balkaliving_All_Data = Balkaliving_All_Data.all_data
+Nagarey_All_Data = Nagarey_All_Data.all_data
+SohoID_All_Data = SohoID_All_Data.all_data
+AER_TEKA_All_Data = AER_TEKA_All_Data.all_data
+AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
+AER_Gree_All_Data = AER_Gree_All_Data.all_data
+AER_Sharp_All_Data = AER_Sharp_All_Data.all_data
+AER_Paloma_All_Data = AER_Paloma_All_Data.all_data
 
 
 if __name__ == '__main__':
     try:
-        AER_Dekoruma_All_Data = AER_Dekoruma_All_Data.all_data
-        Ateson_Home_All_Data = Ateson_Home_All_Data.all_data
-        Balkaliving_All_Data = Balkaliving_All_Data.all_data
-        Nagarey_All_Data = Nagarey_All_Data.all_data
-        SohoID_All_Data = SohoID_All_Data.all_data
+        
         with psycopg2.connect(
                     host = os.environ.get('host'),
                     dbname = os.environ.get('database'),
@@ -52,8 +64,15 @@ if __name__ == '__main__':
                                 (Ateson_Home_All_Data, 'ATESON HOME'), 
                                 (Balkaliving_All_Data,'BALKALIVING'), 
                                 (Nagarey_All_Data,'NAGAREY'), 
-                                (SohoID_All_Data,'SOHO ID')]
-
+                                (SohoID_All_Data,'SOHO ID'),
+                                (AER_TEKA_All_Data,'AER TEKA'),
+                                (AER_Dobidos_All_Data,'AER DOBIDOS'),
+                                (AER_Gree_All_Data,'AER GREE'),
+                                (AER_Sharp_All_Data,'AER SHARP'),
+                                (AER_Paloma_All_Data,'AER PALOMA'),
+                                ]
+                                
+                print('=========================================')
                 for record in all_records:
                     for data in record[0]:
                         weight =  float(data['weight']) if data['weight'] else 0
@@ -87,6 +106,7 @@ if __name__ == '__main__':
                                     ','.join(data['furnitureLocation']))
                         cur.execute(insert_script, tmp_data)
                     print(record[1] + ' DATA INSERTED SUCCESSFULY')
+                print('=========================================')
                 
                 # for record in insert_values:
                 #     cur.execute(insert_script, record)
