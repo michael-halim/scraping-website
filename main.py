@@ -2,33 +2,207 @@ import psycopg2
 import psycopg2.extras
 import os
 from slugify import slugify
-from AERDekoruma import all_data as AER_Dekoruma_All_Data
-from AtesonHome import all_data as Ateson_Home_All_Data
-from Balkaliving import all_data as Balkaliving_All_Data
-from Nagarey import all_data as Nagarey_All_Data
-from SohoID import all_data as SohoID_All_Data
-from AERTEKA import all_data as AER_TEKA_All_Data
-from AERDobidos import all_data as AER_Dobidos_All_Data
-from AERGree import all_data as AER_Gree_All_Data
-from AERSharp import all_data as AER_Sharp_All_Data
-from AERPaloma import all_data as AER_Paloma_All_Data
 
-
-AER_Dekoruma_All_Data = AER_Dekoruma_All_Data.all_data
-Ateson_Home_All_Data = Ateson_Home_All_Data.all_data
-Balkaliving_All_Data = Balkaliving_All_Data.all_data
-Nagarey_All_Data = Nagarey_All_Data.all_data
-SohoID_All_Data = SohoID_All_Data.all_data
-AER_TEKA_All_Data = AER_TEKA_All_Data.all_data
-AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
-AER_Gree_All_Data = AER_Gree_All_Data.all_data
-AER_Sharp_All_Data = AER_Sharp_All_Data.all_data
-AER_Paloma_All_Data = AER_Paloma_All_Data.all_data
-
-
-if __name__ == '__main__':
+# Import All Data from each module
+def get_all_data():
     try:
-        
+        from AERDekoruma import all_data as AER_Dekoruma_All_Data
+        AER_Dekoruma_All_Data = AER_Dekoruma_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing AER Dekoruma ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+    
+    try:
+        from AtesonHome import all_data as Ateson_Home_All_Data
+        Ateson_Home_All_Data = Ateson_Home_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing Ateson Home ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from Balkaliving import all_data as Balkaliving_All_Data
+        Balkaliving_All_Data = Balkaliving_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing Balkaliving ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from Nagarey import all_data as Nagarey_All_Data
+        Nagarey_All_Data = Nagarey_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing Nagarey ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from SohoID import all_data as SohoID_All_Data
+        SohoID_All_Data = SohoID_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing Soho ID ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from AERTEKA import all_data as AER_TEKA_All_Data
+        AER_TEKA_All_Data = AER_TEKA_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing AER TEKA ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from AERDobidos import all_data as AER_Dobidos_All_Data
+        AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing AER Dobidos ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from AERDobidos import all_data as AER_Dobidos_All_Data
+        AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing AER Dobidos ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from AERGree import all_data as AER_Gree_All_Data
+        AER_Gree_All_Data = AER_Gree_All_Data.all_data
+
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing AER Gree ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from AERSharp import all_data as AER_Sharp_All_Data
+        AER_Sharp_All_Data = AER_Sharp_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing AER SHARP ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    try:
+        from AERPaloma import all_data as AER_Paloma_All_Data
+        AER_Paloma_All_Data = AER_Paloma_All_Data.all_data
+
+    except ImportError as e:
+        print('=========================================')
+        print('## Error While Importing AER PALOMA ##')
+        print('=========================================')
+        print(e)
+        print('=========================================')
+
+######################################################################        
+
+    return [(AER_Dekoruma_All_Data, 'AER DEKORUMA'), 
+            (Ateson_Home_All_Data, 'ATESON HOME'), 
+            (Balkaliving_All_Data,'BALKALIVING'), 
+            (Nagarey_All_Data,'NAGAREY'), 
+            (SohoID_All_Data,'SOHO ID'),
+            (AER_TEKA_All_Data,'AER TEKA'),
+            (AER_Dobidos_All_Data,'AER DOBIDOS'),
+            (AER_Gree_All_Data,'AER GREE'),
+            (AER_Sharp_All_Data,'AER SHARP'),
+            (AER_Paloma_All_Data,'AER PALOMA'),
+            ]
+
+def run_all_web_scraper():
+    import time
+
+    start_time_parent = time.perf_counter()
+
+    # Import All Main Function
+    from AERDekoruma import main as MAIN_AER_DEKORUMA
+    MAIN_AER_DEKORUMA.main()
+
+    from AtesonHome import main as MAIN_ATESONHOME
+    MAIN_ATESONHOME.main()
+
+    from Balkaliving import main as MAIN_BALKALIVING
+    MAIN_BALKALIVING.main()
+
+    from Nagarey import main as MAIN_NAGAREY
+    MAIN_NAGAREY.main()
+
+    from SohoID import main as MAIN_SOHO_ID
+    MAIN_SOHO_ID.main()
+
+    from AERTEKA import main as MAIN_AER_TEKA
+    MAIN_AER_TEKA.main()
+
+    from AERDobidos import main as MAIN_AER_DOBIDOS
+    MAIN_AER_DOBIDOS.main()
+
+    from AERGree import main as MAIN_AER_GREE
+    MAIN_AER_GREE.main()
+
+    from AERSharp import main as MAIN_AER_SHARP
+    MAIN_AER_SHARP.main()
+    
+    from AERPaloma import main as MAIN_AER_PALOMA
+    MAIN_AER_PALOMA.main()
+
+    import datetime
+    print('ALL SCRAPING RUNTIME')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time_parent)))
+
+def transfer_data_to_database():
+    try:
         with psycopg2.connect(
                     host = os.environ.get('host'),
                     dbname = os.environ.get('database'),
@@ -60,17 +234,7 @@ if __name__ == '__main__':
                                     furniture_location)
                                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)'''
 
-                all_records = [(AER_Dekoruma_All_Data, 'AER DEKORUMA'), 
-                                (Ateson_Home_All_Data, 'ATESON HOME'), 
-                                (Balkaliving_All_Data,'BALKALIVING'), 
-                                (Nagarey_All_Data,'NAGAREY'), 
-                                (SohoID_All_Data,'SOHO ID'),
-                                (AER_TEKA_All_Data,'AER TEKA'),
-                                (AER_Dobidos_All_Data,'AER DOBIDOS'),
-                                (AER_Gree_All_Data,'AER GREE'),
-                                (AER_Sharp_All_Data,'AER SHARP'),
-                                (AER_Paloma_All_Data,'AER PALOMA'),
-                                ]
+                all_records = get_all_data()
                                 
                 print('=========================================')
                 for record in all_records:
@@ -127,3 +291,14 @@ if __name__ == '__main__':
     finally:
         if conn is not None:
             conn.close()
+
+
+RUN_SCRAPING = False
+RUN_TRANSFER_DATA = True
+
+if __name__ == '__main__':
+    if RUN_SCRAPING:
+        run_all_web_scraper()
+
+    if RUN_TRANSFER_DATA:
+        transfer_data_to_database()
