@@ -1,4 +1,5 @@
 from itertools import product
+from math import prod
 import os
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -158,7 +159,13 @@ def get_category_and_links():
 
 def get_every_product():
         try:
-            from .links import links as DATASET
+
+            try:
+                from .links import links as DATASET
+            except ImportError as e:
+                print(e)
+                from links import links as DATASET
+
 
             productList = []
             for data in DATASET:
@@ -216,7 +223,12 @@ def get_every_product():
 
 def get_every_detail():
     try:
-        from .front_page import front_page as DATASET
+
+        try:
+            from .front_page import front_page as DATASET
+        except ImportError as e:
+            print(e)
+            from front_page import front_page as DATASET
 
         dataset_copy = []
         for data in DATASET:
@@ -317,7 +329,173 @@ def get_every_detail():
 
                         # Get Material from Description with Regex
                         material = ''
-                        
+                        material_replace = {
+                            ',,':'',
+                            'lcmudag':'',
+                            'frame long associated with purity and beauty, our lotus blossom cradles votives or tealights in capiz petals, finished in matte metal finish for timeless look group them to create a peaceful oasis of soft light or a compelling table centerpiece makes a memorable hostess gift':'',
+                            'lcmdwc':'',
+                            'mdlggl':'',
+                            'updated kilim style airs out traditional complex patterning with a hand weaved motif that creates a new look for a classic style firm cotton yarns are hand tufted by skilled artisans crafted of pure cotton, this rug will occasionally shed, especially during the first few months, which is easily managed with regular vacuuming a':'',
+                            'updated kilim style airs out traditional complex patterning with a hand weaved motif that creates a new look for a classic style firm cotton yarns are hand tufted by skilled artisans crafted of pure cotton, this rug will occasionally shed, especially during the first few months, which is easily managed with regular vacuuming jc':'',
+                            'unattended laundries disrupts our room harmony keep them out of our sight by putting it into handwoven laundry hamper spacious interior to keep your space neat, and handwoven pandan with checkered pattern to make your room give your room more classy look plplntbl':'',
+                            'unattended laundries disrupts our room harmony keep them out of our sight by putting it into handwoven laundry hamper spacious interior to keep your space neat, and handwoven pan, with checkered pattern to make your room give your room more classy look plpmntbl':'',
+                            'inspired from japanese countryside pottery, karatsu rustic vase will be a lovely additional for your home stony textured and concrete grey colour drops in the rustic vibe suitable for interior and exterior spaces narfccgr':'',
+                            'dan , abs':'abs',
+                            'dari tempered glass yang tidak mudah pecah':'tempered glass',
+                            'dasar kayu solid dan cat duco':'solid wood,duco paint',
+                            'jati belanda dan roda karet':'dutch teak,rubber wheel',
+                            'jati belanda ukuran panjang 120cm x lebar 40cm x tinggi 70cm berat volume 84kg':'dutch teak',
+                            'jati belanda, besi behel 10mm':'dutch teak,steel',
+                            'jati belanda, hollow 22':'dutch teak,steel',
+                            'jati belanda, kaki besi hollow 33':'dutch teak,steel',
+
+                            'jati belanda, roda karet':'dutch teak,rubber wheel',
+                            'jati belanda, roda karet dengan rem':'dutch teak,rubber wheel',
+                            'jati belanda, roda karet, tegel':'dutch teak,ceramic',
+                            'Jok kain, plastik':'cloth seat, plastic',
+                            'Jok kulit sintesis dan plastik':'synthetic leather,plastic',
+                            'kayu jati belanda, besi wire mesh':'dutch teak,steel wire mesh',
+                            'kayu jati belanda':'dutch teak',
+                            'jati belanda':'dutch teak',
+                            'kayu mahoni dan mdf':'mahogany,mdf',
+                            'kayu mahoni, mdf dan finishing cat duco':'mahogany,mdf,duco paint',
+                            'kayu mahoni, mdf, cat duco':'mahogany,mdf,duco paint',
+                            'kayu mahoni, mdf, gantungan pipa besi, finishing cat duco':'mahogany,mdf,steel, duco paint',
+                            'kayu mahoni, papan mdf, cat duco':'mahogany,mdf,duco paint',
+                            'Kayu mahoni, papan MDF, laci kayu, dan finishing cat duco':'mahogany,mdf,duco paint',
+                            'Kayu Mindi Moku Dining Chair Panjang 46 cm Kedalaman 53 cm Tinggi 84 cm Material Kayu Mindi, Kain 100% Polyester':'mindy wood,polyester',
+                            'Kayu Mindi Produk ini adalah meja makan saja, belum termasuk kursi':'mindy wood',
+                            'kayu pinus ukuran panjang 30cm x lebar 30cm x tinggi 62cm berat volume 14kg':'pine wood',
+                            'kayu pinus, cermin 5mm':'pine wood',
+                            'kayu soid, laci kayu, mdf, cat duco Warna Ivory (putih gading':'solid wood,mdf,duco paint',
+                            'kayu solid, laci kayu, mdf, cat duco Warna Ivory (putih gading':'solid wood,mdf,duco paint',
+                            'kayu solid, laci kayu, mdf, cat ducoWarna Ivory (putih gading':'solid wood,mdf,duco paint',
+                            'kayu solid, mdf, cat duco':'solid wood,mdf,duco paint',
+                            'kayu solid, mdf, cat ducoDrawerP 60 cm L 45 cm T 56,5 cm kayu solid, mdf, cat ducoSaat digabung panjang maksimal 160~170 cm':'solid wood,mdf,duco paint',
+                            'kayu solid, mdf, laci kayu':'solid wood,mdf',
+                            'kayu solid, top mdf, laci kayu':'solid wood,mdf',
+                            'kayu sungkai':'sungkai wood',
+                            'kertas, kayu pinus, kaca':'paper,pine wood,glass',
+                            'kulit rusa kutub kulit rusa kami tanpa lubang, tidak akan menggulung setiap kulit rusa adalah bagian yang unik dan meskipun kulitnya bisa sangat mirip, tidak ada dua kulit yang persis sama kulit rusa kutub utara kami akan menambah karakter dan tampilan pelengkap ruang anda arhlb':'reindeer hide',
+                            'mdf, cat melamin':'mdf,melamine paint',
+                            'mdf, kayu solid, cat duco Warna Ivory (putih gading':'mdf,solid wood,duco paint',
+                            'mdf, laci kayu sengon, cat melamin':'mdf,sengon wood,melamine paint',
+                            'menggunakan rangka kayu mahoni, papan mdf dan finishing cat duco berkualitas':'mahogany,mdf,duco paint',
+                            'menggunakan rel besi yang mudah dibuka dan tahan lama':'steel',
+                            'multipleks lapis kayu sungkai, kaki besi hollow 22':'multiplex,sungkai wood',
+                            'multipleks sungkai, besi galvanis 2x2cm': 'multiplex,sungkai wood,galvanized iron',
+                            'multipleks, jati belanda':'multiplex,dutch teak',
+                            'particle board, lapisan paper pvc':'particle board,pvc paper',
+                            'particle board, mdf dan finishing pvc white glossyUntuk finishing pvc lebih tahan lembab':'particle board,mdf,pvc',
+                            'particle board, mdf dan lapisan PVC':'particle board,mdf,pvc',
+                            'partikel board, mdf, finishing pvc vacuum (lebih tahan terhadap lembab , handle aluminiumProduk ini free rakit untuk daerah Bandung':'particle board,mdf,pvc',
+                            'pintu kayu jati belanda, badan multipleks':'dutch teak,multiplex',
+                            'plywood lapis veneer sungkai':'sungkai wood,plywood,veneer',
+                            'rangka kayu mahoni, lemari ini didukung konstruksi yang sangat kokoh':'mahogany',
+                            'rangka kayu mahoni, mdf, cat duco':'mahogany,mdf,duco paint',
+                            'rangka kayu mahoni, papan mdf dan finishing cat duco':'mahogany,mdf,duco paint',
+                            'rangka kayu mahoni, papan mdf dan finishing cat duco berkualitas':'mahogany,mdf,duco paint',
+                            'rangka kayu mahoni, papan mdf, finishing cat duco':'mahogany,mdf,duco paint',
+                            'rangka kayu mahoni, papan mdf, kaca, cat duco':'mahogany,mdf,duco paint',
+                            'Rangka kayu mahoni,papan mdf dan finishing menggunakan cat duco':'mahogany,mdf,duco paint',
+                            'rangka kayu pinus, busa rebounded, kain':'pine wood,rebounded foam,fabric',
+                            'rangka kayu solid mahoni':'mahogany',
+                            'rangka kayu solid mahoni, papan mdf dan finishing cat duco':'mahogany,mdf,duco paint',
+                            'rangka kayu solid mahoni, papan mdf dan finishing cat duco, rak ini kuat dan tahan lama':'mahogany,mdf,duco paint',
+                            'rangka kayu solid yang kokoh':'solid wood',
+                            'rangka sofa: jati belanda. dudukan dan sandaran: busa kombinasi dakron, sarung kanvas':'dutch teak,dakron combination foam,canvas cover',
+                            'rattan sintetis':'synthetic rattan',
+                            'rattan, cermin asahi merefleksikan estetika tahun an, semburan kelopak bunga di sekelilingnya melambangkan bunga matahari yang cerah rattan yang anggun menghasilkan bayangan yang menarik di dinding lfmrnt':'rattan,asahi glass',
+                            'rattan, metal not suitable for outdoor except sheltered no water exposure or direct sunlight':'rattan,metal',
+                            'rel besi yang mudah dibuka dan tahan lama':'steel',
+                            'rel besi, sehingga mudah dibuka dan tahan lama':'steel',
+                            'stainless white, plastik':'stainless,plastic',
+                            'suarwood tremiron':'suar wood',
+                            'suar wood tremiron':'suar wood',
+                            'synthetic weaving, mindi wood':'synthetic weaving,mindy wood',
+                            'teakwood, metal brimming with rustic charm, edizio side table , rack will instantly elevate visual appeal of your living space showcasing the best quality of teakwood as racks, and sturdy metal to hold the teakwood together, this chic piece will be an excellent choice for your home or office tier racks means more storage space to stage your beloved collectibles and magazines, or to simply store light snacks to accompany your relaxing time yogntbl':'teakwood,metal',
+                            'teakwood, sisipan bambu':'teakwood,bamboo weaving',
+                            'terracota':'terracotta',
+                            'untuk kenyamanan Anda sandaran melengkung dan sarung kain di bagian dudukan':'mindy wood,fabric,polyester',
+                            'waterhyacinth':'water hyacinth',
+                            'waterhyacynth, vinyl':'water hyacinth,vinyl',
+                            'cooper solid':'copper',
+                            'teak':'teakwood',
+                            'tremiron':'',                        
+                            ', kaki iron hollow 22':'',
+                            'multipleks':'multiplex',
+                            'tegel':'ceramic',
+                            'kain':'fabric',
+                            'katun':'cotton',
+                            'ceramic':'ceramic',
+                            'rotan':'rattan',
+                            'besi':'iron',
+                            'teak wood':'teakwood',
+                            'jati' : 'teakwood',
+                            'abaca banana hemp':'abaca',
+                            ' , ':', ',
+                            ' ,':', ',
+                            'berdasarkan pesanan':'custom',
+                            'dan':',',
+                            'brass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chrome':'brass,chrome',
+
+                        }
+                        hard_to_remove_material_word = {
+                            'Dibuat dengan rangka kayu mahoni, lemari ini didukung dengan konstruksi yang sangat kokoh':'mahogany',
+                            'brass, chromebrass, chromebrass, chromebrass, chromebrass, chromebrass, chromebrass, chromebrass, chrome':'brass,chrome',
+                            'Bahan solid wood, mdf, duco paintDrawerP 60 cm L 45 cm T 56,5 cm Bahan solid wood, mdf, duco paintSaat digabung panjang maksimal 160~170 cm':'solid wood,mdf,duco paint',
+                            'Dibuat untuk kenyamanan Anda dengan sandaran melengkung , sarung fabric di bagian dudukan':'mindy wood,fabric,polyester',
+                            'multiplex lapis sungkai wood, kaki iron hollow 22':'multiplex,sungkai wood,iron',
+                            'unattended laundries disrupts our room harmony keep them out of our sight by putting it into handwoven laundry hamper spacious interior to keep your space neat, and handwoven pan, with checkered pattern to make your room give your room more classy look plpmntbl':'',
+                            'when it comes to relaxing lounge chair in linear modern style, our comfortable gonzalo lounge chair knows the ropes affordable, laidback chair is handwoven of synthetic resin rope, a resilient new design thats colorfast and uvresistant lfyogbw':'',
+                            'bras, stainless steel 304':'brass,stainless steel 304',
+                            'kayu pinus':'pine wood',
+                            'sofa: dutch teakwood. dudukan , sandaran: busa kombinasi dakron, sarung kanvas':'dutch teak,dakron combination foam,canvas cover',
+                            'teakwood, synthetic a smooth finished combination of teakwood twig and compact natural faux rattan could be a great option for decorating your living space could be placed on living room or matching coffee table, look nice, comfy, and bring up ructic vibes nfrnt':'teakwood',
+                            'DrawerP 60 cm L 45 cm T 56,5 cm solid wood,mdf,duco paintSaat digabung panjang maksimal 160~170 cm':'',
+                            'dibuat dengan standar ekspor':'export standard',
+                            'Bahan':'',
+                            'pintu':'',
+                            'bahan':'',
+                            'dibuat dengan':'',
+                            'Dibuat dengan':'',
+                            'dibuat':'',
+                            'Dibuat':'',
+                            'glass stainless':'glass,stainless steel',
+                            'stainless white':'glass,stainless steel',
+                            'stainless white 304':'stainless steel 304',
+                            'stainless white stainless steel 304':'stainless steel 304',
+                            'syntethic':'synthetic',
+                            'syntetic':'synthetic',
+                            'sintetis':'synthetic',
+
+                            'alluminium':'aluminium',
+                            'taekwood':'teakwood',
+                            'teakwood teakwood':'teakwood',
+                            'vicose':'viscose',
+                            'plastik':'plastic',
+                            'poliester':'polyester',
+                            'finishing cat duco':'duco paint',
+                            'teakwoodwood':'teakwood',
+                            'suar wood':'suarwood',
+                            'mindiwood':'mindy wood',
+                            'mindi wood':'mindy wood',
+                            'rangka':'',
+                            'dengan rem':'',
+                            'polyestercotton':'polyester,cotton',
+                            'berkualitas':'',
+                            ', rak ini kuat , tahan lama':'',
+                            ',,':',',
+                            'rangka sofa: dutch teakwood. dudukan , sandaran: busa kombinasi dakron, sarung kanvas':'dutch teak,dakron combination foam,canvas cover',
+                            'cermin asahi merefleksikan estetika tahun an, semburan kelopak bunga di sekelilingnya melambangkan bunga matahari yang cerah rattan yang anggun menghasilkan bayangan yang menarik di dinding lfmrnt':'asahi glass',
+                            'DrawerP 60 cm L 45 cm T 56,5 cm solid wood, mdf, duco paintSaat digabung panjang maksimal 160~170 cm':'',
+                            'tremiron':'',
+                            'sisipan bambu':'bamboo weaving',
+                            'untuk kenyamanan Anda sandaran melengkung , sarung fabric di bagian dudukan':'mindy wood,fabric,polyester',
+                            'brasss':'brass',
+
+                        }
+                
                         try:
                             res = re.search(r'\b(?:[bB]ahan|[Mm]at....ls?)\s[^\n]+\b',product_desc)
                             material = res.group(0)
@@ -334,18 +512,15 @@ def get_every_detail():
                             material = re.sub(r'(?:\(|\)|\(\)|\(\w+\)|\(\w+|\w+\))','',material)
                             material = re.sub('\s{2,}',' ',material)
 
-                            material = material.split(',')
-                            material = [x.strip() for x in material if x.strip()]
-
-                            tmp_material = material
-
-                            for count,data_material in enumerate(tmp_material):
-                                if data_material == 'rotan':
-                                    material[count] = 'rattan'
-                                if data_material == 'besi':
-                                    material[count] = 'iron'
-                                if data_material == 'jati':
-                                    material[count] = 'teakwood'
+                            material = material.strip()
+                            material = replace_multiple_char(material, material_replace)
+                            material = material.strip()
+                            material = replace_multiple_char(material,hard_to_remove_material_word)
+                            material = material.strip()
+                            material = re.sub(r'^,\s{0,}?','',material)
+                            material = re.sub(r',\s{0,}?$','',material)
+                            material = re.sub(r'\s?,\s?',',',material)
+                            material = material.strip()
 
                         except AttributeError as ae:
                             print('REGEX MATERIAL #1 FAILED')
@@ -402,10 +577,124 @@ def get_every_detail():
                             'black white weaving light suar frame':'black',
                             'blue mix':'blue',
                             'blue orange':'blue',
+                            'beige silver':'beige',
+                            'beige,gold leg':'beige',
+                            'black , dark grey leg':'black',
+                            'black , white speckled':'black',
+                            'black black leg':'black',
+                            'black copper':'black',
+                            'black grey seating gold leg':'black',
+                            'black leather , grey':'black',
+                            'black leg':'black',
+                            'black weaving brown frame':'black',
+                            'black willow':'black',
+                            'black,gold leg':'black',
+                            'black,grey cushion':'black',
+                            'blue,gold leg':'blue',
+                            'bright, laci penyimpanan ini akan memberikan kehangatan ke rumah anda.':'bright',
+                            'brown , grey leg':'brown',
+                            'brown , grey,gold leg':'brown',
+                            'brown , white':'brown',
+                            'brown , white speckled':'brown',
+                            'brown antique seating, black leg':'brown',
+                            'brown bone,black':'brown',
+                            'brown gold':'brown',
+                            'brown grey':'brown',
+                            'brown leather , grey':'brown',
+                            'brown leather seating gold leg':'brown',
+                            'brown leather,gold leg':'brown',
+                            'brown leg':'brown',
+                            'brown top,black leg':'brown',
+                            'brown top,brown leg':'brown',
+                            'brown white':'brown',
+                            'brown,black leg':'brown',
+                            'copper , black tripod':'copper',
+                            'cream, abu, biru, tosca, merah':'cream',
+                            'dark champagne':'champagne',
+                            'flamingo pink':'pink',
+                            'gold black':'gold',
+                            'gold top, black leg':'gold',
+                            'golden brown,white':'brown',
+                            'green gold leg':'green',
+                            'green mix':'green',
+                            'green olive':'green',
+                            'green white seating gold leg':'green',
+                            'green white seating, gold leg':'green',
+                            'green,gold leg':'green',
+                            'grey marble,gold':'grey',
+                            'honey brown':'honey',
+                            'honey brown , brown leg':'honey',
+                            'honey brown black leg':'honey',
+                            'honey brown seating, black leg':'honey',
+                            'honey seating, black':'honey',
+                            'honey top,white leg':'honey',
+                            'ivory brown':'ivory',
+                            'ivory dan natural kayu, akan memberikan kesan':'ivory',
+                            'ivory grey':'ivory',
+                            'kobu grey leg':'grey',
+                            'leg black, loom seating':'black',
+                            'leg natural sr, loom seating':'natural',
+                            'leg natural sr, seating natural weaving':'natural',
+                            'm,arin yellow gold leg':'yellow',
+                            'natural , white':'white',
+                            'natural back , seating brown arm , leg':'natural',
+                            'natural base,black leg':'natural',
+                            'natural frame white':'natural',
+                            'natural seat,black leg':'natural',
+                            'natural seating, black leg':'natural',
+                            'natural shelf,black':'natural',
+                            'natural top gun metal leg':'metalic',
+                            'natural top, black leg':'natural',
+                            'natural top,black leg':'natural',
+                            'natural,black leg':'natural',
+                            'natural,red red leg':'red',
+                            'red red':'red',
+                            'red red black':'red',
+                            'red black':'red',
+                            'redturquoisewhite':'red',
+                            'redwhite':'red',
+                            'smoke grey arm, seating natural':'grey',
+                            'stainless white':'white',
+                            'star motif black':'black',
+                            'white , natural':'white',
+                            'white frame':'white',
+                            'white,cobblegrey':'white',
+                            'yellow lemon gold leg':'yellow',
+                            'natural,white':'white',
+                            'naturalwalnut':'walnut',
+                            'naturalwalnutandwhite':'walnut',
+                            'naturalwalnutwhite':'walnut',
+                            'natural baby blue':'blue',
+                            'babybluenatural':'blue',
+                            'antique teak finish , gold':'gold',
+                            'bark grey leg':'grey',
+                            'brown antique seating, black':'brown',
+                            'black seating black':'black',
+                            'brown seating black':'brown',
+                            'brown speckled':'brown',
+                            'brown top,black':'brown',
+                            'brown top,brown':'brown',
+                            'gold top, black':'gold',
+                            'brown,black':'brown',
                             'brass gold':'brass',
                             'brown black':'brown',
+                            'brown,black':'brown',
+                            'cream, abu, biru, tosca, merah':'cream',
                             'brown burnt':'brown',
+                            'honey , brown':'honey',
+                            'honey wash':'honey',
+                            'honey wash black':'honey',
+                            'honey wash seating, black':'honey',
                             'brown leather seating antique gold leg':'brown',
+                            'natural base,black':'natural',
+                            'natural seat,black':'natural',
+                            'natural seating, black':'natural',
+                            'natural top black':'natural',
+                            'natural top, black':'natural',
+                            'natural top,black':'natural',
+                            'natural waterhyacynth black':'natural',
+                            'natural,black':'natural',
+                            'yellow seating black':'yellow',
                             'brown metal':'brown',
                             'brown natural':'brown',
                             'brown ornamental':'brown',
@@ -451,6 +740,7 @@ def get_every_detail():
                             'grey natural':'grey',
                             'grey seating antique brass leg':'grey',
                             'grey seating black leg':'grey',
+                            'grey seating black':'grey',
                             'grey white wash':'grey',
                             'gunmetal':'grey',
                             'heather':'grey',
@@ -463,6 +753,7 @@ def get_every_detail():
                             'jok':'brown',
                             'kain asli mungkin berbeda dengan':'custom',
                             'kobu grey black leg':'grey',
+                            'kobu grey':'grey',
                             'krem':'cream',
                             'light brown':'brown',
                             'light brown natural':'brown',
@@ -572,7 +863,6 @@ def get_every_detail():
                         try:
                             char_to_replace = {
                             '&amp;':',',
-                            'amp':',',
                             '&amp':',',
                             'amp;':',',
                             'and':','
@@ -581,9 +871,14 @@ def get_every_detail():
                             product_color = re.sub(r'[^a-z,\s]*', '', product_color)
                             product_color = re.sub(r'\s[xX]\s', ',', product_color)
                             product_color = re.sub('\s{2,}', ' ', product_color)
-                            product_color = product_color.split(',')
-                            product_color = [ replace_multiple_char(x.strip(),char_to_replace=color_replace) for x in product_color if x.strip() ]
-
+                            product_color = product_color.strip()
+                            product_color = replace_multiple_char(product_color,char_to_replace=color_replace)
+                            product_color = replace_multiple_char(product_color,char_to_replace=color_replace)
+                            hard_to_remove_word = {
+                                'kobu grey':'grey',
+                                'leg natural e, seating natural weaving':'natural',
+                            }
+                            product_color = replace_multiple_char(product_color,char_to_replace=hard_to_remove_word)
                         except AttributeError as ae:
                             print('REGEX COLOR #1 FAILED')
                             print(ae)

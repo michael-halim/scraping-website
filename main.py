@@ -16,7 +16,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
     
     try:
         from AtesonHome import all_data as Ateson_Home_All_Data
@@ -29,7 +29,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     try:
         from Balkaliving import all_data as Balkaliving_All_Data
@@ -42,7 +42,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     try:
         from Nagarey import all_data as Nagarey_All_Data
@@ -55,7 +55,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     try:
         from SohoID import all_data as SohoID_All_Data
@@ -68,7 +68,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     try:
         from AERTEKA import all_data as AER_TEKA_All_Data
@@ -81,7 +81,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     try:
         from AERDobidos import all_data as AER_Dobidos_All_Data
@@ -94,20 +94,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
-
-    try:
-        from AERDobidos import all_data as AER_Dobidos_All_Data
-        AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
-
-    except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing AER Dobidos ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
-
-######################################################################        
+######################################################################
 
     try:
         from AERGree import all_data as AER_Gree_All_Data
@@ -121,7 +108,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     try:
         from AERSharp import all_data as AER_Sharp_All_Data
@@ -134,7 +121,7 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     try:
         from AERPaloma import all_data as AER_Paloma_All_Data
@@ -147,18 +134,18 @@ def get_all_data():
         print(e)
         print('=========================================')
 
-######################################################################        
+######################################################################
 
     return [(AER_Dekoruma_All_Data, 'AER DEKORUMA'), 
+            (AER_Dobidos_All_Data,'AER DOBIDOS'),
+            (AER_Gree_All_Data,'AER GREE'),
+            (AER_Paloma_All_Data,'AER PALOMA'),
+            (AER_Sharp_All_Data,'AER SHARP'),
+            (AER_TEKA_All_Data,'AER TEKA'),
             (Ateson_Home_All_Data, 'ATESON HOME'), 
             (Balkaliving_All_Data,'BALKALIVING'), 
             (Nagarey_All_Data,'NAGAREY'), 
             (SohoID_All_Data,'SOHO ID'),
-            (AER_TEKA_All_Data,'AER TEKA'),
-            (AER_Dobidos_All_Data,'AER DOBIDOS'),
-            (AER_Gree_All_Data,'AER GREE'),
-            (AER_Sharp_All_Data,'AER SHARP'),
-            (AER_Paloma_All_Data,'AER PALOMA'),
             ]
 
 def run_all_web_scraper():
@@ -169,6 +156,21 @@ def run_all_web_scraper():
     # Import All Main Function
     from AERDekoruma import main as MAIN_AER_DEKORUMA
     MAIN_AER_DEKORUMA.main()
+
+    from AERDobidos import main as MAIN_AER_DOBIDOS
+    MAIN_AER_DOBIDOS.main()
+
+    from AERGree import main as MAIN_AER_GREE
+    MAIN_AER_GREE.main()
+
+    from AERPaloma import main as MAIN_AER_PALOMA
+    MAIN_AER_PALOMA.main()
+
+    from AERSharp import main as MAIN_AER_SHARP
+    MAIN_AER_SHARP.main()
+
+    from AERTEKA import main as MAIN_AER_TEKA
+    MAIN_AER_TEKA.main()
 
     from AtesonHome import main as MAIN_ATESONHOME
     MAIN_ATESONHOME.main()
@@ -181,21 +183,6 @@ def run_all_web_scraper():
 
     from SohoID import main as MAIN_SOHO_ID
     MAIN_SOHO_ID.main()
-
-    from AERTEKA import main as MAIN_AER_TEKA
-    MAIN_AER_TEKA.main()
-
-    from AERDobidos import main as MAIN_AER_DOBIDOS
-    MAIN_AER_DOBIDOS.main()
-
-    from AERGree import main as MAIN_AER_GREE
-    MAIN_AER_GREE.main()
-
-    from AERSharp import main as MAIN_AER_SHARP
-    MAIN_AER_SHARP.main()
-    
-    from AERPaloma import main as MAIN_AER_PALOMA
-    MAIN_AER_PALOMA.main()
 
     import datetime
     print('ALL SCRAPING RUNTIME')
@@ -258,10 +245,10 @@ def transfer_data_to_database():
                                     data['link'],
                                     data['description'],
                                     data['additional_desc'],
-                                    ','.join(data['material']),
+                                    data['material'],
                                     weight,
                                     data['weight_unit'],
-                                    ','.join(data['color']),
+                                    data['color'],
                                     dimension_length,
                                     dimension_width,
                                     dimension_height,
