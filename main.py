@@ -8,17 +8,20 @@ import numpy as np
 import time 
 import datetime
 # Import All Data from each module
+def show_error_message(err, module_name = ''):
+    print('=========================================')
+    print(f'## Error While Importing {module_name} ##')
+    print('=========================================')
+    print(err)
+    print('=========================================')
+
 def get_all_data():
     try:
         from AERDekoruma import all_data as AER_Dekoruma_All_Data
         AER_Dekoruma_All_Data = AER_Dekoruma_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing AER Dekoruma ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'AER DEKORUMA')
 
 ######################################################################
     
@@ -27,11 +30,7 @@ def get_all_data():
         Ateson_Home_All_Data = Ateson_Home_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing Ateson Home ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'Ateson Home')
 
 ######################################################################
 
@@ -40,11 +39,7 @@ def get_all_data():
         Balkaliving_All_Data = Balkaliving_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing Balkaliving ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'Balkaliving')
 
 ######################################################################
 
@@ -53,11 +48,7 @@ def get_all_data():
         Nagarey_All_Data = Nagarey_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing Nagarey ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'Nagarey')
 
 ######################################################################
 
@@ -66,11 +57,7 @@ def get_all_data():
         SohoID_All_Data = SohoID_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing Soho ID ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'Soho ID')
 
 ######################################################################
 
@@ -79,11 +66,7 @@ def get_all_data():
         AER_TEKA_All_Data = AER_TEKA_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing AER TEKA ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'AER TEKA')
 
 ######################################################################
 
@@ -92,11 +75,7 @@ def get_all_data():
         AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing AER Dobidos ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'AER Dobidos')
 
 ######################################################################
 
@@ -106,11 +85,7 @@ def get_all_data():
 
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing AER Gree ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'AER Gree')
 
 ######################################################################
 
@@ -119,11 +94,7 @@ def get_all_data():
         AER_Sharp_All_Data = AER_Sharp_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing AER SHARP ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'AER Sharp')
 
 ######################################################################
 
@@ -132,11 +103,18 @@ def get_all_data():
         AER_Paloma_All_Data = AER_Paloma_All_Data.all_data
 
     except ImportError as e:
-        print('=========================================')
-        print('## Error While Importing AER PALOMA ##')
-        print('=========================================')
-        print(e)
-        print('=========================================')
+        show_error_message(e, 'AER Paloma')
+
+######################################################################
+
+######################################################################
+
+    try:
+        from Tokopedia import all_data as Tokopedia_All_Data
+        Tokopedia_All_Data = Tokopedia_All_Data.all_data
+
+    except ImportError as e:
+        show_error_message(e, 'Tokopedia')
 
 ######################################################################
 
@@ -150,6 +128,7 @@ def get_all_data():
             (Balkaliving_All_Data,'BALKALIVING'), 
             (Nagarey_All_Data,'NAGAREY'), 
             (SohoID_All_Data,'SOHO ID'),
+            (Tokopedia_All_Data,'TOKOPEDIA'),
             ]
 
 def run_all_web_scraper():
@@ -187,6 +166,9 @@ def run_all_web_scraper():
 
     from SohoID import main as MAIN_SOHO_ID
     MAIN_SOHO_ID.main()
+    
+    from Tokopedia import main as MAIN_TOKOPEDIA
+    MAIN_TOKOPEDIA.main()
 
     import datetime
     print('ALL SCRAPING RUNTIME')
