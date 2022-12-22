@@ -346,7 +346,7 @@ def construct_distances(all_ids,
             
             data_insert_distance_check_time.append( 
                 (
-                    all_ids[i] ,
+                    all_ids[i],
                     all_ids[j],
                     round(color_distances[i][j], 2),
                     round(title_distances[i][j], 2),
@@ -466,9 +466,21 @@ def try_catch_insert_data(script, data, fetch=False, page_size=10000, message=''
 def transfer_data_to_database():
     """  TESTING FASTER TIME QUERY """
 
+    time_log = []
+    start_time = time.perf_counter()
+
+    tmp_time = time.perf_counter()
+    # === Process ===
     all_material, all_title, all_description, all_weight, all_dimension_length, all_dimension_width, \
     all_dimension_height, all_price, all_furniture_location, all_color, data_insert_check_time = process_data_item()
+    # === End Process ===
+    time_log.append(('PROCESS DATA ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('PROCESS DATA ITEM')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
 
+
+    tmp_time = time.perf_counter()
+    # === Process ===
     vectorized_X_color, color_feature_names, vectorized_X_material, material_feature_names, \
     vectorized_X_furniture_location, furniture_location_feature_names, vectorized_X_description, \
     description_feature_names, vectorized_X_title, title_feature_names, color_distances, material_distances,\
@@ -483,6 +495,13 @@ def transfer_data_to_database():
                                                                                                 all_price=all_price,
                                                                                                 all_furniture_location=all_furniture_location,
                                                                                                 all_color=all_color)
+    # === End Process ===
+    time_log.append(('PROCESS DATA FEATURE AND DISTANCE', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('PROCESS DATA FEATURE AND DISTANCE')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+
+    tmp_time = time.perf_counter()
+    # === Process ===
     insert_script_check_time = '''
         INSERT INTO public.main_app_item( 
                         name, 
@@ -512,7 +531,13 @@ def transfer_data_to_database():
                                     fetch=True, 
                                     message='INSERTING ITEM')
     all_ids = [ _id[0] for _id in all_ids]
+    # === End Process ===
+    time_log.append(('INSERTING ITEM AND CONSTRUCT IDS', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('INSERTING ITEM AND CONSTRUCT IDS')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
 
+    tmp_time = time.perf_counter()
+    # === Process ===
     data_insert_distance_check_time = construct_distances(all_ids=all_ids,
                                                             color_distances=color_distances,
                                                             material_distances=material_distances,
@@ -522,7 +547,13 @@ def transfer_data_to_database():
                                                             weight_distances=weight_distances,
                                                             dimension_distances=dimension_distances,
                                                             price_distances=price_distances )
+    # === End Process ===
+    time_log.append(('CONSTRUCT DISTANCES', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('CONSTRUCT DISTANCES')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
 
+    tmp_time = time.perf_counter()
+    # === Process ===
     insert_distance_script_check_time = '''
         INSERT INTO public.main_app_distance (
             product_id, 
@@ -543,8 +574,14 @@ def transfer_data_to_database():
     try_catch_insert_data(script=insert_distance_script_check_time, 
                             data=data_insert_distance_check_time, 
                             message='INSERTING DISTANCE')
-    
-    
+    # === End Process ===
+    time_log.append(('INSERTING DISTANCES', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('INSERTING DISTANCES')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+
+
+    tmp_time = time.perf_counter()
+    # === Process ===
     data_update_item_check_time = construct_update_item(vectorized_X_color=vectorized_X_color,
                                                         vectorized_X_material=vectorized_X_material,
                                                         vectorized_X_description=vectorized_X_description,
@@ -554,7 +591,13 @@ def transfer_data_to_database():
                                                         all_weight=all_weight, 
                                                         all_dimension=all_dimension, 
                                                         all_price=all_price)
+    # === End Process ===
+    time_log.append(('CONSTRUCT UPDATE ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('CONSTRUCT UPDATE ITEM')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
 
+    tmp_time = time.perf_counter()
+    # === Process ===
     update_item_script_check_time = '''
         UPDATE public.main_app_item as t
         SET vect_color = uv.vect_color, 
@@ -577,12 +620,16 @@ def transfer_data_to_database():
         WHERE t.id = uv.id;
     '''
 
-    print_help('SLEEPING FOR 5 SECONDS')
-    time.sleep(5.0)
     try_catch_insert_data(script=update_item_script_check_time, 
                             data=data_update_item_check_time, 
                             message='UPDATING ITEM')
+    # === End Process ===
+    time_log.append(('UPDATE ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('UPDATE ITEM')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
 
+    tmp_time = time.perf_counter()
+    # === Process ===
     insert_feature_script_check_time = '''
         INSERT INTO public.main_app_feature(
                     name_feature, 
@@ -605,7 +652,15 @@ def transfer_data_to_database():
     try_catch_insert_data(script=insert_feature_script_check_time, 
                             data=data_insert_feature_check_time, 
                             message='INSERTING FEATURE')
+    # === End Process ===
+    time_log.append(('INSERTING FEATURE', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
+    print('INSERTING FEATURE')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
 
+    print('TOTAL INSERTING DATA')
+    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
+    
+    [ print(log) for log in time_log ]
 
 RUN_SCRAPING = False
 RUN_TRANSFER_DATA = True
