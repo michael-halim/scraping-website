@@ -1,80 +1,85 @@
-from ast import Import
-import os
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.common.exceptions import NoSuchElementException,WebDriverException
+from selenium.common.exceptions import WebDriverException
+from selenium.webdriver.chrome.options import Options
 
 import re
-# from selenium.webdriver.common.keys import Keys
 
-def replace_text_in_between(text,start,end,replace_with=''):
-    idx_start = text.index(start) if start in text else None
-    idx_end = text.index(end) + len(end) if end in text else None
-    
-    if idx_start == None or idx_end == None:
-        return text
-    return str(text[0:idx_start]) + replace_with + str(text[idx_end:])
+import os 
+import sys
 
-def replace_multiple_char(text, char_to_replace):
-    for key, value in char_to_replace.items():
-        text = text.replace(key, value)
+current = os.path.dirname(os.path.realpath(__file__))
+parent_dir = current + os.sep + os.pardir
+sys.path.append(parent_dir)
 
-    return text
+from helper_func.helper import *
+from dict_clean import *
 
-def replace_multiple_tags(text, start, end, replace_with=''):
-    occurences = text.count(start)
+# https://chromedriver.storage.googleapis.com/index.html
+s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
+if os.environ.get('DEVELOPMENT_MODE') == 'False':
+    s = Service(os.environ.get('CHROMEDRIVER_PATH_PRODUCTION'))
 
-    for _ in range(occurences):
-        text = replace_text_in_between(text,start,end,replace_with)
-    return text
+options = Options()
 
-def save_to_file(filename, itemList, automatic_overwrite = True):
-    dirname = os.path.dirname(__file__)
-    dest_path = os.path.join(dirname, filename)
-    with open(dest_path + '.txt','w') as file:
-        file.write(filename + ' = [')
-        for count,product in enumerate(itemList):
-            file.write(str(product))
+if os.environ.get('DEVELOPMENT_MODE') == 'False':
+    options.add_argument("--headless")
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
 
-            if count == len(itemList):
-                file.write('\n')
-            else:
-                file.write(',\n')
+user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
+options.add_argument('user-agent={0}'.format(user_agent))
 
-        file.write(']')
-    file.close()
+driver = webdriver.Chrome(service=s, options=options)
 
-
-    FILE_NAME = dest_path
-    try:
-        os.rename(FILE_NAME + '.txt', FILE_NAME + '.py')
-
-    except FileExistsError:
-        chc = '1'
-        if not automatic_overwrite:
-            chc = input('{0}.py Already Exist. Do You Want to Overwrite ? (0/1)'.format(FILE_NAME))
-        
-        if chc == '1':
-            os.remove(FILE_NAME + '.py')
-            os.rename(FILE_NAME + '.txt',FILE_NAME + '.py')
-
-    finally:
-        print('Saving File Finished\n\n')
-        if automatic_overwrite:
-            print('File Overwrite Automatically')
-
-
-ADDRESS = 'Jl. Ibrahim Adjie no. 423 Kiaracondong, Bandung'
-PHONE = '022-732 80 790'
-
-s = Service('C:/SeleniumDrivers/chromedriver.exe')
-driver = webdriver.Chrome(service=s)
 driver.implicitly_wait(15)
 
+def get_contact():
+    url = 'https://www.soho.id/id/contact'
+    driver.get(url)
+
+    contact_object = driver.find_elements(By.CSS_SELECTOR, 'span > strong[data-mce-style]')
+
+    tmp_phone = None
+    tmp_address = None
+    
+    phone_replace = {
+        '\n':'',
+        '+':'',
+        '(':'',
+        ')':'',
+        '-':''
+    }
+    address_replace = {
+        '\n':''
+    }
+    for contact in contact_object:
+
+        tmp_contact = contact.get_attribute('innerHTML')
+        tmp_contact = tmp_contact.split('<br>')
+        print(tmp_contact)
+
+        # tmp_contact = tmp_contact[1]
+        # tmp_contact = tmp_contact.split('<br>')
+        
+        tmp_address = tmp_contact[2]
+        tmp_address = replace_multiple_char(tmp_address, char_to_replace=address_replace)
+        tmp_address.strip()
+
+        tmp_phone = tmp_contact[3]
+        tmp_phone = replace_multiple_char(tmp_phone, char_to_replace=phone_replace)
+        tmp_phone = re.sub(r'\s{0,}?','',tmp_phone)
+        tmp_phone = tmp_phone.strip()
+
+    print('PHONE')
+    print(tmp_phone)
+    print('ADDRESS')
+    print(tmp_address)
+
+    return tmp_phone, tmp_address
 
 def get_all_link():
     NAV_LINKS = []
@@ -83,7 +88,7 @@ def get_all_link():
 
     try:
         # Get All li with class is__parent
-        nav_object = driver.find_elements(By.CSS_SELECTOR, 'li.is__parent')
+        nav_object = driver.find_elements(By.CSS_SELECTOR, 'span.mobileNavigation-navValueContainerClassName.false')
         
         for nav in nav_object:
             temp_dict = {}
@@ -105,32 +110,13 @@ def get_all_link():
             print(nav_group_title)
             print('===============')
             
+            exception_title = ['Promo', 'Hubungi Kami']
+            if nav_group_title in exception_title:
+                continue
+
             # Add link and title to dictionary
             temp_dict['link'] = nav_group_link
             temp_dict['title'] = nav_group_title
-            
-            # Get children object
-            nav_children_object = nav.find_elements(By.CSS_SELECTOR, 'ul.is__dropdown > li > a')
-            childList = []
-            for nav_child in nav_children_object:
-                # Get Child Link in href in <a></a>
-                nav_child_link = nav_child.get_attribute('href')
-
-                # Get Child Title in innerHTML in <a></a>
-                nav_child_title = nav_child.get_attribute('innerHTML')
-                nav_child_title = nav_child_title.title().strip().lower()
-
-                print('===============')
-                print('NAV CHILD LINK')
-                print(nav_child_link)
-                print('NAV CHILD TITLE')
-                print(nav_child_title)
-                print('===============')
-
-                # Add Child Link and Title to Dictionary
-                childList.append({'link':nav_child_link, 'title':nav_child_title})
-
-            temp_dict['child'] = childList
 
             NAV_LINKS.append(temp_dict)
             
@@ -138,83 +124,118 @@ def get_all_link():
         print(NAV_LINKS)
         
         # Save All Links to File
-        save_to_file('links',NAV_LINKS)
+        filename = 'links'
+        dirname = os.path.dirname(__file__)
+        dest_path = os.path.join(dirname, filename)
+        save_to_file(dest_path=dest_path, 
+                    filename=filename, 
+                    itemList = NAV_LINKS)
 
     except WebDriverException as e:
         print('ERROR GET ALL LINK')
         print(e)
 
-def get_every_product():
+def get_every_product(phone, address):
     try:
         # Import Links from Same Folder
         try:
             from .links import links as DATASET
         except ImportError as e:
+            print('IMPORT ERROR')
             print(e)
             from links import links as DATASET
-        
+            print(DATASET)
+
+            # TODO: DISINI DIA UDH GA PUNYA CHILD
         productList = []
         for data in DATASET:
             title = data['title']
+            
+            driver.get(data['link'])
 
-            # Loop each child
-            for child in data['child']:
-                driver.get(child['link'])
+            SCROLL_PAUSE_TIME = 2
+            # Get scroll height
+            
+            last_height = driver.execute_script("return document.body.scrollHeight")
+            new_height = 100
+            while True:
+                # Scroll down to bottom
+                driver.execute_script("window.scrollTo(0," + str(new_height) + ");")
 
-                # Names and Links are in the same element
-                product_names_and_links = driver.find_elements(By.CSS_SELECTOR, 'a.product__name')
-                product_prices = driver.find_elements(By.CSS_SELECTOR,'div.product__price > span:first-child')
-                product_pictures = driver.find_elements(By.CSS_SELECTOR, 'a.thumbnail > img')
+                # Wait to load page
+                time.sleep(SCROLL_PAUSE_TIME)
 
-                for name_link, price,pic in zip(product_names_and_links,product_prices,product_pictures):
-                    # Get product name, link , price, and picture
-                    product_name = name_link.get_attribute('innerHTML')
-                    product_name = product_name.encode('ascii', 'ignore').decode()
+                # Calculate new scroll height and compare with last scroll height
+                new_height += 1050
+                last_height = driver.execute_script("return document.body.scrollHeight")
+                if new_height >= last_height:
+                    break
 
-                    product_link = name_link.get_attribute('href')
-                    product_picture = pic.get_attribute('src')
 
-                    product_price = price.get_attribute('innerHTML')
+            # Names and Links are in the same element
+            product_links = driver.find_elements(By.CSS_SELECTOR, 'a.products-list__item--link')
+            product_names = driver.find_elements(By.CSS_SELECTOR, 'p.products-list__item--label-title')
+            product_prices = driver.find_elements(By.CSS_SELECTOR,'p.products-list__item--label-price')
+            product_pictures = driver.find_elements(By.CSS_SELECTOR, 'a.products-list__item--link > img.products-list__item--link-image')
 
-                    char_to_replace = {
-                    'IDR':'',
-                    '.00':'',
-                    ',':'',
-                    }
-                    product_price = replace_multiple_char(product_price,char_to_replace)
-                    product_price = product_price.strip()
-                   
-                    tags = [child['title']]
-                    furnitureLocation = [ title.lower() ]
+            for name, link, price, pic in zip(product_names, product_links, product_prices, product_pictures):
+                # Get product name, link , price, and picture
+                product_name = name.get_attribute('innerHTML')
+                product_name = product_name.encode('ascii', 'ignore').decode()
 
-                    if title.lower() == 'ruang kerja':
-                        furnitureLocation = ['ruang kerja','kamar tidur']
+                product_link = link.get_attribute('href')
+                product_picture = pic.get_attribute('src')
 
-                    if title.lower() == 'dapur ruang makan':
-                        furnitureLocation = ['dapur','ruang makan']
+                product_price = price.get_attribute('innerHTML')
 
-                    if title == 'Seri SOHO':
-                        tags = ['Seri SOHO',child['title']]
-                        furnitureLocation = []
+                char_to_replace = {
+                'IDR':'',
+                '.00':'',
+                ',':'',
+                '&nbsp;':'',
+                }
+                product_price = replace_multiple_char(product_price,char_to_replace)
+                product_price = replace_multiple_tags(product_price,'<span class="products-list__item--label-price-sale','</span>', '')
+                product_price = replace_multiple_tags(product_price,'<span ','>', '')
+                product_price = replace_multiple_tags(product_price,'</','>', '')
+                product_price = product_price.strip()
+                
+                tags = [data['title']]
+                furnitureLocation = [ title.lower() ]
 
-                    # Append to productList
-                    productList.append({'name':product_name, 'pic':product_picture,
-                                        'price':product_price,'link':product_link,
-                                        'address':ADDRESS, 'contact_phone':PHONE,
-                                        'tags':tags,'furnitureLocation':furnitureLocation,
-                                        'isProduct':1 })
+                if title.lower() == 'ruang kerja':
+                    furnitureLocation = ['ruang kerja','kamar tidur']
 
-                    print('=================')
-                    print(tags)
-                    print(furnitureLocation)
-                    print(product_name)
-                    print(product_link)
-                    print(product_picture)
-                    print(product_price)
-                    print('=================')
+                if title.lower() == 'dapur ruang makan':
+                    furnitureLocation = ['dapur','ruang makan']
+
+                if title == 'Seri SOHO':
+                    tags = ['Seri SOHO',data['title']]
+                    furnitureLocation = []
+
+                # Append to productList
+                productList.append({'name':product_name, 'pic':product_picture,
+                                    'price':product_price,'link':product_link,
+                                    'address':address, 'contact_phone':phone,
+                                    'tags':tags,'furnitureLocation':furnitureLocation,
+                                    'isProduct':1 })
+
+                print('=================')
+                print(tags)
+                print(furnitureLocation)
+                print(product_name)
+                print(product_link)
+                print(product_picture)
+                print(product_price)
+                print('=================')
         
         # Save data to front_page.py
-        save_to_file('front_page',productList)
+        filename = 'front_page'
+        dirname = os.path.dirname(__file__)
+        dest_path = os.path.join(dirname, filename)
+        save_to_file(dest_path=dest_path, 
+                    filename=filename, 
+                    itemList = productList)
 
     except FileExistsError as e:
         print('FILE DOESNT EXIST')
@@ -234,7 +255,7 @@ def get_every_detail():
                 driver.get(data['link'])
 
                 # Get description object
-                product_descriptions = driver.find_elements(By.CSS_SELECTOR, 'div.spesification')
+                product_descriptions = driver.find_elements(By.CSS_SELECTOR, 'div.product-detail__content--desc.accordion > div.collapse.show > div')
                 
                 for desc in product_descriptions:
                     # Get description Text and Preprocess it
@@ -265,495 +286,30 @@ def get_every_detail():
                     try:
                         res = re.search(r'\b(?:[dD]ibuat|[bB]ahan)[^.]+\b',product_desc)
                         material = res.group(0)
-                        material_replace = {
-                            ',,':'',
-                            'lcmudag':'',
-                            'frame long associated with purity and beauty, our lotus blossom cradles votives or tealights in capiz petals, finished in matte metal finish for timeless look group them to create a peaceful oasis of soft light or a compelling table centerpiece makes a memorable hostess gift':'',
-                            'lcmdwc':'',
-                            'mdlggl':'',
-                            'updated kilim style airs out traditional complex patterning with a hand weaved motif that creates a new look for a classic style firm cotton yarns are hand tufted by skilled artisans crafted of pure cotton, this rug will occasionally shed, especially during the first few months, which is easily managed with regular vacuuming a':'',
-                            'updated kilim style airs out traditional complex patterning with a hand weaved motif that creates a new look for a classic style firm cotton yarns are hand tufted by skilled artisans crafted of pure cotton, this rug will occasionally shed, especially during the first few months, which is easily managed with regular vacuuming jc':'',
-                            'unattended laundries disrupts our room harmony keep them out of our sight by putting it into handwoven laundry hamper spacious interior to keep your space neat, and handwoven pandan with checkered pattern to make your room give your room more classy look plplntbl':'',
-                            'unattended laundries disrupts our room harmony keep them out of our sight by putting it into handwoven laundry hamper spacious interior to keep your space neat, and handwoven pan, with checkered pattern to make your room give your room more classy look plpmntbl':'',
-                            'inspired from japanese countryside pottery, karatsu rustic vase will be a lovely additional for your home stony textured and concrete grey colour drops in the rustic vibe suitable for interior and exterior spaces narfccgr':'',
-                            'dan , abs':'abs',
-                            'dari tempered glass yang tidak mudah pecah':'tempered glass',
-                            'dasar kayu solid dan cat duco':'solid wood,duco paint',
-                            'jati belanda dan roda karet':'dutch teak,rubber wheel',
-                            'jati belanda ukuran panjang 120cm x lebar 40cm x tinggi 70cm berat volume 84kg':'dutch teak',
-                            'jati belanda, besi behel 10mm':'dutch teak,steel',
-                            'jati belanda, hollow 22':'dutch teak,steel',
-                            'jati belanda, kaki besi hollow 33':'dutch teak,steel',
-
-                            'jati belanda, roda karet':'dutch teak,rubber wheel',
-                            'jati belanda, roda karet dengan rem':'dutch teak,rubber wheel',
-                            'jati belanda, roda karet, tegel':'dutch teak,ceramic',
-                            'Jok kain, plastik':'cloth seat, plastic',
-                            'Jok kulit sintesis dan plastik':'synthetic leather,plastic',
-                            'kayu jati belanda, besi wire mesh':'dutch teak,steel wire mesh',
-                            'kayu jati belanda':'dutch teak',
-                            'jati belanda':'dutch teak',
-                            'kayu mahoni dan mdf':'mahogany,mdf',
-                            'kayu mahoni, mdf dan finishing cat duco':'mahogany,mdf,duco paint',
-                            'kayu mahoni, mdf, cat duco':'mahogany,mdf,duco paint',
-                            'kayu mahoni, mdf, gantungan pipa besi, finishing cat duco':'mahogany,mdf,steel, duco paint',
-                            'kayu mahoni, papan mdf, cat duco':'mahogany,mdf,duco paint',
-                            'Kayu mahoni, papan MDF, laci kayu, dan finishing cat duco':'mahogany,mdf,duco paint',
-                            'Kayu Mindi Moku Dining Chair Panjang 46 cm Kedalaman 53 cm Tinggi 84 cm Material Kayu Mindi, Kain 100% Polyester':'mindy wood,polyester',
-                            'Kayu Mindi Produk ini adalah meja makan saja, belum termasuk kursi':'mindy wood',
-                            'kayu pinus ukuran panjang 30cm x lebar 30cm x tinggi 62cm berat volume 14kg':'pine wood',
-                            'kayu pinus, cermin 5mm':'pine wood',
-                            'kayu soid, laci kayu, mdf, cat duco Warna Ivory (putih gading':'solid wood,mdf,duco paint',
-                            'kayu solid, laci kayu, mdf, cat duco Warna Ivory (putih gading':'solid wood,mdf,duco paint',
-                            'kayu solid, laci kayu, mdf, cat ducoWarna Ivory (putih gading':'solid wood,mdf,duco paint',
-                            'kayu solid, mdf, cat duco':'solid wood,mdf,duco paint',
-                            'kayu solid, mdf, cat ducoDrawerP 60 cm L 45 cm T 56,5 cm kayu solid, mdf, cat ducoSaat digabung panjang maksimal 160~170 cm':'solid wood,mdf,duco paint',
-                            'kayu solid, mdf, laci kayu':'solid wood,mdf',
-                            'kayu solid, top mdf, laci kayu':'solid wood,mdf',
-                            'kayu sungkai':'sungkai wood',
-                            'kertas, kayu pinus, kaca':'paper,pine wood,glass',
-                            'kulit rusa kutub kulit rusa kami tanpa lubang, tidak akan menggulung setiap kulit rusa adalah bagian yang unik dan meskipun kulitnya bisa sangat mirip, tidak ada dua kulit yang persis sama kulit rusa kutub utara kami akan menambah karakter dan tampilan pelengkap ruang anda arhlb':'reindeer hide',
-                            'mdf, cat melamin':'mdf,melamine paint',
-                            'mdf, kayu solid, cat duco Warna Ivory (putih gading':'mdf,solid wood,duco paint',
-                            'mdf, laci kayu sengon, cat melamin':'mdf,sengon wood,melamine paint',
-                            'menggunakan rangka kayu mahoni, papan mdf dan finishing cat duco berkualitas':'mahogany,mdf,duco paint',
-                            'menggunakan rel besi yang mudah dibuka dan tahan lama':'steel',
-                            'multipleks lapis kayu sungkai, kaki besi hollow 22':'multiplex,sungkai wood',
-                            'multipleks sungkai, besi galvanis 2x2cm': 'multiplex,sungkai wood,galvanized iron',
-                            'multipleks, jati belanda':'multiplex,dutch teak',
-                            'particle board, lapisan paper pvc':'particle board,pvc paper',
-                            'particle board, mdf dan finishing pvc white glossyUntuk finishing pvc lebih tahan lembab':'particle board,mdf,pvc',
-                            'particle board, mdf dan lapisan PVC':'particle board,mdf,pvc',
-                            'partikel board, mdf, finishing pvc vacuum (lebih tahan terhadap lembab , handle aluminiumProduk ini free rakit untuk daerah Bandung':'particle board,mdf,pvc',
-                            'pintu kayu jati belanda, badan multipleks':'dutch teak,multiplex',
-                            'plywood lapis veneer sungkai':'sungkai wood,plywood,veneer',
-                            'rangka kayu mahoni, lemari ini didukung konstruksi yang sangat kokoh':'mahogany',
-                            'rangka kayu mahoni, mdf, cat duco':'mahogany,mdf,duco paint',
-                            'rangka kayu mahoni, papan mdf dan finishing cat duco':'mahogany,mdf,duco paint',
-                            'rangka kayu mahoni, papan mdf dan finishing cat duco berkualitas':'mahogany,mdf,duco paint',
-                            'rangka kayu mahoni, papan mdf, finishing cat duco':'mahogany,mdf,duco paint',
-                            'rangka kayu mahoni, papan mdf, kaca, cat duco':'mahogany,mdf,duco paint',
-                            'Rangka kayu mahoni,papan mdf dan finishing menggunakan cat duco':'mahogany,mdf,duco paint',
-                            'rangka kayu pinus, busa rebounded, kain':'pine wood,rebounded foam,fabric',
-                            'rangka kayu solid mahoni':'mahogany',
-                            'rangka kayu solid mahoni, papan mdf dan finishing cat duco':'mahogany,mdf,duco paint',
-                            'rangka kayu solid mahoni, papan mdf dan finishing cat duco, rak ini kuat dan tahan lama':'mahogany,mdf,duco paint',
-                            'rangka kayu solid yang kokoh':'solid wood',
-                            'rangka sofa: jati belanda. dudukan dan sandaran: busa kombinasi dakron, sarung kanvas':'dutch teak,dakron combination foam,canvas cover',
-                            'rattan sintetis':'synthetic rattan',
-                            'rattan, cermin asahi merefleksikan estetika tahun an, semburan kelopak bunga di sekelilingnya melambangkan bunga matahari yang cerah rattan yang anggun menghasilkan bayangan yang menarik di dinding lfmrnt':'rattan,asahi glass',
-                            'rattan, metal not suitable for outdoor except sheltered no water exposure or direct sunlight':'rattan,metal',
-                            'rel besi yang mudah dibuka dan tahan lama':'steel',
-                            'rel besi, sehingga mudah dibuka dan tahan lama':'steel',
-                            'stainless white, plastik':'stainless,plastic',
-                            'suarwood tremiron':'suar wood',
-                            'suar wood tremiron':'suar wood',
-                            'synthetic weaving, mindi wood':'synthetic weaving,mindy wood',
-                            'teakwood, metal brimming with rustic charm, edizio side table , rack will instantly elevate visual appeal of your living space showcasing the best quality of teakwood as racks, and sturdy metal to hold the teakwood together, this chic piece will be an excellent choice for your home or office tier racks means more storage space to stage your beloved collectibles and magazines, or to simply store light snacks to accompany your relaxing time yogntbl':'teakwood,metal',
-                            'teakwood, sisipan bambu':'teakwood,bamboo weaving',
-                            'terracota':'terracotta',
-                            'untuk kenyamanan Anda sandaran melengkung dan sarung kain di bagian dudukan':'mindy wood,fabric,polyester',
-                            'waterhyacinth':'water hyacinth',
-                            'waterhyacynth, vinyl':'water hyacinth,vinyl',
-                            'cooper solid':'copper',
-                            'teak':'teakwood',
-                            'tremiron':'',                        
-                            ', kaki iron hollow 22':'',
-                            'multipleks':'multiplex',
-                            'tegel':'ceramic',
-                            'kain':'fabric',
-                            'katun':'cotton',
-                            'ceramic':'ceramic',
-                            'rotan':'rattan',
-                            'besi':'iron',
-                            'teak wood':'teakwood',
-                            'jati' : 'teakwood',
-                            'abaca banana hemp':'abaca',
-                            ' , ':', ',
-                            ' ,':', ',
-                            'berdasarkan pesanan':'custom',
-                            'dan':',',
-                            'brass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chrome':'brass,chrome',
-
-                        }
-                        hard_to_remove_material_word = {
-                            'solid wood,mdf,duco paintDrawerP 60 cm L 45 cm T 56,5 cm solid wood,mdf,duco paintSaat digabung panjang maksimal 160~170 cm':'solid wood,mdf,duco paint',
-                            'Dibuat dengan rangka kayu mahoni, lemari ini didukung dengan konstruksi yang sangat kokoh':'mahogany',
-                            'brass, chromebrass, chromebrass, chromebrass, chromebrass, chromebrass, chromebrass, chromebrass, chrome':'brass,chrome',
-                            'Bahan solid wood, mdf, duco paintDrawerP 60 cm L 45 cm T 56,5 cm Bahan solid wood, mdf, duco paintSaat digabung panjang maksimal 160~170 cm':'solid wood,mdf,duco paint',
-                            'Dibuat untuk kenyamanan Anda dengan sandaran melengkung , sarung fabric di bagian dudukan':'mindy wood,fabric,polyester',
-                            'multiplex lapis sungkai wood, kaki iron hollow 22':'multiplex,sungkai wood,iron',
-                            'unattended laundries disrupts our room harmony keep them out of our sight by putting it into handwoven laundry hamper spacious interior to keep your space neat, and handwoven pan, with checkered pattern to make your room give your room more classy look plpmntbl':'',
-                            'when it comes to relaxing lounge chair in linear modern style, our comfortable gonzalo lounge chair knows the ropes affordable, laidback chair is handwoven of synthetic resin rope, a resilient new design thats colorfast and uvresistant lfyogbw':'',
-                            'bras, stainless steel 304':'brass,stainless steel 304',
-                            'kayu pinus':'pine wood',
-                            'sofa: dutch teakwood. dudukan , sandaran: busa kombinasi dakron, sarung kanvas':'dutch teak,dakron combination foam,canvas cover',
-                            'teakwood, synthetic a smooth finished combination of teakwood twig and compact natural faux rattan could be a great option for decorating your living space could be placed on living room or matching coffee table, look nice, comfy, and bring up ructic vibes nfrnt':'teakwood',
-                            'dibuat dengan standar ekspor':'export standard',
-                            'Bahan':'',
-                            'pintu':'',
-                            'bahan':'',
-                            'dibuat dengan':'',
-                            'Dibuat dengan':'',
-                            'dibuat':'',
-                            'Dibuat':'',
-                            'glass stainless':'glass,stainless steel',
-                            'stainless white':'glass,stainless steel',
-                            'stainless white 304':'stainless steel 304',
-                            'stainless white stainless steel 304':'stainless steel 304',
-                            'syntethic':'synthetic',
-                            'syntetic':'synthetic',
-                            'sintetis':'synthetic',
-
-                            'alluminium':'aluminium',
-                            'taekwood':'teakwood',
-                            'teakwood teakwood':'teakwood',
-                            'vicose':'viscose',
-                            'plastik':'plastic',
-                            'poliester':'polyester',
-                            'finishing cat duco':'duco paint',
-                            'teakwoodwood':'teakwood',
-                            'suar wood':'suarwood',
-                            'mindiwood':'mindy wood',
-                            'mindi wood':'mindy wood',
-                            'rangka':'',
-                            'dengan rem':'',
-                            'polyestercotton':'polyester,cotton',
-                            'berkualitas':'',
-                            ', rak ini kuat , tahan lama':'',
-                            ',,':',',
-                            'rangka sofa: dutch teakwood. dudukan , sandaran: busa kombinasi dakron, sarung kanvas':'dutch teak,dakron combination foam,canvas cover',
-                            'cermin asahi merefleksikan estetika tahun an, semburan kelopak bunga di sekelilingnya melambangkan bunga matahari yang cerah rattan yang anggun menghasilkan bayangan yang menarik di dinding lfmrnt':'asahi glass',
-                            'DrawerP 60 cm L 45 cm T 56,5 cm solid wood, mdf, duco paintSaat digabung panjang maksimal 160~170 cm':'',
-                            'tremiron':'',
-                            'sisipan bambu':'bamboo weaving',
-                            'untuk kenyamanan Anda sandaran melengkung , sarung fabric di bagian dudukan':'mindy wood,fabric,polyester',
-                            'brasss':'brass',
-
-                        }
 
                         material = material.strip()
-                        material = replace_multiple_char(material,material_replace)
+                        material = replace_multiple_char(material, SohoID_MATERIAL_REPLACE)
+
                         material = material.strip()
-                        material = replace_multiple_char(material,hard_to_remove_material_word)
+                        material = replace_multiple_char(material, SohoID_HARD_REMOVE_MATERIAL)
+
                         material = material.strip()
                         material = re.sub(r'^,\s{0,}?','',material)
                         material = re.sub(r',\s{0,}?$','',material)
                         material = re.sub(r'\s?,\s?',',',material)
+
                         material = material.strip()
                         material = material.replace('solid wood,mdf,duco paintDrawerP 60 cm L 45 cm T 56,5 cm  solid wood,mdf,duco paintSaat digabung panjang maksimal 160~170 cm','solid wood,mdf,duco paint').strip()
+                        material = material.replace('untuk kenyamanan Anda dengan sandaran melengkung,kaki kayu,dudukan jok yang sempurna sebagai kursi di ruang makan,ruang keluarga ataupun di kamar tidur untuk menemani meja rias kamu','')
+                        material = material.replace('Tidak termasuk kursi (hanya meja,laci saja','')
+                        material = material.replace('Warna Ivory (putih gading','')
+                        material = material.replace('Kayu Solid Kursi terbuat dari  kayu solid finishing sanding PU warna teakwood','teakwood,pu')
+                        material = material.replace('Kayu Solid Produk ini adalah meja makan saja,belum termasuk kursi','solid wood')
 
-                        
                     except AttributeError as ae:
                         print('REGEX MATERIAL FAILED')
                         print(ae)
 
-                    color_replace = {
-                        'hitam':'black',
-                        'abu-abu':'grey',
-                        'adam motif natural black':'black',
-                        'all black':'black',
-                        'all natural':'natural',
-                        'all white':'white',
-                        'amber black gold':'amber',
-                        'amber natural':'amber',
-                        'anodized':'chrome',
-                        'antique':'antique',
-                        'antique brown':'brown',
-                        'antique copper':'copper',
-                        'antique gold':'gold',
-                        'antique grey':'grey',
-                        'antique silver':'silver',
-                        'antique white':'white',
-                        'ash grey':'grey',
-                        'bark grey antique gold leg':'grey',
-                        'beige antique silver':'beige',
-                        'bisa sesuai keinginan':'custom',
-                        'black antique choco':'black',
-                        'black antique copper':'black',
-                        'black antique gold':'black',
-                        'black black':'black',
-                        'black blue':'black',
-                        'black brown':'black',
-                        'black dark grey':'black',
-                        'black distressed':'black',
-                        'black distressed black leg':'black',
-                        'black eccletic':'black',
-                        'black frame':'black',
-                        'black gold':'black',
-                        'black grey seating antique gold leg':'black',
-                        'black greyish':'black',
-                        'black maroon burnt':'black',
-                        'black matte':'black',
-                        'black natural':'black',
-                        'black natural willow':'black',
-                        'black oreo':'black',
-                        'black red':'black',
-                        'black solid':'black',
-                        'black two tone':'black',
-                        'black white':'black',
-                        'black white natural':'black',
-                        'black white weaving light suar frame':'black',
-                        'blue mix':'blue',
-                        'blue orange':'blue',
-                        'beige silver':'beige',
-                        'beige,gold leg':'beige',
-                        'black , dark grey leg':'black',
-                        'black , white speckled':'black',
-                        'black black leg':'black',
-                        'black copper':'black',
-                        'black grey seating gold leg':'black',
-                        'black leather , grey':'black',
-                        'black leg':'black',
-                        'black weaving brown frame':'black',
-                        'black willow':'black',
-                        'black,gold leg':'black',
-                        'black,grey cushion':'black',
-                        'blue,gold leg':'blue',
-                        'bright, laci penyimpanan ini akan memberikan kehangatan ke rumah anda.':'bright',
-                        'brown , grey leg':'brown',
-                        'brown , grey,gold leg':'brown',
-                        'brown , white':'brown',
-                        'brown , white speckled':'brown',
-                        'brown antique seating, black leg':'brown',
-                        'brown bone,black':'brown',
-                        'brown gold':'brown',
-                        'brown grey':'brown',
-                        'brown leather , grey':'brown',
-                        'brown leather seating gold leg':'brown',
-                        'brown leather,gold leg':'brown',
-                        'brown leg':'brown',
-                        'brown top,black leg':'brown',
-                        'brown top,brown leg':'brown',
-                        'brown white':'brown',
-                        'brown,black leg':'brown',
-                        'copper , black tripod':'copper',
-                        'cream, abu, biru, tosca, merah':'cream',
-                        'dark champagne':'champagne',
-                        'flamingo pink':'pink',
-                        'gold black':'gold',
-                        'gold top, black leg':'gold',
-                        'golden brown,white':'brown',
-                        'green gold leg':'green',
-                        'green mix':'green',
-                        'green olive':'green',
-                        'green white seating gold leg':'green',
-                        'green white seating, gold leg':'green',
-                        'green,gold leg':'green',
-                        'grey marble,gold':'grey',
-                        'honey brown':'honey',
-                        'honey brown , brown leg':'honey',
-                        'honey brown black leg':'honey',
-                        'honey brown seating, black leg':'honey',
-                        'honey top,white leg':'honey',
-                        'ivory dan natural kayu, akan memberikan kesan':'ivory',
-                        'ivory grey':'ivory',
-                        'kobu grey leg':'grey',
-                        'leg black, loom seating':'black',
-                        'leg natural sr, loom seating':'natural',
-                        'leg natural sr, seating natural weaving':'natural',
-                        'm,arin yellow gold leg':'yellow',
-                        'natural , white':'white',
-                        'natural back , seating brown arm , leg':'natural',
-                        'natural base,black leg':'natural',
-                        'natural frame white':'natural',
-                        'natural seat,black leg':'natural',
-                        'natural seating, black leg':'natural',
-                        'natural shelf,black':'natural',
-                        'natural top gun metal leg':'metalic',
-                        'natural top, black leg':'natural',
-                        'natural top,black leg':'natural',
-                        'natural,black leg':'natural',
-                        'natural,red red leg':'red',
-                        'red red':'red',
-                        'red red black':'red',
-                        'redturquoisewhite':'red',
-                        'redwhite':'red',
-                        'smoke grey arm, seating natural':'grey',
-                        'stainless white':'white',
-                        'star motif black':'black',
-                        'white , natural':'white',
-                        'white frame':'white',
-                        'white,cobblegrey':'white',
-                        'yellow lemon gold leg':'yellow',
-                        'natural,white':'white',
-                        'naturalwalnut':'walnut',
-                        'naturalwalnutandwhite':'walnut',
-                        'naturalwalnutwhite':'walnut',
-                        'natural baby blue':'blue',
-                        'babybluenatural':'blue',
-                        'antique teak finish , gold':'gold',
-                        'bark grey leg':'grey',
-                        'brass gold':'brass',
-                        'brown black':'brown',
-                        'brown burnt':'brown',
-                        'brown leather seating antique gold leg':'brown',
-                        'brown metal':'brown',
-                        'brown natural':'brown',
-                        'brown ornamental':'brown',
-                        'brown seating black leg':'brown',
-                        'brown top grey leg':'brown',
-                        'brown wash':'brown',
-                        'brown wash black':'brown',
-                        'brown white':'brown',
-                        'brushed copper':'copper',
-                        'brushed gold':'gold',
-                        'brushed ss':'stainless steel',
-                        'celadon blue':'blue',
-                        'cerah':'bright',
-                        'ch,agne':'chagne',
-                        'choco natural pala':'brown',
-                        'chrome bronze':'chrome',
-                        'chrome grey':'chrome',
-                        'coffee cream black':'brown',
-                        'concrete grey':'grey',
-                        'dark brown':'brown',
-                        'dark brown gold':'brown',
-                        'dark brown light grey':'brown',
-                        'dark ch,agne':'chagne',
-                        'dark choco':'brown',
-                        'dark green':'green',
-                        'dark green antique gold leg':'green',
-                        'dark silver':'silver',
-                        'dusty mint':'green',
-                        'flint grey':'grey',
-                        'full ivory':'ivory',
-                        'glazed brown':'brown',
-                        'gliss brown':'brown',
-                        'gold metal':'gold',
-                        'gold metal'
-                        'green mix':'green',
-                        'green natural':'green',
-                        'green taupe seating antique gold leg':'green',
-                        'grey black':'grey',
-                        'grey brown':'grey',
-                        'grey burnt':'grey',
-                        'grey gold':'grey',
-                        'grey kobu':'grey',
-                        'grey natural':'grey',
-                        'grey seating antique brass leg':'grey',
-                        'grey seating black leg':'grey',
-                        'grey white wash':'grey',
-                        'gunmetal':'grey',
-                        'heather':'grey',
-                        'honey black':'honey',
-                        'honey brown wash':'honey',
-                        'honey brown wash black leg':'honey',
-                        'honey grey':'honey',
-                        'honey white':'honey',
-                        'ivory brown':'ivory',
-                        
-                        'jok':'brown',
-                        'kain asli mungkin berbeda dengan':'custom',
-                        'cream, abu, biru, tosca, merah':'grey',
-                        'kobu grey black leg':'grey',
-                        'kobu grey':'grey',
-                        'krem':'cream',
-                        'light brown':'brown',
-                        'light brown natural':'brown',
-                        'light grey':'grey',
-                        'light grey black':'grey',
-                        'light star':'brown',
-                        'light suar':'brown',
-                        'lime green gold':'green',
-                        'marble white':'white',
-                        'maroon':'brown',
-                        'maroon black':'brown',
-                        'matcha green':'green',
-                        'matte black':'black',
-                        'matte grey':'grey',
-                        'matte white':'white',
-                        'medium grey':'grey',
-                        'mint green':'green',
-                        'morocco brown':'brown',
-                        'morocco brown black leg':'brown',
-                        'multi colour':'mixed',
-                        'natural antique':'natural',
-                        'natural baby blue':'blue',
-                        'natural black':'black',
-                        'natural black leg':'black',
-                        'natural black white':'black',
-                        'natural brown':'brown',
-                        'natural coffee brown':'brown',
-                        'natural dark brown':'brown',
-                        'natural dark choco':'brown',
-                        'natural green':'green',
-                        'natural grey':'grey',
-                        'natural honey':'honey',
-                        'natural inca':'brown',
-                        'natural jute':'brown',
-                        'natural light grey':'grey',
-                        'natural matcha green':'green',
-                        'natural pala':'brown',
-                        'natural pale':'brown',
-                        'natural peanut':'brown',
-                        'natural pewter':'brown',
-                        'natural soft white':'white',
-                        'natural strong blue':'blue',
-                        'natural tiffany blue':'blue',
-                        'natural top black leg':'black',
-                        'natural top pewter leg':'brown',
-                        'natural verdant green':'green',
-                        'natural walnut':'walnut',
-                        'natural waterhyacynth black leg':'brown',
-                        'natural white':'white',
-                        'natural white black':'white',
-                        'natural white grey':'white',
-                        'natural willow':'brown',
-                        'natural willow black':'brown',
-                        'natural willow white':'brown',
-                        'ocean':'blue',
-                        'onyx natural':'brown',
-                        'oranye':'orange',
-                        'oyster':'white',
-                        'pala black':'brown',
-                        'pastel blue green':'blue',
-                        'petrol':'white',
-                        'pine frame':'brown',
-                        'powder':'mixed',
-                        'purple mix':'purple',
-                        'putih gading':'ivory',
-                        'red green burnt':'red',
-                        'red white':'red',
-                        'rose gold':'gold',
-                        'sakura pink':'pink',
-                        'shaded brown':'brown',
-                        'silver aluminium':'silver',
-                        'silver black':'silver',
-                        'silver white':'silver',
-                        'silver wood':'silver',
-                        'slate':'white',
-                        'soft gold':'gold',
-                        'soft white':'white',
-                        'solid black':'black',
-                        'star motif natural black':'black',
-                        'steel':'white',
-                        'stone':'grey',
-                        'tan brown':'brown',
-                        'taupe':'white',
-                        'teakwood frame':'brown',
-                        'terracotta':'red',
-                        'terracotta red':'red',
-                        'terracotta red black':'red',
-                        'vase':'black',
-                        'vintage brown':'brown',
-                        'walnut natural':'walnut',
-                        'walnut.':'walnut',
-                        'warm grey':'grey',
-                        'washed grey':'grey',
-                        'white black':'white',
-                        'white blue':'white',
-                        'white brown':'white',
-                        'white glossyproduk ini sudah termasuk ongkos kirim dan pemasangan untuk daerah bandung.':'white',
-                        'white gold':'white',
-                        'white grey':'white',
-                        'white grey black':'white',
-                        'white kobu':'white',
-                        'white natural':'white',
-                        'yellow lemon antique gold leg':'yellow',
-                        'yellow orange':'yellow',
-                        'yellow seating black leg':'yellow',
-                    }
                     # Get Color from Description
                     colorIndex = -1
                     if 'Warna' in splitted_info:
@@ -784,9 +340,21 @@ def get_every_detail():
                         color = color.lower().replace('-','').replace('top','').replace('  ',' ')
                         color = color.strip()
                         color = re.sub('\s{2,}',' ', color)
-                        color = replace_multiple_char(color, char_to_replace=color_replace)
-                        color = replace_multiple_char(color, char_to_replace=color_replace)
+                        color = replace_multiple_char(color, char_to_replace = SohoID_COLOR_REPLACE)
+                        color = replace_multiple_char(color, char_to_replace = SohoID_COLOR_REPLACE)
                     
+                    if color == '':
+                        color_contains = ['grey', 'brown', 'pink', 'natural', 'tone', 'cream', 'ivory', 'tosca', 'nature', 'white', 'black', 'green']
+                        link = data['link']
+                        for c in color_contains:
+                            if c in link:
+                                color = c
+                                break
+                            else:
+                                color = 'ivory'
+
+                    color = color.replace('.','')
+
                     # Get Dimension from Description
                     dimension_length = ''
                     dimension_width  = ''
@@ -796,8 +364,6 @@ def get_every_detail():
                     try:
                         res = re.search(r'\bP(?:anjang)?\s([\d-]+)\s(?:cm|m)?(?:\s)?(?:L|Kedalaman)?\s([\d-]+)\s(?:cm|m)?(?:\s)?T(?:inggi)?\s([\d-]+)\s(?:cm|m)?\b',product_desc)
                         dimension_length = res.group(1)
-                        
-
                         dimension_width = res.group(2)
                         dimension_height = res.group(3)
 
@@ -816,9 +382,93 @@ def get_every_detail():
                             tmp_num2 = dimension_height.split('-')[1] if dimension_height.split('-')[1] else 0
                             dimension_height = str((float(tmp_num1) + float(tmp_num2)) / 2)
                     except AttributeError as ae:
-                        print('REGEX DIMENSION FAILED')
+                        print('REGEX DIMENSION FAILED #1')
                         print(ae)
+
+                        try:
+                            res = re.search(r'P(?:anjang)?\s([\d-]+)\s(?:cm|m)?(?:\s)?(?:L|Kedalaman)?\s([\d-]+)\s(?:cm|m)?(?:\s)?T(?:inggi)?\s([\d-]+)\s(?:cm|m)?\b',product_desc)
+                            dimension_length = res.group(1)
+                            dimension_width = res.group(2)
+                            dimension_height = res.group(3)
+
+                            if '-' in dimension_length:
+                                tmp_num1 = dimension_length.split('-')[0] if dimension_length.split('-')[0] else 0
+                                tmp_num2 = dimension_length.split('-')[1] if dimension_length.split('-')[1] else 0
+                                dimension_length = str((float(tmp_num1) + float(tmp_num2)) / 2)
+
+                            if '-' in dimension_width:
+                                tmp_num1 = dimension_width.split('-')[0] if dimension_width.split('-')[0] else 0
+                                tmp_num2 = dimension_width.split('-')[1] if dimension_width.split('-')[1] else 0
+                                dimension_width = str((float(tmp_num1) + float(tmp_num2)) / 2)
+
+                            if '-' in dimension_height:
+                                tmp_num1 = dimension_height.split('-')[0] if dimension_height.split('-')[0] else 0
+                                tmp_num2 = dimension_height.split('-')[1] if dimension_height.split('-')[1] else 0
+                                dimension_height = str((float(tmp_num1) + float(tmp_num2)) / 2)
                         
+                        except AttributeError as ae:
+                            print('REGEX DIMENSION FAILED #2')
+                            print(ae)
+                            try:
+                                res = re.search(r'P(?:anjang)?\s?([\d,.-]+)\s(?:cm|m)?(?:\s)?(?:L|Kedalaman)?\s?([\d,.-]+)\s?(?:cm|m)?(?:\s)?T(?:inggi)?\s?([\d,.-]+)\s(?:cm|m)?\b',product_desc)
+                                dimension_length = res.group(1)
+                                dimension_width = res.group(2)
+                                dimension_height = res.group(3)
+                                char_to_replace = {
+                                    ',':'.',
+                                }
+                                dimension_length = replace_multiple_char(dimension_length, char_to_replace)
+                                dimension_width = replace_multiple_char(dimension_width, char_to_replace)
+                                dimension_height = replace_multiple_char(dimension_height, char_to_replace)
+
+                                if '-' in dimension_length:
+                                    tmp_num1 = dimension_length.split('-')[0] if dimension_length.split('-')[0] else 0
+                                    tmp_num2 = dimension_length.split('-')[1] if dimension_length.split('-')[1] else 0
+                                    dimension_length = str((float(tmp_num1) + float(tmp_num2)) / 2)
+
+                                if '-' in dimension_width:
+                                    tmp_num1 = dimension_width.split('-')[0] if dimension_width.split('-')[0] else 0
+                                    tmp_num2 = dimension_width.split('-')[1] if dimension_width.split('-')[1] else 0
+                                    dimension_width = str((float(tmp_num1) + float(tmp_num2)) / 2)
+
+                                if '-' in dimension_height:
+                                    tmp_num1 = dimension_height.split('-')[0] if dimension_height.split('-')[0] else 0
+                                    tmp_num2 = dimension_height.split('-')[1] if dimension_height.split('-')[1] else 0
+                                    dimension_height = str((float(tmp_num1) + float(tmp_num2)) / 2)
+                            
+                            except AttributeError as ae:
+                                print('REGEX DIMENSION FAILED #3')
+                                print(ae)
+                                try:
+                                    res = re.search(r'P(?:anjang)?\s?([\d,.-]+)\s(?:cm|m)?(?:\s)?(?:L|Kedalaman)?\s([\d,.-]+)\s(?:cm|m)?(?:\s)?L(?:inggi)?\s?([\d,.-]+)\s(?:cm|m)?\b',product_desc)
+                                    dimension_length = res.group(1)
+                                    dimension_width = res.group(2)
+                                    dimension_height = res.group(3)
+                                    char_to_replace = {
+                                        ',':'.',
+                                    }
+                                    dimension_length = replace_multiple_char(dimension_length, char_to_replace)
+                                    dimension_width = replace_multiple_char(dimension_width, char_to_replace)
+                                    dimension_height = replace_multiple_char(dimension_height, char_to_replace)
+
+                                    if '-' in dimension_length:
+                                        tmp_num1 = dimension_length.split('-')[0] if dimension_length.split('-')[0] else 0
+                                        tmp_num2 = dimension_length.split('-')[1] if dimension_length.split('-')[1] else 0
+                                        dimension_length = str((float(tmp_num1) + float(tmp_num2)) / 2)
+
+                                    if '-' in dimension_width:
+                                        tmp_num1 = dimension_width.split('-')[0] if dimension_width.split('-')[0] else 0
+                                        tmp_num2 = dimension_width.split('-')[1] if dimension_width.split('-')[1] else 0
+                                        dimension_width = str((float(tmp_num1) + float(tmp_num2)) / 2)
+
+                                    if '-' in dimension_height:
+                                        tmp_num1 = dimension_height.split('-')[0] if dimension_height.split('-')[0] else 0
+                                        tmp_num2 = dimension_height.split('-')[1] if dimension_height.split('-')[1] else 0
+                                        dimension_height = str((float(tmp_num1) + float(tmp_num2)) / 2)
+                                
+                                except AttributeError as ae:
+                                    print('REGEX DIMENSION FAILED #4')
+                                    print(ae)
 
                     print('================')
                     print(product_desc)
@@ -870,7 +520,12 @@ def get_every_detail():
             dataset_copy.append(non_duplicate[data])
         
         # Save Complete Dataset to all_data.py
-        save_to_file('all_data',dataset_copy)
+        filename = 'all_data'
+        dirname = os.path.dirname(__file__)
+        dest_path = os.path.join(dirname, filename)
+        save_to_file(dest_path=dest_path, 
+                        filename=filename, 
+                        itemList = dataset_copy)
 
     except FileExistsError as e:
         print(e)
@@ -879,17 +534,23 @@ def get_every_detail():
 def main():
     import time
     start_time = time.perf_counter()
+
     get_all_link()
-    get_every_product()
+    phone, address = get_contact()
+    get_every_product(phone=phone, address=address)
     get_every_detail()
+
     import datetime
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':
     import time
     start_time = time.perf_counter()
+
     get_all_link()
-    get_every_product()
+    phone, address = get_contact()
+    get_every_product(phone=phone, address=address)
     get_every_detail()
+
     import datetime
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))

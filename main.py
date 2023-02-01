@@ -357,7 +357,8 @@ def construct_distances(all_ids,
                     round(price_distances[i][j], 2),
                     round(furniture_location_distances[i][j], 2),
                     round(total_distance, 2),
-                    99.0
+                    99.0,
+                    ''
                 )
             )
             if i % 400 == 0 and j % 400 == 0:
@@ -567,7 +568,8 @@ def transfer_data_to_database():
             price_distance, 
             furniture_location_distance,
             total_distance,
-            temp_distance
+            temp_distance,
+            feature_added
         )
         VALUES %s;
     '''

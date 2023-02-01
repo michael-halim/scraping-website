@@ -1,90 +1,38 @@
-import os
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.common.exceptions import NoSuchElementException,WebDriverException
+from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options
-import time
+
 import re
-import requests
-# from selenium.webdriver.common.keys import Keys
+import time
+import os 
+import sys
 
-def replace_text_in_between(text,start,end,replace_with=''):
-    idx_start = text.index(start) if start in text else None
-    idx_end = text.index(end) + len(end) if end in text else None
-    
-    if idx_start == None or idx_end == None:
-        return text
-    return str(text[0:idx_start]) + replace_with + str(text[idx_end:])
+current = os.path.dirname(os.path.realpath(__file__))
+parent_dir = current + os.sep + os.pardir
+sys.path.append(parent_dir)
 
-def replace_multiple_char(text, char_to_replace):
-    for key, value in char_to_replace.items():
-        text = text.replace(key, value)
+from helper_func.helper import *
+from dict_clean import *
 
-    return text
-
-def replace_multiple_tags(text, start, end, replace_with=''):
-    occurences = text.count(start)
-
-    for _ in range(occurences):
-        text = replace_text_in_between(text,start,end,replace_with)
-    return text
-
-def save_to_file(filename, itemList, automatic_overwrite = True):
-    dirname = os.path.dirname(__file__)
-    dest_path = os.path.join(dirname, filename)
-    with open(dest_path + '.txt','w') as file:
-        file.write(filename + ' = [')
-        for count,product in enumerate(itemList):
-            file.write(str(product))
-
-            if count == len(itemList):
-                file.write('\n')
-            else:
-                file.write(',\n')
-
-        file.write(']')
-    file.close()
-
-
-    FILE_NAME = dest_path
-    try:
-        os.rename(FILE_NAME + '.txt', FILE_NAME + '.py')
-
-    except FileExistsError:
-        chc = '1'
-        if not automatic_overwrite:
-            chc = input('{0}.py Already Exist. Do You Want to Overwrite ? (0/1)'.format(FILE_NAME))
-        
-        if chc == '1':
-            os.remove(FILE_NAME + '.py')
-            os.rename(FILE_NAME + '.txt',FILE_NAME + '.py')
-
-    finally:
-        print('Saving File Finished\n\n')
-        if automatic_overwrite:
-            print('File Overwrite Automatically')
-
-ADDRESS = 'NOT YET'
-PHONE = '022-732 80 790'
+from dotenv import load_dotenv
+load_dotenv()
 
 # https://chromedriver.storage.googleapis.com/index.html
-s = Service('C:/SeleniumDrivers/chromedriver.exe')
+s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
+if os.environ.get('DEVELOPMENT_MODE') == 'False':
+    s = Service(os.environ.get('CHROMEDRIVER_PATH_PRODUCTION'))
 
-
-# driver = webdriver.Chrome(service=s,options=options)
-# ==== 
 options = Options()
-# options.add_argument("--headless")
-# options.add_argument('--disable-gpu')
-# options.add_argument('--no-sandbox')
-# options.add_experimental_option("excludeSwitches", ["enable-automation"])
-# options.add_experimental_option('useAutomationExtension', False)
+
+if os.environ.get('DEVELOPMENT_MODE') == 'False':
+    options.add_argument("--headless")
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
 
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
@@ -165,7 +113,12 @@ def get_every_product():
             print(count_item)
 
             # Save data to front_page.py
-            save_to_file('front_page',productList)
+            filename = 'front_page'
+            dirname = os.path.dirname(__file__)
+            dest_path = os.path.join(dirname, filename)
+            save_to_file(dest_path=dest_path, 
+                        filename=filename, 
+                        itemList = productList)
 
         except WebDriverException as e:
             print(e)
@@ -386,7 +339,12 @@ def get_every_detail():
             dataset_copy.append(non_duplicate[data])
 
         # Save Complete Dataset to all_data.py
-        save_to_file('all_data',dataset_copy)
+        filename = 'all_data'
+        dirname = os.path.dirname(__file__)
+        dest_path = os.path.join(dirname, filename)
+        save_to_file(dest_path=dest_path, 
+                    filename=filename, 
+                    itemList = dataset_copy)
 
     except FileExistsError as e:
         print(e)
@@ -394,16 +352,20 @@ def get_every_detail():
 
 def main():
     import time
+
     start_time = time.perf_counter()
     get_every_product()
     get_every_detail()
+
     import datetime
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':
     import time
+
     start_time = time.perf_counter()
     get_every_product()
     get_every_detail()
+
     import datetime
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))

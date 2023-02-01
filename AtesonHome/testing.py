@@ -24,16 +24,16 @@
 
 # print(b)
 
-import re
+# import re
 
 
-string = '500 g'
-res = re.search(r'(\d+)\s?([a-z]+)',string)
-weight = res.group(1)
-weight_unit = res.group(2)
+# string = '500 g'
+# res = re.search(r'(\d+)\s?([a-z]+)',string)
+# weight = res.group(1)
+# weight_unit = res.group(2)
 
-print(weight)
-print(weight_unit)
+# print(weight)
+# print(weight_unit)
 
 # def replace_text_in_between(text,start,end,replace_with=''):
 #     idx_start = text.index(start) if start in text else None
@@ -47,3 +47,4 @@ print(weight_unit)
 
 # res = remove_text_in_between(a,'c','g','#')
 # print(res)
+

@@ -1,99 +1,47 @@
-import os
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.remote.webelement import WebElement
-from selenium.common.exceptions import NoSuchElementException,WebDriverException
+from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options
+
 import time
 import re
+import random
+import os 
+import sys
+
+current = os.path.dirname(os.path.realpath(__file__))
+parent_dir = current + os.sep + os.pardir
+sys.path.append(parent_dir)
+
+from helper_func.helper import *
+from dict_clean import *
+
 from dotenv import load_dotenv
 load_dotenv()
 
-# from selenium.webdriver.common.keys import Keys
-
-def replace_text_in_between(text,start,end,replace_with=''):
-    idx_start = text.index(start) if start in text else None
-    idx_end = text.index(end) + len(end) if end in text else None
-    
-    if idx_start == None or idx_end == None:
-        return text
-    return str(text[0:idx_start]) + replace_with + str(text[idx_end:])
-
-def replace_multiple_char(text, char_to_replace):
-    for key, value in char_to_replace.items():
-        text = text.replace(key, value)
-
-    return text
-
-def replace_multiple_tags(text, start, end, replace_with=''):
-    occurences = text.count(start)
-
-    for _ in range(occurences):
-        text = replace_text_in_between(text,start,end,replace_with)
-    return text
-
-def save_to_file(filename, itemList, automatic_overwrite = True):
-    dirname = os.path.dirname(__file__)
-    dest_path = os.path.join(dirname, filename)
-    with open(dest_path + '.txt','w') as file:
-        file.write(filename + ' = [')
-        for count,product in enumerate(itemList):
-            file.write(str(product))
-
-            if count == len(itemList):
-                file.write('\n')
-            else:
-                file.write(',\n')
-
-        file.write(']')
-    file.close()
-
-
-    FILE_NAME = dest_path
-    try:
-        os.rename(FILE_NAME + '.txt', FILE_NAME + '.py')
-
-    except FileExistsError:
-        chc = '1'
-        if not automatic_overwrite:
-            chc = input('{0}.py Already Exist. Do You Want to Overwrite ? (0/1)'.format(FILE_NAME))
-        
-        if chc == '1':
-            os.remove(FILE_NAME + '.py')
-            os.rename(FILE_NAME + '.txt',FILE_NAME + '.py')
-
-    finally:
-        print('Saving File Finished\n\n')
-        if automatic_overwrite:
-            print('File Overwrite Automatically')
-
-ADDRESS = 'NOT YET'
-PHONE = '022-732 80 790'
-
 # https://chromedriver.storage.googleapis.com/index.html
-s = Service('C:/SeleniumDrivers/chromedriver.exe')
+s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
+if os.environ.get('DEVELOPMENT_MODE') == 'False':
+    s = Service(os.environ.get('CHROMEDRIVER_PATH_PRODUCTION'))
 
-
-# driver = webdriver.Chrome(service=s,options=options)
-# ==== 
 options = Options()
-options.page_load_strategy = 'eager'
-# options.add_argument("--headless")
-# options.add_argument('--disable-gpu')
-# options.add_argument('--no-sandbox')
-# options.add_experimental_option("excludeSwitches", ["enable-automation"])
-# options.add_experimental_option('useAutomationExtension', False)
+
+if os.environ.get('DEVELOPMENT_MODE') == 'False':
+    options.add_argument("--headless")
+    options.add_argument('--disable-gpu')
+    options.add_argument('--no-sandbox')
+    options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    options.add_experimental_option('useAutomationExtension', False)
 
 user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
 options.add_argument('user-agent={0}'.format(user_agent))
 
 driver = webdriver.Chrome(service=s, options=options)
-# driver = webdriver.Chrome(service=s)
+
 driver.implicitly_wait(30)
 driver.delete_all_cookies()
 
@@ -110,6 +58,10 @@ def get_every_product():
 
             for link in links:
                 driver.get(link)
+
+                if len(driver.find_elements(By.CSS_SELECTOR, 'h3._3lWQO > span')) > 0:
+                    print('PAGE NOT FOUND, CONTINUE NEXT LINK')
+                    continue
 
                 print('===========================')
                 print('BTN LOAD MORE LEN')
@@ -200,7 +152,12 @@ def get_every_product():
             print(count_item)
 
             # Save data to front_page.py
-            save_to_file('front_page',productList)
+            filename = 'front_page'
+            dirname = os.path.dirname(__file__)
+            dest_path = os.path.join(dirname, filename)
+            save_to_file(dest_path=dest_path, 
+                        filename=filename, 
+                        itemList = productList)
 
         except WebDriverException as e:
             print(e)
@@ -214,14 +171,18 @@ def get_every_detail():
         password = os.environ.get('PASSWORD_OLX')
         driver.get('http://olx.co.id')
 
+        print('WAIT VISIBILITY LOGIN BUTTON ELEMENT')
         WebDriverWait(driver, 10).until(
-            EC.visibility_of_any_elements_located(
+            EC.presence_of_element_located(
                 (By.CSS_SELECTOR, 'button[data-aut-id="btnLogin"]')
                 )
             )
+        print('GET LOGIN BUTTON ELEMENT')
+
         login_button = driver.find_element(By.CSS_SELECTOR,'button[data-aut-id="btnLogin"]')
         login_button.click()
 
+        print('GET EMAIL BUTTON ELEMENT')
         WebDriverWait(driver, 10).until(
             EC.visibility_of_any_elements_located(
                 (By.CSS_SELECTOR, 'button[data-aut-id="emailLogin"]')
@@ -230,26 +191,45 @@ def get_every_detail():
         email_login = driver.find_element(By.CSS_SELECTOR,'button[data-aut-id="emailLogin"]')
         email_login.click()
         
+
+        print('WAIT VISIBILITY INPUT EMAIL ELEMENTS')
         WebDriverWait(driver, 10).until(
             EC.visibility_of_any_elements_located(
                 (By.CSS_SELECTOR, 'input#email_input_field')
                 )
             )
-        email_input = driver.find_element(By.CSS_SELECTOR,'input#email_input_field')
-        email_input.send_keys(email)
 
+        time.sleep(3)
+        print('INSERT EMAIL INPUT')
+        email_input = driver.find_element(By.CSS_SELECTOR,'input#email_input_field')
+        email_input.clear()
+        for letter in email:
+            email_input.send_keys(letter)
+            time.sleep(random.random())
+        
+        
+        print('SUBMIT EMAIL INPUT')
         submit_button = driver.find_element(By.CSS_SELECTOR,'button.rui-39-wj.rui-3mpqt.rui-1JPTg._2sWUW')
+        print('DID IT FOUND THE ELEMENT ',submit_button)
+        time.sleep(3)
         submit_button.click()
 
+        time.sleep(3)
+        print('WAIT VISIBILITY INPUT PASSWORD ELEMENTS')
         WebDriverWait(driver, 10).until(
             EC.visibility_of_any_elements_located(
                 (By.CSS_SELECTOR, 'input#password')
                 )
         )
+
+        time.sleep(3)
+        print('INSERT PASSWORD INPUT')
         password_input = driver.find_element(By.CSS_SELECTOR,'input#password')
         password_input.send_keys(password)
 
+        print('SUBMIT PASSWORD')
         submit_login = driver.find_element(By.CSS_SELECTOR,'button[data-aut-id="login-form-submit"]')
+        time.sleep(3)
         submit_login.click()
 
         time.sleep(5)
@@ -412,7 +392,12 @@ def get_every_detail():
             dataset_copy.append(non_duplicate[data])
 
         # Save Complete Dataset to all_data.py
-        save_to_file('all_data',dataset_copy)
+        filename = 'all_data'
+        dirname = os.path.dirname(__file__)
+        dest_path = os.path.join(dirname, filename)
+        save_to_file(dest_path=dest_path, 
+                        filename=filename, 
+                        itemList = dataset_copy)
 
     except FileExistsError as e:
         print(e)
