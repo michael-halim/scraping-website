@@ -26,12 +26,40 @@
 # print(res.group(4))
 # print(res.group(5))
 # print(res.group(6))
-import os
-from dotenv import load_dotenv
+# import os
+# from dotenv import load_dotenv
 
-load_dotenv()
-print(os.environ.get('DEVELOPMENT_MODE'))
-if os.environ.get('DEVELOPMENT_MODE') == 'True':
-    print('True')
-else:
-    print('False')
+# load_dotenv()
+# print(os.environ.get('DEVELOPMENT_MODE'))
+# if os.environ.get('DEVELOPMENT_MODE') == 'True':
+#     print('True')
+# else:
+#     print('False')
+a = [[1,2], [3,4], [5,6]]
+# res = ()
+# for _a in a:
+#     b = (_a[0])
+#     c = (_a[1])
+#     # res += ( ((b),) + ((c),))
+#     res += ( (b,), (c,) ),
+
+# print(res)
+#
+# res = []
+# for _a in a:
+#     _l = ()
+#     for __a in _a:
+#         _l += (__a),
+#     _l += (5, 6)
+#     res.append(_l) 
+# pr1int(res)
+# c = []
+# d = []
+# for _a in a:
+#     cc, dd = _a
+
+#     c += [cc]
+#     d += [dd]
+    
+# print(c)
+# print(d)

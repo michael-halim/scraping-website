@@ -32,6 +32,15 @@ import re
 # print(res.group(2))
 # print(res.group(3))
 
-a = '81.'
-a = float(a)
-print(a)
+# a = '81.'
+# a = float(a)
+# print(a)
+a = 'mahogany,mdf,duco paint'
+# B dari Backup
+b = ['rangka kayu mahoni', ' papan mdf dan finishing cat duco berkualitas']
+
+modified_material = b
+if isinstance(b, list):
+    modified_material = ''.join(b)
+
+print(modified_material)
