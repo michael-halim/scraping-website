@@ -6,7 +6,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+scraping_logs/*
 # C extensions
 *.so
 

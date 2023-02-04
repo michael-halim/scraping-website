@@ -11,51 +11,51 @@ from zoneinfo import ZoneInfo
 
 LOCAL_TZ = ZoneInfo('Asia/Bangkok')
 
-# def print_help(var, title=''):
-#     print('============================================')
-#     if isinstance(var, str) and title == '':
-#         print(var)
-#         print('============================================')
+def start_timer():
+    return time.perf_counter()
 
-#     else:
-#         print(title)
-#         print(var)
-#         try:
-#             print(f'LENGTH : {len(var)}')
-#             print('============================================')
-#         except TypeError as e:
-#             print('============================================')
+def end_timer(start_time, time_log=[], add_time_log=False, message=''):
+    total_time = datetime.timedelta(seconds = time.perf_counter() - start_time)
+    bracket = '********************************************'
+    print(bracket)
+    print(message)
+    print('--- %s ---' % (total_time))
+    print(bracket)
+
+    if add_time_log:
+        time_log += [ (message, str(total_time)) ]
+        return time_log
+
+    return None
 def get_today():
     """Get Today's Date with `YYYY-MM-DD` Format"""
     today = datetime.datetime.now(LOCAL_TZ)
     return datetime.date(today.year, today.month, today.day)
 
-def print_help(var, title='', username=''):
-    """
-    Log Preview If Variable is String
-    ============================================
-    ============================================ \n
-    2023-01-06 14:15:01.963270 \n
-    USERNAME:  TRAIN APRIORI MODEL \n
-    APRIORI MODEL\n
-    ============================================
-    Log Preview If Variable Is An Array
-    ============================================
-    ============================================\n
-    2023-01-06 14:15:01.923290\n
-    USERNAME:  TRAIN WEIGHTED MATRIX\n
-    CBF LOWEST ITEM LIST\n
-    [ [841, 2.82], [840, 2.95], [2237, 3.03], [834, 3.2], [224, 3.23] ]\n
-    LENGTH : 5\n
-    ============================================
+def print_help(var, title='', username='', show_list_more=False):
+    """Log to CLI and Save to File \n
+    `============================================`\n
+    `2023-01-06 14:15:01.963270`\n
+    `USERNAME:  TRAIN APRIORI MODEL`\n
+    `APRIORI MODEL`\n
+    `============================================`
+    
+    `============================================`\n
+    `2023-01-06 14:15:01.923290`\n
+    `USERNAME:  TRAIN WEIGHTED MATRIX`\n
+    `CBF LOWEST ITEM LIST`\n
+    `[ [841, 2.82], [840, 2.95], [2237, 3.03], [834, 3.2], [224, 3.23] ]`\n
+    `LENGTH : 5`\n
+    `============================================`
     """
     logs = []
     bracket = '============================================'
+    time_now = datetime.datetime.now(LOCAL_TZ)
     print(bracket)
-    print(datetime.now())
+    print(time_now)
     print('USERNAME: ', username)
 
-    logs += [bracket, str(datetime.now()), f'USERNAME: {str(username)}']
+    logs += [bracket, str(time_now), f'USERNAME: {str(username)}']
     
     if isinstance(var, str) and title == '':
         print(var)
@@ -63,27 +63,31 @@ def print_help(var, title='', username=''):
         logs += [str(var), bracket]
     else:
         print(title)
-        print(var)
-        logs += [str(title), str(var)]
+        modified_var = var
+        if not show_list_more and isinstance(var, list):
+            modified_var = modified_var[:5] if len(modified_var) > 5 else modified_var
+
+        print(modified_var)
+        logs += [str(title), str(modified_var)]
 
         try:
-            print(f'LENGTH : {len(var)}')
+            print(f'ORIGINAL LENGTH : {len(var)}')
             print(bracket)
-            logs += [f'LENGTH : {str(len(var))}', bracket]
+            logs += [f'ORIGINAL LENGTH : {str(len(var))}', bracket]
         except TypeError as e:
             print(bracket)
             logs += [bracket]
 
     logs = '\n'.join(logs)
 
-    if not os.environ.get('DEVELOPMENT_MODE'):
+    if os.environ.get('DEVELOPMENT_MODE') == 'False':
         save_log(logs)
 
 def save_log(logs):
     dirname = os.path.dirname(__file__)
-    up_two_levels = os.pardir + os.sep + os.pardir + '/scraping_logs/'
+    up_one_levels = 'scraping_logs' + os.sep
     filename = str(get_today()) + '.txt'
-    dest_path = os.path.join(dirname, up_two_levels, filename)
+    dest_path = os.path.join(dirname, up_one_levels, filename)
 
     with open(dest_path, 'a') as file:
         file.write(logs)
@@ -100,7 +104,7 @@ def show_error_message(err, module_name = ''):
 
 def get_all_data():
     try:
-        from AERDekoruma import all_data as AER_Dekoruma_All_Data
+        from AERDekoruma.backup import all_data as AER_Dekoruma_All_Data
         AER_Dekoruma_All_Data = AER_Dekoruma_All_Data.all_data
 
     except ImportError as e:
@@ -109,7 +113,7 @@ def get_all_data():
 ######################################################################
     
     try:
-        from AtesonHome import all_data as Ateson_Home_All_Data
+        from AtesonHome.backup import all_data as Ateson_Home_All_Data
         Ateson_Home_All_Data = Ateson_Home_All_Data.all_data
 
     except ImportError as e:
@@ -118,7 +122,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from Balkaliving import all_data as Balkaliving_All_Data
+        from Balkaliving.backup import all_data as Balkaliving_All_Data
         Balkaliving_All_Data = Balkaliving_All_Data.all_data
 
     except ImportError as e:
@@ -127,7 +131,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from Nagarey import all_data as Nagarey_All_Data
+        from Nagarey.backup import all_data as Nagarey_All_Data
         Nagarey_All_Data = Nagarey_All_Data.all_data
 
     except ImportError as e:
@@ -136,7 +140,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from SohoID import all_data as SohoID_All_Data
+        from SohoID.backup import all_data as SohoID_All_Data
         SohoID_All_Data = SohoID_All_Data.all_data
 
     except ImportError as e:
@@ -145,7 +149,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERTEKA import all_data as AER_TEKA_All_Data
+        from AERTEKA.backup import all_data as AER_TEKA_All_Data
         AER_TEKA_All_Data = AER_TEKA_All_Data.all_data
 
     except ImportError as e:
@@ -154,7 +158,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERDobidos import all_data as AER_Dobidos_All_Data
+        from AERDobidos.backup import all_data as AER_Dobidos_All_Data
         AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
 
     except ImportError as e:
@@ -163,7 +167,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERGree import all_data as AER_Gree_All_Data
+        from AERGree.backup import all_data as AER_Gree_All_Data
         AER_Gree_All_Data = AER_Gree_All_Data.all_data
 
 
@@ -173,7 +177,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERSharp import all_data as AER_Sharp_All_Data
+        from AERSharp.backup import all_data as AER_Sharp_All_Data
         AER_Sharp_All_Data = AER_Sharp_All_Data.all_data
 
     except ImportError as e:
@@ -182,7 +186,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERPaloma import all_data as AER_Paloma_All_Data
+        from AERPaloma.backup import all_data as AER_Paloma_All_Data
         AER_Paloma_All_Data = AER_Paloma_All_Data.all_data
 
     except ImportError as e:
@@ -191,7 +195,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from Tokopedia import all_data as Tokopedia_All_Data
+        from Tokopedia.backup import all_data as Tokopedia_All_Data
         Tokopedia_All_Data = Tokopedia_All_Data.all_data
 
     except ImportError as e:
@@ -200,7 +204,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from OLX import all_data as OLX_All_Data
+        from OLX.backup import all_data as OLX_All_Data
         OLX_All_Data = OLX_All_Data.all_data
 
     except ImportError as e:
@@ -271,8 +275,7 @@ def run_all_web_scraper():
 def process_data_item():
     all_records = get_all_data()
     data_insert_check_time, tmp_data_insert = [], []
-    all_material, all_title, all_title, all_description, all_weight, all_dimension_length = [], [], [], [], [], []
-    all_dimension_width, all_dimension_height, all_price, all_furniture_location, all_color = [], [], [], [], []
+    
     for record in all_records:
         for data in record[0]:
             weight =  float(data['weight']) if data['weight'] and not str(data['weight']).isalpha() else 0
@@ -292,17 +295,6 @@ def process_data_item():
             modified_material = data['material']
             if isinstance(data['material'], list):
                 modified_material = ','.join(data['material'])
-
-            all_material.append(modified_material)
-            all_color.append(modified_color)
-            all_description.append(data['description'])
-            all_title.append(data['name'])
-            all_weight.append(weight)
-            all_dimension_length.append(dimension_length)
-            all_dimension_height.append(dimension_height)
-            all_dimension_width.append(dimension_width)
-            all_price.append(data['price'])
-            all_furniture_location.append(','.join(data['furnitureLocation']))
             
             tmp_data_insert.append(
                 (
@@ -355,8 +347,8 @@ def process_data_item():
                 )
             )
         print_help(var=str(record[1]) + ' DATA PROCESSED SUCCESSFULY', username='PROCESS DATA ITEM')
-    return all_material, all_title, all_description, all_weight, all_dimension_length, all_dimension_width, all_dimension_height, \
-            all_price, all_furniture_location, all_color, data_insert_check_time, tmp_data_insert
+    
+    return data_insert_check_time, tmp_data_insert
 
 def process_data_feature_and_distance(all_material, 
                                         all_title, 
@@ -547,11 +539,11 @@ def try_catch_insert_data(script, data, fetch=False, page_size=10000, message=''
 
             with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
                 print_help(var=str(message), username='TRY CATCH INSERT DATA')
-                if fetch:
-                    result = psycopg2.extras.execute_values(cur, script, data, template=None, page_size=page_size, fetch=fetch)
-                else:
-                    psycopg2.extras.execute_values(cur, script, data, template=None, page_size=page_size, fetch=fetch)
-                print_help(var=str(message) + 'SUCCESSFULY', username='TRY CATCH INSERT DATA')
+                
+                result = psycopg2.extras.execute_values(cur, script, data, template=None, page_size=page_size, fetch=fetch)
+                
+                print_help(var=str(message) + ' SUCCESSFULY', username='TRY CATCH INSERT DATA')
+
     except Exception as e:
         print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA')
         print_help(var=e, username='TRY CATCH INSERT DATA')
@@ -639,26 +631,32 @@ def script_database(script, data=[]):
 def transfer_data_to_database():
    
     time_log = []
-    start_time = time.perf_counter()
+    is_update_distances_feature_vect = True
+
+    start_time = start_timer()
 
     script = 'SELECT COUNT(*) FROM public.main_app_item'
-
     count_item_rows = count_item(script=script, data=[])
+    check_count_item_rows = try_catch_insert_data(script=script, data=[], fetch=True)
+    print(check_count_item_rows)
     
     if count_item_rows > 0:
-        _, _, _, _, _, _, \
-            _, _, _, _, _, tmp_data_insert = process_data_item()
+        # Get Data From Every Module
+        _, tmp_data_insert = process_data_item()
 
+        # Truncating Data in Temp Item
         print_help(var='TRUNCATING TEMP ITEM', username='SCRAPING LATEST DATA')
-        truncate_script = '''
-            TRUNCATE TABLE main_app_tempitem
-        '''
+
+        truncate_script = ''' TRUNCATE TABLE main_app_tempitem '''
 
         truncate_database(truncate_script)
 
+        # Inserting to Temp Item from Every Module
+        tmp_time_start = start_timer()
+
         print_help(var='INSERTING ITEM TO TEMP ITEM INSTEAD', username='SCRAPING LATEST DATA')
 
-        insert_script_check_time = '''
+        insert_temp_item_script = '''
         INSERT INTO public.main_app_tempitem( 
                         name, 
                         slug ,
@@ -683,11 +681,18 @@ def transfer_data_to_database():
                         VALUES %s
                         RETURNING id
         '''
-        all_ids = try_catch_insert_data(script=insert_script_check_time, 
+        all_ids = try_catch_insert_data(script=insert_temp_item_script, 
                                         data=tmp_data_insert, 
                                         fetch=True, 
                                         message='INSERTING TEMP ITEM')
 
+        
+
+        print_help(var=all_ids, title='TOTAL INSERTED' , username='INSERTING TEMP ITEM LATEST DATA')
+
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING TEMP ITEM LATEST DATA')
+
+        # Get Temp Item Except Item
         check_temp_item_except_item_script = '''
             SELECT ti.name, ti.slug, ti.price
             FROM main_app_tempitem AS ti
@@ -698,6 +703,7 @@ def transfer_data_to_database():
         '''
         unique_temp_item = script_database(script = check_temp_item_except_item_script)
         
+        # Get Item Except Temp Item
         check_item_except_temp_item_script = '''
             SELECT i.name, i.slug, i.price
             FROM main_app_item AS i
@@ -708,44 +714,36 @@ def transfer_data_to_database():
         '''
         unique_item = script_database(script = check_item_except_temp_item_script)
 
-        print_help(var=all_ids, title='TOTAL INSERTED' , username='INSERTING TEMP ITEM LATEST DATA')
-
         print_help(var=unique_temp_item, title='UNIQUE TEMP ITEM ( NEW ITEM )', username='PREVIEW TEMP ITEM')
 
         print_help(var=unique_item, title='UNIQUE ITEM ( OLD ITEM )', username='PREVIEW ITEM')
         
-        count_total = 0
+        # Get Intersection from Table Item and Temp Item
+        tmp_time_start = start_timer()
 
         # Intersection is List of Item With the Same Name and Slug, but different Price, It Only Needs to Update Price
         intersection = []
         
-        tmp_time = time.perf_counter()
-
-        # [ ['Item Name', 'slug-name', 2600000], [...], [...] ]
+        # unique_item = [ ['Item Name', 'slug-name', 2600000], [...], [...] ]
         for item in unique_item:
-            count_total += 1
             for temp_item in unique_temp_item:
                 if item[0] == temp_item[0] and item[1] == temp_item[1]:
                     intersection.append(temp_item)
                     break
         
-        print_help(var=count_total, title='TOTAL DATA UNIQUE ITEM ITERATED' , username='TOTAL DATA UNIQUE ITEM ITERATED')
+        print_help(var=len(unique_item), title='TOTAL DATA UNIQUE ITEM ITERATED' , username='TOTAL DATA UNIQUE ITEM ITERATED')
         
         print_help(var=intersection, title='INTERSECTION OLD AND NEW DATA', username='CHECK INTERSECTION BETWEEN 2 TABLES')
 
-        print('CHECK INTERSECTION BETWEEN 2 TABLES')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-        print('=================================')
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK INTERSECTION BETWEEN 2 TABLES')
 
+        # Find Old Data that Now Not Exists in Temp Item
+        tmp_time_start = start_timer()
+        
         # only_item_has is Item That Only Exist in Item, This Need to be Unactive
         only_item_has = []
-
-        count_total = 0
-
-        tmp_time = time.perf_counter()
-
+        
         for item in unique_item:
-            count_total += 1
             is_found = False
             for isc in intersection:
                 if item[0] == isc[0] and item[1] == isc[1]:
@@ -756,23 +754,19 @@ def transfer_data_to_database():
             if not is_found:
                 only_item_has.append(item)
 
-        print_help(var=count_total, title='TOTAL DATA ONLY_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_ITEM_HAS ITERATED')
+        print_help(var=len(unique_item), title='TOTAL DATA ONLY_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_ITEM_HAS ITERATED')
         
         print_help(var=only_item_has, title='DATA ONLY ITEM HAS', username='CHECK ONLY ITEM HAS')
 
-        print('CHECK ONLY ITEM HAS')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-        print('=================================')
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK ONLY ITEM HAS')
 
+        # Find Data that Doesn't Exists in Item
+        tmp_time_start = start_timer()
+        
         # only_temp_item_has is Item That Only Exists in Temp Item, This Need to be Inserted to Database
         only_temp_item_has = []
 
-        count_total = 0
-
-        tmp_time = time.perf_counter()
-
         for temp_item in unique_temp_item:
-            count_total += 1
             is_found = False
             for isc in intersection:
                 if temp_item[0] == isc[0] and temp_item[1] == isc[1]:
@@ -783,52 +777,64 @@ def transfer_data_to_database():
             if not is_found:
                 only_temp_item_has.append(temp_item)
 
-        print('=================================')
-        print_help(var=count_total, title='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED')
+        print_help(var=len(unique_temp_item), title='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED')
         
         print_help(var=only_temp_item_has, title='DATA ONLY TEMP ITEM HAS', username='CHECK ONLY TEMP ITEM HAS')
         
-        print('CHECK ONLY TEMP ITEM HAS')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-        print('=================================')
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK ONLY TEMP ITEM HAS')
         
+        # Check If There's Any Duplicate Between Data That "Now Not Exists in Temp Item" and "Doesn't Exists in Item"
+        tmp_time_start = start_timer()
 
         # Check Duplicate, LEFT JOIN Item and Temp Item must be 0
-        tmp_time = time.perf_counter()
-
-        count_total = 0
         check_duplicate = []
 
         for item in only_item_has:
-            count_total += 1
             for temp_item in only_temp_item_has:
                 if item[0] == temp_item[0] and item[1] == temp_item[1]:
                     check_duplicate.append(item)
                     break
         
-        print_help(var=count_total, title='TOTAL DATA TO CHECK DUPLICATE ITERATED' , username='TOTAL DATA TO CHECK DUPLICATE ITERATED')
+        print_help(var=len(only_item_has), title='TOTAL DATA TO CHECK DUPLICATE ITERATED' , username='TOTAL DATA TO CHECK DUPLICATE ITERATED')
         
         print_help(var=check_duplicate, title='DATA DUPLICATE', username='CHECK DUPLICATE BETWEEN LEFT JOIN ITEM AND TEMP ITEM')
 
-        print('CHECK DUPLICATE BETWEEN LEFT JOIN')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-        print('=================================')
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK DUPLICATE BETWEEN LEFT JOIN')
+        
+        # Double Check Status, Sometimes There's Data that Stuck and Need Reactivation
+        double_check_intersection_script = '''
+            SELECT ti.name, ti.slug, ti.price
+            FROM main_app_tempitem AS ti
+            INTERSECT 
+            SELECT i.name, i.slug, i.price
+            FROM main_app_item AS i
+            ORDER BY NAME ASC
+        '''
+        check_intersection = script_database(script = double_check_intersection_script)
+        intersection += check_intersection
 
+        print_help(var=check_intersection, title='DOUBLE CHECK INTERSECTION', username='CHECK INTERSECTION FOR 2nd TIME')
+        
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK INTERSECTION FOR 2nd TIME')
 
-        tmp_time = time.perf_counter()
+        # Update Data (price) That Intersect
+        tmp_time_start = start_timer()
+
         # Prepare Intersection Data, Needs () in every data
         # From [ [name, slug, price], [...], [...] ] to [ (name, slug, price, modified_at), (...), (...) ]
-        intersection = [ (isc[0], isc[1], isc[2], datetime.datetime.now(LOCAL_TZ)) for isc in intersection ]
+        intersection = [ (isc[0], isc[1], isc[2], datetime.datetime.now(LOCAL_TZ), 1) for isc in intersection ]
 
         # Update Price and Modified At
         update_item_intersection_script = '''
             UPDATE public.main_app_item as t
             SET price = uv.price,
-                modified_at = uv.modified_at
+                modified_at = uv.modified_at,
+                status = uv.status
             FROM (VALUES %s) AS uv (name,
                                     slug,
                                     price,
-                                    modified_at)
+                                    modified_at,
+                                    status)
             WHERE t.name = uv.name 
                 AND t.slug = uv.slug;
         '''
@@ -838,14 +844,11 @@ def transfer_data_to_database():
                                 message='UPDATING PRICE ITEM')
         
         print_help(var='UPDATE PRICE ITEM', username='UPDATE PRICE INTERSECTION OLD AND NEW DATA')
-        # time_log.append(('UPDATE ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
 
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-        print('=================================')
-
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='UPDATE PRICE INTERSECTION OLD AND NEW DATA')
 
         # Update Status to 0 (Nonactive) to Item
-        tmp_time = time.perf_counter()
+        tmp_time_start = start_timer()
 
         # From [ [name, slug, price], [...], [...] ] to [ (name, slug, status, modified_at), (...), (...) ]
         only_item_has = [ (item[0], item[1], 0, datetime.datetime.now(LOCAL_TZ)) for item in only_item_has ]
@@ -867,15 +870,13 @@ def transfer_data_to_database():
                                 data=only_item_has, 
                                 message='UPDATING STATUS ITEM')
         
-        # time_log.append(('UPDATE ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        
         print_help(var='UPDATE STATUS ITEM', username='UPDATE STATUS TO 0 IF OLD DATA DOESNT EXISTS')
 
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-        print('=================================')
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='UPDATE STATUS TO 0 IF OLD DATA DOESNT EXISTS')
+
 
         # Insert New Item from Temp Item
-        tmp_time = time.perf_counter()
+        tmp_time_start = start_timer()
         
         # From [ [name, slug, price], [...], [...] ] to [ [(name, slug)], [(...)], [(...)] ]
         only_temp_item_has = [ [(temp_item[0], temp_item[1])]  for temp_item in only_temp_item_has ]
@@ -904,7 +905,6 @@ def transfer_data_to_database():
             tmp_data += (datetime.datetime.now(LOCAL_TZ), 1)
             data_insert_temp_item.append(tmp_data)
 
-        # print(data_insert_temp_item[0])
         print_help(var='INSERTING NEW ITEM', username='INSERTING NEW ITEM FROM TEMP ITEM')
 
         insert_temp_item_script = '''
@@ -943,287 +943,26 @@ def transfer_data_to_database():
 
         print_help(var=all_ids, title='ALL NEW DATA IDS', username='FINISHED INSERTING NEW ITEM FROM TEMP ITEM')
 
-        # time_log.append(('UPDATE ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('INSERT NEW ITEM FROM TEMP ITEM')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-        print('=================================')
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERT NEW ITEM FROM TEMP ITEM')
 
-        
-        # Get All Dependency Needed to Calculate Distance from Database, Because Now There Are New Data and Old Data
-        # Dependency : all_ids, all_title, all_description, all_weight, all_dimension_length, all_dimension_width, all_dimension_height, all_price, all_furniture_location, all_color
-
-        fetch_all_only_temp_item_script = '''
-            SELECT i.id,
-                    i.material, 
-                    i.name, 
-                    i.description, 
-                    i.weight, 
-                    i.dimension_length, 
-                    i.dimension_width, 
-                    i.dimension_height,
-                    i.price,
-                    i.furniture_location,
-                    i.color
-            FROM public.main_app_item AS i
-        '''
-        all_item = script_database(script=fetch_all_only_temp_item_script,
-                                data=[])
-        
-        print_help(var=all_item, title='FETCH ALL ITEM', username='FETCH ALL ITEM TO CALCULATE DISTANCES')
-
-        # all_item = [ [material, title, description, weight, dimension, ....], [...], [...] ]
-        all_ids, all_material, all_title, all_description, all_weight, all_dimension_length, \
-            all_dimension_width, all_dimension_height, all_price, all_furniture_location, all_color = [], [], [], [], [], [], [], [], [], [], []
-
-        for field in all_item:
-            # field = [ [material, title, description, weight, dimension, ....] ]
-            # This is array destructuring from field variable
-            tmp_ids, tmp_material, tmp_title, tmp_description, tmp_weight, tmp_dimension_length, \
-            tmp_dimension_width, tmp_dimension_height, tmp_price, tmp_furniture_location, tmp_color = field
-
-            # Append 1 material to array of all material, etc
-            all_ids += [tmp_ids]
-            all_material += [tmp_material]
-            all_title += [tmp_title]
-            all_description += [tmp_description]
-            all_weight += [tmp_weight]
-            all_dimension_length += [tmp_dimension_length]
-            all_dimension_width += [tmp_dimension_width]
-            all_dimension_height += [tmp_dimension_height]
-            all_price += [tmp_price]
-            all_furniture_location += [tmp_furniture_location]
-            all_color += [tmp_color]
-
-
-        # Calculate Distance For Every Data That Has Ever Been Created to Now
-        tmp_time = time.perf_counter()
-
-        print_help(var='CALCULATING DISTANCES', username='START CALCULATING DISTANCES (OLD AND NEW DATA)')
-
-        vectorized_X_color, color_feature_names, vectorized_X_material, material_feature_names, \
-        vectorized_X_furniture_location, furniture_location_feature_names, vectorized_X_description, \
-        description_feature_names, vectorized_X_title, title_feature_names, color_distances, material_distances,\
-        description_distances, title_distances, furniture_location_distances, all_weight, all_price, \
-        all_dimension, weight_distances, dimension_distances, price_distances  = process_data_feature_and_distance(all_material=all_material,
-                                                                                                    all_title=all_title,
-                                                                                                    all_description=all_description,
-                                                                                                    all_weight=all_weight,
-                                                                                                    all_dimension_length=all_dimension_length,
-                                                                                                    all_dimension_width=all_dimension_width,
-                                                                                                    all_dimension_height=all_dimension_height,
-                                                                                                    all_price=all_price,
-                                                                                                    all_furniture_location=all_furniture_location,
-                                                                                                    all_color=all_color)
-        
-        print_help(var='FINISHED CALCULATING DISTANCES', username='FINISHED CALCULATING DISTANCES (OLD AND NEW DATA)')
-
-        time_log.append(('PROCESS DATA FEATURE AND DISTANCE (NEW DATA)', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('PROCESS DATA FEATURE AND DISTANCE (NEW DATA)')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-
-
-        tmp_time = time.perf_counter()
-        
-        data_distances = construct_distances(all_ids=all_ids,
-                                                color_distances=color_distances,
-                                                material_distances=material_distances,
-                                                description_distances=description_distances,
-                                                title_distances=title_distances,
-                                                furniture_location_distances=furniture_location_distances,
-                                                weight_distances=weight_distances,
-                                                dimension_distances=dimension_distances,
-                                                price_distances=price_distances )
-        
-        print_help(var='FINISHED CONSTRUCTING DISTANCES', username='FINISHED CONSTRUCTING DISTANCES (OLD AND NEW DATA)')
-
-        time_log.append(('CONSTRUCT DISTANCES (NEW DATA)', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('CONSTRUCT DISTANCES (NEW DATA)')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-
-
-        print_help(var='TRUNCATING TABLE DISTANCES', username='TRUNCATE TABLE TO INSERT ALL NEW DISTANCES')
-
-        truncate_script = '''
-            TRUNCATE TABLE main_app_distance
-        '''
-
-        truncate_database(truncate_script)
-
-        tmp_time = time.perf_counter()
-        
-        print_help(var='INSERTING DISTANCES', username='INSERTING NEW DATA DISTANCES')
-
-        insert_distance_script = '''
-            INSERT INTO public.main_app_distance (
-                product_id, 
-                other_product_id, 
-                color_distance, 
-                name_distance, 
-                description_distance, 
-                material_distance, 
-                weight_distance,  
-                dimension_distance, 
-                price_distance, 
-                furniture_location_distance,
-                total_distance,
-                temp_distance,
-                feature_added
-            )
-            VALUES %s;
-        '''
-        try_catch_insert_data(script=insert_distance_script, 
-                                data=data_distances, 
-                                message='INSERTING DISTANCE (NEW DATA)')
-        
-        print_help(var='FINISHED INSERTING DISTANCES', username='FINISHED INSERTING NEW DATA DISTANCES')
-
-        time_log.append(('INSERTING DISTANCES', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('INSERTING DISTANCES')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-
-        
-        tmp_time = time.perf_counter()
-
-        data_update_item = construct_update_item(vectorized_X_color=vectorized_X_color,
-                                                            vectorized_X_material=vectorized_X_material,
-                                                            vectorized_X_description=vectorized_X_description,
-                                                            vectorized_X_title=vectorized_X_title,
-                                                            vectorized_X_furniture_location=vectorized_X_furniture_location,
-                                                            all_ids=all_ids, 
-                                                            all_weight=all_weight, 
-                                                            all_dimension=all_dimension, 
-                                                            all_price=all_price)
-        
-        print_help(var='FINISHED CONSTRUCTING UPDATE ITEM', username='FINISHED CONSTRUCTING ITEM (VECT NEW DATA)')
-
-        time_log.append(('CONSTRUCT UPDATE ITEM (NEW DATA)', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('CONSTRUCT UPDATE ITEM (NEW DATA)')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-
-        tmp_time = time.perf_counter()
-        
-        print_help(var='UPDATING ITEM', username='UPDATING ITEM NEW VECT DATA')
-
-        update_item_script = '''
-            UPDATE public.main_app_item as t
-            SET vect_color = uv.vect_color, 
-                vect_material = uv.vect_material, 
-                vect_description = uv.vect_description, 
-                vect_name = uv.vect_name, 
-                vect_furniture_location = uv.vect_furniture_location,
-                normalized_weight = uv.normalized_weight, 
-                normalized_dimension = uv.normalized_dimension,
-                normalized_price = uv.normalized_price
-            FROM (VALUES %s) AS uv (id,
-                                    vect_color, 
-                                    vect_material, 
-                                    vect_description, 
-                                    vect_name, 
-                                    vect_furniture_location, 
-                                    normalized_weight, 
-                                    normalized_dimension,
-                                    normalized_price)
-            WHERE t.id = uv.id;
-        '''
-
-        try_catch_insert_data(script=update_item_script, 
-                                data=data_update_item, 
-                                message='UPDATING ITEM (NEW DATA)')
-        
-        print_help(var='FINISHED UPDATING ITEM', username='FINISHED UPDATING ITEM NEW VECT DATA')
-
-        time_log.append(('UPDATE ITEM (NEW DATA)', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('UPDATE ITEM (NEW DATA)')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-
-
-        print_help(var='TRUNCATING TABLE FEATURE', username='TRUNCATE TABLE TO INSERT ALL NEW FEATURE')
-
-        truncate_script = '''
-            TRUNCATE TABLE main_app_feature
-        '''
-
-        truncate_database(truncate_script)
-
-        tmp_time = time.perf_counter()
-        
-        print_help(var='INSERTING FEATURE', username='INSERTING NEW DATA FEATURE')
-
-        insert_feature_script = '''
-            INSERT INTO public.main_app_feature(
-                        name_feature, 
-                        color_feature, 
-                        material_feature, 
-                        description_feature, 
-                        furniture_location_feature )
-            VALUES %s;
-        '''
-        data_insert_feature = [
-            (
-                title_feature_names,
-                color_feature_names,
-                material_feature_names,
-                description_feature_names,
-                furniture_location_feature_names
-            )
-        ]
-        
-        try_catch_insert_data(script=insert_feature_script, 
-                                data=data_insert_feature, 
-                                message='INSERTING FEATURE (NEW DATA)')
-
-        print_help(var='FINISHED INSERTING FEATURE', username='FINISHED INSERTING NEW DATA FEATURE')
-
-        time_log.append(('INSERTING FEATURE (NEW DATA)', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('INSERTING FEATURE (NEW DATA)')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-
-
-        print('TOTAL INSERTING NEW DATA')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
-
+        # If There's No New Data, It Doesn't Count Distances
+        if len(only_temp_item_has) <= 0:
+            is_update_distances_feature_vect = False
 
     else:    
-        tmp_time = time.perf_counter()
+        # Get Data From Every Module
+        tmp_time_start = start_timer()
         
-        all_material, all_title, all_description, all_weight, all_dimension_length, all_dimension_width, \
-        all_dimension_height, all_price, all_furniture_location, all_color, data_insert_check_time, tmp_data_insert = process_data_item()
+        data_insert, _ = process_data_item()
         
-        time_log.append(('PROCESS DATA ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('PROCESS DATA ITEM')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='PROCESS DATA ITEM')
 
-
-        tmp_time = time.perf_counter()
-
-        print_help(var='CALCULATING DISTANCES', username='START CALCULATING DISTANCES')
-
-        vectorized_X_color, color_feature_names, vectorized_X_material, material_feature_names, \
-        vectorized_X_furniture_location, furniture_location_feature_names, vectorized_X_description, \
-        description_feature_names, vectorized_X_title, title_feature_names, color_distances, material_distances,\
-        description_distances, title_distances, furniture_location_distances, all_weight, all_price, \
-        all_dimension, weight_distances, dimension_distances, price_distances  = process_data_feature_and_distance(all_material=all_material,
-                                                                                                    all_title=all_title,
-                                                                                                    all_description=all_description,
-                                                                                                    all_weight=all_weight,
-                                                                                                    all_dimension_length=all_dimension_length,
-                                                                                                    all_dimension_width=all_dimension_width,
-                                                                                                    all_dimension_height=all_dimension_height,
-                                                                                                    all_price=all_price,
-                                                                                                    all_furniture_location=all_furniture_location,
-                                                                                                    all_color=all_color)
-
-        print_help(var='FINISHED CALCULATING DISTANCES', username='FINISHED CALCULATING DISTANCES')
-
-        time_log.append(('PROCESS DATA FEATURE AND DISTANCE', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('PROCESS DATA FEATURE AND DISTANCE')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
-
-        tmp_time = time.perf_counter()
+        # Inserting Data to Table `Item`
+        tmp_time_start = start_timer()
 
         print_help(var='INSERTING ITEM', username='INSERTING ITEM FROM SCRAPING')
 
-        insert_script_check_time = '''
+        insert_script = '''
             INSERT INTO public.main_app_item( 
                             name, 
                             slug ,
@@ -1250,8 +989,8 @@ def transfer_data_to_database():
                             VALUES %s
                             RETURNING id
         '''
-        all_ids = try_catch_insert_data(script=insert_script_check_time, 
-                                        data=data_insert_check_time, 
+        all_ids = try_catch_insert_data(script=insert_script, 
+                                        data=data_insert, 
                                         fetch=True, 
                                         message='INSERTING ITEM')
 
@@ -1259,13 +998,87 @@ def transfer_data_to_database():
 
         print_help(var=all_ids, title='ALL IDS', username='FINISHED INSERTING ITEM')
 
-        time_log.append(('INSERTING ITEM AND CONSTRUCT IDS', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('INSERTING ITEM AND CONSTRUCT IDS')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING ITEM AND CONSTRUCT IDS')
 
-        tmp_time = time.perf_counter()
-        # === Process ===
-        data_insert_distance_check_time = construct_distances(all_ids=all_ids,
+
+    # If New Item is Added, System Will Re-Calculating Distances, Feature, and Vectorized Data
+    if is_update_distances_feature_vect:
+        fetch_all_item_script = '''
+            SELECT i.id,
+                    i.material, 
+                    i.name, 
+                    i.description, 
+                    i.weight, 
+                    i.dimension_length, 
+                    i.dimension_width, 
+                    i.dimension_height,
+                    i.price,
+                    i.furniture_location,
+                    i.color
+            FROM public.main_app_item AS i
+        '''
+        all_item = script_database(script=fetch_all_item_script, data=[])
+
+        print_help(var=all_item, title='FETCH ALL ITEM', username='FETCH ALL ITEM TO CALCULATE DISTANCES')
+
+        # all_item = [ [material, title, description, weight, dimension, ....], [...], [...] ]
+        all_ids, all_material, all_title, all_description, all_weight, all_dimension_length, \
+            all_dimension_width, all_dimension_height, all_price, all_furniture_location, all_color = [], [], [], [], [], [], [], [], [], [], []
+
+        for field in all_item:
+            # field = [ [material, title, description, weight, dimension, ....] ]
+            # This is array destructuring from field variable
+            tmp_ids, tmp_material, tmp_title, tmp_description, tmp_weight, tmp_dimension_length, \
+            tmp_dimension_width, tmp_dimension_height, tmp_price, tmp_furniture_location, tmp_color = field
+
+            # Append 1 material to array of all material, etc
+            all_ids += [tmp_ids]
+            all_material += [tmp_material]
+            all_title += [tmp_title]
+            all_description += [tmp_description]
+            all_weight += [tmp_weight]
+            all_dimension_length += [tmp_dimension_length]
+            all_dimension_width += [tmp_dimension_width]
+            all_dimension_height += [tmp_dimension_height]
+            all_price += [tmp_price]
+            all_furniture_location += [tmp_furniture_location]
+            all_color += [tmp_color]
+
+        # Calculate Distance For Every Data
+        tmp_time_start = start_timer()
+
+        print_help(var='CALCULATING DISTANCES', username='START CALCULATING DISTANCES')
+
+        vectorized_X_color, color_feature_names, vectorized_X_material, material_feature_names, \
+        vectorized_X_furniture_location, furniture_location_feature_names, vectorized_X_description, \
+        description_feature_names, vectorized_X_title, title_feature_names, color_distances, material_distances,\
+        description_distances, title_distances, furniture_location_distances, all_weight, all_price, \
+        all_dimension, weight_distances, dimension_distances, price_distances  = process_data_feature_and_distance(all_material=all_material,
+                                                                                                    all_title=all_title,
+                                                                                                    all_description=all_description,
+                                                                                                    all_weight=all_weight,
+                                                                                                    all_dimension_length=all_dimension_length,
+                                                                                                    all_dimension_width=all_dimension_width,
+                                                                                                    all_dimension_height=all_dimension_height,
+                                                                                                    all_price=all_price,
+                                                                                                    all_furniture_location=all_furniture_location,
+                                                                                                    all_color=all_color)
+
+        print_help(var='FINISHED CALCULATING DISTANCES', username='FINISHED CALCULATING DISTANCES')
+
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='PROCESS DATA FEATURE AND DISTANCE')
+
+        # Truncating Table Distances
+        print_help(var='TRUNCATING TABLE DISTANCES', username='TRUNCATE TABLE TO INSERT NEW DISTANCES')
+
+        truncate_script = '''TRUNCATE TABLE main_app_distance'''
+
+        truncate_database(truncate_script)
+
+        # Constructing Distances
+        tmp_time_start = start_timer()
+        
+        data_insert_distance = construct_distances(all_ids=all_ids,
                                                                 color_distances=color_distances,
                                                                 material_distances=material_distances,
                                                                 description_distances=description_distances,
@@ -1277,15 +1090,14 @@ def transfer_data_to_database():
 
         print_help(var='FINISHED CONSTRUCTING DISTANCES', username='FINISHED CONSTRUCTING DISTANCES')
 
-        time_log.append(('CONSTRUCT DISTANCES', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('CONSTRUCT DISTANCES')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CONSTRUCT DISTANCES')
 
-        tmp_time = time.perf_counter()
+        # Inserting Distances
+        tmp_time_start = start_timer()
 
         print_help(var='INSERTING DISTANCES', username='INSERTING DISTANCES')
 
-        insert_distance_script_check_time = '''
+        insert_distance_script = '''
             INSERT INTO public.main_app_distance (
                 product_id, 
                 other_product_id, 
@@ -1303,20 +1115,18 @@ def transfer_data_to_database():
             )
             VALUES %s;
         '''
-        try_catch_insert_data(script=insert_distance_script_check_time, 
-                                data=data_insert_distance_check_time, 
+        try_catch_insert_data(script=insert_distance_script, 
+                                data=data_insert_distance, 
                                 message='INSERTING DISTANCE')
 
         print_help(var='FINISHED INSERTING DISTANCES', username='FINISHED INSERTING DISTANCES')
 
-        time_log.append(('INSERTING DISTANCES', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('INSERTING DISTANCES')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING DISTANCES')
 
-
-        tmp_time = time.perf_counter()
-        # === Process ===
-        data_update_item_check_time = construct_update_item(vectorized_X_color=vectorized_X_color,
+        # Construct Update Item (Vect Data)
+        tmp_time_start = start_timer()
+        
+        data_update_item = construct_update_item(vectorized_X_color=vectorized_X_color,
                                                             vectorized_X_material=vectorized_X_material,
                                                             vectorized_X_description=vectorized_X_description,
                                                             vectorized_X_title=vectorized_X_title,
@@ -1328,15 +1138,14 @@ def transfer_data_to_database():
 
         print_help(var='FINISHED CONSTRUCTING UPDATE ITEM', username='FINISHED CONSTRUCTING ITEM VECT DATA')
 
-        time_log.append(('CONSTRUCT UPDATE ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('CONSTRUCT UPDATE ITEM')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CONSTRUCT UPDATE ITEM')
 
-        tmp_time = time.perf_counter()
+        # Update Item (Vect Data)
+        tmp_time_start = start_timer()
         
         print_help(var='UPDATING ITEM', username='UPDATING ITEM VECT DATA')
         
-        update_item_script_check_time = '''
+        update_item_script = '''
             UPDATE public.main_app_item as t
             SET vect_color = uv.vect_color, 
                 vect_material = uv.vect_material, 
@@ -1358,21 +1167,20 @@ def transfer_data_to_database():
             WHERE t.id = uv.id;
         '''
 
-        try_catch_insert_data(script=update_item_script_check_time, 
-                                data=data_update_item_check_time, 
+        try_catch_insert_data(script=update_item_script, 
+                                data=data_update_item, 
                                 message='UPDATING ITEM')
 
         print_help(var='FINISHED UPDATING ITEM', username='FINISHED UPDATING ITEM VECT DATA')
 
-        time_log.append(('UPDATE ITEM', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('UPDATE ITEM')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='UPDATE ITEM')
 
-        tmp_time = time.perf_counter()
+        # Inserting Feature
+        tmp_time_start = start_timer()
         
         print_help(var='INSERTING FEATURE', username='INSERTING FEATURE')
         
-        insert_feature_script_check_time = '''
+        insert_feature_script = '''
             INSERT INTO public.main_app_feature(
                         name_feature, 
                         color_feature, 
@@ -1381,7 +1189,7 @@ def transfer_data_to_database():
                         furniture_location_feature )
             VALUES %s;
         '''
-        data_insert_feature_check_time = [
+        data_insert_feature = [
             (
                 title_feature_names,
                 color_feature_names,
@@ -1391,20 +1199,17 @@ def transfer_data_to_database():
             )
         ]
         
-        try_catch_insert_data(script=insert_feature_script_check_time, 
-                                data=data_insert_feature_check_time, 
+        try_catch_insert_data(script=insert_feature_script, 
+                                data=data_insert_feature, 
                                 message='INSERTING FEATURE')
 
         print_help(var='FINISHED INSERTING FEATURE', username='FINISHED INSERTING FEATURE')
         
-        time_log.append(('INSERTING FEATURE', str(datetime.timedelta(seconds = time.perf_counter() - tmp_time)) ) )
-        print('INSERTING FEATURE')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - tmp_time)))
+        time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING FEATURE')
 
-        print('TOTAL INSERTING DATA')
-        print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
-        
-        [ print(log) for log in time_log ]
+    time_log = end_timer(start_time=start_time, time_log=time_log, add_time_log=True, message='TOTAL PROGRAM RUNTIME')
+
+    [ print(log) for log in time_log ]
 
 RUN_SCRAPING = False
 RUN_TRANSFER_DATA = True
