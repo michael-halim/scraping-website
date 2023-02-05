@@ -16,7 +16,7 @@ parent_dir = current + os.sep + os.pardir
 sys.path.append(parent_dir)
 
 from helper_func.helper import *
-from dict_clean import *
+from .dict_clean import *
 
 from dotenv import load_dotenv
 load_dotenv()
