@@ -16,6 +16,9 @@ sys.path.append(parent_dir)
 from helper_func.helper import *
 from dict_clean import *
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # https://chromedriver.storage.googleapis.com/index.html
 s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
 if os.environ.get('DEVELOPMENT_MODE') == 'False':
