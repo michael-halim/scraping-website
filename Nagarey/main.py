@@ -465,6 +465,8 @@ def main():
     import time
     start_time = time.perf_counter()
 
+    print('RUNNING NAGAREY WEB SCRAPING....')
+
     get_category_and_links()
     phone, address = get_contact()
     get_every_product(phone=phone, address=address)
@@ -476,6 +478,8 @@ def main():
 if __name__ == '__main__':
     import time
     start_time = time.perf_counter()
+
+    print('RUNNING NAGAREY WEB SCRAPING....')
 
     get_category_and_links()
     phone, address = get_contact()

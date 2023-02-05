@@ -140,25 +140,6 @@ def get_every_detail():
         for data in DATASET:
             
             try:
-                # request_session = requests.Session()
-                # # Set correct user agent
-                # selenium_user_agent = driver.execute_script("return navigator.userAgent;")
-                # request_session.headers.update({"user-agent": selenium_user_agent})
-                # print(driver.get_cookies())
-                
-                # for cookie in driver.get_cookies():
-                #     print('COOKIE NAME')
-                #     print(cookie['name'])
-                #     print('COOKIE VALUE')
-                #     print(cookie['value'])
-                #     print('COOKIE DOMAIN')
-                #     print(cookie['domain'])
-
-                #     request_session.cookies.set(cookie['name'], cookie['value'], domain=cookie['domain'])
-
-                # response = request_session.get(data['link'])
-                # print(response)
-                # driver.get(request_session.get(data['link']))
                 driver.get(data['link'])
                 link = data['link']
                 if link.count('ta.tokopedia') > 0:
@@ -354,6 +335,8 @@ def main():
     import time
 
     start_time = time.perf_counter()
+    print('RUNNING TOKOPEDIA WEB SCRAPING....')
+
     get_every_product()
     get_every_detail()
 
@@ -364,6 +347,8 @@ if __name__ == '__main__':
     import time
 
     start_time = time.perf_counter()
+    print('RUNNING TOKOPEDIA WEB SCRAPING....')
+
     get_every_product()
     get_every_detail()
 
