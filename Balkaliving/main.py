@@ -316,6 +316,8 @@ def main():
     import time
     start_time = time.perf_counter()
 
+    print('RUNNING BALKALIVING WEB SCRAPING....')
+
     phone, address = get_contact()
     get_every_product(phone=phone, address=address)
     get_every_detail()
@@ -326,6 +328,8 @@ def main():
 if __name__ == '__main__':
     import time
     start_time = time.perf_counter()
+
+    print('RUNNING BALKALIVING WEB SCRAPING....')
 
     phone, address = get_contact()
     get_every_product(phone=phone, address=address)
