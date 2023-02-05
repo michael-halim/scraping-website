@@ -1,5 +1,6 @@
-import re
-tmp_additional_description = '1kg'
-res = re.search(r'([\d.,]+)\s?(kg|g)',tmp_additional_description)
+from dict_clean import *
 
-print(res.group(2))
+a = AERDekoruma_CHAR_TO_REPLACE
+
+print(a)
+print(type(a))
