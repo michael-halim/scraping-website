@@ -432,6 +432,7 @@ AERDekoruma_MATERIAL_REPLACE = {
     'berdasarkan pesanan':'custom',
     'dan':',',
     'brass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chromebrass ,chrome':'brass,chrome',
+    'granitee':'granite',
 }
 
 AERDekoruma_HARD_REMOVE_MATERIAL = {

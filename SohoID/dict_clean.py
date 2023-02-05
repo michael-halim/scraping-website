@@ -191,7 +191,17 @@ SohoID_HARD_REMOVE_MATERIAL = {
     'Per':'spring',
     'Kaki Stainless':'stainless'
 }
-
+SohoID_HARD_REMOVE_MATERIAL_2 = {
+    'solid wood,mdf,duco paintDrawerP 60 cm L 45 cm T 56,5 cm  solid wood,mdf,duco paintSaat digabung panjang maksimal 160~170 cm':'solid wood,mdf,duco paint',
+    'untuk kenyamanan Anda dengan sandaran melengkung,kaki kayu,dudukan jok yang sempurna sebagai kursi di ruang makan,ruang keluarga ataupun di kamar tidur untuk menemani meja rias kamu':'',
+    'Tidak termasuk kursi (hanya meja,laci saja':'',
+    'Warna Ivory (putih gading':'',
+    'Kayu Solid Kursi terbuat dari  kayu solid finishing sanding PU warna teakwood':'teakwood,pu',
+    'Kayu Solid Produk ini adalah meja makan saja,belum termasuk kursi':'solid wood',
+    'mdf,kayu solid,cat duco': 'solid wood,mdf,duco paint',
+    'kayu solid': 'solid wood',
+    
+}
 SohoID_COLOR_REPLACE = {
     'hitam':'black',
     'abu-abu':'grey',

@@ -104,7 +104,7 @@ def show_error_message(err, module_name = ''):
 
 def get_all_data():
     try:
-        from AERDekoruma.backup import all_data as AER_Dekoruma_All_Data
+        from AERDekoruma import all_data as AER_Dekoruma_All_Data
         AER_Dekoruma_All_Data = AER_Dekoruma_All_Data.all_data
 
     except ImportError as e:
@@ -113,7 +113,7 @@ def get_all_data():
 ######################################################################
     
     try:
-        from AtesonHome.backup import all_data as Ateson_Home_All_Data
+        from AtesonHome import all_data as Ateson_Home_All_Data
         Ateson_Home_All_Data = Ateson_Home_All_Data.all_data
 
     except ImportError as e:
@@ -122,7 +122,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from Balkaliving.backup import all_data as Balkaliving_All_Data
+        from Balkaliving import all_data as Balkaliving_All_Data
         Balkaliving_All_Data = Balkaliving_All_Data.all_data
 
     except ImportError as e:
@@ -131,7 +131,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from Nagarey.backup import all_data as Nagarey_All_Data
+        from Nagarey import all_data as Nagarey_All_Data
         Nagarey_All_Data = Nagarey_All_Data.all_data
 
     except ImportError as e:
@@ -140,7 +140,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from SohoID.backup import all_data as SohoID_All_Data
+        from SohoID import all_data as SohoID_All_Data
         SohoID_All_Data = SohoID_All_Data.all_data
 
     except ImportError as e:
@@ -149,7 +149,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERTEKA.backup import all_data as AER_TEKA_All_Data
+        from AERTEKA import all_data as AER_TEKA_All_Data
         AER_TEKA_All_Data = AER_TEKA_All_Data.all_data
 
     except ImportError as e:
@@ -158,7 +158,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERDobidos.backup import all_data as AER_Dobidos_All_Data
+        from AERDobidos import all_data as AER_Dobidos_All_Data
         AER_Dobidos_All_Data = AER_Dobidos_All_Data.all_data
 
     except ImportError as e:
@@ -167,7 +167,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERGree.backup import all_data as AER_Gree_All_Data
+        from AERGree import all_data as AER_Gree_All_Data
         AER_Gree_All_Data = AER_Gree_All_Data.all_data
 
 
@@ -177,7 +177,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERSharp.backup import all_data as AER_Sharp_All_Data
+        from AERSharp import all_data as AER_Sharp_All_Data
         AER_Sharp_All_Data = AER_Sharp_All_Data.all_data
 
     except ImportError as e:
@@ -186,7 +186,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from AERPaloma.backup import all_data as AER_Paloma_All_Data
+        from AERPaloma import all_data as AER_Paloma_All_Data
         AER_Paloma_All_Data = AER_Paloma_All_Data.all_data
 
     except ImportError as e:
@@ -195,7 +195,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from Tokopedia.backup import all_data as Tokopedia_All_Data
+        from Tokopedia import all_data as Tokopedia_All_Data
         Tokopedia_All_Data = Tokopedia_All_Data.all_data
 
     except ImportError as e:
@@ -204,7 +204,7 @@ def get_all_data():
 ######################################################################
 
     try:
-        from OLX.backup import all_data as OLX_All_Data
+        from OLX import all_data as OLX_All_Data
         OLX_All_Data = OLX_All_Data.all_data
 
     except ImportError as e:
@@ -999,7 +999,6 @@ def transfer_data_to_database():
         print_help(var=all_ids, title='ALL IDS', username='FINISHED INSERTING ITEM')
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING ITEM AND CONSTRUCT IDS')
-
 
     # If New Item is Added, System Will Re-Calculating Distances, Feature, and Vectorized Data
     if is_update_distances_feature_vect:

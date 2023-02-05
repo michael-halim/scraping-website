@@ -146,7 +146,6 @@ def get_every_product(phone, address):
             from links import links as DATASET
             print(DATASET)
 
-            # TODO: DISINI DIA UDH GA PUNYA CHILD
         productList = []
         for data in DATASET:
             title = data['title']
@@ -299,12 +298,15 @@ def get_every_detail():
                         material = re.sub(r'\s?,\s?',',',material)
 
                         material = material.strip()
-                        material = material.replace('solid wood,mdf,duco paintDrawerP 60 cm L 45 cm T 56,5 cm  solid wood,mdf,duco paintSaat digabung panjang maksimal 160~170 cm','solid wood,mdf,duco paint').strip()
-                        material = material.replace('untuk kenyamanan Anda dengan sandaran melengkung,kaki kayu,dudukan jok yang sempurna sebagai kursi di ruang makan,ruang keluarga ataupun di kamar tidur untuk menemani meja rias kamu','')
-                        material = material.replace('Tidak termasuk kursi (hanya meja,laci saja','')
-                        material = material.replace('Warna Ivory (putih gading','')
-                        material = material.replace('Kayu Solid Kursi terbuat dari  kayu solid finishing sanding PU warna teakwood','teakwood,pu')
-                        material = material.replace('Kayu Solid Produk ini adalah meja makan saja,belum termasuk kursi','solid wood')
+                        material = replace_multiple_char(material, SohoID_HARD_REMOVE_MATERIAL_2)
+                        material = material.strip()
+
+                        # material = material.replace('solid wood,mdf,duco paintDrawerP 60 cm L 45 cm T 56,5 cm  solid wood,mdf,duco paintSaat digabung panjang maksimal 160~170 cm','solid wood,mdf,duco paint').strip()
+                        # material = material.replace('untuk kenyamanan Anda dengan sandaran melengkung,kaki kayu,dudukan jok yang sempurna sebagai kursi di ruang makan,ruang keluarga ataupun di kamar tidur untuk menemani meja rias kamu','')
+                        # material = material.replace('Tidak termasuk kursi (hanya meja,laci saja','')
+                        # material = material.replace('Warna Ivory (putih gading','')
+                        # material = material.replace('Kayu Solid Kursi terbuat dari  kayu solid finishing sanding PU warna teakwood','teakwood,pu')
+                        # material = material.replace('Kayu Solid Produk ini adalah meja makan saja,belum termasuk kursi','solid wood')
 
                     except AttributeError as ae:
                         print('REGEX MATERIAL FAILED')

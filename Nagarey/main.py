@@ -352,6 +352,7 @@ def get_every_detail():
                             material = re.sub(r',\s{0,}?$','',material)
                             material = re.sub(r'\s?,\s?',',',material)
                             material = material.strip()
+                            material = replace_multiple_char(material, Nagarey_HARD_REMOVE_MATERIAL)
 
                         except AttributeError as ae:
                             print('REGEX MATERIAL #1 FAILED')
@@ -376,11 +377,7 @@ def get_every_detail():
                             product_color = product_color.strip()
                             product_color = replace_multiple_char(product_color,char_to_replace=Nagarey_COLOR_REPLACE)
                             product_color = replace_multiple_char(product_color,char_to_replace=Nagarey_COLOR_REPLACE)
-                            hard_to_remove_word = {
-                                'kobu grey':'grey',
-                                'leg natural e, seating natural weaving':'natural',
-                            }
-                            product_color = replace_multiple_char(product_color,char_to_replace=hard_to_remove_word)
+                            product_color = replace_multiple_char(product_color,char_to_replace=Nagarey_HARD_REMOVE_COLOR)
                         except AttributeError as ae:
                             print('REGEX COLOR #1 FAILED')
                             print(ae)

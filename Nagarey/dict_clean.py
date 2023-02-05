@@ -162,6 +162,14 @@ Nagarey_HARD_REMOVE_MATERIAL = {
     'sisipan bambu':'bamboo weaving',
     'untuk kenyamanan Anda sandaran melengkung , sarung fabric di bagian dudukan':'mindy wood,fabric,polyester',
     'brasss':'brass',
+    'Kayu Mindi':'mindy wood',
+    'kayu mindi':'mindy wood',
+    'Rotan': 'rattan',
+    'rotan': 'rattan',
+    'kayu solid':'solid wood',
+    'laci kayu':'wood',
+    'rattan not suitable for outdoor except sheltered no water exposure or direct sunlight':'rattan',
+    'terracotta offering elegant and rustic feel,pisanello vase will be a good additional piece for your space with a shape resembling pisanello tomato of tuscan,this compact vase transforms your office,home or garden into a whole new level of visual aspects put in some faux,real flowers or greenery for more effect available in colours and different sizes narfbdgr':'terracotta',
 
 }
 
@@ -496,5 +504,29 @@ Nagarey_COLOR_REPLACE = {
     'yellow lemon antique gold leg':'yellow',
     'yellow orange':'yellow',
     'yellow seating black leg':'yellow',
-    
+}
+Nagarey_HARD_REMOVE_COLOR = {
+    'leg natural e, seating natural weaving':'natural',
+    'kobu grey':'grey',
+    'antique frame choco seating':'antique',
+    'bengal tiger head large':'brown',
+    'black leather seating antique frame wood':'brown',
+    'brown leather gold leg':'brown',
+    'leopard head large':'brown',
+    'leopard large':'brown',
+    'leopard xl':'brown',
+    'lion head large':'brown',
+    'lion xl':'brown',
+    'natural creamy seating white': 'white',
+    'natural dusty green': 'green',
+    'natural frame florida green': 'green',
+    'natural pearl black': 'black',
+    'natural s,': 'natural',
+    'natural seating mud grey leg': 'grey',
+    'natural with synthetic seating natural frame': 'natural',
+    'nature': 'natural',
+    'pearl black':'black',
+    'tibetan leopard':'brown',
+    'tibetan tiger': 'red',
+    'wolf large': 'white',
 }
