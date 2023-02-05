@@ -4,8 +4,9 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options
 
+import time
+import datetime
 import re
-
 import os 
 import sys
 
@@ -19,28 +20,7 @@ from dict_clean import *
 from dotenv import load_dotenv
 load_dotenv()
 
-# https://chromedriver.storage.googleapis.com/index.html
-s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
-if os.environ.get('DEVELOPMENT_MODE') == 'False':
-    s = Service(os.environ.get('CHROMEDRIVER_PATH_PRODUCTION'))
-
-options = Options()
-
-if os.environ.get('DEVELOPMENT_MODE') == 'False':
-    options.add_argument("--headless")
-    options.add_argument('--disable-gpu')
-    options.add_argument('--no-sandbox')
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-
-user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
-options.add_argument('user-agent={0}'.format(user_agent))
-
-driver = webdriver.Chrome(service=s, options=options)
-
-driver.implicitly_wait(15)
-
-def get_contact():
+def get_contact(driver):
     url = 'https://dekoruma.freshdesk.com/support/solutions/articles/17000117057-hubungi-dekoruma'
     driver.get(url)
 
@@ -59,7 +39,7 @@ def get_contact():
     
     return tmp_phone, tmp_address
 
-def get_every_product(phone, address):
+def get_every_product(driver, phone, address):
         try:
             PAGES = 1
             productList = []
@@ -119,7 +99,7 @@ def get_every_product(phone, address):
             print('SCRAPING FAILED')
         
 
-def get_every_detail():
+def get_every_detail(driver):
     try:
         try:
             from .front_page import front_page as DATASET
@@ -300,28 +280,39 @@ def get_every_detail():
 
 
 def main():
-    import time
+    # https://chromedriver.storage.googleapis.com/index.html
+    s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
+    if os.environ.get('DEVELOPMENT_MODE') == 'False':
+        s = Service(os.environ.get('CHROMEDRIVER_PATH_PRODUCTION'))
+
+    options = Options()
+
+    if os.environ.get('DEVELOPMENT_MODE') == 'False':
+        options.add_argument("--headless")
+        options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+
+    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
+    options.add_argument('user-agent={0}'.format(user_agent))
+
+    driver = webdriver.Chrome(service=s, options=options)
+
+    driver.implicitly_wait(15)
+
     start_time = time.perf_counter()
+
     print('RUNNING AER GREE WEB SCRAPING....')
     
-    phone, address = get_contact()
-    get_every_product(phone=phone, address=address)
-    get_every_detail()
+    phone, address = get_contact(driver=driver)
+    get_every_product(driver=driver, phone=phone, address=address)
+    get_every_detail(driver=driver)
 
-    import datetime
-    print('Program Runtime')
+    driver.quit()
+    
+    print('FINISHED AER GREE WEB SCRAPING....')
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
     
 if __name__ == '__main__':
-    import time
-    start_time = time.perf_counter()
-
-    print('RUNNING AER GREE WEB SCRAPING....')
-
-    phone, address = get_contact()
-    get_every_product(phone=phone, address=address)
-    get_every_detail()
-
-    import datetime
-    print('Program Runtime')
-    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
+    main()

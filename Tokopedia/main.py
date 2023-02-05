@@ -5,8 +5,9 @@ from selenium.webdriver.common.by import By
 from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.chrome.options import Options
 
-import re
 import time
+import datetime
+import re
 import os 
 import sys
 
@@ -20,28 +21,7 @@ from dict_clean import *
 from dotenv import load_dotenv
 load_dotenv()
 
-# https://chromedriver.storage.googleapis.com/index.html
-s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
-if os.environ.get('DEVELOPMENT_MODE') == 'False':
-    s = Service(os.environ.get('CHROMEDRIVER_PATH_PRODUCTION'))
-
-options = Options()
-
-if os.environ.get('DEVELOPMENT_MODE') == 'False':
-    options.add_argument("--headless")
-    options.add_argument('--disable-gpu')
-    options.add_argument('--no-sandbox')
-    options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    options.add_experimental_option('useAutomationExtension', False)
-
-user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
-options.add_argument('user-agent={0}'.format(user_agent))
-
-driver = webdriver.Chrome(service=s, options=options)
-driver.implicitly_wait(15)
-
-
-def get_every_product():
+def get_every_product(driver):
         try:
             PAGES = 4
             productList = []
@@ -125,7 +105,7 @@ def get_every_product():
             print('SCRAPING FAILED')
         
 
-def get_every_detail():
+def get_every_detail(driver):
     try:
         try:
             from .front_page import front_page as DATASET
@@ -332,25 +312,36 @@ def get_every_detail():
         print('FILE FRONT PAGE DOESNT EXIST')
 
 def main():
-    import time
+    # https://chromedriver.storage.googleapis.com/index.html
+    s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
+    if os.environ.get('DEVELOPMENT_MODE') == 'False':
+        s = Service(os.environ.get('CHROMEDRIVER_PATH_PRODUCTION'))
+
+    options = Options()
+
+    if os.environ.get('DEVELOPMENT_MODE') == 'False':
+        options.add_argument("--headless")
+        options.add_argument('--disable-gpu')
+        options.add_argument('--no-sandbox')
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
+
+    user_agent = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.50 Safari/537.36'
+    options.add_argument('user-agent={0}'.format(user_agent))
+
+    driver = webdriver.Chrome(service=s, options=options)
+    driver.implicitly_wait(15)
 
     start_time = time.perf_counter()
     print('RUNNING TOKOPEDIA WEB SCRAPING....')
 
-    get_every_product()
-    get_every_detail()
+    get_every_product(driver=driver)
+    get_every_detail(driver=driver)
 
-    import datetime
+    driver.quit()
+
+    print('FINISHED TOKOPEDIA WEB SCRAPING....')
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':
-    import time
-
-    start_time = time.perf_counter()
-    print('RUNNING TOKOPEDIA WEB SCRAPING....')
-
-    get_every_product()
-    get_every_detail()
-
-    import datetime
-    print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
+    main()
