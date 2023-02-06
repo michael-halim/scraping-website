@@ -14,12 +14,16 @@ current = os.path.dirname(os.path.realpath(__file__))
 parent_dir = current + os.sep + os.pardir
 sys.path.append(parent_dir)
 
-from helper_func.helper import *
-from .dict_clean import *
+from helper_func.helper import print_help, replace_multiple_char, replace_text_in_between, replace_multiple_tags, save_to_file, get_today 
+
+try: from .dict_clean import *
+except ImportError as e: from dict_clean import *
 
 from dotenv import load_dotenv
 load_dotenv()
 
+SAVE_LOG_PATH =  os.path.dirname(__file__) + os.sep + 'scraping_logs' + os.sep
+LOG_FILENAME = str(get_today()) + '.txt'
 
 def get_contact(driver):
     url = 'https://www.balkaliving.com/about-us/'
@@ -55,8 +59,8 @@ def get_contact(driver):
         tmp_address = replace_multiple_tags(tmp_address, '<br', '>', '')
         tmp_address = tmp_address.strip()
     
-    print(tmp_phone)
-    print(tmp_address)
+    print_help(var=tmp_phone, title='PHONE', username='GET CONTACT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var=tmp_address, title='ADDRESS', username='GET CONTACT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     return tmp_phone, tmp_address
 
@@ -85,23 +89,21 @@ def get_every_product(driver, phone, address):
                 product_price = price.get_attribute('innerHTML').replace('IDR&nbsp;','').replace('.','')
                 product_link = links.get_attribute('href')
                 
-                # Print to CLI
-                print('==================')
-                print(product_name)
-                print(product_picture)
-                print(product_price)
-                print(product_link)
-                print('==================')
+                print_help(var=product_name, title='PRODUCT NAME', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=product_price, title='PRODUCT PRICE', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=product_picture, title='PRODUCT PICTURE', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=product_link, title='PRODUCT LINK', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+
                 # Append each attribute to dict
                 productList.append({'name':product_name,'pic':product_picture,
                                     'price' :product_price, 'link' :product_link,
                                     'address':address, 'contact_phone':phone})
                 
-            print('PRODUCT LIST')
-            print(productList)
+            print_help(var=productList, title='PRODUCT LIST', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         except WebDriverException as e: 
-            print(e)   
+            print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+            print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     # Save file to front_page.py
     filename = 'front_page'
@@ -118,7 +120,7 @@ def get_every_detail(driver):
         try:
             from .front_page import front_page as DATASET
         except ImportError as e:
-            print(e)
+            print_help(var=e, title='TRY IMPORT ERROR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
             from front_page import front_page as DATASET
 
         dataset_copy = DATASET
@@ -252,22 +254,33 @@ def get_every_detail(driver):
                 data['material'] = material
                 data['additional_desc'] = product_additional_descriptions
                 
-                print('================')
-                print(product_descriptions)
-                print('ADDITIONAL DESC')
-                print(product_additional_information)
-                print('MATERIAL', material)
-                print('DIMENSION LENGTH', data['dimension_length'])
-                print('DIMENSION WIDTH', data['dimension_width'])
-                print('DIMENSION HEIGHT', data['dimension_height'])
-                print('DIMENSION UNIT', data['dimension_unit'])
-                print('COLOR ',data['color'])
-                print('WEIGHT ',data['weight'])
-                print('WEIGHT UNIT',data['weight_unit'])
-                print('================')
+                print_help(var=product_descriptions, title='PRODUCT DESC', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=product_additional_information, title='ADDITIONAL DESC', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=data['color'], title='PRODUCT COLOR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=material, title='PRODUCT MATERIAL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=data['dimension_length'], title='PRODUCT DIMENSION LENGTH', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=data['dimension_width'], title='PRODUCT DIMENSION WIDTH', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=data['dimension_height'], title='PRODUCT DIMENSION HEIGHT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=data['dimension_unit'], title='DIMENSION UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=data['weight'], title='PRODUCT WEIGHT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=data['weight_unit'], title='WEIGHT UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
-                print("COMPLETE DATA")
-                print(data)
+                # print('================')
+                # print(product_descriptions)
+                # print('ADDITIONAL DESC')
+                # print(product_additional_information)
+                # print('MATERIAL', material)
+                # print('DIMENSION LENGTH', data['dimension_length'])
+                # print('DIMENSION WIDTH', data['dimension_width'])
+                # print('DIMENSION HEIGHT', data['dimension_height'])
+                # print('DIMENSION UNIT', data['dimension_unit'])
+                # print('COLOR ',data['color'])
+                # print('WEIGHT ',data['weight'])
+                # print('WEIGHT UNIT',data['weight_unit'])
+                # print('================')
+
+                # print("COMPLETE DATA")
+                # print(data)
             except WebDriverException as e:
                 print('INSIDE EVERY PRODUCT')
                 print(e)
@@ -291,8 +304,8 @@ def get_every_detail(driver):
                         itemList = dataset_copy)
 
     except WebDriverException as e:
-        print('ERROR IN SECOND HALF')
-        print(e)
+        print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='ERROR IN FOR DATASET', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 def main():
     # https://chromedriver.storage.googleapis.com/index.html
@@ -316,8 +329,7 @@ def main():
     driver.implicitly_wait(15)
 
     start_time = time.perf_counter()
-
-    print('RUNNING BALKALIVING WEB SCRAPING....')
+    print_help(var='RUNNING BALKALIVING WEB SCRAPING....', title='BALKALIVING WEB SCRAPING', username='MAIN')
 
     phone, address = get_contact(driver=driver)
     get_every_product(driver=driver, phone=phone, address=address)
@@ -325,7 +337,7 @@ def main():
     
     driver.quit()
 
-    print('FINISHED BALKALIVING WEB SCRAPING....')
+    print_help(var='FINISHED BALKALIVING WEB SCRAPING....', title='BALKALIVING WEB SCRAPING', username='MAIN')
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':

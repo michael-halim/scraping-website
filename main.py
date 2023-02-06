@@ -3,104 +3,101 @@ import psycopg2.extras
 import os
 from slugify import slugify
 from ml_helper import *
-
+from helper_func.helper import start_timer, end_timer, get_today, LOCAL_TZ, print_help, show_error_message
 import numpy as np
-import time 
 import datetime
-from zoneinfo import ZoneInfo
 
-LOCAL_TZ = ZoneInfo('Asia/Bangkok')
+from dotenv import load_dotenv
+load_dotenv()
 
-def start_timer():
-    return time.perf_counter()
+SAVE_LOG_PATH =  os.path.dirname(__file__) + os.sep + 'scraping_logs' + os.sep
+LOG_FILENAME = str(get_today()) + '.txt'
 
-def end_timer(start_time, time_log=[], add_time_log=False, message=''):
-    total_time = datetime.timedelta(seconds = time.perf_counter() - start_time)
-    bracket = '********************************************'
-    print(bracket)
-    print(message)
-    print('--- %s ---' % (total_time))
-    print(bracket)
+# def start_timer():
+#     return time.perf_counter()
 
-    if add_time_log:
-        time_log += [ (message, str(total_time)) ]
-        return time_log
+# def end_timer(start_time, time_log=[], add_time_log=False, message=''):
+#     total_time = datetime.timedelta(seconds = time.perf_counter() - start_time)
+#     bracket = '********************************************'
+#     print(bracket)
+#     print(message)
+#     print('--- %s ---' % (total_time))
+#     print(bracket)
 
-    return None
-def get_today():
-    """Get Today's Date with `YYYY-MM-DD` Format"""
-    today = datetime.datetime.now(LOCAL_TZ)
-    return datetime.date(today.year, today.month, today.day)
+#     if add_time_log:
+#         time_log += [ (message, str(total_time)) ]
+#         return time_log
 
-def print_help(var, title='', username='', show_list_more=False):
-    """Log to CLI and Save to File \n
-    `============================================`\n
-    `2023-01-06 14:15:01.963270`\n
-    `USERNAME:  TRAIN APRIORI MODEL`\n
-    `APRIORI MODEL`\n
-    `============================================`
+#     return None
+# def get_today():
+#     """Get Today's Date with `YYYY-MM-DD` Format"""
+#     today = datetime.datetime.now(LOCAL_TZ)
+#     return datetime.date(today.year, today.month, today.day)
+
+# def print_help(var, title='', username='', show_list_more=False):
+#     """Log to CLI and Save to File \n
+#     `============================================`\n
+#     `2023-01-06 14:15:01.963270`\n
+#     `USERNAME:  TRAIN APRIORI MODEL`\n
+#     `APRIORI MODEL`\n
+#     `============================================`
     
-    `============================================`\n
-    `2023-01-06 14:15:01.923290`\n
-    `USERNAME:  TRAIN WEIGHTED MATRIX`\n
-    `CBF LOWEST ITEM LIST`\n
-    `[ [841, 2.82], [840, 2.95], [2237, 3.03], [834, 3.2], [224, 3.23] ]`\n
-    `LENGTH : 5`\n
-    `============================================`
-    """
-    logs = []
-    bracket = '============================================'
-    time_now = datetime.datetime.now(LOCAL_TZ)
-    print(bracket)
-    print(time_now)
-    print('USERNAME: ', username)
+#     `============================================`\n
+#     `2023-01-06 14:15:01.923290`\n
+#     `USERNAME:  TRAIN WEIGHTED MATRIX`\n
+#     `CBF LOWEST ITEM LIST`\n
+#     `[ [841, 2.82], [840, 2.95], [2237, 3.03], [834, 3.2], [224, 3.23] ]`\n
+#     `LENGTH : 5`\n
+#     `============================================`
+#     """
+#     logs = []
+#     bracket = '============================================'
+#     time_now = datetime.datetime.now(LOCAL_TZ)
+#     print(bracket)
+#     print(time_now)
+#     print('USERNAME: ', username)
 
-    logs += [bracket, str(time_now), f'USERNAME: {str(username)}']
+#     logs += [bracket, str(time_now), f'USERNAME: {str(username)}']
     
-    if isinstance(var, str) and title == '':
-        print(var)
-        print(bracket)
-        logs += [str(var), bracket]
-    else:
-        print(title)
-        modified_var = var
-        if not show_list_more and isinstance(var, list):
-            modified_var = modified_var[:5] if len(modified_var) > 5 else modified_var
+#     if isinstance(var, str) and title == '':
+#         print(var)
+#         print(bracket)
+#         logs += [str(var), bracket]
+#     else:
+#         print(title)
+#         modified_var = var
+#         if not show_list_more and isinstance(var, list):
+#             modified_var = modified_var[:5] if len(modified_var) > 5 else modified_var
 
-        print(modified_var)
-        logs += [str(title), str(modified_var)]
+#         print(modified_var)
+#         logs += [str(title), str(modified_var)]
 
-        try:
-            print(f'ORIGINAL LENGTH : {len(var)}')
-            print(bracket)
-            logs += [f'ORIGINAL LENGTH : {str(len(var))}', bracket]
-        except TypeError as e:
-            print(bracket)
-            logs += [bracket]
+#         try:
+#             print(f'ORIGINAL LENGTH : {len(var)}')
+#             print(bracket)
+#             logs += [f'ORIGINAL LENGTH : {str(len(var))}', bracket]
+#         except TypeError as e:
+#             print(bracket)
+#             logs += [bracket]
 
-    logs = '\n'.join(logs)
+#     logs = '\n'.join(logs)
 
-    if os.environ.get('DEVELOPMENT_MODE') == 'False':
-        save_log(logs)
+#     if os.environ.get('DEVELOPMENT_MODE') == 'False':
+#         save_log(logs)
 
-def save_log(logs):
-    dirname = os.path.dirname(__file__)
-    up_one_levels = 'scraping_logs' + os.sep
-    filename = str(get_today()) + '.txt'
-    dest_path = os.path.join(dirname, up_one_levels, filename)
+# def save_log(logs):
+#     dirname = os.path.dirname(__file__)
+#     up_one_levels = 'scraping_logs' + os.sep
+#     filename = str(get_today()) + '.txt'
+#     dest_path = os.path.join(dirname, up_one_levels, filename)
 
-    with open(dest_path, 'a') as file:
-        file.write(logs)
+#     with open(dest_path, 'a') as file:
+#         file.write(logs)
 
-    file.close()
+#     file.close()
     
 # Import All Data from each module
-def show_error_message(err, module_name = ''):
-    print('=========================================')
-    print(f'## Error While Importing {module_name} ##')
-    print('=========================================')
-    print(err)
-    print('=========================================')
+
 
 def get_all_data():
     try:
@@ -346,7 +343,7 @@ def process_data_item():
                     1
                 )
             )
-        print_help(var=str(record[1]) + ' DATA PROCESSED SUCCESSFULY', username='PROCESS DATA ITEM')
+        print_help(var=str(record[1]) + ' DATA PROCESSED SUCCESSFULY', username='PROCESS DATA ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     
     return data_insert_check_time, tmp_data_insert
 
@@ -360,22 +357,22 @@ def process_data_feature_and_distance(all_material,
                                         all_price, 
                                         all_furniture_location, 
                                         all_color):
-    print_help(var='BAG OF WORDS CATEGORICAL', username='CALCULATING BAG OF WORDS')
+    print_help(var='BAG OF WORDS CATEGORICAL', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     # Get Vectorized_X and Feature Names for Categorical Featuers
-    print_help(var='BOW COLOR', username='CALCULATING BAG OF WORDS')
+    print_help(var='BOW COLOR', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_color, color_feature_names = bag_of_words(all_color)
 
-    print_help(var='BOW MATERIAL', username='CALCULATING BAG OF WORDS')
+    print_help(var='BOW MATERIAL', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_material, material_feature_names = bag_of_words(all_material, delimiter='comma')
     
-    print_help(var='BOW FURNITURE LOCATION', username='CALCULATING BAG OF WORDS')
+    print_help(var='BOW FURNITURE LOCATION', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_furniture_location, furniture_location_feature_names = bag_of_words(all_furniture_location, delimiter='comma')
     
-    print_help(var='BOW DESCRIPTION', username='CALCULATING BAG OF WORDS')
+    print_help(var='BOW DESCRIPTION', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_description, description_feature_names = bag_of_words(all_description)
     
-    print_help(var='BOW TITLE', username='CALCULATING BAG OF WORDS')
+    print_help(var='BOW TITLE', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_title, title_feature_names = bag_of_words(all_title)
     
     all_dimension = []
@@ -387,32 +384,32 @@ def process_data_feature_and_distance(all_material,
         all_dimension.append([length , width, height ])
 
     # Get Distances for Categorical Features
-    print_help(var='FINDING COLOR DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING COLOR DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     color_distances = find_all_distance(vectorized_X_color,is_normalized_data=True, is_standard_scaler=False)
     
-    print_help(var='FINDING MATERIAL DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING MATERIAL DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     material_distances = find_all_distance(vectorized_X_material,is_normalized_data=True, is_standard_scaler=False)
     
-    print_help(var='FINDING DESCRIPTION DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING DESCRIPTION DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     description_distances = find_all_distance(vectorized_X_description,is_normalized_data=True, is_standard_scaler=False)
     
-    print_help(var='FINDING TITLE DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING TITLE DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     title_distances = find_all_distance(vectorized_X_title,is_normalized_data=True, is_standard_scaler=False)
     
-    print_help(var='FINDING FURNITURE LOCATION DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING FURNITURE LOCATION DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     furniture_location_distances = find_all_distance(vectorized_X_furniture_location,is_normalized_data=True, is_standard_scaler=False)
 
     # Reshape All Numerical Features
     all_weight = np.asarray(all_weight).reshape(-1, 1)
     all_price = np.asarray(all_price).reshape(-1, 1)
 
-    print_help(var='FINDING WEIGHT DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING WEIGHT DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     weight_distances = find_all_distance(all_weight,is_normalized_data=True, is_standard_scaler=False)
     
-    print_help(var='FINDING DIMENSION DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING DIMENSION DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     dimension_distances = find_all_distance(all_dimension,is_normalized_data=True, is_standard_scaler=False)
     
-    print_help(var='FINDING PRICE DISTANCES....', username='CALCULATING BAG OF WORDS')
+    print_help(var='FINDING PRICE DISTANCES....', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     price_distances = find_all_distance(all_price,is_normalized_data=True, is_standard_scaler=False)
 
     return vectorized_X_color, color_feature_names, vectorized_X_material, material_feature_names, \
@@ -456,14 +453,14 @@ def construct_distances(all_ids,
             )
             if i % 400 == 0 and j % 400 == 0:
                 print('====================================')
-                print_help(var=color_distances[i][j], title='COLOR DISTANCES', username='CALCULATING DISTANCES')
-                print_help(var=title_distances[i][j], title='TITLE DISTANCES', username='CALCULATING DISTANCES')
-                print_help(var=description_distances[i][j], title='DESCRIPTION DISTANCES', username='CALCULATING DISTANCES')
-                print_help(var=material_distances[i][j], title='MATERIAL DISTANCES', username='CALCULATING DISTANCES')
-                print_help(var=weight_distances[i][j], title='WEIGHT DISTANCES', username='CALCULATING DISTANCES')
-                print_help(var=dimension_distances[i][j], title='DIMENSION DISTANCES', username='CALCULATING DISTANCES')
-                print_help(var=furniture_location_distances[i][j], title='FURNITURE LOCATION DISTANCES', username='CALCULATING DISTANCES')
-                print_help(var=total_distance, title='TOTAL DISTANCES', username='CALCULATING DISTANCES')
+                print_help(var=color_distances[i][j], title='COLOR DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=title_distances[i][j], title='TITLE DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=description_distances[i][j], title='DESCRIPTION DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=material_distances[i][j], title='MATERIAL DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=weight_distances[i][j], title='WEIGHT DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=dimension_distances[i][j], title='DIMENSION DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=furniture_location_distances[i][j], title='FURNITURE LOCATION DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=total_distance, title='TOTAL DISTANCES', username='CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
                 print(f'{i}th => {j}th')
                 print('====================================')   
@@ -480,19 +477,19 @@ def construct_update_item(vectorized_X_color,
                             all_dimension, 
                             all_price):
 
-    print_help(var='VECT X COLOR', username='MAKE LIST VECTORIZED COLOR')
+    print_help(var='VECT X COLOR', username='MAKE LIST VECTORIZED COLOR', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_color = vectorized_X_color.tolist()
 
-    print_help(var='VECT X MATERIAL', username='MAKE LIST VECTORIZED MATERIAL')
+    print_help(var='VECT X MATERIAL', username='MAKE LIST VECTORIZED MATERIAL', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_material = vectorized_X_material.tolist()
     
-    print_help(var='VECT X DESCRIPTION', username='MAKE LIST VECTORIZED DESCRIPTION')
+    print_help(var='VECT X DESCRIPTION', username='MAKE LIST VECTORIZED DESCRIPTION', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_description = vectorized_X_description.tolist()
     
-    print_help(var='VECT X TITLE', username='MAKE LIST VECTORIZED TITLE')
+    print_help(var='VECT X TITLE', username='MAKE LIST VECTORIZED TITLE', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_title = vectorized_X_title.tolist()
     
-    print_help(var='VECT X FURNITURE LOCATION', username='MAKE LIST VECTORIZED FURNITURE LOCATION')
+    print_help(var='VECT X FURNITURE LOCATION', username='MAKE LIST VECTORIZED FURNITURE LOCATION', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_furniture_location = vectorized_X_furniture_location.tolist()
     
 
@@ -500,15 +497,15 @@ def construct_update_item(vectorized_X_color,
     for vector_color, vector_material, vector_description, vector_name, vector_furniture_location, _id, weight, dimension, price in \
         zip( vectorized_X_color, vectorized_X_material, vectorized_X_description, vectorized_X_title, vectorized_X_furniture_location , all_ids, all_weight, all_dimension, all_price):
         
-        print_help(var=vector_color, title='VECT COLOR', username='PREVIEW VECT COLOR')
-        print_help(var=vector_material, title='VECT MATERIAL', username='PREVIEW VECT MATERIAL')
-        print_help(var=vector_description, title='VECT DESCRIPTION', username='PREVIEW VECT DESCRIPTION')
-        print_help(var=vector_name, title='VECT NAME', username='PREVIEW VECT NAME')
-        print_help(var=vector_furniture_location, title='VECT FURNITURE LOCATION', username='PREVIEW VECT FURNITURE LOCATION')
-        print_help(var=weight[0], title='VECT WEIGHT', username='PREVIEW VECT WEIGHT')
-        print_help(var=dimension[0], title='VECT DIMENSION', username='PREVIEW VECT DIMENSION')
-        print_help(var=price[0], title='VECT PRICE', username='PREVIEW VECT PRICE')
-        print_help(var=_id, title='ID', username='PREVIEW ID')
+        print_help(var=vector_color, title='VECT COLOR', username='PREVIEW VECT COLOR', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=vector_material, title='VECT MATERIAL', username='PREVIEW VECT MATERIAL', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=vector_description, title='VECT DESCRIPTION', username='PREVIEW VECT DESCRIPTION', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=vector_name, title='VECT NAME', username='PREVIEW VECT NAME', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=vector_furniture_location, title='VECT FURNITURE LOCATION', username='PREVIEW VECT FURNITURE LOCATION', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=weight[0], title='VECT WEIGHT', username='PREVIEW VECT WEIGHT', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=dimension[0], title='VECT DIMENSION', username='PREVIEW VECT DIMENSION', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=price[0], title='VECT PRICE', username='PREVIEW VECT PRICE', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=_id, title='ID', username='PREVIEW ID', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         data_update_item_check_time.append(
             (   _id,
@@ -538,17 +535,17 @@ def try_catch_insert_data(script, data, fetch=False, page_size=10000, message=''
                     port = os.environ.get('port_id')) as conn:
 
             with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
-                print_help(var=str(message), username='TRY CATCH INSERT DATA')
+                print_help(var=str(message), username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                 
                 result = psycopg2.extras.execute_values(cur, script, data, template=None, page_size=page_size, fetch=fetch)
                 
-                print_help(var=str(message) + ' SUCCESSFULY', username='TRY CATCH INSERT DATA')
+                print_help(var=str(message) + ' SUCCESSFULY', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     except Exception as e:
-        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA')
-        print_help(var=e, username='TRY CATCH INSERT DATA')
+        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=e, username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     finally:
-        print_help(var='FINALLY', username='TRY CATCH INSERT DATA')
+        print_help(var='FINALLY', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         if conn is not None:
             conn.close()
 
@@ -571,10 +568,10 @@ def count_item(script, data):
                 cur.execute(script, data)
                 count = cur.fetchone()
     except Exception as e:
-        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA')
-        print_help(var=e, username='TRY CATCH INSERT DATA')
+        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=e, username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     finally:
-        print_help(var='FINALLY', username='TRY CATCH INSERT DATA')
+        print_help(var='FINALLY', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         if conn is not None:
             conn.close()
 
@@ -596,10 +593,10 @@ def truncate_database(script):
                 print('TABLE TRUNCATED SUCCESSFULY')
 
     except Exception as e:
-        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA')
-        print_help(var=e, username='TRY CATCH INSERT DATA')
+        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=e, username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     finally:
-        print_help(var='FINALLY', username='TRY CATCH INSERT DATA')
+        print_help(var='FINALLY', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         if conn is not None:
             conn.close()
 
@@ -619,10 +616,10 @@ def script_database(script, data=[]):
                 res = cur.fetchall()
 
     except Exception as e:
-        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA')
-        print_help(var=e, username='TRY CATCH INSERT DATA')
+        print_help(var='EXCEPTION', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var=e, username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     finally:
-        print_help(var='FINALLY', username='TRY CATCH INSERT DATA')
+        print_help(var='FINALLY', username='TRY CATCH INSERT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         if conn is not None:
             conn.close()
 
@@ -645,7 +642,7 @@ def transfer_data_to_database():
         _, tmp_data_insert = process_data_item()
 
         # Truncating Data in Temp Item
-        print_help(var='TRUNCATING TEMP ITEM', username='SCRAPING LATEST DATA')
+        print_help(var='TRUNCATING TEMP ITEM', username='SCRAPING LATEST DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         truncate_script = ''' TRUNCATE TABLE main_app_tempitem '''
 
@@ -654,7 +651,7 @@ def transfer_data_to_database():
         # Inserting to Temp Item from Every Module
         tmp_time_start = start_timer()
 
-        print_help(var='INSERTING ITEM TO TEMP ITEM INSTEAD', username='SCRAPING LATEST DATA')
+        print_help(var='INSERTING ITEM TO TEMP ITEM INSTEAD', username='SCRAPING LATEST DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         insert_temp_item_script = '''
         INSERT INTO public.main_app_tempitem( 
@@ -688,7 +685,7 @@ def transfer_data_to_database():
 
         
 
-        print_help(var=all_ids, title='TOTAL INSERTED' , username='INSERTING TEMP ITEM LATEST DATA')
+        print_help(var=all_ids, title='TOTAL INSERTED' , username='INSERTING TEMP ITEM LATEST DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING TEMP ITEM LATEST DATA')
 
@@ -714,9 +711,9 @@ def transfer_data_to_database():
         '''
         unique_item = script_database(script = check_item_except_temp_item_script)
 
-        print_help(var=unique_temp_item, title='UNIQUE TEMP ITEM ( NEW ITEM )', username='PREVIEW TEMP ITEM')
+        print_help(var=unique_temp_item, title='UNIQUE TEMP ITEM ( NEW ITEM )', username='PREVIEW TEMP ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
-        print_help(var=unique_item, title='UNIQUE ITEM ( OLD ITEM )', username='PREVIEW ITEM')
+        print_help(var=unique_item, title='UNIQUE ITEM ( OLD ITEM )', username='PREVIEW ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         # Get Intersection from Table Item and Temp Item
         tmp_time_start = start_timer()
@@ -731,9 +728,9 @@ def transfer_data_to_database():
                     intersection.append(temp_item)
                     break
         
-        print_help(var=len(unique_item), title='TOTAL DATA UNIQUE ITEM ITERATED' , username='TOTAL DATA UNIQUE ITEM ITERATED')
+        print_help(var=len(unique_item), title='TOTAL DATA UNIQUE ITEM ITERATED' , username='TOTAL DATA UNIQUE ITEM ITERATED', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
-        print_help(var=intersection, title='INTERSECTION OLD AND NEW DATA', username='CHECK INTERSECTION BETWEEN 2 TABLES')
+        print_help(var=intersection, title='INTERSECTION OLD AND NEW DATA', username='CHECK INTERSECTION BETWEEN 2 TABLES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK INTERSECTION BETWEEN 2 TABLES')
 
@@ -754,9 +751,9 @@ def transfer_data_to_database():
             if not is_found:
                 only_item_has.append(item)
 
-        print_help(var=len(unique_item), title='TOTAL DATA ONLY_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_ITEM_HAS ITERATED')
+        print_help(var=len(unique_item), title='TOTAL DATA ONLY_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_ITEM_HAS ITERATED', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
-        print_help(var=only_item_has, title='DATA ONLY ITEM HAS', username='CHECK ONLY ITEM HAS')
+        print_help(var=only_item_has, title='DATA ONLY ITEM HAS', username='CHECK ONLY ITEM HAS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK ONLY ITEM HAS')
 
@@ -777,9 +774,9 @@ def transfer_data_to_database():
             if not is_found:
                 only_temp_item_has.append(temp_item)
 
-        print_help(var=len(unique_temp_item), title='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED')
+        print_help(var=len(unique_temp_item), title='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED' , username='TOTAL DATA ONLY_TEMP_ITEM_HAS ITERATED', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
-        print_help(var=only_temp_item_has, title='DATA ONLY TEMP ITEM HAS', username='CHECK ONLY TEMP ITEM HAS')
+        print_help(var=only_temp_item_has, title='DATA ONLY TEMP ITEM HAS', username='CHECK ONLY TEMP ITEM HAS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK ONLY TEMP ITEM HAS')
         
@@ -795,9 +792,9 @@ def transfer_data_to_database():
                     check_duplicate.append(item)
                     break
         
-        print_help(var=len(only_item_has), title='TOTAL DATA TO CHECK DUPLICATE ITERATED' , username='TOTAL DATA TO CHECK DUPLICATE ITERATED')
+        print_help(var=len(only_item_has), title='TOTAL DATA TO CHECK DUPLICATE ITERATED' , username='TOTAL DATA TO CHECK DUPLICATE ITERATED', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
-        print_help(var=check_duplicate, title='DATA DUPLICATE', username='CHECK DUPLICATE BETWEEN LEFT JOIN ITEM AND TEMP ITEM')
+        print_help(var=check_duplicate, title='DATA DUPLICATE', username='CHECK DUPLICATE BETWEEN LEFT JOIN ITEM AND TEMP ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK DUPLICATE BETWEEN LEFT JOIN')
         
@@ -813,7 +810,7 @@ def transfer_data_to_database():
         check_intersection = script_database(script = double_check_intersection_script)
         intersection += check_intersection
 
-        print_help(var=check_intersection, title='DOUBLE CHECK INTERSECTION', username='CHECK INTERSECTION FOR 2nd TIME')
+        print_help(var=check_intersection, title='DOUBLE CHECK INTERSECTION', username='CHECK INTERSECTION FOR 2nd TIME', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CHECK INTERSECTION FOR 2nd TIME')
 
@@ -843,7 +840,7 @@ def transfer_data_to_database():
                                 data=intersection, 
                                 message='UPDATING PRICE ITEM')
         
-        print_help(var='UPDATE PRICE ITEM', username='UPDATE PRICE INTERSECTION OLD AND NEW DATA')
+        print_help(var='UPDATE PRICE ITEM', username='UPDATE PRICE INTERSECTION OLD AND NEW DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='UPDATE PRICE INTERSECTION OLD AND NEW DATA')
 
@@ -870,7 +867,7 @@ def transfer_data_to_database():
                                 data=only_item_has, 
                                 message='UPDATING STATUS ITEM')
         
-        print_help(var='UPDATE STATUS ITEM', username='UPDATE STATUS TO 0 IF OLD DATA DOESNT EXISTS')
+        print_help(var='UPDATE STATUS ITEM', username='UPDATE STATUS TO 0 IF OLD DATA DOESNT EXISTS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='UPDATE STATUS TO 0 IF OLD DATA DOESNT EXISTS')
 
@@ -891,7 +888,7 @@ def transfer_data_to_database():
                                 fetch=True,
                                 message='FETCHING TEMP ITEM')
         
-        print_help(var=result_fetch_all_temp_item, title='RESULT FETCH ALL TEMP ITEM', username='FETCH TEMP ITEM DATA')
+        print_help(var=result_fetch_all_temp_item, title='RESULT FETCH ALL TEMP ITEM', username='FETCH TEMP ITEM DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         data_insert_temp_item = []
 
@@ -905,7 +902,7 @@ def transfer_data_to_database():
             tmp_data += (datetime.datetime.now(LOCAL_TZ), 1)
             data_insert_temp_item.append(tmp_data)
 
-        print_help(var='INSERTING NEW ITEM', username='INSERTING NEW ITEM FROM TEMP ITEM')
+        print_help(var='INSERTING NEW ITEM', username='INSERTING NEW ITEM FROM TEMP ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         insert_temp_item_script = '''
             INSERT INTO public.main_app_item( 
@@ -941,7 +938,7 @@ def transfer_data_to_database():
 
         all_ids = [ _id[0] for _id in all_ids]
 
-        print_help(var=all_ids, title='ALL NEW DATA IDS', username='FINISHED INSERTING NEW ITEM FROM TEMP ITEM')
+        print_help(var=all_ids, title='ALL NEW DATA IDS', username='FINISHED INSERTING NEW ITEM FROM TEMP ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERT NEW ITEM FROM TEMP ITEM')
 
@@ -960,7 +957,7 @@ def transfer_data_to_database():
         # Inserting Data to Table `Item`
         tmp_time_start = start_timer()
 
-        print_help(var='INSERTING ITEM', username='INSERTING ITEM FROM SCRAPING')
+        print_help(var='INSERTING ITEM', username='INSERTING ITEM FROM SCRAPING', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         insert_script = '''
             INSERT INTO public.main_app_item( 
@@ -996,7 +993,7 @@ def transfer_data_to_database():
 
         all_ids = [ _id[0] for _id in all_ids]
 
-        print_help(var=all_ids, title='ALL IDS', username='FINISHED INSERTING ITEM')
+        print_help(var=all_ids, title='ALL IDS', username='FINISHED INSERTING ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING ITEM AND CONSTRUCT IDS')
 
@@ -1018,7 +1015,7 @@ def transfer_data_to_database():
         '''
         all_item = script_database(script=fetch_all_item_script, data=[])
 
-        print_help(var=all_item, title='FETCH ALL ITEM', username='FETCH ALL ITEM TO CALCULATE DISTANCES')
+        print_help(var=all_item, title='FETCH ALL ITEM', username='FETCH ALL ITEM TO CALCULATE DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         # all_item = [ [material, title, description, weight, dimension, ....], [...], [...] ]
         all_ids, all_material, all_title, all_description, all_weight, all_dimension_length, \
@@ -1046,7 +1043,7 @@ def transfer_data_to_database():
         # Calculate Distance For Every Data
         tmp_time_start = start_timer()
 
-        print_help(var='CALCULATING DISTANCES', username='START CALCULATING DISTANCES')
+        print_help(var='CALCULATING DISTANCES', username='START CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         vectorized_X_color, color_feature_names, vectorized_X_material, material_feature_names, \
         vectorized_X_furniture_location, furniture_location_feature_names, vectorized_X_description, \
@@ -1063,12 +1060,12 @@ def transfer_data_to_database():
                                                                                                     all_furniture_location=all_furniture_location,
                                                                                                     all_color=all_color)
 
-        print_help(var='FINISHED CALCULATING DISTANCES', username='FINISHED CALCULATING DISTANCES')
+        print_help(var='FINISHED CALCULATING DISTANCES', username='FINISHED CALCULATING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='PROCESS DATA FEATURE AND DISTANCE')
 
         # Truncating Table Distances
-        print_help(var='TRUNCATING TABLE DISTANCES', username='TRUNCATE TABLE TO INSERT NEW DISTANCES')
+        print_help(var='TRUNCATING TABLE DISTANCES', username='TRUNCATE TABLE TO INSERT NEW DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         truncate_script = '''TRUNCATE TABLE main_app_distance'''
 
@@ -1087,14 +1084,14 @@ def transfer_data_to_database():
                                                                 dimension_distances=dimension_distances,
                                                                 price_distances=price_distances )
 
-        print_help(var='FINISHED CONSTRUCTING DISTANCES', username='FINISHED CONSTRUCTING DISTANCES')
+        print_help(var='FINISHED CONSTRUCTING DISTANCES', username='FINISHED CONSTRUCTING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CONSTRUCT DISTANCES')
 
         # Inserting Distances
         tmp_time_start = start_timer()
 
-        print_help(var='INSERTING DISTANCES', username='INSERTING DISTANCES')
+        print_help(var='INSERTING DISTANCES', username='INSERTING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         insert_distance_script = '''
             INSERT INTO public.main_app_distance (
@@ -1118,7 +1115,7 @@ def transfer_data_to_database():
                                 data=data_insert_distance, 
                                 message='INSERTING DISTANCE')
 
-        print_help(var='FINISHED INSERTING DISTANCES', username='FINISHED INSERTING DISTANCES')
+        print_help(var='FINISHED INSERTING DISTANCES', username='FINISHED INSERTING DISTANCES', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING DISTANCES')
 
@@ -1135,14 +1132,14 @@ def transfer_data_to_database():
                                                             all_dimension=all_dimension, 
                                                             all_price=all_price)
 
-        print_help(var='FINISHED CONSTRUCTING UPDATE ITEM', username='FINISHED CONSTRUCTING ITEM VECT DATA')
+        print_help(var='FINISHED CONSTRUCTING UPDATE ITEM', username='FINISHED CONSTRUCTING ITEM VECT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='CONSTRUCT UPDATE ITEM')
 
         # Update Item (Vect Data)
         tmp_time_start = start_timer()
         
-        print_help(var='UPDATING ITEM', username='UPDATING ITEM VECT DATA')
+        print_help(var='UPDATING ITEM', username='UPDATING ITEM VECT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         update_item_script = '''
             UPDATE public.main_app_item as t
@@ -1170,14 +1167,14 @@ def transfer_data_to_database():
                                 data=data_update_item, 
                                 message='UPDATING ITEM')
 
-        print_help(var='FINISHED UPDATING ITEM', username='FINISHED UPDATING ITEM VECT DATA')
+        print_help(var='FINISHED UPDATING ITEM', username='FINISHED UPDATING ITEM VECT DATA', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='UPDATE ITEM')
 
         # Inserting Feature
         tmp_time_start = start_timer()
         
-        print_help(var='INSERTING FEATURE', username='INSERTING FEATURE')
+        print_help(var='INSERTING FEATURE', username='INSERTING FEATURE', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         insert_feature_script = '''
             INSERT INTO public.main_app_feature(
@@ -1202,7 +1199,7 @@ def transfer_data_to_database():
                                 data=data_insert_feature, 
                                 message='INSERTING FEATURE')
 
-        print_help(var='FINISHED INSERTING FEATURE', username='FINISHED INSERTING FEATURE')
+        print_help(var='FINISHED INSERTING FEATURE', username='FINISHED INSERTING FEATURE', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         time_log = end_timer(start_time=tmp_time_start, time_log=time_log, add_time_log=True, message='INSERTING FEATURE')
 
@@ -1211,7 +1208,7 @@ def transfer_data_to_database():
     [ print(log) for log in time_log ]
 
 RUN_SCRAPING = False
-RUN_TRANSFER_DATA = True
+RUN_TRANSFER_DATA = False
 
 if __name__ == '__main__':
     if RUN_SCRAPING:
