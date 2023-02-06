@@ -14,11 +14,16 @@ current = os.path.dirname(os.path.realpath(__file__))
 parent_dir = current + os.sep + os.pardir
 sys.path.append(parent_dir)
 
-from helper_func.helper import *
-from .dict_clean import *
+from helper_func.helper import print_help, replace_multiple_char, replace_text_in_between, replace_multiple_tags, save_to_file, get_today 
+
+try: from .dict_clean import *
+except ImportError as e: from dict_clean import *
 
 from dotenv import load_dotenv
 load_dotenv()
+
+SAVE_LOG_PATH =  os.path.dirname(__file__) + os.sep + 'scraping_logs' + os.sep
+LOG_FILENAME = str(get_today()) + '.txt'
 
 def get_contact(driver):
     url = 'https://nagarey.com/about'
@@ -42,8 +47,8 @@ def get_contact(driver):
         tmp_phone = re.sub(r'\s{0,}?','',tmp_phone)
         tmp_phone = tmp_phone.strip()
 
-    print(tmp_phone)
-    print(tmp_address)
+    print_help(var=tmp_phone, title='PHONE', username='GET CONTACT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var=tmp_address, title='ADDRESS', username='GET CONTACT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     return tmp_phone, tmp_address
 
@@ -60,10 +65,10 @@ def get_category_and_links(driver):
 
             if not (category_title.lower() == 'new' or category_title.lower() == 'sale'):
                 category_link = nav.get_attribute('href')
-                print('===============')
-                print(category_link)
-                print(category_title)
-                print('===============')
+
+                print_help(var=category_link, title='CATEGORY LINK', username='GET CATEGORY AND LINKS',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var=category_title, title='CATEGORY TITLE', username='GET CATEGORY AND LINKS',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+
                 collections.append({'title':category_title, 'link':category_link})
 
         categoryList = []
@@ -106,20 +111,18 @@ def get_category_and_links(driver):
                             location.append('ruang keluarga')
                             location.append('ruang tamu')
                             break
-
-                    print('===============')
-                    print(category_link)
-                    print(category_title)
-                    print(location)
-                    print('===============')
+                            
+                    print_help(var=category_link, title='CATEGORY LINK', username='GET CATEGORY AND LINKS',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=category_title, title='CATEGORY TITLE', username='GET CATEGORY AND LINKS',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=location, title='LOCATION', username='GET CATEGORY AND LINKS',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    
                     categoryList.append({'title':category_title, 'link': category_link, 'category':location})
             else:
-                print('LIGHTING')
                 categoryList.append({'title':data['title'], 'link': data['link'], 
                                     'category':['ruang keluarga', 'ruang tamu','kamar tidur']})
         
-        print('CATEGORY LIST')
-        print(categoryList)
+        
+        print_help(var=categoryList, title='CATEGORY LIST', username='GET CATEGORY AND LINKS',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
         # Save Links to File
         filename = 'links'
@@ -130,8 +133,8 @@ def get_category_and_links(driver):
                     itemList = categoryList)
 
     except WebDriverException as e:
-        print(e)
-        print('WEB DRIVER FAILED')
+        print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 def get_every_product(driver, phone, address):
         try:
@@ -145,8 +148,6 @@ def get_every_product(driver, phone, address):
 
             productList = []
             for data in DATASET:
-                
-                print(data['link'])
                 
                 driver.get(data['link'])
 
@@ -175,14 +176,13 @@ def get_every_product(driver, phone, address):
 
                     product_picture = pic.get_attribute('src')
                     product_link = link.get_attribute('href')
+                    
+                    print_help(var=data['category'], title='PRODUCT CATEGORY', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_name, title='PRODUCT NAME', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_price, title='PRODUCT PRICE', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_picture, title='PRODUCT PICTURE', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_link, title='PRODUCT LINK', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
-                    print('================')
-                    print(data['category'])
-                    print(product_name)
-                    print(product_price)
-                    print(product_picture)
-                    print(product_link)
-                    print('================')
                     productList.append({ 'name':product_name, 'pic':product_picture,
                                         'price':product_price, 'link': product_link,
                                         'address':address, 'contact_phone':phone,
@@ -198,8 +198,8 @@ def get_every_product(driver, phone, address):
                         itemList = productList)
 
         except WebDriverException as e:
-            print(e)
-            print('SCRAPING FAILED')
+            print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+            print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
 
 def get_every_detail(driver):
@@ -208,7 +208,7 @@ def get_every_detail(driver):
         try:
             from .front_page import front_page as DATASET
         except ImportError as e:
-            print(e)
+            print_help(var=e, title='TRY IMPORT ERROR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
             from front_page import front_page as DATASET
 
         dataset_copy = []
@@ -271,22 +271,23 @@ def get_every_detail(driver):
                             dimension_width = res.group(2)
                             dimension_height = res.group(3)
                         except AttributeError as ae:
-                            print('REGEX DIMENSION #1 FAILED')
-                            print(ae)
+                            print_help(var=ae, title='EXCEPTION REGEX DIMENSION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                            print_help(var='REGEX DIMENSION #1 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                            
                             try:
                                 res = re.search(r'\b(?:[dD]ime....ns?|Ukuran)?\s?[A-Z]?([\d.,]+)\s?(?:cm)?\s?[xX]\s?[A-Z]?\s?([\d.,]+)\s?(?:cm)?\s?[xX]\s?[A-Z]?\s?([\d.,]+)\b',product_desc)
                                 dimension_length = res.group(1)
                                 dimension_width = res.group(2)
                                 dimension_height = res.group(3)
                             except AttributeError as ae:
-                                print('REGEX DIMENSION #2 FAILED')
-                                print(ae)
+                                print_help(var=ae, title='EXCEPTION REGEX DIMENSION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                                print_help(var='REGEX DIMENSION #2 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                                
                                 try:
                                     res = re.search(r'\b(?:[dD]ime....ns?|Ukuran)?(?:DIA)?[A-Z]?\s?([\d,.-]+)\s?(?:cm)?\s?[Xx]?\s?[A-Z]?\s?([\d,.-]+)\b',product_desc)
                                     dimension_length = res.group(1)
                                     dimension_width = res.group(2)
-                                    print(dimension_length)
-                                    print(dimension_width)
+                                    
                                     if '-' in dimension_length:
                                         tmp_num1 = dimension_length.split('-')[0] if dimension_length.split('-')[0] else 0
                                         tmp_num2 = dimension_length.split('-')[1] if dimension_length.split('-')[1] else 0
@@ -299,8 +300,8 @@ def get_every_detail(driver):
 
                                     dimension_height = '2'
                                 except AttributeError as ae:
-                                    print('REGEX DIMENSION #3 FAILED')
-                                    print(ae)
+                                    print_help(var=ae, title='EXCEPTION REGEX DIMENSION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                                    print_help(var='REGEX DIMENSION #3 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
                         finally:
                             dimension_length = dimension_length.replace(',','.')
@@ -338,8 +339,8 @@ def get_every_detail(driver):
                             material = replace_multiple_char(material, Nagarey_HARD_REMOVE_MATERIAL)
 
                         except AttributeError as ae:
-                            print('REGEX MATERIAL #1 FAILED')
-                            print(ae)
+                            print_help(var=ae, title='EXCEPTION REGEX MATERIAL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                            print_help(var='REGEX MATERIAL #1 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                         
 
                         # Get Color from Detail Page with Regex
@@ -362,8 +363,8 @@ def get_every_detail(driver):
                             product_color = replace_multiple_char(product_color,char_to_replace=Nagarey_COLOR_REPLACE)
                             product_color = replace_multiple_char(product_color,char_to_replace=Nagarey_HARD_REMOVE_COLOR)
                         except AttributeError as ae:
-                            print('REGEX COLOR #1 FAILED')
-                            print(ae)
+                            print_help(var=ae, title='EXCEPTION REGEX COLOR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                            print_help(var='REGEX COLOR #1 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
                         # Get Additional Description from Detail Page with Regex
                         additional_description = add_desc.get_attribute('innerHTML')
@@ -380,16 +381,24 @@ def get_every_detail(driver):
                         additional_description = additional_description.encode('ascii', 'ignore').decode()
                         additional_description = additional_description.strip()
 
-                        print('================')
-                        print(product_desc)
-                        print('MATERIAL', material)
-                        print('DIMENSION LENGTH', dimension_length)
-                        print('DIMENSION WIDTH', dimension_width)
-                        print('DIMENSION HEIGHT', dimension_height)
-                        print('DIMENSION UNIT', dimension_unit)
-                        print('COLOR ',product_color)
-                        print('IS AVAILABLE',product_is_available)
-                        print('================')
+                        print_help(var=product_desc, title='PRODUCT DESC', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        print_help(var=product_color, title='PRODUCT COLOR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        print_help(var=material, title='PRODUCT MATERIAL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        print_help(var=dimension_length, title='PRODUCT DIMENSION LENGTH', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        print_help(var=dimension_width, title='PRODUCT DIMENSION WIDTH', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        print_help(var=dimension_height, title='PRODUCT DIMENSION HEIGHT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        print_help(var=dimension_unit, title='DIMENSION UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        print_help(var=product_is_available, title='IS AVAILABLE', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                        # print('================')
+                        # print(product_desc)
+                        # print('MATERIAL', material)
+                        # print('DIMENSION LENGTH', dimension_length)
+                        # print('DIMENSION WIDTH', dimension_width)
+                        # print('DIMENSION HEIGHT', dimension_height)
+                        # print('DIMENSION UNIT', dimension_unit)
+                        # print('COLOR ',product_color)
+                        # print('IS AVAILABLE',product_is_available)
+                        # print('================')
                         
                         dataset_object = {
                             'name': data['name'],
@@ -416,8 +425,8 @@ def get_every_detail(driver):
                         dataset_copy.append(dataset_object)
             
             except WebDriverException as e:
-                print(e)
-                print('ERROR IN FOR DATASET')
+                print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var='ERROR IN FOR DATASET', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
          # Check Any Duplicate Name Because in The Database, Every Item is store with Slug
         non_duplicate = {}
@@ -438,8 +447,8 @@ def get_every_detail(driver):
                         itemList = dataset_copy)
 
     except FileExistsError as e:
-        print(e)
-        print('FILE FRONT PAGE DOESNT EXIST')
+        print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='FILE FRONT PAGE DOESNT EXIST', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 def main():
     # https://chromedriver.storage.googleapis.com/index.html
@@ -465,7 +474,7 @@ def main():
 
     start_time = time.perf_counter()
 
-    print('RUNNING NAGAREY WEB SCRAPING....')
+    print_help(var='RUNNING NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN')
 
     get_category_and_links(driver=driver)
     phone, address = get_contact(driver=driver)
@@ -474,7 +483,7 @@ def main():
 
     driver.quit()
 
-    print('FINISHED NAGAREY WEB SCRAPING....')
+    print_help(var='FINISHED NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN')
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':

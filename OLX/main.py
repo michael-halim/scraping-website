@@ -18,11 +18,16 @@ current = os.path.dirname(os.path.realpath(__file__))
 parent_dir = current + os.sep + os.pardir
 sys.path.append(parent_dir)
 
-from helper_func.helper import *
-from .dict_clean import *
+from helper_func.helper import print_help, replace_multiple_char, replace_text_in_between, replace_multiple_tags, save_to_file, get_today 
+
+try: from .dict_clean import *
+except ImportError as e: from dict_clean import *
 
 from dotenv import load_dotenv
 load_dotenv()
+
+SAVE_LOG_PATH =  os.path.dirname(__file__) + os.sep + 'scraping_logs' + os.sep
+LOG_FILENAME = str(get_today()) + '.txt'
 
 def get_every_product(driver):
         try:
@@ -38,13 +43,12 @@ def get_every_product(driver):
                 driver.get(link)
 
                 if len(driver.find_elements(By.CSS_SELECTOR, 'h3._3lWQO > span')) > 0:
-                    print('PAGE NOT FOUND, CONTINUE NEXT LINK')
+                    print_help(var='PAGE NOT FOUND, CONTINUE NEXT LINK', title='PHONE', username='GET EVERY PRODUCT', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                     continue
-
-                print('===========================')
-                print('BTN LOAD MORE LEN')
+                
+                print_help(var='BTN LOAD MORE LEN', title='PHONE', username='GET EVERY PRODUCT', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                 print(len(driver.find_elements(By.CSS_SELECTOR, 'button[data-aut-id="btnLoadMore"]')))
-                print('===========================')
+                
                 if len(driver.find_elements(By.CSS_SELECTOR, 'button[data-aut-id="btnLoadMore"]')) > 0:
                     load_more_button = driver.find_element(By.CSS_SELECTOR, 'button[data-aut-id="btnLoadMore"]')
                     load_more_button.click()
@@ -115,19 +119,17 @@ def get_every_product(driver):
                     else:
                         furniture_location += ['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga', 'ruang tamu']
 
-                    print('=============')
-                    print(product_name)
-                    print(product_price)
-                    print(product_picture)
-                    print(product_link)
-                    print('=============')
+                    print_help(var=product_name, title='PRODUCT NAME', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_price, title='PRODUCT PRICE', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_picture, title='PRODUCT PICTURE', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_link, title='PRODUCT LINK', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+
                     productList.append({'name':product_name, 'pic':product_picture,
                                         'price':product_price,'link':product_link,
                                         'address':product_address, 'furnitureLocation': furniture_location,
                                         'isProduct':0 })
             
-            print('TOTAL ITEM')
-            print(count_item)
+            print_help(var=count_item, title='TOTAL ITEM', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
             # Save data to front_page.py
             filename = 'front_page'
@@ -138,8 +140,8 @@ def get_every_product(driver):
                         itemList = productList)
 
         except WebDriverException as e:
-            print(e)
-            print('SCRAPING FAILED')
+            print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+            print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
 
 def get_every_detail(driver):
@@ -149,18 +151,18 @@ def get_every_detail(driver):
         password = os.environ.get('PASSWORD_OLX')
         driver.get('http://olx.co.id')
 
-        print('WAIT VISIBILITY LOGIN BUTTON ELEMENT')
+        print_help(var='WAIT VISIBILITY LOGIN BUTTON ELEMENT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         WebDriverWait(driver, 10).until(
             EC.presence_of_element_located(
                 (By.CSS_SELECTOR, 'button[data-aut-id="btnLogin"]')
                 )
             )
-        print('GET LOGIN BUTTON ELEMENT')
-
+        print_help(var='GET LOGIN BUTTON ELEMENT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        
         login_button = driver.find_element(By.CSS_SELECTOR,'button[data-aut-id="btnLogin"]')
         login_button.click()
 
-        print('GET EMAIL BUTTON ELEMENT')
+        print_help(var='GET EMAIL BUTTON ELEMENT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         WebDriverWait(driver, 10).until(
             EC.visibility_of_any_elements_located(
                 (By.CSS_SELECTOR, 'button[data-aut-id="emailLogin"]')
@@ -169,8 +171,7 @@ def get_every_detail(driver):
         email_login = driver.find_element(By.CSS_SELECTOR,'button[data-aut-id="emailLogin"]')
         email_login.click()
         
-
-        print('WAIT VISIBILITY INPUT EMAIL ELEMENTS')
+        print_help(var='WAIT VISIBILITY INPUT EMAIL ELEMENTS', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         WebDriverWait(driver, 10).until(
             EC.visibility_of_any_elements_located(
                 (By.CSS_SELECTOR, 'input#email_input_field')
@@ -178,22 +179,22 @@ def get_every_detail(driver):
             )
 
         time.sleep(3)
-        print('INSERT EMAIL INPUT')
+        print_help(var='INSERT EMAIL INPUT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         email_input = driver.find_element(By.CSS_SELECTOR,'input#email_input_field')
         email_input.clear()
         for letter in email:
             email_input.send_keys(letter)
             time.sleep(random.random())
         
-        
-        print('SUBMIT EMAIL INPUT')
+        print_help(var='SUBMIT EMAIL INPUT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         submit_button = driver.find_element(By.CSS_SELECTOR,'button.rui-39-wj.rui-3mpqt.rui-1JPTg._2sWUW')
+        
         print('DID IT FOUND THE ELEMENT ',submit_button)
         time.sleep(3)
         submit_button.click()
 
         time.sleep(3)
-        print('WAIT VISIBILITY INPUT PASSWORD ELEMENTS')
+        print_help(var='WAIT VISIBILITY INPUT PASSWORD ELEMENTS', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         WebDriverWait(driver, 10).until(
             EC.visibility_of_any_elements_located(
                 (By.CSS_SELECTOR, 'input#password')
@@ -201,11 +202,11 @@ def get_every_detail(driver):
         )
 
         time.sleep(3)
-        print('INSERT PASSWORD INPUT')
+        print_help(var='INSERT PASSWORD INPUT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         password_input = driver.find_element(By.CSS_SELECTOR,'input#password')
         password_input.send_keys(password)
 
-        print('SUBMIT PASSWORD')
+        print_help(var='SUBMIT PASSWORD', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         submit_login = driver.find_element(By.CSS_SELECTOR,'button[data-aut-id="login-form-submit"]')
         time.sleep(3)
         submit_login.click()
@@ -213,8 +214,8 @@ def get_every_detail(driver):
         time.sleep(5)
 
     except WebDriverException as e:
-        print(e)
-        print('NOT LOGGED IN')
+        print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='NOT LOGGED IN', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     # Try to get information after logged in
     try:
@@ -222,7 +223,7 @@ def get_every_detail(driver):
         try:
             from .front_page import front_page as DATASET
         except ImportError as e:
-            print(e)
+            print_help(var=e, title='TRY IMPORT ERROR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
             from front_page import front_page as DATASET
 
         dataset_copy = []
@@ -247,10 +248,7 @@ def get_every_detail(driver):
                 contact_phone = contact_phone.get_attribute('innerHTML')
                 contact_phone = contact_phone.replace('+','')
                 
-                print('===========================')
-                print('CONTACT PHONE')
-                print(contact_phone)
-                print('===========================')
+                print_help(var=contact_phone, title='PHONE', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
                 for desc in product_descriptions:
                     # Get Product Description and Preprocess it
@@ -308,25 +306,39 @@ def get_every_detail(driver):
                         if count % 2 == 0:
                             additional_description += '<br>'
 
-                    print('==================')
-                    print('ORIGINAL LINK')
-                    print(data['link'])
+                    print_help(var=data['link'], title='ORIGINAL LINK', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_desc, title='PRODUCT DESC', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=additional_description, title='ADDITIONAL DESC', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=product_color, title='PRODUCT COLOR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=material, title='PRODUCT MATERIAL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=dimension_length, title='PRODUCT DIMENSION LENGTH', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=dimension_width, title='PRODUCT DIMENSION WIDTH', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=dimension_height, title='PRODUCT DIMENSION HEIGHT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=dimension_unit, title='DIMENSION UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=weight, title='PRODUCT WEIGHT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=weight_unit, title='WEIGHT UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=data['furnitureLocation'], title='FURNITURE LOCATION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var=contact_phone, title='CONTACT PHONE', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
-                    print(product_desc)
-                    print('ADDITIONAL DESCRIPTION')
-                    print(additional_description)
+                    # print('==================')
+                    # print('ORIGINAL LINK')
+                    # print(data['link'])
 
-                    print('COLOR',product_color)
-                    print('MATERIAL',material)
-                    print('DIMENSION LENGTH',dimension_length)
-                    print('DIMENSION WIDTH',dimension_width)
-                    print('DIMENSION HEIGHT',dimension_height)
-                    print('DIMENSION UNIT',dimension_unit)
-                    print('WEIGHT',weight)
-                    print('WEIGHT UNIT',weight_unit)
-                    print('FURNITURE LOCATION', data['furnitureLocation'])
-                    print('CONTACT PHONE', contact_phone)
-                    print('==================')
+                    # print(product_desc)
+                    # print('ADDITIONAL DESCRIPTION')
+                    # print(additional_description)
+
+                    # print('COLOR',product_color)
+                    # print('MATERIAL',material)
+                    # print('DIMENSION LENGTH',dimension_length)
+                    # print('DIMENSION WIDTH',dimension_width)
+                    # print('DIMENSION HEIGHT',dimension_height)
+                    # print('DIMENSION UNIT',dimension_unit)
+                    # print('WEIGHT',weight)
+                    # print('WEIGHT UNIT',weight_unit)
+                    # print('FURNITURE LOCATION', data['furnitureLocation'])
+                    # print('CONTACT PHONE', contact_phone)
+                    # print('==================')
                     
                     dataset_object = {
                             'name': data['name'],
@@ -353,8 +365,8 @@ def get_every_detail(driver):
                     dataset_copy.append(dataset_object)
                 count_item += 1
             except WebDriverException as e:
-                print(e)
-                print('ERROR IN FOR DATASET')
+                print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var='ERROR IN FOR DATASET', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         # Check Any Duplicate Name Because in The Database, Every Item is store with Slug
         non_duplicate = {}
@@ -362,9 +374,6 @@ def get_every_detail(driver):
         for data in dataset_copy:
             non_duplicate[data['name']] = data
 
-        print('TOTAL ITEM SCRAPED')
-        print(count_item)
-        
         dataset_copy = []
         for data in non_duplicate:
             dataset_copy.append(non_duplicate[data])
@@ -378,8 +387,8 @@ def get_every_detail(driver):
                         itemList = dataset_copy)
 
     except FileExistsError as e:
-        print(e)
-        print('FILE FRONT PAGE DOESNT EXIST')
+        print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='FILE FRONT PAGE DOESNT EXIST', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 def main():
     # https://chromedriver.storage.googleapis.com/index.html
@@ -405,14 +414,14 @@ def main():
     driver.delete_all_cookies()
     start_time = time.perf_counter()
     
-    print('RUNNING OLX WEB SCRAPING....')
+    print_help(var='RUNNING OLX WEB SCRAPING....', title='OLX WEB SCRAPING', username='MAIN')
 
     get_every_product(driver=driver)
     get_every_detail(driver=driver)
 
     driver.quit()
 
-    print('FINSIHED OLX WEB SCRAPING....')
+    print_help(var='FINSIHED OLX WEB SCRAPING....', title='OLX WEB SCRAPING', username='MAIN')
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':
