@@ -389,16 +389,6 @@ def get_every_detail(driver):
                         print_help(var=dimension_height, title='PRODUCT DIMENSION HEIGHT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                         print_help(var=dimension_unit, title='DIMENSION UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                         print_help(var=product_is_available, title='IS AVAILABLE', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                        # print('================')
-                        # print(product_desc)
-                        # print('MATERIAL', material)
-                        # print('DIMENSION LENGTH', dimension_length)
-                        # print('DIMENSION WIDTH', dimension_width)
-                        # print('DIMENSION HEIGHT', dimension_height)
-                        # print('DIMENSION UNIT', dimension_unit)
-                        # print('COLOR ',product_color)
-                        # print('IS AVAILABLE',product_is_available)
-                        # print('================')
                         
                         dataset_object = {
                             'name': data['name'],
@@ -474,7 +464,7 @@ def main():
 
     start_time = time.perf_counter()
 
-    print_help(var='RUNNING NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN')
+    print_help(var='RUNNING NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     get_category_and_links(driver=driver)
     phone, address = get_contact(driver=driver)
@@ -483,7 +473,7 @@ def main():
 
     driver.quit()
 
-    print_help(var='FINISHED NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN')
+    print_help(var='FINISHED NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':

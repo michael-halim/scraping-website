@@ -309,21 +309,6 @@ def get_every_detail(driver):
                         print_help(var=weight_unit, title='WEIGHT UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                         print_help(var=is_available_object.get_attribute('innerHTML'), title='IS AVAILABLE', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
-                        # print('================')
-                        # print(product_desc)
-                        # print('ADDITIONAL DESC')
-                        # print(additional_desc)
-                        # print('MATERIAL', material)
-                        # print('DIMENSION LENGTH', dimension_length)
-                        # print('DIMENSION WIDTH', dimension_width)
-                        # print('DIMENSION HEIGHT', dimension_height)
-                        # print('DIMENSION UNIT', dimension_unit)
-                        # print('COLOR ',product_color)
-                        # print('WEIGHT ',weight)
-                        # print('WEIGHT UNIT',weight_unit)
-                        # print('IS AVAILABLE',is_available_object.get_attribute('innerHTML'))
-                        # print('================')
-                        
                         dataset_object = {
                             'name': data['name'],
                             'pic': data['pic'],
@@ -397,7 +382,7 @@ def main():
     driver.implicitly_wait(15)
     
     start_time = time.perf_counter()
-    print_help(var='RUNNING ATESON HOME WEB SCRAPING....', title='ATESON HOME WEB SCRAPING', username='MAIN')
+    print_help(var='RUNNING ATESON HOME WEB SCRAPING....', title='ATESON HOME WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     get_category_and_links(driver=driver)
     phone, address = get_contact(driver=driver)
@@ -406,7 +391,7 @@ def main():
     
     driver.quit()
     
-    print_help(var='FNISIHED ATESON HOME WEB SCRAPING....', title='ATESON HOME WEB SCRAPING', username='MAIN')
+    print_help(var='FNISIHED ATESON HOME WEB SCRAPING....', title='ATESON HOME WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':

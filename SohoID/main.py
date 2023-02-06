@@ -456,17 +456,6 @@ def get_every_detail(driver):
                     print_help(var=dimension_unit, title='DIMENSION UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                     print_help(var=color, title='PRODUCT COLOR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                     
-                    # print('================')
-                    # print(product_desc)
-                    # print(splitted_info)
-                    # print('MATERIAL', material)
-                    # print('DIMENSION LENGTH', dimension_length)
-                    # print('DIMENSION WIDTH', dimension_width)
-                    # print('DIMENSION HEIGHT', dimension_height)
-                    # print('DIMENSION UNIT', dimension_unit)
-                    # print('COLOR ',color)
-                    # print('================')
-
                     dataset_object = {
                             'name': data['name'],
                             'pic': data['pic'],
@@ -540,7 +529,7 @@ def main():
     driver.implicitly_wait(15)
 
     start_time = time.perf_counter()
-    print_help(var='RUNNING NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN')
+    print_help(var='RUNNING NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     get_all_link(driver=driver)
     phone, address = get_contact(driver=driver)
@@ -549,7 +538,7 @@ def main():
 
     driver.quit()
 
-    print_help(var='FINISHED NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN')
+    print_help(var='FINISHED NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':
