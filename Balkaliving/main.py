@@ -265,22 +265,6 @@ def get_every_detail(driver):
                 print_help(var=data['weight'], title='PRODUCT WEIGHT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                 print_help(var=data['weight_unit'], title='WEIGHT UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
-                # print('================')
-                # print(product_descriptions)
-                # print('ADDITIONAL DESC')
-                # print(product_additional_information)
-                # print('MATERIAL', material)
-                # print('DIMENSION LENGTH', data['dimension_length'])
-                # print('DIMENSION WIDTH', data['dimension_width'])
-                # print('DIMENSION HEIGHT', data['dimension_height'])
-                # print('DIMENSION UNIT', data['dimension_unit'])
-                # print('COLOR ',data['color'])
-                # print('WEIGHT ',data['weight'])
-                # print('WEIGHT UNIT',data['weight_unit'])
-                # print('================')
-
-                # print("COMPLETE DATA")
-                # print(data)
             except WebDriverException as e:
                 print('INSIDE EVERY PRODUCT')
                 print(e)
@@ -329,7 +313,7 @@ def main():
     driver.implicitly_wait(15)
 
     start_time = time.perf_counter()
-    print_help(var='RUNNING BALKALIVING WEB SCRAPING....', title='BALKALIVING WEB SCRAPING', username='MAIN')
+    print_help(var='RUNNING BALKALIVING WEB SCRAPING....', title='BALKALIVING WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     phone, address = get_contact(driver=driver)
     get_every_product(driver=driver, phone=phone, address=address)
@@ -337,7 +321,7 @@ def main():
     
     driver.quit()
 
-    print_help(var='FINISHED BALKALIVING WEB SCRAPING....', title='BALKALIVING WEB SCRAPING', username='MAIN')
+    print_help(var='FINISHED BALKALIVING WEB SCRAPING....', title='BALKALIVING WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':

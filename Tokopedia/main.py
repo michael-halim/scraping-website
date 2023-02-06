@@ -247,25 +247,6 @@ def get_every_detail(driver):
                         print_help(var=weight_unit, title='WEIGHT UNIT', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                         print_help(var=furniture_location, title='FURNITURE LOCATION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
-                        # print('==================')
-                        # print('ORIGINAL LINK')
-                        # print(data['link'])
-
-                        # print(product_desc)
-                        # print('ADDITIONAL DESCRIPTION')
-                        # print(additional_description)
-
-                        # print('COLOR',product_color)
-                        # print('MATERIAL',material)
-                        # print('DIMENSION LENGTH',dimension_length)
-                        # print('DIMENSION WIDTH',dimension_width)
-                        # print('DIMENSION HEIGHT',dimension_height)
-                        # print('DIMENSION UNIT',dimension_unit)
-                        # print('WEIGHT',weight)
-                        # print('WEIGHT UNIT',weight_unit)
-                        # print('FURNITURE LOCATION', furniture_location)
-                        # print('==================')
-
                         dataset_object = {
                                 'name': data['name'],
                                 'pic': data['pic'],
@@ -291,8 +272,9 @@ def get_every_detail(driver):
                         dataset_copy.append(dataset_object)
                 count_item += 1
             except WebDriverException as e:
-                print(e)
-                print('ERROR IN FOR DATASET')
+                print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var='ERROR IN FOR DATASET', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        
         
         print_help(var=jenis_kategori, title='JENIS KATEGORI', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
@@ -321,6 +303,7 @@ def get_every_detail(driver):
         print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         print_help(var='FILE FRONT PAGE DOESNT EXIST', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
+
 def main():
     # https://chromedriver.storage.googleapis.com/index.html
     s = Service(os.environ.get('CHROMEDRIVER_PATH_DEVELOPMENT'))
@@ -343,14 +326,14 @@ def main():
     driver.implicitly_wait(15)
 
     start_time = time.perf_counter()
-    print_help(var='RUNNING TOKOPEDIA WEB SCRAPING....', title='TOKOPEDIA WEB SCRAPING', username='MAIN')
+    print_help(var='RUNNING TOKOPEDIA WEB SCRAPING....', title='TOKOPEDIA WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     get_every_product(driver=driver)
     get_every_detail(driver=driver)
 
     driver.quit()
     
-    print_help(var='FINISHED TOKOPEDIA WEB SCRAPING....', title='TOKOPEDIA WEB SCRAPING', username='MAIN')
+    print_help(var='FINISHED TOKOPEDIA WEB SCRAPING....', title='TOKOPEDIA WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':
