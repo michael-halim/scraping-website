@@ -134,7 +134,7 @@ def get_category_and_links(driver):
 
     except WebDriverException as e:
         print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-        print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='SCRAPING FAILED', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 def get_every_product(driver, phone, address):
         try:
@@ -199,7 +199,7 @@ def get_every_product(driver, phone, address):
 
         except WebDriverException as e:
             print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-            print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+            print_help(var='SCRAPING FAILED', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
 
 def get_every_detail(driver):
@@ -272,7 +272,7 @@ def get_every_detail(driver):
                             dimension_height = res.group(3)
                         except AttributeError as ae:
                             print_help(var=ae, title='EXCEPTION REGEX DIMENSION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                            print_help(var='REGEX DIMENSION #1 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                            print_help(var='REGEX DIMENSION #1 FAILED', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                             
                             try:
                                 res = re.search(r'\b(?:[dD]ime....ns?|Ukuran)?\s?[A-Z]?([\d.,]+)\s?(?:cm)?\s?[xX]\s?[A-Z]?\s?([\d.,]+)\s?(?:cm)?\s?[xX]\s?[A-Z]?\s?([\d.,]+)\b',product_desc)
@@ -281,7 +281,7 @@ def get_every_detail(driver):
                                 dimension_height = res.group(3)
                             except AttributeError as ae:
                                 print_help(var=ae, title='EXCEPTION REGEX DIMENSION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                                print_help(var='REGEX DIMENSION #2 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                                print_help(var='REGEX DIMENSION #2 FAILED', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                                 
                                 try:
                                     res = re.search(r'\b(?:[dD]ime....ns?|Ukuran)?(?:DIA)?[A-Z]?\s?([\d,.-]+)\s?(?:cm)?\s?[Xx]?\s?[A-Z]?\s?([\d,.-]+)\b',product_desc)
@@ -301,7 +301,7 @@ def get_every_detail(driver):
                                     dimension_height = '2'
                                 except AttributeError as ae:
                                     print_help(var=ae, title='EXCEPTION REGEX DIMENSION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                                    print_help(var='REGEX DIMENSION #3 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                                    print_help(var='REGEX DIMENSION #3 FAILED', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
                         finally:
                             dimension_length = dimension_length.replace(',','.')
@@ -340,7 +340,7 @@ def get_every_detail(driver):
 
                         except AttributeError as ae:
                             print_help(var=ae, title='EXCEPTION REGEX MATERIAL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                            print_help(var='REGEX MATERIAL #1 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                            print_help(var='REGEX MATERIAL #1 FAILED', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                         
 
                         # Get Color from Detail Page with Regex
@@ -364,7 +364,7 @@ def get_every_detail(driver):
                             product_color = replace_multiple_char(product_color,char_to_replace=Nagarey_HARD_REMOVE_COLOR)
                         except AttributeError as ae:
                             print_help(var=ae, title='EXCEPTION REGEX COLOR', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                            print_help(var='REGEX COLOR #1 FAILED', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                            print_help(var='REGEX COLOR #1 FAILED', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
                         # Get Additional Description from Detail Page with Regex
                         additional_description = add_desc.get_attribute('innerHTML')
@@ -416,7 +416,7 @@ def get_every_detail(driver):
             
             except WebDriverException as e:
                 print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                print_help(var='ERROR IN FOR DATASET', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var='ERROR IN FOR DATASET', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
          # Check Any Duplicate Name Because in The Database, Every Item is store with Slug
         non_duplicate = {}
@@ -438,7 +438,7 @@ def get_every_detail(driver):
 
     except FileExistsError as e:
         print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-        print_help(var='FILE FRONT PAGE DOESNT EXIST', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='FILE FRONT PAGE DOESNT EXIST', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 def main():
     # https://chromedriver.storage.googleapis.com/index.html
@@ -464,7 +464,7 @@ def main():
 
     start_time = time.perf_counter()
 
-    print_help(var='RUNNING NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var='RUNNING NAGAREY WEB SCRAPING....', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     get_category_and_links(driver=driver)
     phone, address = get_contact(driver=driver)
@@ -473,7 +473,7 @@ def main():
 
     driver.quit()
 
-    print_help(var='FINISHED NAGAREY WEB SCRAPING....', title='NAGAREY WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var='FINISHED NAGAREY WEB SCRAPING....', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':
