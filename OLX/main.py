@@ -43,10 +43,10 @@ def get_every_product(driver):
                 driver.get(link)
 
                 if len(driver.find_elements(By.CSS_SELECTOR, 'h3._3lWQO > span')) > 0:
-                    print_help(var='PAGE NOT FOUND, CONTINUE NEXT LINK', title='PHONE', username='GET EVERY PRODUCT', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                    print_help(var='PAGE NOT FOUND, CONTINUE NEXT LINK', username='GET EVERY PRODUCT', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                     continue
                 
-                print_help(var='BTN LOAD MORE LEN', title='PHONE', username='GET EVERY PRODUCT', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var='BTN LOAD MORE LEN', username='GET EVERY PRODUCT', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
                 print(len(driver.find_elements(By.CSS_SELECTOR, 'button[data-aut-id="btnLoadMore"]')))
                 
                 if len(driver.find_elements(By.CSS_SELECTOR, 'button[data-aut-id="btnLoadMore"]')) > 0:
@@ -141,7 +141,7 @@ def get_every_product(driver):
 
         except WebDriverException as e:
             print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-            print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+            print_help(var='SCRAPING FAILED', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
 
 def get_every_detail(driver):
@@ -346,7 +346,7 @@ def get_every_detail(driver):
                 count_item += 1
             except WebDriverException as e:
                 print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                print_help(var='ERROR IN FOR DATASET', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var='ERROR IN FOR DATASET', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         # Check Any Duplicate Name Because in The Database, Every Item is store with Slug
         non_duplicate = {}
@@ -368,7 +368,7 @@ def get_every_detail(driver):
 
     except FileExistsError as e:
         print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-        print_help(var='FILE FRONT PAGE DOESNT EXIST', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='FILE FRONT PAGE DOESNT EXIST', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 def main():
     # https://chromedriver.storage.googleapis.com/index.html
@@ -394,14 +394,14 @@ def main():
     driver.delete_all_cookies()
     start_time = time.perf_counter()
     
-    print_help(var='RUNNING OLX WEB SCRAPING....', title='OLX WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var='RUNNING OLX WEB SCRAPING....', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     get_every_product(driver=driver)
     get_every_detail(driver=driver)
 
     driver.quit()
 
-    print_help(var='FINSIHED OLX WEB SCRAPING....', title='OLX WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var='FINSIHED OLX WEB SCRAPING....', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
 
 if __name__ == '__main__':

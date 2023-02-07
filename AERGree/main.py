@@ -103,7 +103,7 @@ def get_every_product(driver, phone, address):
 
         except WebDriverException as e:
             print_help(var=e, title='EXCEPTION', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-            print_help(var='SCRAPING FAILED', title='GET EVERY PRODUCT', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+            print_help(var='SCRAPING FAILED', username='GET EVERY PRODUCT',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 
 def get_every_detail(driver):
@@ -256,7 +256,7 @@ def get_every_detail(driver):
 
             except WebDriverException as e:
                 print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-                print_help(var='ERROR IN FOR DATASET', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+                print_help(var='ERROR IN FOR DATASET', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
         
         # Check Any Duplicate Name Because in The Database, Every Item is store with Slug
         non_duplicate = {}
@@ -278,7 +278,7 @@ def get_every_detail(driver):
 
     except FileExistsError as e:
         print_help(var=e, title='EXCEPTION', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
-        print_help(var='FILE FRONT PAGE DOESNT EXIST', title='GET EVERY DETAIL', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+        print_help(var='FILE FRONT PAGE DOESNT EXIST', username='GET EVERY DETAIL',save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
 
 def main():
@@ -304,7 +304,7 @@ def main():
     driver.implicitly_wait(15)
 
     start_time = time.perf_counter()
-    print_help(var='RUNNING AER GREE WEB SCRAPING....', title='AER GREE WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var='RUNNING AER GREE WEB SCRAPING....', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     
     phone, address = get_contact(driver=driver)
     get_every_product(driver=driver, phone=phone, address=address)
@@ -312,7 +312,7 @@ def main():
 
     driver.quit()
     
-    print_help(var='FINISHED AER GREE WEB SCRAPING....', title='AER GREE WEB SCRAPING', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
+    print_help(var='FINISHED AER GREE WEB SCRAPING....', username='MAIN', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     print('--- %s ---' % (datetime.timedelta(seconds = time.perf_counter() - start_time)))
     
 if __name__ == '__main__':

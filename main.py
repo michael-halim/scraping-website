@@ -1207,8 +1207,8 @@ def transfer_data_to_database():
 
     [ print(log) for log in time_log ]
 
-RUN_SCRAPING = False
-RUN_TRANSFER_DATA = False
+RUN_SCRAPING = True if os.environ.get('RUN_SCRAPING') == 'True' else False
+RUN_TRANSFER_DATA = True if os.environ.get('RUN_TRANSFER_DATA') == 'True' else False
 
 if __name__ == '__main__':
     if RUN_SCRAPING:
