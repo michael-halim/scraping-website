@@ -1,3 +1,6 @@
+AERDekoruma_EXCEPTION_PRODUCT_KEYWORD = [
+    'fcp 7611'
+]
 AERDekoruma_CHAR_TO_REPLACE = {
     'hitam':'black',
     'metalik':'metalic',

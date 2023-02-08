@@ -63,6 +63,8 @@ def get_every_product(driver):
                     product_name = name.get_attribute('innerHTML')
                     product_name = product_name.encode('ascii', 'ignore').decode()
 
+                    if Tokopedia_EXCEPTION_PRODUCT_KEYWORD in product_name.lower():
+                        break
                     
                     product_price = price.get_attribute('innerHTML')
                     char_to_replace = {

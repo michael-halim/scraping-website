@@ -87,6 +87,9 @@ def get_every_product(driver):
                     product_name = product_name.encode('ascii', 'ignore').decode()
                     product_name = product_name.replace('&amp;','dan')
 
+                    if OLX_EXCEPTION_PRODUCT_KEYWORD in product_name.lower():
+                        continue
+                    
                     product_price = price.get_attribute('innerHTML')
                     char_to_replace = {
                         '<!--':'',
