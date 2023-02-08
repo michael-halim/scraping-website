@@ -26,7 +26,7 @@ except ImportError as e: from dict_clean import *
 from dotenv import load_dotenv
 load_dotenv()
 
-SAVE_LOG_PATH =  os.path.dirname(__file__) + os.sep + 'scraping_logs' + os.sep
+SAVE_LOG_PATH =  os.path.join(os.path.dirname(__file__), 'scraping_logs')
 LOG_FILENAME = str(get_today()) + '.txt'
 
 def get_every_product(driver):

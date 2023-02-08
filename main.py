@@ -1,16 +1,18 @@
+from ml_helper import *
+from helper_func.helper import start_timer, end_timer, get_today, LOCAL_TZ, print_help, show_error_message
+
 import psycopg2
 import psycopg2.extras
 import os
 from slugify import slugify
-from ml_helper import *
-from helper_func.helper import start_timer, end_timer, get_today, LOCAL_TZ, print_help, show_error_message
 import numpy as np
 import datetime
+import time
 
 from dotenv import load_dotenv
 load_dotenv()
 
-SAVE_LOG_PATH =  os.path.dirname(__file__) + os.sep + 'scraping_logs' + os.sep
+SAVE_LOG_PATH =  os.path.join(os.path.dirname(__file__), 'scraping_logs')
 LOG_FILENAME = str(get_today()) + '.txt'
 
 def get_all_data():
@@ -138,7 +140,7 @@ def get_all_data():
             ]
 
 def run_all_web_scraper():
-    import time
+    """Run Scraping of Every Module"""
 
     start_time_parent = time.perf_counter()
 
@@ -184,8 +186,16 @@ def run_all_web_scraper():
 
 
 def process_data_item():
+    """Construct Data to Update Feature and Distances
+    >>> data = process_data_item()
+    >>> print(data)
+    >>> [ data_insert, tmp_data_insert ]
+    `data_insert` is Data Constructed To Be Inserted To `Item` Table
+    `tmp_data_insert` is Data Constructed To Be Inserted To `Tempitem` Table
+    """
+
     all_records = get_all_data()
-    data_insert_check_time, tmp_data_insert = [], []
+    data_insert, tmp_data_insert = [], []
     
     for record in all_records:
         for data in record[0]:
@@ -231,7 +241,7 @@ def process_data_item():
                     datetime.datetime.now(LOCAL_TZ)
                 )
             )
-            data_insert_check_time.append( 
+            data_insert.append( 
                 (
                     data['name'], 
                     slug,
@@ -259,7 +269,7 @@ def process_data_item():
             )
         print_help(var=str(record[1]) + ' DATA PROCESSED SUCCESSFULY', username='PROCESS DATA ITEM', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     
-    return data_insert_check_time, tmp_data_insert
+    return data_insert, tmp_data_insert
 
 def process_data_feature_and_distance(all_material, 
                                         all_title, 
@@ -271,6 +281,12 @@ def process_data_feature_and_distance(all_material,
                                         all_price, 
                                         all_furniture_location, 
                                         all_color):
+    """Construct Data to Update Feature and Distances
+    >>> data = process_data_feature_and_distance(all_material, all_title, all_description, all_weight, all_dimension_length, all_dimension_width,all_dimension_height, all_price, all_furniture_location, all_color)
+    >>> print(data)
+    >>> [ vect_X_clr, clr_ftr_nms, vect_X_mat, mat_ftr_nms, vect_X_fur_loc, fur_loc_ftr_nms, vect_X_desc, desc_ftr_nms, vect_X_title, title_ftr_nms, col_dist, mat_dist, desc_dist, title_dist, fur_loc_dist, all_weight, all_price, all_dim, weight_dist, dim_dist, price_dist ]
+    """
+
     print_help(var='BAG OF WORDS CATEGORICAL', username='CALCULATING BAG OF WORDS', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
 
     # Get Vectorized_X and Feature Names for Categorical Featuers
@@ -340,15 +356,22 @@ def construct_distances(all_ids,
                         weight_distances, 
                         dimension_distances, 
                         price_distances):
+    """Construct Data Distances
+    >>> data = construct_distances(all_ids, color_distances, material_distances, description_distances,  title_distances,  furniture_location_distances, weight_distances,  dimension_distances,  price_distances)
+    >>> print(data)
+    >>> [ _id, other_id, color_dist, title_dist, desc_dist, material_dist, weight_dist, dimension_dist, price_dist, furniture_location_dist, total_dist, 99.0, '' ]
+    `99.0` is temp_distances
+    '' is feature_added
+    """
 
-    data_insert_distance_check_time = []
+    data_insert_distance = []
     for i in range(len(all_ids)):
         for j in range(i, len(all_ids)-1):
             
             total_distance = float(color_distances[i][j]) + float(title_distances[i][j]) + float(description_distances[i][j]) + float(material_distances[i][j]) \
                     + float(weight_distances[i][j]) + float(dimension_distances[i][j]) + float(price_distances[i][j]) + float(furniture_location_distances[i][j])
             
-            data_insert_distance_check_time.append( 
+            data_insert_distance.append( 
                 (
                     all_ids[i],
                     all_ids[j],
@@ -379,7 +402,7 @@ def construct_distances(all_ids,
                 print(f'{i}th => {j}th')
                 print('====================================')   
 
-    return data_insert_distance_check_time
+    return data_insert_distance
 
 def construct_update_item(vectorized_X_color,
                             vectorized_X_material,
@@ -390,6 +413,11 @@ def construct_update_item(vectorized_X_color,
                             all_weight, 
                             all_dimension, 
                             all_price):
+    """Construct Data to Update Item
+    >>> data = construct_update_item(vect_X_color, vect_X_material, vect_X_description, vect_X_title, vect_X_furniture_location, all_ids,  all_weight, all_dimension, all_price)
+    >>> print(data)
+    >>> [ id, str(vector_color), str(vector_material), str(vector_description), str(vector_name), str(vector_furniture_location), weight, dimension, price ]
+    """
 
     print_help(var='VECT X COLOR', username='MAKE LIST VECTORIZED COLOR', save_log_path=SAVE_LOG_PATH, log_filename=LOG_FILENAME)
     vectorized_X_color = vectorized_X_color.tolist()
@@ -548,8 +576,6 @@ def transfer_data_to_database():
 
     script = 'SELECT COUNT(*) FROM public.main_app_item'
     count_item_rows = count_item(script=script, data=[])
-    check_count_item_rows = try_catch_insert_data(script=script, data=[], fetch=True)
-    print(check_count_item_rows)
     
     if count_item_rows > 0:
         # Get Data From Every Module
