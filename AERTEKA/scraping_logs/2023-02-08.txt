@@ -1,0 +1,2687 @@
+============================================
+2023-02-08 17:32:38.154900+07:00
+USERNAME: MAIN
+RUNNING AER TEKA WEB SCRAPING....
+========================================================================================
+2023-02-08 17:32:41.436979+07:00
+USERNAME: GET CONTACT
+PHONE
+081905946583
+ORIGINAL LENGTH : 12
+========================================================================================
+2023-02-08 17:32:41.437276+07:00
+USERNAME: GET CONTACT
+ADDRESS
+Jl. KH. Ahmad Dahlan Kby. No.59,Kramat Pela, Kebayoran Baru,Jakarta Selatan
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 17:32:48.420170+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA BES 43 S/S Undermount Sink
+ORIGINAL LENGTH : 31
+========================================================================================
+2023-02-08 17:32:48.420419+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1666000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:48.420491+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-442191.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:48.420554+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-442191/TEKA-BES-43-S/S-Undermount-Sink
+ORIGINAL LENGTH : 70
+========================================================================================
+2023-02-08 17:32:48.709833+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA EBRO 1B Topmount Sink
+ORIGINAL LENGTH : 26
+========================================================================================
+2023-02-08 17:32:48.710128+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2303000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:48.710206+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-427875.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:48.710273+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-427875/TEKA-EBRO-1B-Topmount-Sink
+ORIGINAL LENGTH : 65
+========================================================================================
+2023-02-08 17:32:48.853180+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA BE LINEA RS15 40.40 Undermount Sink
+ORIGINAL LENGTH : 40
+========================================================================================
+2023-02-08 17:32:48.853411+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+767667
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:32:48.853480+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-427874.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:48.853536+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-427874/TEKA-BE-LINEA-RS15-40.40-Undermount-Sink
+ORIGINAL LENGTH : 79
+========================================================================================
+2023-02-08 17:32:48.959609+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA BE 39 Undermount Sink
+ORIGINAL LENGTH : 26
+========================================================================================
+2023-02-08 17:32:48.959851+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4060000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:48.960032+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-427833.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:48.960150+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-427833/TEKA-BE-39-Undermount-Sink
+ORIGINAL LENGTH : 65
+========================================================================================
+2023-02-08 17:32:49.036144+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA DBB 70 INOX Chimney Hood Wall Concept Pyramid 70cm
+ORIGINAL LENGTH : 55
+========================================================================================
+2023-02-08 17:32:49.036395+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1353334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.036476+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-427828.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.036545+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-427828/TEKA-DBB-70-INOX-Chimney-Hood-Wall-Concept-Pyramid-70cm
+ORIGINAL LENGTH : 94
+========================================================================================
+2023-02-08 17:32:49.114483+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA IBS 64900 TCS Kompor Listrik Induksi 60cm
+ORIGINAL LENGTH : 46
+========================================================================================
+2023-02-08 17:32:49.114718+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1953000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.114795+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-427811.jpeg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 98
+========================================================================================
+2023-02-08 17:32:49.114948+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-427811/TEKA-IBS-64900-TCS-Kompor-Listrik-Induksi-60cm
+ORIGINAL LENGTH : 85
+========================================================================================
+2023-02-08 17:32:49.184659+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA STONE 60 1B.1D WHITE
+ORIGINAL LENGTH : 25
+========================================================================================
+2023-02-08 17:32:49.184905+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4823000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.184968+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-426367.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.185036+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-426367/TEKA-STONE-60-1B.1D-WHITE
+ORIGINAL LENGTH : 64
+========================================================================================
+2023-02-08 17:32:49.264425+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA STONE 60 1B.1D TOPASBEIGE
+ORIGINAL LENGTH : 30
+========================================================================================
+2023-02-08 17:32:49.264677+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1607667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.264740+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-426366.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.264800+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-426366/TEKA-STONE-60-1B.1D-TOPASBEIGE
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 17:32:49.369186+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA GWE LUX 73 2G Kompor Tanam 73cm
+ORIGINAL LENGTH : 36
+========================================================================================
+2023-02-08 17:32:49.369458+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+9919000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.369631+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-411426.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.369718+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-411426/TEKA-GWE-LUX-73-2G-Kompor-Tanam-73cm
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 17:32:49.458356+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA GW LUX 73 2G Kompor Tanam 73cm
+ORIGINAL LENGTH : 35
+========================================================================================
+2023-02-08 17:32:49.458622+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3306334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.458700+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-411173.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.458783+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-411173/TEKA-GW-LUX-73-2G-Kompor-Tanam-73cm
+ORIGINAL LENGTH : 74
+========================================================================================
+2023-02-08 17:32:49.557620+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA HLB 838 REFLEX Electric Oven 70 Liter
+ORIGINAL LENGTH : 42
+========================================================================================
+2023-02-08 17:32:49.557863+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4060000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.557994+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-397714.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.558056+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-397714/TEKA-HLB-838-REFLEX-Electric-Oven-70-Liter
+ORIGINAL LENGTH : 81
+========================================================================================
+2023-02-08 17:32:49.659926+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA INCA BATH Set
+ORIGINAL LENGTH : 18
+========================================================================================
+2023-02-08 17:32:49.660179+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1353334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.660241+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-397683.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.660282+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-397683/TEKA-INCA-BATH-Set
+ORIGINAL LENGTH : 57
+========================================================================================
+2023-02-08 17:32:49.723386+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA INCA BATH Withhout Shower
+ORIGINAL LENGTH : 30
+========================================================================================
+2023-02-08 17:32:49.723822+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4060000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.723892+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-397680.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.723935+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-397680/TEKA-INCA-BATH-Withhout-Shower
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 17:32:49.777791+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA MWE 255 FI Microwave Grill 25L
+ORIGINAL LENGTH : 35
+========================================================================================
+2023-02-08 17:32:49.778044+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1353334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.778092+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394862.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.778130+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394862/TEKA-MWE-255-FI-Microwave-Grill-25L
+ORIGINAL LENGTH : 74
+========================================================================================
+2023-02-08 17:32:49.856444+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA CLASSIC 1  B 1D Topmount Sink
+ORIGINAL LENGTH : 34
+========================================================================================
+2023-02-08 17:32:49.856733+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3276000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.856820+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394207.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.856868+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394207/TEKA-CLASSIC-1-%C2%BD-B-1D-Topmount-Sink
+ORIGINAL LENGTH : 79
+========================================================================================
+2023-02-08 17:32:49.923701+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA CLASSIC 2B 1D Topmount Sink
+ORIGINAL LENGTH : 32
+========================================================================================
+2023-02-08 17:32:49.923938+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1092000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.924010+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394206.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.924054+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394206/TEKA-CLASSIC-2B-1D-Topmount-Sink
+ORIGINAL LENGTH : 71
+========================================================================================
+2023-02-08 17:32:49.974465+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA CLASSIC 2B Topmount Sink
+ORIGINAL LENGTH : 29
+========================================================================================
+2023-02-08 17:32:49.974690+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4291000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:49.974764+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394205.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:49.974826+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394205/TEKA-CLASSIC-2B-Topmount-Sink
+ORIGINAL LENGTH : 68
+========================================================================================
+2023-02-08 17:32:50.031319+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA GKI LUX 73 2G kompor Tanam Gas 73cm
+ORIGINAL LENGTH : 40
+========================================================================================
+2023-02-08 17:32:50.031708+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1430334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:50.031793+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394204.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:50.031854+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394204/TEKA-GKI-LUX-73-2G-kompor-Tanam-Gas-73cm
+ORIGINAL LENGTH : 79
+========================================================================================
+2023-02-08 17:32:50.090761+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA RVI 35 FI Wine Cooler Built In
+ORIGINAL LENGTH : 35
+========================================================================================
+2023-02-08 17:32:50.090962+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+13888000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 17:32:50.091009+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394200.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:50.091046+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394200/TEKA-RVI-35-FI-Wine-Cooler-Built-In
+ORIGINAL LENGTH : 74
+========================================================================================
+2023-02-08 17:32:50.156712+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA WINE COOLER
+ORIGINAL LENGTH : 16
+========================================================================================
+2023-02-08 17:32:50.157067+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4629334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:50.157129+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394199.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:50.157180+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394199/TEKA-WINE-COOLER
+ORIGINAL LENGTH : 55
+========================================================================================
+2023-02-08 17:32:50.237597+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA GK LUX 30 1G.AI.AL.TR Kompor Tanam Teka 30cm
+ORIGINAL LENGTH : 49
+========================================================================================
+2023-02-08 17:32:50.237849+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1701700
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:50.237953+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-393686.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:50.238011+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-393686/TEKA-GK-LUX-30-1G.AI.AL.TR-Kompor-Tanam-Teka-30cm
+ORIGINAL LENGTH : 88
+========================================================================================
+2023-02-08 17:32:50.319737+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA STYLO 1B Topmount Sink
+ORIGINAL LENGTH : 27
+========================================================================================
+2023-02-08 17:32:50.319939+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1470700
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:50.319987+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-386908.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:50.320026+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-386908/TEKA-STYLO-1B-Topmount-Sink
+ORIGINAL LENGTH : 66
+========================================================================================
+2023-02-08 17:32:50.389325+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA VE 4TC Kompor Listrik Vitroceramic 60cm
+ORIGINAL LENGTH : 44
+========================================================================================
+2023-02-08 17:32:50.389542+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+5264000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:50.389609+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-370200.png?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:50.389742+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-370200/TEKA-VE-4TC-Kompor-Listrik-Vitroceramic-60cm
+ORIGINAL LENGTH : 83
+========================================================================================
+2023-02-08 17:32:50.453496+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA CENTROVAL 1B LINEN Topmount Sink
+ORIGINAL LENGTH : 37
+========================================================================================
+2023-02-08 17:32:50.453732+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1754667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:50.453795+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-365045.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:50.453959+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-365045/TEKA-CENTROVAL-1B-LINEN-Topmount-Sink
+ORIGINAL LENGTH : 76
+========================================================================================
+2023-02-08 17:32:55.182401+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA NAPEA 1B 1D Topmount Sink
+ORIGINAL LENGTH : 30
+========================================================================================
+2023-02-08 17:32:55.182614+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1640100
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.182677+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-365042.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.182716+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-365042/TEKA-NAPEA-1B-1D-Topmount-Sink
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 17:32:55.239882+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA QUADRO Mixer Taps
+ORIGINAL LENGTH : 22
+========================================================================================
+2023-02-08 17:32:55.240161+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3965500
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.240219+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-351981.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.240258+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-351981/TEKA-QUADRO-Mixer-Taps
+ORIGINAL LENGTH : 61
+========================================================================================
+2023-02-08 17:32:55.296199+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA CLASSIC 1B 1D Topmount Sink
+ORIGINAL LENGTH : 32
+========================================================================================
+2023-02-08 17:32:55.296440+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1321834
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.296494+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-351029.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.296530+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-351029/TEKA-CLASSIC-1B-1D-Topmount-Sink
+ORIGINAL LENGTH : 71
+========================================================================================
+2023-02-08 17:32:55.356084+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA STYLO 1B 1D SS Topmount Sink
+ORIGINAL LENGTH : 33
+========================================================================================
+2023-02-08 17:32:55.356282+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2933000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.356353+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-351028.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.356397+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-351028/TEKA-STYLO-1B-1D-SS-Topmount-Sink
+ORIGINAL LENGTH : 72
+========================================================================================
+2023-02-08 17:32:55.415980+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA BEX 43 SS Undermount Sink
+ORIGINAL LENGTH : 30
+========================================================================================
+2023-02-08 17:32:55.416188+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+977667
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:32:55.416233+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-352199.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.416268+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-352199/TEKA-BEX-43-SS-Undermount-Sink
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 17:32:55.480323+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA BAHIA 1B Topmoun Sink 80cm
+ORIGINAL LENGTH : 31
+========================================================================================
+2023-02-08 17:32:55.480548+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2233000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.480607+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-351708.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.480678+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-351708/TEKA-BAHIA-1B-Topmoun-Sink-80cm
+ORIGINAL LENGTH : 70
+========================================================================================
+2023-02-08 17:32:55.535907+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA GKN LUX 60 3G
+ORIGINAL LENGTH : 18
+========================================================================================
+2023-02-08 17:32:55.536138+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+744334
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:32:55.536199+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-451550.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.536246+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-451550/TEKA-GKN-LUX-60-3G
+ORIGINAL LENGTH : 57
+========================================================================================
+2023-02-08 17:32:55.599288+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA GKN LUX 86 3G
+ORIGINAL LENGTH : 18
+========================================================================================
+2023-02-08 17:32:55.599854+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1967000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.600027+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-451291.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.600083+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-451291/TEKA-GKN-LUX-86-3G
+ORIGINAL LENGTH : 57
+========================================================================================
+2023-02-08 17:32:55.658230+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA FS96F B 5G BLACK Freestanding Cooker 90cm
+ORIGINAL LENGTH : 46
+========================================================================================
+2023-02-08 17:32:55.658486+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4809000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.658552+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-427904.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.658598+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-427904/TEKA-FS96F-B-5G-BLACK-Freestanding-Cooker-90cm
+ORIGINAL LENGTH : 85
+========================================================================================
+2023-02-08 17:32:55.707674+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA IN 915 H/S Keran Dapur Panas Dan Dingin
+ORIGINAL LENGTH : 44
+========================================================================================
+2023-02-08 17:32:55.707868+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3880800
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.707917+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-427846.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.707955+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-427846/TEKA-IN-915-H/S-Keran-Dapur-Panas-Dan-Dingin
+ORIGINAL LENGTH : 83
+========================================================================================
+2023-02-08 17:32:55.766382+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA IOVEN Electric Oven
+ORIGINAL LENGTH : 24
+========================================================================================
+2023-02-08 17:32:55.766623+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+5567100
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.766718+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-397723.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.766792+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-397723/TEKA-IOVEN-Electric-Oven
+ORIGINAL LENGTH : 63
+========================================================================================
+2023-02-08 17:32:55.821354+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA HLB 860 SS Electric Oven
+ORIGINAL LENGTH : 29
+========================================================================================
+2023-02-08 17:32:55.821573+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+18186000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 17:32:55.821636+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-397705.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.821686+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-397705/TEKA-HLB-860-SS-Electric-Oven
+ORIGINAL LENGTH : 68
+========================================================================================
+2023-02-08 17:32:55.873994+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA FS66F 4G Freestanding Cooker 60cm Stainless
+ORIGINAL LENGTH : 48
+========================================================================================
+2023-02-08 17:32:55.874232+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1124200
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:55.874296+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394851.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.874335+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394851/TEKA-FS66F-4G-Freestanding-Cooker-60cm-Stainless
+ORIGINAL LENGTH : 87
+========================================================================================
+2023-02-08 17:32:55.929457+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA TL 6310 Telescopid Hood 60cm
+ORIGINAL LENGTH : 33
+========================================================================================
+2023-02-08 17:32:55.929679+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+30261000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 17:32:55.929744+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394221.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.929799+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394221/TEKA-TL-6310-Telescopid-Hood-60cm
+ORIGINAL LENGTH : 72
+========================================================================================
+2023-02-08 17:32:55.987417+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA FGE 730 Gas Oven
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:32:55.987707+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+16191000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 17:32:55.987776+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-394010.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:55.987835+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-394010/TEKA-FGE-730-Gas-Oven
+ORIGINAL LENGTH : 60
+========================================================================================
+2023-02-08 17:32:56.058287+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA TZ 6315 Kompor Listrik Vitroceramic 60cm
+ORIGINAL LENGTH : 45
+========================================================================================
+2023-02-08 17:32:56.058486+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+10626000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 17:32:56.058532+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-393722.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:56.058568+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-393722/TEKA-TZ-6315-Kompor-Listrik-Vitroceramic-60cm
+ORIGINAL LENGTH : 84
+========================================================================================
+2023-02-08 17:32:56.115554+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+TEKA HBB 615 GD Electric Oven 70 Liter
+ORIGINAL LENGTH : 38
+========================================================================================
+2023-02-08 17:32:56.115782+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2723000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:56.115864+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/TEKA-370013.png?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 17:32:56.115910+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/TEKA-370013/TEKA-HBB-615-GD-Electric-Oven-70-Liter
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 17:34:03.279257+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Undermount Sink 1 Bowl, Material: 18/10 Stainless Steel thickness 1.2 mm, Overall 483 x 429 mm, Bowls, 433 x 379 x 230 mm, 3 basket waste dan overflow.
+ORIGINAL LENGTH : 151
+========================================================================================
+2023-02-08 17:34:03.279692+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 55cm x 52cm x 25cm <br>Ukuran Barang 48.3cm x 42.3cm x 23cm <br>Berat 8kg 
+ORIGINAL LENGTH : 151
+========================================================================================
+2023-02-08 17:34:03.279813+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:03.279901+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:34:03.279968+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+48.3
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:34:03.280045+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+42.3
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:34:03.280130+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+23
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:03.280190+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:03.280247+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+8
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:34:03.280303+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:08.780397+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Bak cuci dengan Garansi Seumur Hidup Pengalaman lebih dari 90 tahun mendukung kami menawarkan jaminan terbaik Teka bak cuci piring ditentukan oleh kualitas terbaik, daya, baja tahan karat austenitik yang sangat tahan, desain ergonomis, fungsionalitas, pemasangan tanpa kerumitan, dan layanan yang sangat baik. Kami sangat yakin dengan standar kualitas kami sehingga kami menawarkan garansi seumur hidup untuk semua model bak cuci piring dapur stainless steel kami agar Anda benar-benar merasa nyaman. pemasangan di atas meja Spesifikasi: Bahan: Terbuat dari stainless steel yang dipoles berkualitas SUS 304 Eropa Ukuran dalam mm: Keseluruhan (w x h), 640 x 480, Mangkuk (P x T x T), 535 x 360 x250 Instalasi: Inset, lebar unit dasar minimal 80 cm Aksesoris: 3 keranjang sampah garansi SEUMUR HIDUP untuk sink permukaan atas S&amp;K
+ORIGINAL LENGTH : 831
+========================================================================================
+2023-02-08 17:34:08.780660+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 70cm x 57cm x 28cm <br>Ukuran Barang 64cm x 48cm x 25cm <br>Berat 15kg 
+ORIGINAL LENGTH : 148
+========================================================================================
+2023-02-08 17:34:08.780742+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:08.780803+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:34:08.780864+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+64
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:08.780924+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+48
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:08.780980+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:08.781040+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:08.781101+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:08.781161+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:14.028236+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Bak cuci piring dengan Garansi Seumur Hidup Pengalaman lebih dari 90 tahun mendukung kami menawarkan jaminan terbaik. Teka bak cuci piring ditentukan oleh kualitas terbaik, daya, baja tahan karat austenitik yang sangat tahan, desain ergonomis, fungsionalitas, pemasangan tanpa kerumitan, dan layanan yang sangat baik. Kami sangat yakin dengan standar kualitas kami sehingga kami menawarkan garansi seumur hidup untuk semua model bak cuci piring stainless steel kami agar Anda benar-benar merasa nyaman. Wastafel Undermount, Satu mangkuk Sudut r15 mudah dibersihkan Baja tahan karat 18/10 3 Sampah keranjang manual dengan Overflow Kedalaman mangkuk: 200 mm satuan dasar 50 cm Ukuran Lebar produk (mm): 440 Kedalaman produk (mm): 200 Panjang produk (mm): 440 Berat bersih (Kg): 3,48 Mangkuk Utama Panjang Mangkuk Utama (mm): 400 Lebar Mangkuk Utama (mm): 400 Kedalaman Mangkuk Utama (mm): 200 Fitur lainnya Bahan: Baja Tahan Karat Jenis instalasi: Undermount Jenis lubang katup: 3" Lubang luapan: Persegi Panjang Yang lain Satuan dasar (cm): 50 Tata Letak Wastafel Jumlah mangkuk: 1 Aksesoris Kedap suara: YA Klip instalasi: YA garansi permukaan sink dari karat seumur hidup ( Syarat dan ketentuan berlaku )
+ORIGINAL LENGTH : 1205
+========================================================================================
+2023-02-08 17:34:14.028474+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 49cm x 23cm x 51cm <br>Ukuran Barang 40cm x 40cm x 20cm <br>Berat 5kg 
+ORIGINAL LENGTH : 147
+========================================================================================
+2023-02-08 17:34:14.028529+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:14.028629+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:34:14.028674+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+40
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:14.028716+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+40
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:14.028757+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:14.028798+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:14.028841+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+5
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:34:14.028882+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:20.805476+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Wastafel Teka ditentukan oleh kualitas terbaik, daya tahan, baja tahan karat austenitik yang sangat tahan, desain ergonomis, fungsionalitas, pemasangan tanpa kerumitan, dan layanan terbaik. Kami sangat yakin dengan standar kualitas kami sehingga kami menawarkan garansi seumur hidup untuk semua model wastafel dapur stainless steel kami agar Anda benar-benar merasa nyaman. Spesifikasi: Wastafel stainless steel, Satu mangkuk, Finishing poles, Pemasangan undermount, Sampah keranjang manual 3" dengan luapan dan siphon, Ketebalan: 0,8 mm, Garansi Seumur Hidup untuk permukaan atas (S&amp;K).
+ORIGINAL LENGTH : 591
+========================================================================================
+2023-02-08 17:34:20.805684+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless <br>Ukuran Kemasan 46cm x 47cm x 20cm <br>Ukuran Barang 39cm x 39cm x 18cm <br>Berat 2.5kg 
+ORIGINAL LENGTH : 143
+========================================================================================
+2023-02-08 17:34:20.805752+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:20.805813+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+stainless
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 17:34:20.805854+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+39
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:20.805937+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+39
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:20.805977+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:20.806012+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:20.806049+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+2.5
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:34:20.806085+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:25.377460+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Cooker Hood 70cm berbentuk piramida, Panel kontrol menggunakan Tombol, Aspirasi konvensional, 3 Tingkat kecepatan, Kapasitas pembuangan: Outlet Gratis (m/jam): 850 Maks. (m/jam): 780 min. (m/jam): 240, Kebisingan (LwA) Kecepatan Maks 56 dB Kebisingan (LwA) Kecepatan Min 48 dB, Lampu pijar, 2 filter aluminium, Garansi 1 Tahun Sparepart.
+ORIGINAL LENGTH : 337
+========================================================================================
+2023-02-08 17:34:25.377659+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Tipe Produk chimney hood 70cm <br>Konsumsi Daya 310 Watt <br>Warna Metalik <br>Material Stainless <br>Ukuran Kemasan 78cm x 33cm x 56cm <br>Ukuran Barang 70cm x 48cm x 100cm <br>Berat 10kg <br>Satuan cm <br>Lebar 48mm <br>Panjang 70mm <br>a_dimensi 70x48 
+ORIGINAL LENGTH : 270
+========================================================================================
+2023-02-08 17:34:25.377726+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:25.377811+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+stainless
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 17:34:25.377868+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:25.378020+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+48
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:25.378099+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:34:25.378162+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:25.378259+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+10
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:25.378322+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:32.566463+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Kompor tanam Induksi 60cm dengan 4 zona memasak dengan Kontrol Sentuh, Indikator sisa panas, Pengaman otomatis, Fungsi berhenti dan memulai, Pengaman kunci untuk anak, Pengaturan daya 9 tingkat, 2 zona: 150mm 1500W, 2 zona: 180mm 2000W, Total daya: 7000W, Dimensi eksternal (mm): 590x520mm, Dimensi bawaan (mm): 570x500mm, Garansi Sparepart 1 Tahun.
+ORIGINAL LENGTH : 349
+========================================================================================
+2023-02-08 17:34:32.566683+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya Max. 7000W <br>Tipe Produk Kompor listrik induksi 4 tungku <br>Warna Hitam <br>Material Tempered Glass <br>Ukuran Kemasan 66cm x 58cm x 12cm <br>Ukuran Barang 59cm x 52cm x 5cm <br>Berat 14kg <br>Lebar 52mm <br>Panjang 59mm <br>Satuan cm <br>a_dimensi 60x50 
+ORIGINAL LENGTH : 287
+========================================================================================
+2023-02-08 17:34:32.566731+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:34:32.566767+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+tempered glass
+ORIGINAL LENGTH : 14
+========================================================================================
+2023-02-08 17:34:32.566801+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+59
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:32.566882+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+52
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:32.566918+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+5
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:34:32.566952+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:32.566983+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+14
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:32.567016+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:37.262429+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Seri Batu, Tegranit + wastafel, 1 Lubang 1 Sayap, Permukaan ketahanan tinggi terhadap benturan, guncangan termal, dan suhu tinggi, Warna pada sink tidak mudah memudar, Permukaan bebas bakteri sangat mudah dibersihkan, warna putih.
+ORIGINAL LENGTH : 230
+========================================================================================
+2023-02-08 17:34:37.262671+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Putih <br>Material Granit <br>Ukuran Kemasan 117cm x 59cm x 31cm <br>Ukuran Barang 100cm x 51cm x 20cm <br>Berat 25kg 
+ORIGINAL LENGTH : 139
+========================================================================================
+2023-02-08 17:34:37.262744+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:34:37.262803+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+granite
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:37.262864+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:34:37.262918+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+51
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:37.262970+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:37.263046+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:37.263445+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:37.263655+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:43.184192+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Seri Batu, Tegranit + wastafel, 1 Lubang 1 Sayap, Permukaan ketahanan tinggi terhadap benturan, guncangan termal, dan suhu tinggi, Warna pada sink tidak mudah memudar, Permukaan bebas bakteri sangat mudah dibersihkan, warna topasbeige
+ORIGINAL LENGTH : 234
+========================================================================================
+2023-02-08 17:34:43.184447+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Krem <br>Material Granit <br>Ukuran Kemasan 117cm x 59cm x 31cm <br>Ukuran Barang 100cm x 51cm x 20cm <br>Berat 25kg 
+ORIGINAL LENGTH : 138
+========================================================================================
+2023-02-08 17:34:43.184508+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+cream
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:34:43.184546+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+granite
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:43.184581+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:34:43.184613+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+51
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:43.184643+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:43.184677+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:43.184737+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:43.184810+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:48.076124+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+2 Gas Burner " 2 Turbo ring burners (3.5kW) " , Tempered glass 8 mm with bevel edge , Cast iron pan support with emboss logo , Auto Ignition ( Battery 1,5V), Gas auto lock safety device, Black rounded metal knobs . Warranty 1 Years SpareParts , 3 Years Free Technical Service.
+ORIGINAL LENGTH : 276
+========================================================================================
+2023-02-08 17:34:48.076345+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya 3.5kW <br>Warna Hitam <br>Tipe Produk Kompor Tanam 2 Tungku <br>Material Tempered Glass <br>Ukuran Kemasan 80cm x 49.5cm x 20cm <br>Ukuran Barang 73cm x 45cm x 15cm <br>Berat 12kg <br>a_dimensi 73x43 
+ORIGINAL LENGTH : 229
+========================================================================================
+2023-02-08 17:34:48.076398+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:34:48.076494+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+tempered glass
+ORIGINAL LENGTH : 14
+========================================================================================
+2023-02-08 17:34:48.076591+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+73
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:48.076649+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+45
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:48.076685+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:48.076724+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:48.076759+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+12
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:48.076792+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:52.732250+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+-2 gas burners : 2 triple ring burners (@3.35 kW) -Tempered glass 8 mm with bevelled edge -Cast iron pan support with emboss logo -Auto ignition (battery 1.5V) -Gas auto lock safety device -Black rounded metal knobs -Product dimension : 730 x 450 x 150 mm.
+ORIGINAL LENGTH : 256
+========================================================================================
+2023-02-08 17:34:52.732581+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya 3.5kW <br>Warna Hitam <br>Tipe Produk kompor tanam 2 Tungku <br>Material Tempered Glass <br>Ukuran Kemasan 80cm x 49cm x 19.5cm <br>Ukuran Barang 74cm x 45cm x 15cm <br>Berat 12kg <br>a_dimensi 73x45 
+ORIGINAL LENGTH : 229
+========================================================================================
+2023-02-08 17:34:52.732640+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:34:52.732682+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+tempered glass
+ORIGINAL LENGTH : 14
+========================================================================================
+2023-02-08 17:34:52.732716+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+74
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:52.732751+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+45
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:52.732784+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:52.732818+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:52.732850+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+12
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:52.732884+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:58.445601+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Multifunction SurroundTemp - 9 Fungsi memasak, Sistem pembersihan HydroClean PRO, Kelas Energi A +: konsumsi hingga 20% lebih sedikit, Kapasitas, kotor / bersih: 71/70 liter, Sentuh panel Kontrol dengan tampilan LED, Pemanasan cepat ekspres, Fungsi ECO &amp; pencairan es, Blok keselamatan anak-anak, Triple glazed door, sistem pintu SoftClose tertutup, Pintu bagian dalam kaca penuh, Konsumsi Daya 2615 W, Kisaran Suhu Kompor (Derajat) 50 hingga 250 C, Made In Spain.
+ORIGINAL LENGTH : 468
+========================================================================================
+2023-02-08 17:34:58.445875+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Kapasitas Produk 70 L <br>Konsumsi Daya Max 2615W <br>Material Kaca  Stainless Steel <br>Ukuran Kemasan 64cm x 63cm x 63cm <br>Ukuran Barang 59.5cm x 55.9cm x 59.5cm <br>Berat 36kg 
+ORIGINAL LENGTH : 214
+========================================================================================
+2023-02-08 17:34:58.446004+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:34:58.446230+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass  glass,stainless steel
+ORIGINAL LENGTH : 28
+========================================================================================
+2023-02-08 17:34:58.446294+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+59.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:34:58.446357+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+55.9
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:34:58.446416+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+59.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:34:58.446474+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:58.446533+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+36
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:34:58.446591+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:05.092244+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Keran mixer mandi termasuk shower set, sistem penurunan kebisingan , anti scale aerator, garansi CATRIDGES 5 tahun, pengendalian temperatur yang sangan tepat, instalasi cepat dan mudah.
+ORIGINAL LENGTH : 185
+========================================================================================
+2023-02-08 17:35:05.092530+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Tipe Produk Keran Dinding <br>Material Chrome <br>Ukuran Kemasan 22cm x 19cm x 13cm <br>Ukuran Barang 18cm x 13.5cm x 12cm <br>Berat 3.5kg 
+ORIGINAL LENGTH : 172
+========================================================================================
+2023-02-08 17:35:05.092608+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:35:05.092675+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+chrome
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:35:05.092735+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:05.092792+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+13.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:05.092852+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+12
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:05.092919+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:05.093004+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+3.5
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:35:05.093072+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:10.054102+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Keran mixer mandi tanpa shower set, sistem penurunan kebisingan , anti scale aerator, garansi CATRIDGES 5 tahun, pengendalian temperatur yang sangan tepat, instalasi cepat dan mudah.
+ORIGINAL LENGTH : 182
+========================================================================================
+2023-02-08 17:35:10.054470+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Tipe Produk bath taps panas dingin <br>Material Chrome <br>Ukuran Kemasan 22cm x 19cm x 12cm <br>Ukuran Barang 18cm x 13.5cm x 12cm <br>Berat 3kg 
+ORIGINAL LENGTH : 179
+========================================================================================
+2023-02-08 17:35:10.054556+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:35:10.054677+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+chrome
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:35:10.054726+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:10.054841+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+13.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:10.054992+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+12
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:10.055202+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:10.055411+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+3
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:35:10.055713+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:15.344814+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Microwave + panggangan, Kontrol elektronik, Grill : 1.000 W, Lima tingkat daya: 900 W, Total kapasitas kotor: 25 liter, Pintu kaca bagian dalam dan luar, Pengingat menit: 0 - 95 menit, Mencairkan menurut berat dan waktu, Pemilih waktu dan fungsi elektronik, 8 menu akses langsung, Pengaman anak-anak.
+ORIGINAL LENGTH : 300
+========================================================================================
+2023-02-08 17:35:15.345091+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya Max 1200W <br>Kapasitas Produk 25 L <br>Warna Hitam <br>Material Stainless , Kaca <br>Ukuran Kemasan 64cm x 49cm x 45cm <br>Ukuran Barang 59.5cm x 41.3cm x 38.8cm <br>Berat 19kg 
+ORIGINAL LENGTH : 207
+========================================================================================
+2023-02-08 17:35:15.345151+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:15.345194+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+stainless,glass
+ORIGINAL LENGTH : 15
+========================================================================================
+2023-02-08 17:35:15.345229+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+59.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:15.345279+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+41.3
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:15.345315+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+38.8
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:15.345348+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:15.345382+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:15.345414+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:20.319817+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Stainless steel polished, Instalasi inset, Reversible. Termasuk aksesoris pop up basket waste 3 with overflow, bowls ( wxhxd ) 406 x 406 x 193 mm, Lifetime warranty (S&amp;K berlaku).
+ORIGINAL LENGTH : 183
+========================================================================================
+2023-02-08 17:35:20.320061+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless <br>Ukuran Kemasan 104cm x 55cm x 20cm <br>Ukuran Barang 100cm x 50cm x 19.3cm <br>Berat 7.2kg 
+ORIGINAL LENGTH : 147
+========================================================================================
+2023-02-08 17:35:20.320156+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:35:20.320433+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+stainless
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 17:35:20.320499+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:35:20.320557+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:20.320641+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+19.3
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:20.320725+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:20.320787+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+7.2
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:35:20.320833+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:25.541502+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Stainless steel polished, Instalasi inset, Reversible. Termasuk aksesoris pop up basket waste 3 with overflow, bowls ( wxhxd ) 340 x 400 x 193 mm, Lifetime warranty (S&amp;K berlaku). 
+ORIGINAL LENGTH : 184
+========================================================================================
+2023-02-08 17:35:25.541730+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless <br>Ukuran Kemasan 120cm x 55cm x 20cm <br>Ukuran Barang 116cm x 50cm x 19.3cm <br>Berat 7.36kg 
+ORIGINAL LENGTH : 148
+========================================================================================
+2023-02-08 17:35:25.541787+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:35:25.541854+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+stainless
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 17:35:25.541947+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+116
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:35:25.541995+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:25.542038+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+19.3
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:25.542079+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:25.542145+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+7.36
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:25.542202+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:30.756510+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Stainless steel polished, Instalasi inset, Reversible. Termasuk aksesoris pop up basket waste 3 with overflow, bowls ( wxhxd ) 406 x 406 x 190 mm, Lifetime warranty (S&amp;K berlaku).
+ORIGINAL LENGTH : 183
+========================================================================================
+2023-02-08 17:35:30.756994+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless <br>Ukuran Kemasan 90cm x 56cm x 20cm <br>Ukuran Barang 86cm x 50cm x 19cm <br>Berat 6.32kg 
+ORIGINAL LENGTH : 144
+========================================================================================
+2023-02-08 17:35:30.757106+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:35:30.757200+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+stainless
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 17:35:30.757278+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+86
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:30.757338+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:30.757391+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:30.757480+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:30.757557+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+6.32
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:30.757622+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:35.249083+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Material Kaca Tempered Glass dengan ketebalan 8mm, 2 Tungku gas burner dengan 2 Turbo Ring (4200 W), Sistem pengaman kebocoran gas , pemantik otomatis dengan baterai 1,5V , Cast iron grid, Black metal knobs, Dimensi Cut Out : 650 x 345 mm, FREE INSTALASI JABODETABEK hanya dengan menelpon ke service center TEKA dan menyimpan invoice pembelian.
+ORIGINAL LENGTH : 344
+========================================================================================
+2023-02-08 17:35:35.249298+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya 3.5kW <br>Tipe Produk Kompor 2 Tungku <br>Warna Hitam <br>Material Kaca <br>Ukuran Kemasan 80cm x 50cm x 20cm <br>Ukuran Barang 73cm x 45cm x 15cm <br>Berat 15kg <br>a_dimensi 73x48 
+ORIGINAL LENGTH : 211
+========================================================================================
+2023-02-08 17:35:35.249349+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:35.249388+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:35.249425+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+73
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:35.249477+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+45
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:35.249531+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:35.249586+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:35.249647+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:35.249699+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:40.452567+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Pendingin anggur tanam, Panel kontrol elektronik, Kapasitas: 35 botol, Suhu yang dapat disesuaikan (5-16C), 4 rak kayu yang bisa disesuaikan, Pegangan logam, Pintu reversibel, Total kapasitas kotor: 135 liter, Level kebisingan (dB): 38, Tingkat daya (W): 55
+ORIGINAL LENGTH : 257
+========================================================================================
+2023-02-08 17:35:40.452758+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya 55W <br>Tipe Produk Wine Cooler <br>Warna Hitam <br>Material Kaca <br>Ukuran Kemasan 63cm x 58cm x 95cm <br>Ukuran Barang 56cm x 55cm x 88cm <br>Berat 46.5kg 
+ORIGINAL LENGTH : 187
+========================================================================================
+2023-02-08 17:35:40.452807+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:40.452844+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:40.452878+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+56
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:40.452912+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+55
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:40.452946+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+88
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:40.452979+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:40.453014+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+46.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:40.453062+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:45.490140+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Freestanding wine cooler, Panel kontrol elektronik, Kapasitas: 50 botol, Teknologi pendinginan termoelektrik, Suhu yang dapat disesuaikan untuk anggur merah dan putih (6-18C), 5 rak kayu ,Penerangan LED ,Total kapasitas kotor: 169 liter, Level kebisingan (dB): 42, Tingkat daya (W): 110
+ORIGINAL LENGTH : 286
+========================================================================================
+2023-02-08 17:35:45.490438+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya 110 <br>Tipe Produk Wine Cooler <br>Warna Hitam <br>Material Kaca <br>Ukuran Kemasan 63cm x 56cm x 132cm <br>Ukuran Barang 50cm x 54cm x 12.7cm <br>Berat 60.5kg 
+ORIGINAL LENGTH : 190
+========================================================================================
+2023-02-08 17:35:45.490566+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:45.490728+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:45.490783+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:45.490838+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+54
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:45.490899+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+12.7
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:45.490961+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:45.491057+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+60.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:45.491119+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:50.461041+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+-1 turbo ring (3.2 kW) -Tempered glass 6 mm with bevelled edge -Cast iron pan support with emboss logo -Auto ignition (battery 1.5 V) -Gas auto lock safety device -Black rounded metal knobs -Product dimension : 310 x 520 x 150 mm.
+ORIGINAL LENGTH : 230
+========================================================================================
+2023-02-08 17:35:50.461287+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Konsumsi Daya 3.5kW <br>Warna Hitam <br>Tipe Produk Kompor 1 Tungku <br>Material Kaca <br>Ukuran Kemasan 39cm x 23cm x 58cm <br>Ukuran Barang 30cm x 15cm x 52cm <br>Berat 9.5kg <br>a_dimensi 31x51 
+ORIGINAL LENGTH : 212
+========================================================================================
+2023-02-08 17:35:50.461352+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:50.461393+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:35:50.461428+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+30
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:50.461463+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:50.461547+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+52
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:50.461611+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:50.461646+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+9.5
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:35:50.461710+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:55.474174+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Material dari stainless steel 304 dengan finishing Polished, Overflow, sudah termasuk basket waste dan pipa.
+ORIGINAL LENGTH : 108
+========================================================================================
+2023-02-08 17:35:55.474379+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 50cm x 47cm x 18cm <br>Ukuran Barang 48.5cm x 46.5cm x 17cm <br>Berat 4kg 
+ORIGINAL LENGTH : 151
+========================================================================================
+2023-02-08 17:35:55.474435+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:35:55.474479+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:35:55.474569+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+48.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:55.474625+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+46.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:35:55.474660+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+17
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:55.474693+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:35:55.474727+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+4
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:35:55.474758+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:00.341573+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Kompor Tanam Listrik Teka VE 4TC Vitroceramic dengan 4 zona memberikan kenyamanan anda memasak dan akan terhindar dari CO2 yang di hasilkan dari kompor Gas. Vitroceramic bisa menggunakan beberapa bahan material Panci dan Wajan. terbuat dari material kaca yang kuat dan di lengkapi dengan fitur indikator panas. pengaturan waktu per zona ,akan memberikan kenyamanan, sambil anda mengurus anak,menerima telepon, masakan anda akan terjaga dari gosong ( Overcook). Spesifikasi produk : - Frameless Glass - 60cm vitroceramic hob - Touch screen control panel - Security Blocking - Residual heat indicator - 4 Cooking Zones : 2x200 mm (2kW), 2x160 mm (1kW) - Total Nominal power : 6.000 W - Total Dimension : 590x520x50 mm Garansi Sparepart 1 Tahun Garansi Jasa Service 3 tahun
+ORIGINAL LENGTH : 770
+========================================================================================
+2023-02-08 17:36:00.341826+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Hitam <br>Tipe Produk Kompor 4 Tungku <br>Material Kaca <br>Ukuran Kemasan 60cm x 57cm x 15cm <br>Ukuran Barang 59cm x 52cm x 5cm <br>Berat 12kg <br>a_dimensi 60x50 
+ORIGINAL LENGTH : 186
+========================================================================================
+2023-02-08 17:36:00.341989+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:36:00.342055+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:36:00.342107+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+59
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:00.342158+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+52
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:00.342203+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+5
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:36:00.342346+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:00.342436+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+12
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:00.342506+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:05.844004+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Permukaan Stainless steel microtexture atau linen, instalasi Topmount, termasuk asesoris basket waste 3 1/2 with overflow, ukuran bowl ( wxd ) Diameter 385 x 184 mm.
+ORIGINAL LENGTH : 165
+========================================================================================
+2023-02-08 17:36:05.844273+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 54cm x 52cm x 20cm <br>Ukuran Barang 51cm x 51cm x 20cm <br>Berat 4kg 
+ORIGINAL LENGTH : 147
+========================================================================================
+2023-02-08 17:36:05.844362+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:36:05.844444+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:36:05.844503+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+51
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:05.844563+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+51
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:05.844623+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:05.844685+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:05.844742+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+4
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:36:05.844803+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:11.523380+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Permukaan Stainless steel polished, instalasi inset atau topmount, reversible, termasuk asesoris pop up basket waste 3 1/2 with overflow, ukuran bowl ( wxhxd ) 365 x 335 x 150 mm.
+ORIGINAL LENGTH : 179
+========================================================================================
+2023-02-08 17:36:11.523715+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 89cm x 50cm x 20cm <br>Ukuran Barang 86cm x 44cm x 15cm <br>Berat 5kg 
+ORIGINAL LENGTH : 147
+========================================================================================
+2023-02-08 17:36:11.523771+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:36:11.523810+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:36:11.523846+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+86
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:11.523897+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+44
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:11.524018+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:11.524103+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:11.524159+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+5
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:36:11.524201+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:16.972256+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Dapat memutar 360 derajat, Mixer (saluran panas dan dingin),Aerator terintegrasi dalam spout, Termasuk pipa fleksibel dalam pembelian, Material : kuningan dan lapisan chrome.
+ORIGINAL LENGTH : 174
+========================================================================================
+2023-02-08 17:36:16.972462+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Kuningan <br>Ukuran Kemasan 24.1cm x 5cm x 55.1cm <br>Ukuran Barang 22.1cm x 3cm x 53.1cm <br>Berat 3kg 
+ORIGINAL LENGTH : 146
+========================================================================================
+2023-02-08 17:36:16.972532+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:36:16.972583+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+brass
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:36:16.972625+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22.1
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:36:16.972666+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+3
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:36:16.972704+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+53.1
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:36:16.972743+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:16.972782+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+3
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 17:36:16.972840+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:21.799379+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Stainless steel polished, Instalasi inset, Reversible. Termasuk aksesoris pop up basket waste 3 1/2 with overflow, bowls ( wxhxd ) 406 x 406 x 190 mm.Free Gift Tumbler atau Pero Pan (Hanya mendapatkan salah satu Free Giftnya sesuai dengan total transaksi)
+- FREE GIFT Tumbler untuk pembelian semua produk Teka &amp; Linea by Teka dengan transaksi dibawah 2,000,000
+- FREE GIFT Pero Pan untuk pembelian semua produk Teka &amp; Linea by Teka dengan transaksi diatas 2,000,000.
+ORIGINAL LENGTH : 474
+========================================================================================
+2023-02-08 17:36:21.799733+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 90cm x 56cm x 20cm <br>Ukuran Barang 86cm x 50cm x 19cm <br>Berat 6.1kg 
+ORIGINAL LENGTH : 149
+========================================================================================
+2023-02-08 17:36:21.799848+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:36:21.799887+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:36:21.799923+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+86
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:21.799957+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:21.799991+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:21.800025+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:21.800057+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+6.1
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:36:21.800100+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:27.003057+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Bak cuci piring dengan Garansi Seumur Hidup Lebih dari 90 tahun pengalaman memungkinkan kami untuk menawarkan jaminan terbaik Bak Cuci Piring Teka ditentukan oleh kualitas terbaik, daya tahan, baja tahan karat austenitik yang sangat tahan, desain ergonomis, fungsionalitas, pemasangan tanpa kerumitan, dan layanan terbaik. Kami sangat yakin dengan standar kualitas kami sehingga kami menawarkan garansi seumur hidup untuk semua model wastafel dapur stainless steel kami agar Anda benar-benar merasa nyaman. Wastafel stainless steel Satu Lubang satu drainer Instalasi inset 3 "keranjang sampah manual dengan siphon Kedalaman 170 mm Garansi Seumur Hidup permukan sink dari karat
+ORIGINAL LENGTH : 676
+========================================================================================
+2023-02-08 17:36:27.003312+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand TEKA <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 83cm x 51cm x 18cm <br>Ukuran Barang 83cm x 48.5cm x 17cm <br>Berat 4.1kg 
+ORIGINAL LENGTH : 151
+========================================================================================
+2023-02-08 17:36:27.003384+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:36:27.003607+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:36:27.003685+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+83
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:27.003745+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+48.5
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 17:36:27.003804+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+17
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:27.003972+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:36:27.004042+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+4.1
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:36:27.004102+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:37:28.469727+07:00
+USERNAME: MAIN
+FINISHED AER TEKA WEB SCRAPING....
+============================================

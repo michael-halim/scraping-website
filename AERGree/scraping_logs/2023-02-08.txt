@@ -1,0 +1,2269 @@
+============================================
+2023-02-08 16:54:16.730378+07:00
+USERNAME: MAIN
+RUNNING AER GREE WEB SCRAPING....
+========================================================================================
+2023-02-08 16:54:19.725509+07:00
+USERNAME: GET CONTACT
+PHONE
+081905946583
+ORIGINAL LENGTH : 12
+========================================================================================
+2023-02-08 16:54:19.725939+07:00
+USERNAME: GET CONTACT
+ADDRESS
+Jl. KH. Ahmad Dahlan Kby. No.59,Kramat Pela, Kebayoran Baru,Jakarta Selatan
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 16:54:26.346387+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Split ( AC Dinding ) Standard MOO5S Series 2 PK R32 1600 Watt - GWC-18MOO5S | GWC18MOO5S | 18MOO5 S
+ORIGINAL LENGTH : 112
+========================================================================================
+2023-02-08 16:54:26.346694+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+6349000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:26.346763+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-456768.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.346835+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-456768/Gree-Gree-AC-Split-(-AC-Dinding-)-Standard-MOO5S-Series-2-PK-R32-1600-Watt---GWC-18MOO5S-%7C-GWC18MOO5S-%7C-18MOO5-S
+ORIGINAL LENGTH : 154
+========================================================================================
+2023-02-08 16:54:26.425425+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Split ( AC Dinding ) Standard MOO5S Series 0.75 PK ( 3/4 PK ) R32 550 Watt - GWC-07MOO5S | GWC07MOO5S | 07MOO5 S
+ORIGINAL LENGTH : 125
+========================================================================================
+2023-02-08 16:54:26.425612+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2116334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:26.425702+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-456767.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.425757+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-456767/Gree-Gree-AC-Split-(-AC-Dinding-)-Standard-MOO5S-Series-0.75-PK-(-3/4-PK-)-R32-550-Watt---GWC-07MOO5S-%7C-GWC07MOO5S-%7C-07MOO5-S
+ORIGINAL LENGTH : 167
+========================================================================================
+2023-02-08 16:54:26.504856+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 6 PK - GU160PHS/A-K (WIRED)
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 16:54:26.505096+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3449000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:26.505187+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455380.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.505277+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455380/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-6-PK---GU160PHS/A-K-(WIRED)
+ORIGINAL LENGTH : 113
+========================================================================================
+2023-02-08 16:54:26.592289+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 5 PK - GU140PHS/A-K (WIRED)
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 16:54:26.592536+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1149667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:26.592592+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455379.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.592629+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455379/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-5-PK---GU140PHS/A-K-(WIRED)
+ORIGINAL LENGTH : 113
+========================================================================================
+2023-02-08 16:54:26.660874+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 4 1/2 PK - GU125PHS/A-K (WIRED)
+ORIGINAL LENGTH : 79
+========================================================================================
+2023-02-08 16:54:26.661088+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+28400000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 16:54:26.661186+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455378.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.661237+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455378/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-4-1/2-PK---GU125PHS/A-K-(WIRED)
+ORIGINAL LENGTH : 117
+========================================================================================
+2023-02-08 16:54:26.729813+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 4 PK - GU100PHS/A-K (WIRED)
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 16:54:26.730042+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+9466667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:26.730090+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455377.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.730131+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455377/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-4-PK---GU100PHS/A-K-(WIRED)
+ORIGINAL LENGTH : 113
+========================================================================================
+2023-02-08 16:54:26.786432+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 3 PK - GU71PS/A-K (WIRED)
+ORIGINAL LENGTH : 73
+========================================================================================
+2023-02-08 16:54:26.786660+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+24480000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 16:54:26.786716+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455376.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.786754+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455376/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-3-PK---GU71PS/A-K-(WIRED)
+ORIGINAL LENGTH : 111
+========================================================================================
+2023-02-08 16:54:26.846187+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 2 PK - GU50PS/A-K (WIRED)
+ORIGINAL LENGTH : 73
+========================================================================================
+2023-02-08 16:54:26.846443+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+8160000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:26.846525+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455375.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.846596+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455375/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-2-PK---GU50PS/A-K-(WIRED)
+ORIGINAL LENGTH : 111
+========================================================================================
+2023-02-08 16:54:26.914478+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 1 1/2 PK - GU35PS/A-K (WIRED)
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 16:54:26.914717+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+21200000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 16:54:26.914781+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455374.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.914872+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455374/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-1-1/2-PK---GU35PS/A-K-(WIRED)
+ORIGINAL LENGTH : 115
+========================================================================================
+2023-02-08 16:54:26.971700+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree Gree AC Ceiling Duct Standard Non Inverter 1 PK - GU26PS/A-K (WIRED)
+ORIGINAL LENGTH : 73
+========================================================================================
+2023-02-08 16:54:26.972064+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+7066667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:26.972138+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-455373.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:26.972181+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-455373/Gree-Gree-AC-Ceiling-Duct-Standard-Non-Inverter-1-PK---GU26PS/A-K-(WIRED)
+ORIGINAL LENGTH : 111
+========================================================================================
+2023-02-08 16:54:27.040486+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Inverter Split SmartClean F5S Series 2 PK - GWC-18F5S | GWC18F5S
+ORIGINAL LENGTH : 72
+========================================================================================
+2023-02-08 16:54:27.040753+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+19800000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 16:54:27.040836+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453802.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.040898+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453802/Gree-AC-Inverter-Split-SmartClean-F5S-Series-2-PK---GWC-18F5S-%7C-GWC18F5S
+ORIGINAL LENGTH : 112
+========================================================================================
+2023-02-08 16:54:27.112490+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Inverter Split SmartClean F5S Series 1.5 PK - GWC-12F5S | GWC12F5S
+ORIGINAL LENGTH : 74
+========================================================================================
+2023-02-08 16:54:27.112789+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+6600000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.112893+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453801.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.112977+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453801/Gree-AC-Inverter-Split-SmartClean-F5S-Series-1.5-PK---GWC-12F5S-%7C-GWC12F5S
+ORIGINAL LENGTH : 114
+========================================================================================
+2023-02-08 16:54:27.174042+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Inverter Split SmartClean F5S Series 1 PK - GWC-09F5S | GWC09F5S
+ORIGINAL LENGTH : 72
+========================================================================================
+2023-02-08 16:54:27.174268+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+13000000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 16:54:27.174330+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453800.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.174382+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453800/Gree-AC-Inverter-Split-SmartClean-F5S-Series-1-PK---GWC-09F5S-%7C-GWC09F5S
+ORIGINAL LENGTH : 112
+========================================================================================
+2023-02-08 16:54:27.328253+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Inverter Split SmartClean F5S Series 0.5 PK - GWC-05F5S | GWC05F5S
+ORIGINAL LENGTH : 74
+========================================================================================
+2023-02-08 16:54:27.328469+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4333334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.328521+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453799.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.328559+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453799/Gree-AC-Inverter-Split-SmartClean-F5S-Series-0.5-PK---GWC-05F5S-%7C-GWC05F5S
+ORIGINAL LENGTH : 114
+========================================================================================
+2023-02-08 16:54:27.455421+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Inverter Split G+ F1S Series 1.5 PK - GWC-12F1S | GWC12F1S
+ORIGINAL LENGTH : 66
+========================================================================================
+2023-02-08 16:54:27.455647+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+10780000
+ORIGINAL LENGTH : 8
+========================================================================================
+2023-02-08 16:54:27.455725+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453639.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.455772+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453639/Gree-AC-Inverter-Split-G+-F1S-Series-1.5-PK---GWC-12F1S-%7C-GWC12F1S
+ORIGINAL LENGTH : 106
+========================================================================================
+2023-02-08 16:54:27.530603+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Inverter Split G+ F1S Series 0.5 PK - GWC-05F1S | GWC05F1S
+ORIGINAL LENGTH : 66
+========================================================================================
+2023-02-08 16:54:27.530878+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3593334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.530949+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453638.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.531064+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453638/Gree-AC-Inverter-Split-G+-F1S-Series-0.5-PK---GWC-05F1S-%7C-GWC05F1S
+ORIGINAL LENGTH : 106
+========================================================================================
+2023-02-08 16:54:27.590059+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Standard Wall Mounted Split MOO 5 Series 1 1/2 PK - GWC-12MOO5S
+ORIGINAL LENGTH : 71
+========================================================================================
+2023-02-08 16:54:27.590249+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+8850000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.590294+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453526.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.590334+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453526/Gree-AC-Standard-Wall-Mounted-Split-MOO-5-Series-1-1/2-PK---GWC-12MOO5S
+ORIGINAL LENGTH : 109
+========================================================================================
+2023-02-08 16:54:27.649718+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Standard Wall Mounted Split MOO 5 Series 1/2 PK - GWC-05MOO5S
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 16:54:27.649999+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2950000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.650088+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453525.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.650158+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453525/Gree-AC-Standard-Wall-Mounted-Split-MOO-5-Series-1/2-PK---GWC-05MOO5S
+ORIGINAL LENGTH : 107
+========================================================================================
+2023-02-08 16:54:27.702254+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Inverter Split G+ F1S Series 1 PK - GWC-09F1S | GWC09F1S
+ORIGINAL LENGTH : 64
+========================================================================================
+2023-02-08 16:54:27.705009+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+7900000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.705161+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-452874.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.705262+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-452874/Gree-AC-Inverter-Split-G+-F1S-Series-1-PK---GWC-09F1S-%7C-GWC09F1S
+ORIGINAL LENGTH : 104
+========================================================================================
+2023-02-08 16:54:27.761917+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Floor Standing 5 PK - GVC - 48STS (S) (3PHASE)
+ORIGINAL LENGTH : 54
+========================================================================================
+2023-02-08 16:54:27.762159+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2633334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.762234+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-447309.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.762309+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-447309/Gree-AC-Floor-Standing-5-PK---GVC---48STS-(S)-(3PHASE)
+ORIGINAL LENGTH : 92
+========================================================================================
+2023-02-08 16:54:27.821595+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Floor Standing 3 PK - GVC - 24STS
+ORIGINAL LENGTH : 41
+========================================================================================
+2023-02-08 16:54:27.821797+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+8399000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.821872+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-447308.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.821952+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-447308/Gree-AC-Floor-Standing-3-PK---GVC---24STS
+ORIGINAL LENGTH : 79
+========================================================================================
+2023-02-08 16:54:27.874005+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Floor Standing 2 PK - GVC - 18STS
+ORIGINAL LENGTH : 41
+========================================================================================
+2023-02-08 16:54:27.874207+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2799667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.874258+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-447307.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.874323+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-447307/Gree-AC-Floor-Standing-2-PK---GVC---18STS
+ORIGINAL LENGTH : 79
+========================================================================================
+2023-02-08 16:54:27.925069+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Split Inverter G+ F1 Series 2.5 PK - GWC-24F1
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 16:54:27.925315+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+5499000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.925387+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-446497.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.925436+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-446497/Gree-AC-Split-Inverter-G+-F1-Series-2.5-PK---GWC-24F1
+ORIGINAL LENGTH : 91
+========================================================================================
+2023-02-08 16:54:27.989879+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Gree AC Floor Standing 6 PK - GVC - 55TS (S) (3PHASE)
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 16:54:27.990191+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1833000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:27.990292+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-437442.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:54:27.990360+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-437442/Gree-AC-Floor-Standing-6-PK---GVC---55TS-(S)-(3PHASE)
+ORIGINAL LENGTH : 91
+========================================================================================
+2023-02-08 16:54:33.956855+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+MOO5 merupakan inovasi AC tipe standard yang memiliki kemampuan mencuci secara otomatis melalui 3 tahapan pembersihan. didesain menggunakan Louver ganda untuk meningkatkan volume udara demi kenyamanan pengguna. Fitur Smart CleanerAC ini akan bekerja secara otomatis membersihkan semua bagian Evaporator secara menyeluruh. Proses pembersihan ini mampu membersihkan hingga bagian terkecil karena melalui 3 tahap pembersihan. Louver GandaTechnology Natural Wind. Dengan menggunakan desain Louver ganda, AC ini dirancang untuk memberikan kenyamanan pengguna melalui aliran udara Technology Mass Air Supply yang berfungsi meningkatkan volume udara pada ruangan. Dengan begitu proses pendinginan jauh lebih cepat, menyebar tiap sudut ruangan dan tetap sunyi. Speksifikasi:
+Daya PK 2 PK
+Daya Listrik1600 Watt
+Kapasitas Pendinginan18000 BTU/h
+Tipe RefrigrantR-32
+Ukuran Pipa Cair and Gas (Inch)1/4 3/8
+Dimensi (PxLxT)825 x 293 x 196 mm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1012
+========================================================================================
+2023-02-08 16:54:33.957107+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 1600 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 89cm x 25cm x 33cm <br>Ukuran Barang 84cm x 20cm x 28cm <br>Berat 50kg 
+ORIGINAL LENGTH : 201
+========================================================================================
+2023-02-08 16:54:33.957181+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:54:33.957239+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:33.957296+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+84
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:33.957358+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:33.957424+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+28
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:33.957475+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:33.957526+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:33.957568+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:38.599144+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+MOO5 merupakan inovasi AC tipe standard yang memiliki kemampuan mencuci secara otomatis melalui 3 tahapan pembersihan. didesain menggunakan Louver ganda untuk meningkatkan volume udara demi kenyamanan pengguna. Fitur Smart CleanerAC ini akan bekerja secara otomatis membersihkan semua bagian Evaporator secara menyeluruh. Proses pembersihan ini mampu membersihkan hingga bagian terkecil karena melalui 3 tahap pembersihan. Louver GandaTechnology Natural Wind. Dengan menggunakan desain Louver ganda, AC ini dirancang untuk memberikan kenyamanan pengguna melalui aliran udara Technology Mass Air Supply yang berfungsi meningkatkan volume udara pada ruangan. Dengan begitu proses pendinginan jauh lebih cepat, menyebar tiap sudut ruangan dan tetap sunyi. Speksifikasi:
+Daya PK0.75 PK
+Daya Listrik 550 Watt
+Kapasitas Pendinginan 7000 BTU/h
+Tipe RefrigrantR-32
+Ukuran Pipa Cair and Gas (Inch)1/4 3/8
+Dimensi (PxLxT)704 x 260 x 185 mm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1014
+========================================================================================
+2023-02-08 16:54:38.599367+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk Wall Mounted Split <br>Konsumsi Daya 550 Watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 89cm x 25cm x 33cm <br>Ukuran Barang 84cm x 20cm x 28cm <br>Berat 150kg 
+ORIGINAL LENGTH : 201
+========================================================================================
+2023-02-08 16:54:38.599415+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:54:38.599474+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:54:38.599513+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+84
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:38.599546+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:38.599579+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+28
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:38.599613+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:38.599645+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+150
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:38.599677+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:42.620388+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 6 PK
+Daya Listrik 5350 Watt
+Kapasitas Pendingin 54.592 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 478
+========================================================================================
+2023-02-08 16:54:42.620594+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 5350 Watt <br>Tipe Produk Ceiling Ducted <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 145cm x 75cm x 35cm <br>Ukuran Barang 140cm x 70cm x 30cm <br>Berat 100kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 16:54:42.620665+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:54:42.620710+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:54:42.620769+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+140
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:42.620810+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:42.620903+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+30
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:42.620942+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:42.620982+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:42.621016+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:46.921389+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 5 PK
+Daya Listrik 5250 Watt
+Kapasitas Pendingin 48.109 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 478
+========================================================================================
+2023-02-08 16:54:46.921595+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 5250 Watt <br>Tipe Produk Ceiling Ducted <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 145cm x 75cm x 35cm <br>Ukuran Barang 140cm x 70cm x 30cm <br>Berat 100kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 16:54:46.921692+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:54:46.921762+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:54:46.921817+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+140
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:46.921869+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:46.921996+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+30
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:46.922043+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:46.922126+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:46.922188+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:51.874234+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 4.5 PK
+Daya Listrik 4250 Watt
+Kapasitas Pendingin 40.944 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 480
+========================================================================================
+2023-02-08 16:54:51.877686+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 4250 Watt <br>Tipe Produk Ceiling Ducted <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 145cm x 75cm x 35cm <br>Ukuran Barang 140cm x 70cm x 30cm <br>Berat 100kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 16:54:51.877966+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:54:51.878036+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:54:51.878085+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+140
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:51.878133+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:51.878178+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+30
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:51.878223+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:51.878270+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:51.878333+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:56.496075+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 4 PK
+Daya Listrik 3500 Watt
+Kapasitas Pendingin 35.144 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 478
+========================================================================================
+2023-02-08 16:54:56.496322+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 3500 Watt <br>Tipe Produk Ceiling Ducted <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 145cm x 75cm x 35cm <br>Ukuran Barang 140cm x 70cm x 30cm <br>Berat 100kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 16:54:56.496394+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:54:56.496457+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:54:56.496520+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+140
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:56.496570+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:56.496638+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+30
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:56.496695+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:56.496798+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:54:56.496854+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:00.435785+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 3 PK
+Daya Listrik 2350 Watt
+Kapasitas Pendingin 24.225 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 478
+========================================================================================
+2023-02-08 16:55:00.436190+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 2350 Watt <br>Tipe Produk Ceiling Ducted <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 135cm x 50cm x 27cm <br>Ukuran Barang 130cm x 45cm x 22cm <br>Berat 100kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 16:55:00.436256+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:55:00.436296+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:55:00.436360+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+130
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:00.436397+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+45
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:00.436429+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:00.436469+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:00.436523+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:00.436560+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:05.984770+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 2 PK
+Daya Listrik 1600 Watt
+Kapasitas Pendingin 17.060 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 478
+========================================================================================
+2023-02-08 16:55:05.985011+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 1600 Watt <br>Tipe Produk Ceiling Ducted <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 135cm x 50cm x 27cm <br>Ukuran Barang 130cm x 45cm x 22cm <br>Berat 100kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 16:55:05.985103+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:55:05.985185+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:55:05.985247+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+130
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:05.985287+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+45
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:05.985323+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:05.985360+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:05.985395+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:05.985430+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:11.706810+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 1.5 PK
+Daya Listrik 1200 Watt
+Kapasitas Pendingin 12.113 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 480
+========================================================================================
+2023-02-08 16:55:11.707053+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 1200 Watt <br>Tipe Produk Ceiling Ducted <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 135cm x 50cm x 27cm <br>Ukuran Barang 130cm x 45cm x 22cm <br>Berat 100kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 16:55:11.707107+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:55:11.707156+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:55:11.707198+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+130
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:11.707240+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+45
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:11.707331+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:11.707394+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:11.707460+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:11.707591+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:16.873368+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Hemat tempat instalasi karena dorongan pompa drain tidak dibatasi oleh tinggi (maksimal mencapai 1,1m).
+Fitur
+-Teknologi Defrost Pintar
+-Struktur Kuat
+-Perawatan Mudah
+-Self Diagnosis
+-Desaign Praktis Speksifikasi:
+Tipe AC Standard
+Kapasitas PK 1 PK
+Daya Listrik 800 Watt
+Kapasitas Pendingin 9.315 Btu/h
+Tipe Refrigant R410a
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 476
+========================================================================================
+2023-02-08 16:55:16.873586+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk Ceiling Ducted <br>Konsumsi Daya 800 Watt <br>Warna Abu-abu <br>Material Aluminium <br>Ukuran Kemasan 135cm x 50cm x 27cm <br>Ukuran Barang 130cm x 45cm x 22cm <br>Berat 100kg 
+ORIGINAL LENGTH : 203
+========================================================================================
+2023-02-08 16:55:16.873649+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+grey
+ORIGINAL LENGTH : 4
+========================================================================================
+2023-02-08 16:55:16.873700+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+aluminium
+ORIGINAL LENGTH : 9
+========================================================================================
+2023-02-08 16:55:16.873751+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+130
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:16.873798+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+45
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:16.873849+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:16.873953+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:16.874009+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:55:16.874056+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:22.214419+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Dengan teknologi Inverter G+ Terbaru, F5S series mampu mendinginkan ruangan 50% lebih cepat dari pendingin udara lain, akan tetapi bisa lebih hemat 40% untuk pemakaian listrik, ditambah lagi dengan bahan pendingin R32 yang ramah lingkungan. Fitur utama :
+Mode Super Hemat
+Fast Cooling
+Smart Cleaner System
+Outdoor Anti Karat
+Easy Removal
+Mass Air Supply Daya PK 2 PK
+Daya Listrik 1500 (300- 1750) Watt
+Kapasitas Pendinginan 18000 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 982 x 311 x 221 cm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 618
+========================================================================================
+2023-02-08 16:55:22.214613+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Inverter <br>Konsumsi Daya 150 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 103cm x 36cm x 27cm <br>Ukuran Barang 98cm x 31cm x 22cm <br>Berat 50kg 
+ORIGINAL LENGTH : 194
+========================================================================================
+2023-02-08 16:55:22.214682+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:22.214724+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:22.214763+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+98
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:22.214798+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+31
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:22.214835+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:22.214873+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:22.214909+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:22.214945+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:27.261669+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Dengan teknologi Inverter G+ Terbaru, F5S series mampu mendinginkan ruangan 50% lebih cepat dari pendingin udara lain, akan tetapi bisa lebih hemat 40% untuk pemakaian listrik, ditambah lagi dengan bahan pendingin R32 yang ramah lingkungan. Fitur utama :
+Mode Super Hemat
+Fast Cooling
+Smart Cleaner System
+Outdoor Anti Karat
+Easy Removal
+Mass Air Supply Daya PK 1.5 PK
+Daya Listrik 1170 (320- 1600) Watt
+Kapasitas Pendinginan 12100 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 732 x 550 x 185 cm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 620
+========================================================================================
+2023-02-08 16:55:27.261942+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Inverter <br>Konsumsi Daya 1170 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 78cm x 60cm x 23cm <br>Ukuran Barang 73cm x 55cm x 18cm <br>Berat 50kg 
+ORIGINAL LENGTH : 194
+========================================================================================
+2023-02-08 16:55:27.262019+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:27.262082+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:27.262146+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+73
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:27.262199+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+55
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:27.262251+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:27.262300+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:27.262359+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:27.262427+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:32.437673+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Dengan teknologi Inverter G+ Terbaru, F5S series mampu mendinginkan ruangan 50% lebih cepat dari pendingin udara lain, akan tetapi bisa lebih hemat 40% untuk pemakaian listrik, ditambah lagi dengan bahan pendingin R32 yang ramah lingkungan. Fitur utama :
+Mode Super Hemat
+Fast Cooling
+Smart Cleaner System
+Outdoor Anti Karat
+Easy Removal
+Mass Air Supply Daya PK 1 PK
+Daya Listrik 655 (330-950) Watt
+Kapasitas Pendinginan 9000 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 704 x 260 x 185 cm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 614
+========================================================================================
+2023-02-08 16:55:32.437937+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Inverter <br>Konsumsi Daya 655 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 75cm x 31cm x 23cm <br>Ukuran Barang 70cm x 26cm x 18cm <br>Berat 50kg 
+ORIGINAL LENGTH : 193
+========================================================================================
+2023-02-08 16:55:32.438024+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:32.438075+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:32.438168+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:32.438269+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+26
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:32.438320+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:32.438376+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:32.438431+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:32.438469+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:37.393807+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Dengan teknologi Inverter G+ Terbaru, F5S series mampu mendinginkan ruangan 50% lebih cepat dari pendingin udara lain, akan tetapi bisa lebih hemat 40% untuk pemakaian listrik, ditambah lagi dengan bahan pendingin R32 yang ramah lingkungan. Fitur utama :
+Mode Super Hemat
+Fast Cooling
+Smart Cleaner System
+Outdoor Anti Karat
+Easy Removal
+Mass Air Supply Daya PK 0.5 PK
+Daya Listrik 350 (190- 630) Watt
+Kapasitas Pendinginan 5000 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 704 x 260 x 185 cm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 617
+========================================================================================
+2023-02-08 16:55:37.394409+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Inverter <br>Konsumsi Daya 350 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 75cm x 31cm x 23cm <br>Ukuran Barang 70cm x 26cm x 18cm <br>Berat 50kg 
+ORIGINAL LENGTH : 193
+========================================================================================
+2023-02-08 16:55:37.394525+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:37.394593+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:37.394650+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:37.394689+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+26
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:37.394727+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:37.394763+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:37.394799+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:37.394833+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:43.489964+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor. Fast-cooling Turbo
+Dapat mencapai kapasitas pendinginan tinggi dan pendinginan ruangan dapat tercapai ekstra cepat. Soft Start
+Tarikan awal daya listrik pada saat pengoperasian unit F1 akan naik secara bertahap. Saving mode
+Cukup tekan tombol ini pada remote control AC, maka konsumsi daya listrik pada unit F1 akan berkurang sebanyak 25%. Evaporator dan kondensor dilapisin goldfin dan blue fin. Daya PK 1.5 PK
+Daya Listrik 1170 (320- 1600) Watt
+Kapasitas Pendinginan 12100 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 819 x 256 x 185 mm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 731
+========================================================================================
+2023-02-08 16:55:43.490217+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Inverter <br>Konsumsi Daya 1170 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 86cm x 23cm x 30cm <br>Ukuran Barang 81cm x 18cm x 25cm <br>Berat 50kg 
+ORIGINAL LENGTH : 194
+========================================================================================
+2023-02-08 16:55:43.490282+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:43.490331+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:43.490377+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+81
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:43.490443+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:43.490492+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:43.490538+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:43.490607+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:43.490706+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:48.220373+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor. Fast-cooling Turbo
+Dapat mencapai kapasitas pendinginan tinggi dan pendinginan ruangan dapat tercapai ekstra cepat. Soft Start
+Tarikan awal daya listrik pada saat pengoperasian unit F1 akan naik secara bertahap. Saving mode
+Cukup tekan tombol ini pada remote control AC, maka konsumsi daya listrik pada unit F1 akan berkurang sebanyak 25%. Evaporator dan kondensor dilapisin goldfin dan blue fin. Daya PK 0.5 PK
+Daya Listrik 325 (180 - 580) Watt
+Kapasitas Pendinginan 5000 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 74 x 19 x 26 cm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 726
+========================================================================================
+2023-02-08 16:55:48.220632+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Inverter <br>Konsumsi Daya 325 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 79cm x 24cm x 31cm <br>Ukuran Barang 74cm x 19cm x 26cm <br>Berat 50kg 
+ORIGINAL LENGTH : 193
+========================================================================================
+2023-02-08 16:55:48.220704+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:48.220763+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:48.220819+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+74
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:48.220873+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:48.220926+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+26
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:48.220979+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:48.221032+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:48.221084+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:53.285463+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+MOO5 merupakan inovasi AC tipe standard yang memiliki kemampuan mencuci secara otomatis melalui 3 tahapan pembersihan. didesain menggunakan Louver ganda untuk meningkatkan volume udara demi kenyamanan pengguna. Fitur Smart Cleaner
+AC ini akan bekerja secara otomatis membersihkan semua bagian Evaporator secara menyeluruh. Proses pembersihan ini mampu membersihkan hingga bagian terkecil karena melalui 3 tahap pembersihan. Louver Ganda
+Technology Natural Wind. Dengan menggunakan desain Louver ganda, AC ini dirancang untuk memberikan kenyamanan pengguna melalui aliran udara Technology Mass Air Supply yang berfungsi meningkatkan volume udara pada ruangan. Dengan begitu proses pendinginan jauh lebih cepat, menyebar tiap sudut ruangan dan tetap sunyi. Daya PK 1.5 PK
+Daya Listrik 1050 Watt
+Kapasitas Pendinginan 12000 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?1/2
+Dimensi (PxLxT) 845 x 209 x 289 mm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1009
+========================================================================================
+2023-02-08 16:55:53.285712+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Standard <br>Konsumsi Daya 1050 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 89cm x 25cm x 33cm <br>Ukuran Barang 84cm x 20cm x 28cm <br>Berat 50kg 
+ORIGINAL LENGTH : 194
+========================================================================================
+2023-02-08 16:55:53.285804+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:53.285859+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:53.285991+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+84
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:53.286068+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:53.286150+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+28
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:53.286231+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:53.286316+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:53.286399+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:58.750601+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+MOO5 merupakan inovasi AC tipe standard yang memiliki kemampuan mencuci secara otomatis melalui 3 tahapan pembersihan. didesain menggunakan Louver ganda untuk meningkatkan volume udara demi kenyamanan pengguna. Fitur Smart Cleaner
+AC ini akan bekerja secara otomatis membersihkan semua bagian Evaporator secara menyeluruh. Proses pembersihan ini mampu membersihkan hingga bagian terkecil karena melalui 3 tahap pembersihan. Louver Ganda
+Technology Natural Wind. Dengan menggunakan desain Louver ganda, AC ini dirancang untuk memberikan kenyamanan pengguna melalui aliran udara Technology Mass Air Supply yang berfungsi meningkatkan volume udara pada ruangan. Dengan begitu proses pendinginan jauh lebih cepat, menyebar tiap sudut ruangan dan tetap sunyi. Daya PK 0.5 PK
+Daya Listrik 370 Watt
+Kapasitas Pendinginan 5000 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 704 x 260 x 185 mm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1007
+========================================================================================
+2023-02-08 16:55:58.750840+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Standard <br>Konsumsi Daya 370 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 75cm x 31cm x 23cm <br>Ukuran Barang 70cm x 26cm x 18cm <br>Berat 50kg 
+ORIGINAL LENGTH : 193
+========================================================================================
+2023-02-08 16:55:58.750905+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:55:58.750960+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:55:58.751097+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:58.751151+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+26
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:58.751200+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:58.751245+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:58.751296+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:55:58.751348+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:04.366123+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor. Fast-cooling Turbo
+Dapat mencapai kapasitas pendinginan tinggi dan pendinginan ruangan dapat tercapai ekstra cepat. Soft Start
+Tarikan awal daya listrik pada saat pengoperasian unit F1 akan naik secara bertahap. Saving mode
+Cukup tekan tombol ini pada remote control AC, maka konsumsi daya listrik pada unit F1 akan berkurang sebanyak 25%. Evaporator dan kondensor dilapisin goldfin dan blue fin. Daya PK 1 PK
+Daya Listrik 685 (200 - 890) Watt
+Kapasitas Pendinginan 9000 BTU/h
+Tipe Refrigrant R-32
+Ukuran Pipa Cair and Gas (Inch) ?1/4 ?3/8
+Dimensi (PxLxT) 82 x 19 x 26 cm untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 724
+========================================================================================
+2023-02-08 16:56:04.366368+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Tipe Produk AC Inverter <br>Konsumsi Daya 685 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 87cm x 24cm x 31cm <br>Ukuran Barang 82cm x 19cm x 26cm <br>Berat 50kg 
+ORIGINAL LENGTH : 193
+========================================================================================
+2023-02-08 16:56:04.366436+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:56:04.366496+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:56:04.366553+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+82
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:04.366606+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:04.366662+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+26
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:04.366714+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:04.366764+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:04.366819+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:10.201655+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+AC Gree yang hadir dalam pasar pendingin ruangan yaitu GVC-TS Series. AC Gree ini merupakan pendingin ruangan tipe floor standing split yang digunakan untuk di kantor, rumah, ruangan indoor and outdoor ataupun untuk tujuan tertentu seperti pernikahan, pertemuan dan lain sebagainya. Hadir dengan desain display yang bulat dengan tombol turbo, memberikan pengalaman proses pendinginan yang lebih cepat. Desain AC Gree TS Series tanpa waistline yang menyatu untuk mengurangi getaran. Freon yang digunakan sudah R32 sehingga lebih cepat dingin dan ramah lingkungan. TS Series merupakan AC Floor Standing pertama yang dapat di kontrol dengan wifi serta touch screen. Garansi Resmi
+Produk AC Standing GVC-48TS 3 PK Standar R32 ini mendapatkan garansi resmi Gree 1 tahun ganti baru, 3 tahun untuk sparepart AC dan 5 tahun untuk kompresor AC. Fitur
+Auto Air Guider ? Hembusan angin secara horizontal dan vertikal otomatis yang luas.
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor
+1 Save Simple Button ? Hanya perlu menekan 1 tombol untuk mendapatkan pengaturan terhemat.
+No Waistline Design ? Bertujuan mengurangi getaran dan juga tingkat kebisingan. Kapasitas Pendingin 45000 Btu/h
+Berat 36 kg (indoor), 54 kg (outdoor)
+Power Consumption 4390 Watt
+Dimensi Indoor 587 x 394 x 1882 mm Dimensi Outdoor 1250 x 412 x 1032 mm
+Pipin Connection ?3/8 ?5/8 Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1445
+========================================================================================
+2023-02-08 16:56:10.202462+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 4390 watt <br>Tipe Produk Floor standing <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 63cm x 44cm x 193cm <br>Ukuran Barang 58cm x 39cm x 188cm <br>Berat 50kg 
+ORIGINAL LENGTH : 199
+========================================================================================
+2023-02-08 16:56:10.202583+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:56:10.202649+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:56:10.202713+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+58
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:10.202771+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+39
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:10.202828+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+188
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:56:10.202887+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:10.202940+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:10.202996+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:15.264567+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+AC Gree yang hadir dalam pasar pendingin ruangan yaitu GVC-TS Series. AC Gree ini merupakan pendingin ruangan tipe floor standing split yang digunakan untuk di kantor, rumah, ruangan indoor and outdoor ataupun untuk tujuan tertentu seperti pernikahan, pertemuan dan lain sebagainya. Hadir dengan desain display yang bulat dengan tombol turbo, memberikan pengalaman proses pendinginan yang lebih cepat. Desain AC Gree TS Series tanpa waistline yang menyatu untuk mengurangi getaran. Freon yang digunakan sudah R32 sehingga lebih cepat dingin dan ramah lingkungan. TS Series merupakan AC Floor Standing pertama yang dapat di kontrol dengan wifi serta touch screen. Garansi Resmi
+Produk AC Standing GVC-24TS 3 PK Standar R32 ini mendapatkan garansi resmi Gree 1 tahun ganti baru, 3 tahun untuk sparepart AC dan 5 tahun untuk kompresor AC. Fitur
+Auto Air Guider ? Hembusan angin secara horizontal dan vertikal otomatis yang luas.
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor
+1 Save Simple Button ? Hanya perlu menekan 1 tombol untuk mendapatkan pengaturan terhemat.
+No Waistline Design ? Bertujuan mengurangi getaran dan juga tingkat kebisingan. Kapasitas Pendingin 24000 Btu/h
+Berat 36 kg (indoor), 54 kg (outdoor)
+Power Consumption 2500 Watt
+Dimensi Indoor 485 x 321 x 1720 mm Dimensi Outdoor 955 x 424 x 700 mm
+Pipin Connection ?1/4 ?1/2 Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1443
+========================================================================================
+2023-02-08 16:56:15.264882+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 2500 watt <br>Tipe Produk Floor standing <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 53cm x 37cm x 177cm <br>Ukuran Barang 48cm x 32cm x 172cm <br>Berat 50kg 
+ORIGINAL LENGTH : 199
+========================================================================================
+2023-02-08 16:56:15.264946+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:56:15.264997+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:56:15.265048+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+48
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:15.265100+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+32
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:15.265155+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+172
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:56:15.265204+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:15.265251+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:15.265305+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:20.528661+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+AC Gree yang hadir dalam pasar pendingin ruangan yaitu GVC-TS Series. AC Gree ini merupakan pendingin ruangan tipe floor standing split yang digunakan untuk di kantor, rumah, ruangan indoor and outdoor ataupun untuk tujuan tertentu seperti pernikahan, pertemuan dan lain sebagainya. Hadir dengan desain display yang bulat dengan tombol turbo, memberikan pengalaman proses pendinginan yang lebih cepat. Desain AC Gree TS Series tanpa waistline yang menyatu untuk mengurangi getaran. Freon yang digunakan sudah R32 sehingga lebih cepat dingin dan ramah lingkungan. TS Series merupakan AC Floor Standing pertama yang dapat di kontrol dengan wifi serta touch screen. Garansi Resmi
+Produk AC Standing GVC-18TS 2 PK Standar R32 ini mendapatkan garansi resmi Gree 1 tahun ganti baru, 3 tahun untuk sparepart AC dan 5 tahun untuk kompresor AC. Fitur
+Auto Air Guider ? Hembusan angin secara horizontal dan vertikal otomatis yang luas.
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor
+1 Save Simple Button ? Hanya perlu menekan 1 tombol untuk mendapatkan pengaturan terhemat.
+No Waistline Design ? Bertujuan mengurangi getaran dan juga tingkat kebisingan. Kapasitas Pendingin 18000 Btu/h
+Berat 36 kg (indoor), 54 kg (outdoor)
+Power Consumption 1760 Watt
+Dimensi Indoor 485 x 321 x 1720 mm Dimensi Outdoor 955 x 424 x 700 mm
+Pipin Connection ?1/4 ?1/2 Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1443
+========================================================================================
+2023-02-08 16:56:20.528916+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 1760 watt <br>Tipe Produk Floor standing <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 53cm x 37cm x 177cm <br>Ukuran Barang 48cm x 32cm x 172cm <br>Berat 50kg 
+ORIGINAL LENGTH : 199
+========================================================================================
+2023-02-08 16:56:20.529026+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:56:20.529092+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:56:20.529148+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+48
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:20.529188+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+32
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:20.529222+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+172
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:56:20.529257+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:20.529293+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:20.529329+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:25.857539+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+AC inverter terbaik yang super hemat listrik, tidak berisik, dan cepat dingin adalah tiga keunggulan dari Gree F1 Inverter. Ada pula fitur smart-controlling, freon R32, dan ?Eco Save? dengan tombol ?SAVE? di remote control agar lebih hemat listrik. 24000 Btu/h - Bisa mendinginkan ruangan sampai 32m2.
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor.
+Fast-cooling ?Turbo? - dapat mencapai kapasitas pendinginan tinggi dan pendinginan ruangan dapat tercapai ekstra cepat.
+Soft Start - Tarikan awal daya listrik pada saat pengoperasian unit F1 akan naik secara bertahap.
+Saving mode - Cukup tekan tombol ini pada remote control AC, maka konsumsi daya listrik pada unit F1 akan berkurang sebanyak 25%.
+Daya Listrik 1940 (600 - 2600) Watt Garansi 5 Tahun Sparepart, 10 Tahun Kompressor 2.5 PK BTU/h 24000 (6800 - 28300) BTU/h Refrigrant R-32 Uk. Pipa ?1/4 ?5/8 Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 960
+========================================================================================
+2023-02-08 16:56:25.857778+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 1940 watt <br>Tipe Produk Inverter <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 118cm x 30cm x 38cm <br>Ukuran Barang 113cm x 25cm x 33cm <br>Berat 50kg 
+ORIGINAL LENGTH : 193
+========================================================================================
+2023-02-08 16:56:25.858008+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:56:25.858115+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:56:25.858207+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+113
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:56:25.858308+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:25.858398+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+33
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:25.858674+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:25.858734+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:25.858772+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:31.110092+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+AC Gree yang hadir dalam pasar pendingin ruangan yaitu GVC-TS Series. AC Gree ini merupakan pendingin ruangan tipe floor standing split yang digunakan untuk di kantor, rumah, ruangan indoor and outdoor ataupun untuk tujuan tertentu seperti pernikahan, pertemuan dan lain sebagainya. Hadir dengan desain display yang bulat dengan tombol turbo, memberikan pengalaman proses pendinginan yang lebih cepat. Desain AC Gree TS Series tanpa waistline yang menyatu untuk mengurangi getaran. Freon yang digunakan sudah R32 sehingga lebih cepat dingin dan ramah lingkungan. TS Series merupakan AC Floor Standing pertama yang dapat di kontrol dengan wifi serta touch screen. Garansi Resmi
+Produk AC Standing GVC-55TS 3 PK Standar R32 ini mendapatkan garansi resmi Gree 1 tahun ganti baru, 3 tahun untuk sparepart AC dan 5 tahun untuk kompresor AC. Fitur
+Auto Air Guider ? Hembusan angin secara horizontal dan vertikal otomatis yang luas.
+Garansi 1 Tahun Ganti Baru, 5 Tahun Sparepart, 10 Tahun Kompressor
+1 Save Simple Button ? Hanya perlu menekan 1 tombol untuk mendapatkan pengaturan terhemat.
+No Waistline Design ? Bertujuan mengurangi getaran dan juga tingkat kebisingan Kapasitas Pendingin 51862 Btu/h
+Berat 61 kg (indoor), 107 kg (outdoor)
+Power Consumption 5410 Watt
+Dimensi Indoor 587 x 394 x 1882 mm
+Dimensi Outdoor 1250 x 412 x 1032 mm
+Pipin Connection ?1/2 ?3/4 Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1445
+========================================================================================
+2023-02-08 16:56:31.110323+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Gree <br>Konsumsi Daya 5410 Watt <br>Tipe Produk Floor Standing <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 63cm x 44cm x 193cm <br>Ukuran Barang 58cm x 39cm x 188cm <br>Berat 50kg 
+ORIGINAL LENGTH : 199
+========================================================================================
+2023-02-08 16:56:31.110392+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:56:31.110452+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:56:31.110510+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+58
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:31.110566+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+39
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:31.110634+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+188
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:56:31.110687+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:31.110739+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:31.110789+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:56:31.203913+07:00
+USERNAME: MAIN
+FINISHED AER GREE WEB SCRAPING....
+============================================

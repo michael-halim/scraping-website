@@ -1,0 +1,2539 @@
+============================================
+2023-02-08 17:29:38.158258+07:00
+USERNAME: MAIN
+RUNNING AER SHARP WEB SCRAPING....
+========================================================================================
+2023-02-08 17:29:41.278388+07:00
+USERNAME: GET CONTACT
+PHONE
+081905946583
+ORIGINAL LENGTH : 12
+========================================================================================
+2023-02-08 17:29:41.278713+07:00
+USERNAME: GET CONTACT
+ADDRESS
+Jl. KH. Ahmad Dahlan Kby. No.59,Kramat Pela, Kebayoran Baru,Jakarta Selatan
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 17:29:47.294498+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 2 PK - AH-A18ZCY
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 17:29:47.294729+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+6099000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.294835+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453711.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.294893+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453711/Sharp-AC-Standard-Wall-Mounted-Split-2-PK---AH-A18ZCY
+ORIGINAL LENGTH : 91
+========================================================================================
+2023-02-08 17:29:47.355887+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 1.5 PK - AH-A12ZCY
+ORIGINAL LENGTH : 55
+========================================================================================
+2023-02-08 17:29:47.356126+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2033000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.356193+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-453710.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.356244+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-453710/Sharp-AC-Standard-Wall-Mounted-Split-1.5-PK---AH-A12ZCY
+ORIGINAL LENGTH : 93
+========================================================================================
+2023-02-08 17:29:47.448353+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Inverter Wall Mounted Split 1.5 PK - AH-X13ZY
+ORIGINAL LENGTH : 54
+========================================================================================
+2023-02-08 17:29:47.448564+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4549000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.448628+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-448089.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.448678+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-448089/Sharp-AC-Inverter-Wall-Mounted-Split-1.5-PK---AH-X13ZY
+ORIGINAL LENGTH : 92
+========================================================================================
+2023-02-08 17:29:47.503768+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Inverter Wall Mounted Split 1 PK - AH-X10ZY
+ORIGINAL LENGTH : 52
+========================================================================================
+2023-02-08 17:29:47.504028+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1516334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.504094+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-448088.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.504168+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-448088/Sharp-AC-Inverter-Wall-Mounted-Split-1-PK---AH-X10ZY
+ORIGINAL LENGTH : 90
+========================================================================================
+2023-02-08 17:29:47.601196+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Inverter Wall Mounted Split 0.5 PK - AH-X6ZY
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 17:29:47.601418+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4349000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.601507+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-448087.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.601575+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-448087/Sharp-AC-Inverter-Wall-Mounted-Split-0.5-PK---AH-X6ZY
+ORIGINAL LENGTH : 91
+========================================================================================
+2023-02-08 17:29:47.742519+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 1 PK - AH-A9ZCYN
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 17:29:47.742748+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1449667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.742940+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-448085.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.743008+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-448085/Sharp-AC-Standard-Wall-Mounted-Split-1-PK---AH-A9ZCYN
+ORIGINAL LENGTH : 91
+========================================================================================
+2023-02-08 17:29:47.810432+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 0.5 PK - AH-A5ZCYN
+ORIGINAL LENGTH : 55
+========================================================================================
+2023-02-08 17:29:47.810669+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3649000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.810775+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-448084.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.810858+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-448084/Sharp-AC-Standard-Wall-Mounted-Split-0.5-PK---AH-A5ZCYN
+ORIGINAL LENGTH : 93
+========================================================================================
+2023-02-08 17:29:47.890694+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp Microwave Straight 23 Liter - R-21D0(S)IN
+ORIGINAL LENGTH : 47
+========================================================================================
+2023-02-08 17:29:47.890934+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1216334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.891004+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-443903.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.891086+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-443903/Sharp-Microwave-Straight-23-Liter---R-21D0(S)IN
+ORIGINAL LENGTH : 85
+========================================================================================
+2023-02-08 17:29:47.977117+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC J-Tech Plasmacluster Wall Mounted Split 0.5 PK - AH-XP6UHY
+ORIGINAL LENGTH : 67
+========================================================================================
+2023-02-08 17:29:47.977338+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3399000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:47.977401+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-425278.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:47.977443+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-425278/Sharp-AC-J-Tech-Plasmacluster-Wall-Mounted-Split-0.5-PK---AH-XP6UHY
+ORIGINAL LENGTH : 105
+========================================================================================
+2023-02-08 17:29:48.065047+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Wall Mounted Split 1 PK - AH-A9UDL
+ORIGINAL LENGTH : 43
+========================================================================================
+2023-02-08 17:29:48.065293+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1133000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.065375+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420826.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.065440+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420826/Sharp-AC-Wall-Mounted-Split-1-PK---AH-A9UDL
+ORIGINAL LENGTH : 81
+========================================================================================
+2023-02-08 17:29:48.158084+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Wall Mounted Split 3/4 PK - AH-A7UDL
+ORIGINAL LENGTH : 45
+========================================================================================
+2023-02-08 17:29:48.158316+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3049000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.158390+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420825.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.158462+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420825/Sharp-AC-Wall-Mounted-Split-3/4-PK---AH-A7UDL
+ORIGINAL LENGTH : 83
+========================================================================================
+2023-02-08 17:29:48.237332+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Wall Mounted Split 1/2 PK - AH-A5UDL
+ORIGINAL LENGTH : 45
+========================================================================================
+2023-02-08 17:29:48.237566+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1016334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.237662+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420824.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.237709+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420824/Sharp-AC-Wall-Mounted-Split-1/2-PK---AH-A5UDL
+ORIGINAL LENGTH : 83
+========================================================================================
+2023-02-08 17:29:48.288361+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Plasmacluster Wall Mounted Split 1 1/2 PK - AH-AP12SSY
+ORIGINAL LENGTH : 63
+========================================================================================
+2023-02-08 17:29:48.288577+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2749000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.288659+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420822.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.288706+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420822/Sharp-AC-Plasmacluster-Wall-Mounted-Split-1-1/2-PK---AH-AP12SSY
+ORIGINAL LENGTH : 101
+========================================================================================
+2023-02-08 17:29:48.344283+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Plasmacluster Wall Mounted Split 1 PK - AH-AP9SSY
+ORIGINAL LENGTH : 58
+========================================================================================
+2023-02-08 17:29:48.344480+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+916334
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:29:48.344529+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420821.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.344567+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420821/Sharp-AC-Plasmacluster-Wall-Mounted-Split-1-PK---AH-AP9SSY
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.404579+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Plasmacluster Wall Mounted Split 3/4 PK - AH-AP7SSY
+ORIGINAL LENGTH : 60
+========================================================================================
+2023-02-08 17:29:48.404783+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+999000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:29:48.404865+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420820.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.404922+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420820/Sharp-AC-Plasmacluster-Wall-Mounted-Split-3/4-PK---AH-AP7SSY
+ORIGINAL LENGTH : 98
+========================================================================================
+2023-02-08 17:29:48.464367+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Plasmacluster Wall Mounted Split 1/2 PK - AH-AP5SSY
+ORIGINAL LENGTH : 60
+========================================================================================
+2023-02-08 17:29:48.464624+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4699000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.464704+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420819.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.464778+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420819/Sharp-AC-Plasmacluster-Wall-Mounted-Split-1/2-PK---AH-AP5SSY
+ORIGINAL LENGTH : 98
+========================================================================================
+2023-02-08 17:29:48.529922+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Low Watt Plasmacluster Wall Mounted Split 1 PK - AH-AP9UHL
+ORIGINAL LENGTH : 67
+========================================================================================
+2023-02-08 17:29:48.530208+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1566334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.530281+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420816.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.530346+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420816/Sharp-AC-Low-Watt-Plasmacluster-Wall-Mounted-Split-1-PK---AH-AP9UHL
+ORIGINAL LENGTH : 105
+========================================================================================
+2023-02-08 17:29:48.595763+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Low Watt Plasmacluster Wall Mounted Split 3/4 PK - AH-AP7UHL
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 17:29:48.596008+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3799000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.596090+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420815.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.596174+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420815/Sharp-AC-Low-Watt-Plasmacluster-Wall-Mounted-Split-3/4-PK---AH-AP7UHL
+ORIGINAL LENGTH : 107
+========================================================================================
+2023-02-08 17:29:48.652739+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Low Watt Plasmacluster Wall Mounted Split 1/2 PK - AH-AP5UHL
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 17:29:48.652950+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1266334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.653007+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420814.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.653055+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420814/Sharp-AC-Low-Watt-Plasmacluster-Wall-Mounted-Split-1/2-PK---AH-AP5UHL
+ORIGINAL LENGTH : 107
+========================================================================================
+2023-02-08 17:29:48.706492+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Inverter Wall Mounted Split 2 PK - AH-X18VEY
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 17:29:48.706710+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3649000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.706774+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420812.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.706811+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420812/Sharp-AC-Inverter-Wall-Mounted-Split-2-PK---AH-X18VEY
+ORIGINAL LENGTH : 91
+========================================================================================
+2023-02-08 17:29:48.766776+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 2 PK - AH-A18SAY
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 17:29:48.767018+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1216334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.767082+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420770.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.767322+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420770/Sharp-AC-Standard-Wall-Mounted-Split-2-PK---AH-A18SAY
+ORIGINAL LENGTH : 91
+========================================================================================
+2023-02-08 17:29:48.827234+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 1 1/2 PK - AH-A12SAY
+ORIGINAL LENGTH : 57
+========================================================================================
+2023-02-08 17:29:48.827504+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3549000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.827597+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420769.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.827688+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420769/Sharp-AC-Standard-Wall-Mounted-Split-1-1/2-PK---AH-A12SAY
+ORIGINAL LENGTH : 95
+========================================================================================
+2023-02-08 17:29:48.893195+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 1 PK - AH-A9SAY
+ORIGINAL LENGTH : 52
+========================================================================================
+2023-02-08 17:29:48.893401+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1183000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.893449+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420768.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.893488+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420768/Sharp-AC-Standard-Wall-Mounted-Split-1-PK---AH-A9SAY
+ORIGINAL LENGTH : 90
+========================================================================================
+2023-02-08 17:29:48.950266+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 3/4 PK - AH-A7SAY
+ORIGINAL LENGTH : 54
+========================================================================================
+2023-02-08 17:29:48.950491+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4949000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:48.950542+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420767.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:48.950828+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420767/Sharp-AC-Standard-Wall-Mounted-Split-3/4-PK---AH-A7SAY
+ORIGINAL LENGTH : 92
+========================================================================================
+2023-02-08 17:29:53.429045+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp AC Standard Wall Mounted Split 1/2 PK - AH-A5SAY
+ORIGINAL LENGTH : 54
+========================================================================================
+2023-02-08 17:29:53.429370+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2749000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:53.429442+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420766.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:53.429505+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420766/Sharp-AC-Standard-Wall-Mounted-Split-1/2-PK---AH-A5SAY
+ORIGINAL LENGTH : 92
+========================================================================================
+2023-02-08 17:29:53.487437+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp Sharp AC Split Dinding Standard Turbo 2 PK - AH-A18UCY | AHA18UCY | 18UCY
+ORIGINAL LENGTH : 79
+========================================================================================
+2023-02-08 17:29:53.487791+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+916334
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:29:53.487881+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420758.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:53.487963+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420758/Sharp-Sharp-AC-Split-Dinding-Standard-Turbo-2-PK---AH-A18UCY-%7C-AHA18UCY-%7C-18UCY
+ORIGINAL LENGTH : 121
+========================================================================================
+2023-02-08 17:29:53.560493+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp Sharp AC Split Dinding Standard Turbo&nbsp; 1/2 PK&nbsp; ( 0.5 PK ) - AH-A5UCY | AHA5UCY | 5UCY
+ORIGINAL LENGTH : 101
+========================================================================================
+2023-02-08 17:29:53.560743+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+6049000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:53.560827+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/WHN-420754.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:53.560890+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/WHN-420754/Sharp-Sharp-AC-Split-Dinding-Standard-Turbo-1/2-PK-(-0.5-PK-)---AH-A5UCY-%7C-AHA5UCY-%7C-5UCY
+ORIGINAL LENGTH : 131
+========================================================================================
+2023-02-08 17:29:53.617283+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+SHARP Mesin Cuci 7 kg ES-FL1072
+ORIGINAL LENGTH : 31
+========================================================================================
+2023-02-08 17:29:53.617479+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2016334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:53.617524+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/DPR-403272.png?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:53.617580+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/DPR-403272/SHARP-Mesin-Cuci-7-kg-ES-FL1072
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 17:29:53.674238+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp Front Load Mesin Cuci [7 kg] ES-FL872
+ORIGINAL LENGTH : 43
+========================================================================================
+2023-02-08 17:29:53.674507+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2899000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:53.674617+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/DPR-387984.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:53.674709+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/DPR-387984/Sharp-Front-Load-Mesin-Cuci-[7-kg]-ES-FL872
+ORIGINAL LENGTH : 81
+========================================================================================
+2023-02-08 17:29:53.758589+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Sharp MESIN CUCI FRONT LOADING 6 KG / ESFL1062B
+ORIGINAL LENGTH : 47
+========================================================================================
+2023-02-08 17:29:53.758809+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+966334
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 17:29:53.758884+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/DPR-426630.png?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 17:29:53.758951+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/DPR-426630/Sharp-MESIN-CUCI-FRONT-LOADING-6-KG-/-ESFL1062B
+ORIGINAL LENGTH : 85
+========================================================================================
+2023-02-08 17:29:58.508593+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon Terbaru Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Turbo Cool
+kipas unit indoor akan bekerja dengan kecepatan maksimum untuk mempercepat pendinginan ruangan.
+Self Diagnosis Ketika status AC dalam keadaan tidak normal, panel pada unit akan berkedip untuk menunjukkan kode error yang sedang terjadi. X-Fan Function Jika AC dimatikan, kipas unit indoor akan tetap beroperasi sebentar dengan kecepatan rendah untuk meniupkan sisa air di dalam saluran udara. Tipe AC: Standard Kapasitas PK: 2 PK Daya Listrik: 1640 Watt Dimensi (l x w x h): 97 x 30 x 22 cm
+Ukuran Pipa Cair and Gas (Inch): ?1/4 ?1/2
+Kapasitas Pendingin: 17.500 Btu/h Tipe Refrigrant: R32 Berat: 14 Kg Made In: China Garansi Indoor: Garansi Sharp 1 Tahun Garansi Outdoor: Garansi Sharp 10 Tahun untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu"
+ORIGINAL LENGTH : 1189
+========================================================================================
+2023-02-08 17:29:58.509004+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Tipe Produk AC Standard <br>Konsumsi Daya 1640 Watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 102cm x 35cm x 27cm <br>Ukuran Barang 97cm x 30cm x 22cm <br>Berat 50kg 
+ORIGINAL LENGTH : 196
+========================================================================================
+2023-02-08 17:29:58.509143+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:29:58.509257+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:29:58.509375+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+97
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:29:58.509586+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+30
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:29:58.509707+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:29:58.509810+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:29:58.509975+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:29:58.510090+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:03.872603+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon Terbaru Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Turbo Cool
+kipas unit indoor akan bekerja dengan kecepatan maksimum untuk mempercepat pendinginan ruangan.
+Self Diagnosis Ketika status AC dalam keadaan tidak normal, panel pada unit akan berkedip untuk menunjukkan kode error yang sedang terjadi. X-Fan Function Jika AC dimatikan, kipas unit indoor akan tetap beroperasi sebentar dengan kecepatan rendah untuk meniupkan sisa air di dalam saluran udara. Tipe AC: Standard Kapasitas PK: 1.5 PK Daya Listrik: 1035 Watt Dimensi (l x w x h): 85 x 29 x 21 cm
+Ukuran Pipa Cair and Gas (Inch): ?1/4 ?1/2
+Kapasitas Pendingin: 11.500 Btu/h Tipe Refrigrant: R32 Berat: 11 Kg Made In: China Garansi Indoor: Garansi Sharp 1 Tahun Garansi Outdoor: Garansi Sharp 10 Tahun untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu"
+ORIGINAL LENGTH : 1191
+========================================================================================
+2023-02-08 17:30:03.872832+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Tipe Produk AC Standard <br>Konsumsi Daya 1085 Watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 90cm x 34cm x 26cm <br>Ukuran Barang 85cm x 29cm x 21cm <br>Berat 50kg 
+ORIGINAL LENGTH : 195
+========================================================================================
+2023-02-08 17:30:03.872908+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:03.872967+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:03.873010+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+85
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:03.873049+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:03.873084+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+21
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:03.873123+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:03.873183+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:03.873243+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:08.905736+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Sparepart, 10 Tahun Kompressor. 7 Shields Protection - Perlindungan petir, korosi, voltase, jatuh, api, getaran and cuaca ekstrim. J-Tech Inverter - Mengubah pengendalian konsumsi listrik yang presisi menjadi penghematan energi dan operasi yang efisien energi hingga 65%. Coanda Air Flow - Mode aliran udara lewat langit-langit, sehingga tidak langsung mengenai badan. Daya PK 1.5 PK Kapasitas Pendinginan 13000 BTU/h
+Tipe Refrigrant R-32
+Daya Listrik 1060 Watt
+Ukuran Pipa Cair and Gas ?1/4 ?3/8 Inch
+Made In thailand
+Dimensi (l x w x h) 877 x 292 x 222 mm Untuk pembelian di atas 5 pcs mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 657
+========================================================================================
+2023-02-08 17:30:08.906045+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Tipe Produk AC Standard Wall Mounted Split <br>Konsumsi Daya 1060 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 92cm x 34cm x 27cm <br>Ukuran Barang 87cm x 29cm x 22cm <br>Berat 50kg 
+ORIGINAL LENGTH : 214
+========================================================================================
+2023-02-08 17:30:08.906142+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:08.906227+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:08.906288+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:08.906343+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:08.906395+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:08.906451+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:08.906502+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:08.906552+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:24.422221+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Sparepart, 10 Tahun Kompressor. 7 Shields Protection - Perlindungan petir, korosi, voltase, jatuh, api, getaran and cuaca ekstrim. J-Tech Inverter - Mengubah pengendalian konsumsi listrik yang presisi menjadi penghematan energi dan operasi yang efisien energi hingga 65%. Coanda Air Flow - Mode aliran udara lewat langit-langit, sehingga tidak langsung mengenai badan. Daya PK 1 PK Kapasitas Pendinginan 9,000 (3,000-10,000) BTU/h
+Tipe Refrigrant R-32
+Daya Listrik 720 Watt
+Ukuran Pipa Cair and Gas ?1/4 ?3/8 Inch
+Made In thailand
+Dimensi (l x w x h) 848 x 294 x 204 mm Untuk pembelian di atas 5 pcs mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 669
+========================================================================================
+2023-02-08 17:30:24.422489+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Tipe Produk AC Standard Wall Mounted Split <br>Konsumsi Daya 720 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 90cm x 34cm x 25cm <br>Ukuran Barang 85cm x 29cm x 20cm <br>Berat 50kg 
+ORIGINAL LENGTH : 213
+========================================================================================
+2023-02-08 17:30:24.422662+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:24.422727+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:24.422787+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+85
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:24.422842+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:24.422896+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:24.422953+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:24.423007+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:24.423060+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:29.897786+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Sparepart, 10 Tahun Kompressor. 7 Shields Protection - Perlindungan petir, korosi, voltase, jatuh, api, getaran and cuaca ekstrim. J-Tech Inverter - Mengubah pengendalian konsumsi listrik yang presisi menjadi penghematan energi dan operasi yang efisien energi hingga 65%. Coanda Air Flow - Mode aliran udara lewat langit-langit, sehingga tidak langsung mengenai badan. Daya PK 0.5 PK Kapasitas Pendinginan 5000 (2900 - 7000) BTU/h
+Tipe Refrigrant R-32
+Daya Listrik 380 Watt
+Ukuran Pipa Cair and Gas ?1/4 ?3/8 Inch
+Made In thailand
+Dimensi (l x w x h) 85 x 29 x 20 cm Untuk pembelian di atas 5 pcs mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 666
+========================================================================================
+2023-02-08 17:30:29.898070+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Tipe Produk AC Standard Wall Mounted Split <br>Konsumsi Daya 380 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 90cm x 34cm x 25cm <br>Ukuran Barang 85cm x 29cm x 20cm <br>Berat 50kg 
+ORIGINAL LENGTH : 213
+========================================================================================
+2023-02-08 17:30:29.898149+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:29.898218+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:29.898276+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+85
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:29.898324+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:29.898382+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+20
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:29.898435+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:29.898502+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:29.898555+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:34.683936+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Sparepart, 10 Tahun Kompresor. Gold Fin on Evaporator Turbo cooling function - menghantarkan udara dingin ke seluruh ruangan dengan kecepatan kipas super tinggi sehingga suhu ruangan dapat tercapai dengan lebih cepat. Self diagnosis - ketika status AC dalam keadaan tidak normal, panel pada unit akan berkedip untuk menunjukan kode error yang sedang terjadi. Daya PK 1 PK Kapasitas Pendinginan 9000 BTU/h
+Tipe Refrigrant R-32 Daya Listrik 765 Watt
+Ukuran Pipa Cair and Gas ?1/4 ?3/8 Inch
+Made In indonesia
+Dimensi (l x w x h) 77 x 25 x 19 cm Untuk pembelian di atas 5 pcs mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 641
+========================================================================================
+2023-02-08 17:30:34.684164+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Tipe Produk AC Standard Wall Mounted Split <br>Konsumsi Daya 765 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 82cm x 30cm x 24cm <br>Ukuran Barang 77cm x 25cm x 19cm <br>Berat 50kg 
+ORIGINAL LENGTH : 213
+========================================================================================
+2023-02-08 17:30:34.684227+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:34.684275+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:34.684320+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+77
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:34.684363+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:34.684406+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:34.684452+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:34.684492+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:34.684534+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:39.265323+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Garansi 1 Tahun Sparepart, 10 Tahun Kompresor. Gold Fin on Evaporator Turbo cooling function - menghantarkan udara dingin ke seluruh ruangan dengan kecepatan kipas super tinggi sehingga suhu ruangan dapat tercapai dengan lebih cepat. Self diagnosis - ketika status AC dalam keadaan tidak normal, panel pada unit akan berkedip untuk menunjukan kode error yang sedang terjadi. Daya PK 0.5 PK Kapasitas Pendinginan 5000 BTU/h
+Tipe Refrigrant R-32 Daya Listrik 344 Watt
+Ukuran Pipa Cair and Gas ?1/4 ?3/8 Inch
+Made In indonesia
+Dimensi (l x w x h) 70 x 25 x 19 cm Untuk pembelian di atas 5 pcs mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 643
+========================================================================================
+2023-02-08 17:30:39.265644+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Tipe Produk AC Standard Wall Mounted Split <br>Konsumsi Daya 344 watt <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 75cm x 30cm x 24cm <br>Ukuran Barang 70cm x 25cm x 19cm <br>Berat 50kg 
+ORIGINAL LENGTH : 213
+========================================================================================
+2023-02-08 17:30:39.265734+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:39.265796+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:39.265854+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:39.265989+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:39.266059+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:39.266110+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:39.266156+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:39.266205+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:44.942394+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Sharp Straight Microwave Oven 23 Liter - R-21D0(S)IN merupakan microwave oven dari Sharp dengan banyak keunggulan. Memiliki kapasitas besar dengan desain minimalis modern dapat menambah kesan modern dan stylish pada dapur Anda tercinta. Makanan cepat matang, santap bersama keluarga semakin riang! Sharp Straight Microwave Oven 23 Liter R21D0(S)IN, memiliki kapasitas besar dengan pintu microwave yang terbuat dari tempered glass sehingga memudahkan Anda dalam menjangkau makanan apakah sudah matang atau belum. Dengan fungsi defrost-nya mampu menghangatkan kembali makanan beku agar dapat Anda santap kembali. Kapasitas 23 liter Konsumsi Daya 450 Watt
+Voltase 220 ? 240 Volt / 50 Hz
+Mechanical Type Y
+Defrost by weight and time Y
+Dimensi 52 cm x 40.7 cm x 32 cm Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 847
+========================================================================================
+2023-02-08 17:30:44.942629+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Kapasitas Produk 23 liter <br>Konsumsi Daya 450 watt <br>Warna Hitam <br>Material Stainless Steel <br>Ukuran Kemasan 57cm x 45cm x 37cm <br>Ukuran Barang 52cm x 40cm x 32cm <br>Berat 15kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 17:30:44.942702+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+black
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:44.942784+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 17:30:44.942850+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+52
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:44.942911+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+40
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:44.942975+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+32
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:44.943056+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:44.943115+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+15
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:44.943167+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:50.186309+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Sharp Air of Confidence
+Rasakan Pendinginan Super Cepat dengan Mode super jetstream Menghemat Energi Hingga 65%
+Sharp Air of Confidence menghemat energi hingga 65%* dengan J-Tech Inverter dan Eco Mode. Teknologi ION Plasmacluster
+Sharp Air of Confidence memiliki ion plasmacluster, membuat udara bersih dan murni. Terbebas dari bakteri, alergi, jamur dan bau. 7 Perlindungan Jaminan Kualitas Jepang
+Sharp Air of Confidence terlindungi dengan 7 perlindungan jaminan kualitas Jepang. Lock On Sensor
+Sharp Air of Confidence dilengkapi dengan fitur Lock On Sensor yang mampu mendeteksi dan menyemburkan udara dingin sesuai dengan posisi remote control. PK 0.5 PK
+Kapasitas Pendinginan 5000 BTU
+Daya Listrik 360 Watt (230 - 600)
+Refrigerant R32
+Berat Indoor 8 kg
+Dimensi Indoor 856 x 290 x 244 mm Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 876
+========================================================================================
+2023-02-08 17:30:50.186542+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 360 Watt <br>Tipe Produk J-Tech Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 29cm x 90cm x 34cm <br>Ukuran Barang 24cm x 85cm x 29cm <br>Berat 50kg 
+ORIGINAL LENGTH : 203
+========================================================================================
+2023-02-08 17:30:50.186635+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:50.186693+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:50.186731+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+24
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:50.186766+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+85
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:50.186800+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:50.186833+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:50.186919+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:50.186953+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:55.746905+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Menyebarkan Suhu Dingin dengan Cepat and Merata
+Sharp Air Conditioner merupakan AC Split yang telah disuguhi teknologi Jetstream. Yang mana teknologi tersebut dapat mempercepat proses pendinginan secara merata hingga kesudut ruangan rumah Anda. Bahkan dengan teknologi tersebut motor kipas akan langsung bekerja dengan kecepatan tinggi yang berguna untuk mendinginkan ruangan hingga pengaturan 14 derajat. Disamping itu, alat pendingin ruangan dari Sharp ini hadir menjadikannya cocok untuk diletakkan pada berbagai ruangan di rumah, seperti kamar tidur, ruang tamu hingga ruang keluarga. AC Ramah Lingkungan dan Hemat Energi
+Selain itu, AC ini hadir dengan langkah terbaik karena menggunakan Freon R32 sebagai refrigerannya yang sangat ramah lingkungan dan tidak mengandung bahan perusak ozon sehingga baik untuk digunakan. Hebatnya lagi, AC ini juga disuguhi dengan fitur hemat energi yang tentunya menjadi dambaan bagi banyak orang. Pasalnya, Sharp menawarkan pendingin ruangan yang mampu mengkonsumsi daya listrik rendah. Berkat dukungan teknologi Low Wattage dan Low Voltage memungkinkan Air Conditioner ini bisa beroperasi pada tengangan rendah. Dengan begitu, pendingin ruangan Sharp bisa digunakan untuk rumah Anda yang memiliki kapasitas listrik terbatas. Besaran 1 PK
+Daya Maximal 690 Watt Power 9.000 BTU/H
+Dimensi In 877 x 292 x 222 MM
+Dimensi Out 598 x 495 x 265 MM Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1463
+========================================================================================
+2023-02-08 17:30:55.747198+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 690 Watt <br>Tipe Produk Standard <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 191
+========================================================================================
+2023-02-08 17:30:55.747272+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:30:55.747346+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:30:55.747421+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:55.747605+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:55.747671+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:55.747742+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:55.747797+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:30:55.747879+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:00.462269+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Menyebarkan Suhu Dingin dengan Cepat and Merata
+Sharp Air Conditioner merupakan AC Split yang telah disuguhi teknologi Jetstream. Yang mana teknologi tersebut dapat mempercepat proses pendinginan secara merata hingga kesudut ruangan rumah Anda. Bahkan dengan teknologi tersebut motor kipas akan langsung bekerja dengan kecepatan tinggi yang berguna untuk mendinginkan ruangan hingga pengaturan 14 derajat. Disamping itu, alat pendingin ruangan dari Sharp ini hadir menjadikannya cocok untuk diletakkan pada berbagai ruangan di rumah, seperti kamar tidur, ruang tamu hingga ruang keluarga. AC Ramah Lingkungan dan Hemat Energi
+Selain itu, AC ini hadir dengan langkah terbaik karena menggunakan Freon R32 sebagai refrigerannya yang sangat ramah lingkungan dan tidak mengandung bahan perusak ozon sehingga baik untuk digunakan. Hebatnya lagi, AC ini juga disuguhi dengan fitur hemat energi yang tentunya menjadi dambaan bagi banyak orang. Pasalnya, Sharp menawarkan pendingin ruangan yang mampu mengkonsumsi daya listrik rendah. Berkat dukungan teknologi Low Wattage dan Low Voltage memungkinkan Air Conditioner ini bisa beroperasi pada tengangan rendah. Dengan begitu, pendingin ruangan Sharp bisa digunakan untuk rumah Anda yang memiliki kapasitas listrik terbatas. Besaran 0.75 PK
+Daya Maximal 540 Watt Power 7.000 BTU/H
+Dimensi In 877 x 292 x 222 MM
+Dimensi Out 598 x 495 x 265 MM Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1466
+========================================================================================
+2023-02-08 17:31:00.462540+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 540 Watt <br>Tipe Produk Standard <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 191
+========================================================================================
+2023-02-08 17:31:00.462600+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:00.462645+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:00.462688+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:00.462730+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:00.462771+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:00.462815+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:00.462855+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:00.462894+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:06.213048+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Menyebarkan Suhu Dingin dengan Cepat and Merata
+Sharp Air Conditioner merupakan AC Split yang telah disuguhi teknologi Jetstream. Yang mana teknologi tersebut dapat mempercepat proses pendinginan secara merata hingga kesudut ruangan rumah Anda. Bahkan dengan teknologi tersebut motor kipas akan langsung bekerja dengan kecepatan tinggi yang berguna untuk mendinginkan ruangan hingga pengaturan 14 derajat. Disamping itu, alat pendingin ruangan dari Sharp ini hadir menjadikannya cocok untuk diletakkan pada berbagai ruangan di rumah, seperti kamar tidur, ruang tamu hingga ruang keluarga. AC Ramah Lingkungan dan Hemat Energi
+Selain itu, AC ini hadir dengan langkah terbaik karena menggunakan Freon R32 sebagai refrigerannya yang sangat ramah lingkungan dan tidak mengandung bahan perusak ozon sehingga baik untuk digunakan. Hebatnya lagi, AC ini juga disuguhi dengan fitur hemat energi yang tentunya menjadi dambaan bagi banyak orang. Pasalnya, Sharp menawarkan pendingin ruangan yang mampu mengkonsumsi daya listrik rendah. Berkat dukungan teknologi Low Wattage dan Low Voltage memungkinkan Air Conditioner ini bisa beroperasi pada tengangan rendah. Dengan begitu, pendingin ruangan Sharp bisa digunakan untuk rumah Anda yang memiliki kapasitas listrik terbatas. Besaran 0.5 PK
+Daya Maximal 330 Watt Power 5.000 BTU/H
+Dimensi In 877 x 292 x 222 MM
+Dimensi Out 598 x 495 x 265 MM Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1465
+========================================================================================
+2023-02-08 17:31:06.213322+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 330 Watt <br>Tipe Produk Standard <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 191
+========================================================================================
+2023-02-08 17:31:06.213375+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:06.213426+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:06.213491+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:06.213561+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:06.213631+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:06.213695+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:06.213757+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:06.213813+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:10.912344+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Plasmacluster Generator
+Plasmacluster Generator yang terimplentasi ke dalam produk ini, akan melepaskan ion Positif dan Negatif ke udara lalu memburu elemen kasat mata yang berbahaya seperti Virus, Jamur, Alergen, Bau, dsb hingga ke sudut ruangan. Ion tersebut akan membentuk Hidrosil pada permukaan partikel untuk melumpuhkannya. Hidrosil (OH-) merupakan senyawa radikal yang aktif akan mengambil atom hidrogen dan langsung menonaktifkannya, sehingga partikel berbahaya tadi seperti Virus, Jamur, Alergen, Bau dan sebagainya menjadi lumpuh. Fungsi Self Cleaning with Plasmacluster Ion
+Ion Plasmacluster menghalangi pertumbuhan jamur di dalam evaporator, sehingga bebas dari bau apek. Selama 40 menit, Ion Plasmacluster akan dihembuskan ke dalam indoor dan mencegah pertumbuhan jamur penyebab bau tumbuh pada permukaan evaporator. R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Kapasitas 1.5 PK
+Kapasitas Pendinginan 11900 BTU
+Volume Refrigeran R-32
+Tegangan 220 Volt
+Dimensi 877 x 292 x 222
+Berat 9 kg Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1500
+========================================================================================
+2023-02-08 17:31:10.912628+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya - <br>Tipe Produk Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 189
+========================================================================================
+2023-02-08 17:31:10.912711+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:10.912762+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:10.912807+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:10.912849+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:10.912893+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:10.912933+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:10.912976+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:10.913019+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:15.786721+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Plasmacluster Generator
+Plasmacluster Generator yang terimplentasi ke dalam produk ini, akan melepaskan ion Positif dan Negatif ke udara lalu memburu elemen kasat mata yang berbahaya seperti Virus, Jamur, Alergen, Bau, dsb hingga ke sudut ruangan. Ion tersebut akan membentuk Hidrosil pada permukaan partikel untuk melumpuhkannya. Hidrosil (OH-) merupakan senyawa radikal yang aktif akan mengambil atom hidrogen dan langsung menonaktifkannya, sehingga partikel berbahaya tadi seperti Virus, Jamur, Alergen, Bau dan sebagainya menjadi lumpuh. Fungsi Self Cleaning with Plasmacluster Ion
+Ion Plasmacluster menghalangi pertumbuhan jamur di dalam evaporator, sehingga bebas dari bau apek. Selama 40 menit, Ion Plasmacluster akan dihembuskan ke dalam indoor dan mencegah pertumbuhan jamur penyebab bau tumbuh pada permukaan evaporator. R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. SERIES Jetstream PCI Series
+Coanda Yes Plasmacluster Yes - PCI HD 7000
+Cooling Capacity(BTU) 9000
+Capacity (PK) 1
+Refrigerant R-32
+Rated Voltage ( Volt ) 220
+In Door Dimensions (mm) 877 x 292 x 222
+Out Door Dimensions (mm) 598 x 495 x 265 Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1614
+========================================================================================
+2023-02-08 17:31:15.787001+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya - <br>Tipe Produk Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 189
+========================================================================================
+2023-02-08 17:31:15.787060+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:15.787108+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:15.787161+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:15.787208+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:15.787254+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:15.787301+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:15.787346+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:15.787390+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:20.732343+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Plasmacluster Generator
+Plasmacluster Generator yang terimplentasi ke dalam produk ini, akan melepaskan ion Positif dan Negatif ke udara lalu memburu elemen kasat mata yang berbahaya seperti Virus, Jamur, Alergen, Bau, dsb hingga ke sudut ruangan. Ion tersebut akan membentuk Hidrosil pada permukaan partikel untuk melumpuhkannya. Hidrosil (OH-) merupakan senyawa radikal yang aktif akan mengambil atom hidrogen dan langsung menonaktifkannya, sehingga partikel berbahaya tadi seperti Virus, Jamur, Alergen, Bau dan sebagainya menjadi lumpuh. Fungsi Self Cleaning with Plasmacluster Ion
+Ion Plasmacluster menghalangi pertumbuhan jamur di dalam evaporator, sehingga bebas dari bau apek. Selama 40 menit, Ion Plasmacluster akan dihembuskan ke dalam indoor dan mencegah pertumbuhan jamur penyebab bau tumbuh pada permukaan evaporator. R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Kapasitas 0.75 PK
+Kapasitas Pendinginan 7000 BTU
+Volume Refrigeran R-32
+Tegangan 220 Volt
+Dimensi 877 x 292 x 222 mm
+Berat 8 kg Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1503
+========================================================================================
+2023-02-08 17:31:20.732818+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya - <br>Tipe Produk Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 189
+========================================================================================
+2023-02-08 17:31:20.732903+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:20.732947+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:20.732982+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:20.733015+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:20.733049+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:20.733101+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:20.733139+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:20.733173+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:25.152544+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Plasmacluster Generator
+Plasmacluster Generator yang terimplentasi ke dalam produk ini, akan melepaskan ion Positif dan Negatif ke udara lalu memburu elemen kasat mata yang berbahaya seperti Virus, Jamur, Alergen, Bau, dsb hingga ke sudut ruangan. Ion tersebut akan membentuk Hidrosil pada permukaan partikel untuk melumpuhkannya. Hidrosil (OH-) merupakan senyawa radikal yang aktif akan mengambil atom hidrogen dan langsung menonaktifkannya, sehingga partikel berbahaya tadi seperti Virus, Jamur, Alergen, Bau dan sebagainya menjadi lumpuh. Fungsi Self Cleaning with Plasmacluster Ion
+Ion Plasmacluster menghalangi pertumbuhan jamur di dalam evaporator, sehingga bebas dari bau apek. Selama 40 menit, Ion Plasmacluster akan dihembuskan ke dalam indoor dan mencegah pertumbuhan jamur penyebab bau tumbuh pada permukaan evaporator. R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. SERIES Jetstream PCI Series
+Coanda Plasmacluster - PCI HD 7000
+Cooling Capacity(BTU) 5000
+Capacity (PK) 0.5
+Refrigerant R-32
+Rated Voltage ( Volt ) 220
+In Door Dimensions (mm) 877 x 292 x 222
+Out Door Dimensions (mm) 598 x 495 x 265 Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1608
+========================================================================================
+2023-02-08 17:31:25.152869+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya - <br>Tipe Produk Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 189
+========================================================================================
+2023-02-08 17:31:25.152974+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:25.153071+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:25.153139+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:25.153192+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:25.153247+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:25.153301+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:25.153340+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:25.153406+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:30.306838+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Plasmacluster Generator
+Plasmacluster Generator yang terimplentasi ke dalam produk ini, akan melepaskan ion Positif dan Negatif ke udara lalu memburu elemen kasat mata yang berbahaya seperti Virus, Jamur, Alergen, Bau, dsb hingga ke sudut ruangan. Ion tersebut akan membentuk Hidrosil pada permukaan partikel untuk melumpuhkannya. Hidrosil (OH-) merupakan senyawa radikal yang aktif akan mengambil atom hidrogen dan langsung menonaktifkannya, sehingga partikel berbahaya tadi seperti Virus, Jamur, Alergen, Bau dan sebagainya menjadi lumpuh. Fungsi Self Cleaning with Plasmacluster Ion
+Ion Plasmacluster menghalangi pertumbuhan jamur di dalam evaporator, sehingga bebas dari bau apek. Selama 40 menit, Ion Plasmacluster akan dihembuskan ke dalam indoor dan mencegah pertumbuhan jamur penyebab bau tumbuh pada permukaan evaporator. R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Besaran 1 PK
+Daya Maximal 690 Watt Power 9.000 BTU/H
+Dimensi In 877 x 292 x 222 MM
+Dimensi Out 598 x 495 x 265 MM Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1489
+========================================================================================
+2023-02-08 17:31:30.307079+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 690 Watt <br>Tipe Produk Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 196
+========================================================================================
+2023-02-08 17:31:30.307145+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:30.311837+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:30.311963+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:30.312013+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:30.312063+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:30.312109+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:30.312155+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:30.312199+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:35.187838+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Plasmacluster Generator
+Plasmacluster Generator yang terimplentasi ke dalam produk ini, akan melepaskan ion Positif dan Negatif ke udara lalu memburu elemen kasat mata yang berbahaya seperti Virus, Jamur, Alergen, Bau, dsb hingga ke sudut ruangan. Ion tersebut akan membentuk Hidrosil pada permukaan partikel untuk melumpuhkannya. Hidrosil (OH-) merupakan senyawa radikal yang aktif akan mengambil atom hidrogen dan langsung menonaktifkannya, sehingga partikel berbahaya tadi seperti Virus, Jamur, Alergen, Bau dan sebagainya menjadi lumpuh. Fungsi Self Cleaning with Plasmacluster Ion
+Ion Plasmacluster menghalangi pertumbuhan jamur di dalam evaporator, sehingga bebas dari bau apek. Selama 40 menit, Ion Plasmacluster akan dihembuskan ke dalam indoor dan mencegah pertumbuhan jamur penyebab bau tumbuh pada permukaan evaporator. R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Besaran 0.75 PK
+Daya Maximal 540 Watt Power 7.000 BTU/H
+Dimensi In 877 x 292 x 222 MM
+Dimensi Out 598 x 495 x 265 MM Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1492
+========================================================================================
+2023-02-08 17:31:35.188141+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 540 Watt <br>Tipe Produk Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 196
+========================================================================================
+2023-02-08 17:31:35.188237+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:35.188292+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:35.188331+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:35.188364+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:35.188444+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:35.188493+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:35.188531+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:35.188564+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:40.206986+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Plasmacluster Generator
+Plasmacluster Generator yang terimplentasi ke dalam produk ini, akan melepaskan ion Positif dan Negatif ke udara lalu memburu elemen kasat mata yang berbahaya seperti Virus, Jamur, Alergen, Bau, dsb hingga ke sudut ruangan. Ion tersebut akan membentuk Hidrosil pada permukaan partikel untuk melumpuhkannya. Hidrosil (OH-) merupakan senyawa radikal yang aktif akan mengambil atom hidrogen dan langsung menonaktifkannya, sehingga partikel berbahaya tadi seperti Virus, Jamur, Alergen, Bau dan sebagainya menjadi lumpuh. Fungsi Self Cleaning with Plasmacluster Ion
+Ion Plasmacluster menghalangi pertumbuhan jamur di dalam evaporator, sehingga bebas dari bau apek. Selama 40 menit, Ion Plasmacluster akan dihembuskan ke dalam indoor dan mencegah pertumbuhan jamur penyebab bau tumbuh pada permukaan evaporator. R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Besaran 0.5 PK
+Daya Maximal 330 Watt Power 5.000 BTU/H
+Dimensi In 877 x 292 x 222 MM
+Dimensi Out 598 x 495 x 265 MM Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1491
+========================================================================================
+2023-02-08 17:31:40.207257+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 330 Watt <br>Tipe Produk Plasmacluster <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 196
+========================================================================================
+2023-02-08 17:31:40.207348+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:40.207410+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:40.207657+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:40.207720+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:40.207769+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:40.207816+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:40.207869+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:40.207926+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:45.853294+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+J-TECH INVERTER mengubah penendalian konsumsi listrik yang presisi menjadi penghematan energi dan operasi yang efisien hingga 65% JETSTREAM G9
+dengan mengubah durasi menjadi 60 menit, selain mendinginkan ruangan secara cepat dan seketika juga dapat mempertahankan udara digin lebih lama. cocok untuk mendinginkan ruangan yang panas COANDA AIR FLOW
+udara sejuk tersebar ke seluruh ruangan, untuk menciptakan sebuah lingkungan yang menyenangkan bagi semua orang. Udara lembut yang bergerak secara perlahan menjadikan pendinginan ini ideal digunakan bagi wanita hamil, bayi, orang tua, dan orang lain yang sensitif terhadap suhu rendah 14 DEGREE SETTING pengaturan suhu pada remote control yang lebih rendah hingga 14 derajat Capacity 2 PK Refrigerant Volume R-32 (530g)
+Rate Input (Watt) 1640 Watt Rated Voltage ( Volt ) 220 Dimensi 1.006 x 316 x 249
+Berat 12 kg Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 945
+========================================================================================
+2023-02-08 17:31:45.853579+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 1640 Watt <br>Tipe Produk Inverter <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 30cm x 36cm x 105cm <br>Ukuran Barang 25cm x 31cm x 100cm <br>Berat 50kg 
+ORIGINAL LENGTH : 194
+========================================================================================
+2023-02-08 17:31:45.853671+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:45.853736+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:45.853827+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:45.853882+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+31
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:45.853975+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+100
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:31:45.854035+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:45.854092+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:45.854151+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:50.402021+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Powerful Jetstream, Hembusan Kuat and Langsung
+Teknologi Jetstream dapat mendinginkan dengan cepat, memberikan kesejukan seketika dari cuaca yang panas atau sehabis olah raga. Dengan sebuah tombol untuk menghantarkan hembusan udara dingin yang menyegarkan tubuh dan mengembalikan energi tubuh. Coanda Gentle Cool Air, Hembusan Lembut and Tidak Langsung
+Mode Coanda Gentle Cool Air menghantarkan udara dingin keatas melalui plavon (langit-langit) dibandingkan kebawah melalui lantai untuk mencegah kondisi terlalu dingin, terutama anak-anak, wanita yang sedang mengandung, dan orang lanjut usia. Dengan Coanda Gentle Cool Air Anda mendapatkan kualitas tidur yang lebih baik sepanjangn malam, karena hembusan udara yang perlahan dan tidak akan membangunkan anda pada tengah malam. Capacity 2 PK
+Cooling Capacity 16000 BTU
+Cool 3.50 kW
+Jetstream Yes
+Rate Input 1740 Watt
+Dimensi 105 x 32 x 25 cm Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1437
+========================================================================================
+2023-02-08 17:31:50.402243+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 1740 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 30cm x 37cm x 110cm <br>Ukuran Barang 25cm x 32cm x 105cm <br>Berat 50kg 
+ORIGINAL LENGTH : 204
+========================================================================================
+2023-02-08 17:31:50.402328+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:50.402378+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:50.402442+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:50.402489+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+32
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:50.402547+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+105
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 17:31:50.402590+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:50.402633+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:50.402675+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:55.071255+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Powerful Jetstream, Hembusan Kuat and Langsung
+Teknologi Jetstream dapat mendinginkan dengan cepat, memberikan kesejukan seketika dari cuaca yang panas atau sehabis olah raga. Dengan sebuah tombol untuk menghantarkan hembusan udara dingin yang menyegarkan tubuh dan mengembalikan energi tubuh. Coanda Gentle Cool Air, Hembusan Lembut and Tidak Langsung
+Mode Coanda Gentle Cool Air menghantarkan udara dingin keatas melalui plavon (langit-langit) dibandingkan kebawah melalui lantai untuk mencegah kondisi terlalu dingin, terutama anak-anak, wanita yang sedang mengandung, dan orang lanjut usia. Dengan Coanda Gentle Cool Air Anda mendapatkan kualitas tidur yang lebih baik sepanjangn malam, karena hembusan udara yang perlahan dan tidak akan membangunkan anda pada tengah malam. Capacity 1.5 PK
+Cooling Capacity 12000 BTU
+Cool 3.50 kW
+Jetstream Yes
+Rate Input 1090 Watt
+Dimensi 877 x 292 x 222 mm Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1441
+========================================================================================
+2023-02-08 17:31:55.071645+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 1090 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 202
+========================================================================================
+2023-02-08 17:31:55.071716+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:55.071769+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:55.071817+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:55.071862+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:55.071982+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:55.072040+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:55.072088+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:55.072134+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:59.882871+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Powerful Jetstream, Hembusan Kuat and Langsung
+Teknologi Jetstream dapat mendinginkan dengan cepat, memberikan kesejukan seketika dari cuaca yang panas atau sehabis olah raga. Dengan sebuah tombol untuk menghantarkan hembusan udara dingin yang menyegarkan tubuh dan mengembalikan energi tubuh. Coanda Gentle Cool Air, Hembusan Lembut and Tidak Langsung
+Mode Coanda Gentle Cool Air menghantarkan udara dingin keatas melalui plavon (langit-langit) dibandingkan kebawah melalui lantai untuk mencegah kondisi terlalu dingin, terutama anak-anak, wanita yang sedang mengandung, dan orang lanjut usia. Dengan Coanda Gentle Cool Air Anda mendapatkan kualitas tidur yang lebih baik sepanjangn malam, karena hembusan udara yang perlahan dan tidak akan membangunkan anda pada tengah malam. Capacity 1 PK
+Cooling Capacity 9000 BTU
+Cool 2.05 kW
+Jetstream Yes
+Rate Input 800 Watt
+Dimensi 877 x 292 x 222 mm Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1437
+========================================================================================
+2023-02-08 17:31:59.883097+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 800 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 201
+========================================================================================
+2023-02-08 17:31:59.883149+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:31:59.883186+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:31:59.883222+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:59.883258+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:59.883292+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:59.883325+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:59.883359+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:31:59.883392+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:05.150328+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Powerful Jetstream, Hembusan Kuat and Langsung
+Teknologi Jetstream dapat mendinginkan dengan cepat, memberikan kesejukan seketika dari cuaca yang panas atau sehabis olah raga. Dengan sebuah tombol untuk menghantarkan hembusan udara dingin yang menyegarkan tubuh dan mengembalikan energi tubuh. Coanda Gentle Cool Air, Hembusan Lembut and Tidak Langsung
+Mode Coanda Gentle Cool Air menghantarkan udara dingin keatas melalui plavon (langit-langit) dibandingkan kebawah melalui lantai untuk mencegah kondisi terlalu dingin, terutama anak-anak, wanita yang sedang mengandung, dan orang lanjut usia. Dengan Coanda Gentle Cool Air Anda mendapatkan kualitas tidur yang lebih baik sepanjangn malam, karena hembusan udara yang perlahan dan tidak akan membangunkan anda pada tengah malam. Capacity 0.75 PK
+Cooling Capacity 7000 BTU
+Cool 2.05 kW
+Jetstream Yes
+Rate Input 595 Watt
+Dimensi 877 x 292 x 222 mm Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1440
+========================================================================================
+2023-02-08 17:32:05.150589+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 595 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 201
+========================================================================================
+2023-02-08 17:32:05.150680+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:32:05.150777+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:05.150853+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:05.150932+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:05.151002+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:05.151070+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:05.151142+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:05.151210+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:10.546165+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Powerful Jetstream, Hembusan Kuat and Langsung
+Teknologi Jetstream dapat mendinginkan dengan cepat, memberikan kesejukan seketika dari cuaca yang panas atau sehabis olah raga. Dengan sebuah tombol untuk menghantarkan hembusan udara dingin yang menyegarkan tubuh dan mengembalikan energi tubuh. Coanda Gentle Cool Air, Hembusan Lembut and Tidak Langsung
+Mode Coanda Gentle Cool Air menghantarkan udara dingin keatas melalui plavon (langit-langit) dibandingkan kebawah melalui lantai untuk mencegah kondisi terlalu dingin, terutama anak-anak, wanita yang sedang mengandung, dan orang lanjut usia. Dengan Coanda Gentle Cool Air Anda mendapatkan kualitas tidur yang lebih baik sepanjangn malam, karena hembusan udara yang perlahan dan tidak akan membangunkan anda pada tengah malam. Capacity 0.5 PK
+Cooling Capacity 5000 BTU
+Cool 1.46 kW
+Jetstream Yes
+Rate Input 390 Watt
+Dimensi 877 x 292 x 222 mm Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1439
+========================================================================================
+2023-02-08 17:32:10.546480+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 390 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 34cm x 92cm <br>Ukuran Barang 22cm x 29cm x 87cm <br>Berat 50kg 
+ORIGINAL LENGTH : 201
+========================================================================================
+2023-02-08 17:32:10.546551+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:32:10.546609+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:10.546664+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:10.546715+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+29
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:10.546769+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+87
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:10.546821+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:10.546872+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:10.546922+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:15.143435+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Turbo Cool
+Kipas unit indoor akan bekerja dengan kecepatan maksimum untuk mempercepat pendinginan ruangan. Self Diagnosis
+Ketika status AC dalam keadaan tidak normal, panel pada unit akan berkedip untuk menunjukkan kode error yang sedang terjadi. X-Fan Function
+Jika AC dimatikan, kipas unit indoor akan tetap beroperasi sebentar dengan kecepatan rendah untuk meniupkan sisa air di dalam saluran udara Kapasitas Pendinginan 5.57 kW
+PK 2
+Konsumsi Daya 1590 Watt
+Voltage 220 v
+Frekuensi 50 Hz
+Dimensi (H x W x D) 970 x 300 x 224 mm (Indoor) ; 900 x 596 x 378 mm (Outdoor)
+Berat Bersih 13.5 kg; 42 kg (Outdoor) Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1152
+========================================================================================
+2023-02-08 17:32:15.143828+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 1590 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 27cm x 35cm x 102cm <br>Ukuran Barang 22cm x 30cm x 97cm <br>Berat 50kg 
+ORIGINAL LENGTH : 203
+========================================================================================
+2023-02-08 17:32:15.143899+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:32:15.143952+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:15.144000+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:15.144047+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+30
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:15.144094+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+97
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:15.144138+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:15.144185+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:15.144233+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:20.614679+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+R32 Freon terbaru yang sangat ramah lingkungan and tidak merusak lapisan ozon.
+Sharp yakin bahwa langkah terbaik untuk mengurangi dampak kerusakan lingkungan adalah dengan mempertimbangkan segala faktor penyumbang pemanasan global mulai dari kebocoran refrigeran pada saat instalasi sampai konsumsi listrik peralatan elektronik. Oleh akrena itu Sharp memilih Freon R32, refrigeran terbaru yang sangat ramah lingkungan yang tidak mengandung bahan perusak Ozon. Turbo Cool
+Kipas unit indoor akan bekerja dengan kecepatan maksimum untuk mempercepat pendinginan ruangan. Self Diagnosis
+Ketika status AC dalam keadaan tidak normal, panel pada unit akan berkedip untuk menunjukkan kode error yang sedang terjadi. X-Fan Function
+Jika AC dimatikan, kipas unit indoor akan tetap beroperasi sebentar dengan kecepatan rendah untuk meniupkan sisa air di dalam saluran udara Kapasitas Pendinginan 1.46 kW
+PK 1/2
+Konsumsi Daya 350 W
+Voltage 220 v
+Frekuensi 50 Hz
+Dimensi (H x W x D) 698 x 250 x 185 mm In Door, 720 x 428 x 310 mm Out Door
+Berat Bersih 7.5 kg; 20.5 kg (Outdoor) Untuk pembelian di atas 5 pcs, mohon pastikan ketersediaan barangnya terlebih dahulu
+ORIGINAL LENGTH : 1148
+========================================================================================
+2023-02-08 17:32:20.614900+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Sharp <br>Konsumsi Daya 350 Watt <br>Tipe Produk Wall Mounted Split <br>Warna Putih <br>Material Plastik <br>Ukuran Kemasan 23cm x 30cm x 75cm <br>Ukuran Barang 18cm x 25cm x 70cm <br>Berat 50kg 
+ORIGINAL LENGTH : 201
+========================================================================================
+2023-02-08 17:32:20.615026+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 17:32:20.615125+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 17:32:20.615187+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:20.615238+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+25
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:20.615288+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+70
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:20.615338+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:20.615386+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+50
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:20.615435+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 17:32:37.408047+07:00
+USERNAME: MAIN
+FINISHED AER SHARP WEB SCRAPING....
+============================================

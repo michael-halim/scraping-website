@@ -1,0 +1,645 @@
+============================================
+2023-02-08 16:53:14.842660+07:00
+USERNAME: MAIN
+RUNNING AER DOBIDOS WEB SCRAPING....
+========================================================================================
+2023-02-08 16:53:17.975710+07:00
+USERNAME: GET CONTACT
+PHONE
+081905946583
+ORIGINAL LENGTH : 12
+========================================================================================
+2023-02-08 16:53:17.976127+07:00
+USERNAME: GET CONTACT
+ADDRESS
+Jl. KH. Ahmad Dahlan Kby. No.59,Kramat Pela, Kebayoran Baru,Jakarta Selatan
+ORIGINAL LENGTH : 75
+========================================================================================
+2023-02-08 16:53:23.702062+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Dobidos Robe Hook (FA2050EC)
+ORIGINAL LENGTH : 43
+========================================================================================
+2023-02-08 16:53:23.702300+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+179000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 16:53:23.702374+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-435322.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:23.702437+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-435322/Dobidos-DAELIM-Dobidos-Robe-Hook-(FA2050EC)
+ORIGINAL LENGTH : 81
+========================================================================================
+2023-02-08 16:53:23.844911+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Dobidos Soap Holder (FA2050DC)
+ORIGINAL LENGTH : 45
+========================================================================================
+2023-02-08 16:53:23.845139+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+293000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 16:53:23.845206+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-435321.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:23.845262+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-435321/Dobidos-DAELIM-Dobidos-Soap-Holder-(FA2050DC)
+ORIGINAL LENGTH : 83
+========================================================================================
+2023-02-08 16:53:23.931447+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Dobidos Towel Bar (FA2050AC)
+ORIGINAL LENGTH : 43
+========================================================================================
+2023-02-08 16:53:23.931700+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+479000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 16:53:23.931782+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-435319.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:23.931840+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-435319/Dobidos-DAELIM-Dobidos-Towel-Bar-(FA2050AC)
+ORIGINAL LENGTH : 81
+========================================================================================
+2023-02-08 16:53:23.999204+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Dobidos Auto Econology Seat Bidet
+ORIGINAL LENGTH : 48
+========================================================================================
+2023-02-08 16:53:23.999451+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4550000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:23.999544+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-435318.png?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:23.999706+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-435318/Dobidos-DAELIM-Dobidos-Auto-Econology-Seat-Bidet
+ORIGINAL LENGTH : 86
+========================================================================================
+2023-02-08 16:53:24.059263+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Dobidos ECO Friendly Seat Bidet
+ORIGINAL LENGTH : 46
+========================================================================================
+2023-02-08 16:53:24.059596+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1516667
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:24.059694+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-435317.png?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:24.059762+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-435317/Dobidos-DAELIM-Dobidos-ECO-Friendly-Seat-Bidet
+ORIGINAL LENGTH : 84
+========================================================================================
+2023-02-08 16:53:24.142231+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Non Electronic Bidet Panel type
+ORIGINAL LENGTH : 46
+========================================================================================
+2023-02-08 16:53:24.142451+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:24.142552+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-435316.png?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:24.142638+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-435316/Dobidos-DAELIM-Non-Electronic-Bidet-Panel-type
+ORIGINAL LENGTH : 84
+========================================================================================
+2023-02-08 16:53:24.194771+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Dobidos Eco-friendly Two Piece Water Closet (DC-303)
+ORIGINAL LENGTH : 67
+========================================================================================
+2023-02-08 16:53:24.195054+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1333334
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:24.195157+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-436203.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:24.195237+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-436203/Dobidos-DAELIM-Dobidos-Eco-friendly-Two-Piece-Water-Closet-(DC-303)
+ORIGINAL LENGTH : 105
+========================================================================================
+2023-02-08 16:53:24.252075+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos DAELIM Dobidos Tissue Holder (FA2050CC)
+ORIGINAL LENGTH : 47
+========================================================================================
+2023-02-08 16:53:24.252330+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+560000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 16:53:24.252405+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/IBM-435320.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:24.252469+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/IBM-435320/Dobidos-DAELIM-Dobidos-Tissue-Holder-(FA2050CC)
+ORIGINAL LENGTH : 85
+========================================================================================
+2023-02-08 16:53:24.310307+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos [Dobidos] Special Package 3
+ORIGINAL LENGTH : 35
+========================================================================================
+2023-02-08 16:53:24.310505+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4200000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:24.310560+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/DDI-398472.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:24.310599+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/DDI-398472/Dobidos-[Dobidos]-Special-Package-3
+ORIGINAL LENGTH : 73
+========================================================================================
+2023-02-08 16:53:24.367190+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos [Dobidos] Special Package 2
+ORIGINAL LENGTH : 35
+========================================================================================
+2023-02-08 16:53:24.367450+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+360000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 16:53:24.367527+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/DDI-398471.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:24.367568+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/DDI-398471/Dobidos-[Dobidos]-Special-Package-2
+ORIGINAL LENGTH : 73
+========================================================================================
+2023-02-08 16:53:24.432503+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Dobidos [Dobidos] Special Package 1
+ORIGINAL LENGTH : 35
+========================================================================================
+2023-02-08 16:53:24.432721+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+4100000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:24.432767+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://f1-styx.imgix.net/catalogue/DDI-398470.jpg?fit=max&auto=format,compress&trim=color&w=200
+ORIGINAL LENGTH : 96
+========================================================================================
+2023-02-08 16:53:24.432806+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.dekoruma.com/p/DDI-398470/Dobidos-[Dobidos]-Special-Package-1
+ORIGINAL LENGTH : 73
+========================================================================================
+2023-02-08 16:53:29.794691+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+"DAELIM was established in 1970 in KOREA, thus accumulated manufacturing knowledge of 50 years concerning kitchen and bathroom products. DOBIDOS is DAELIM's premium total toilet solution brand. Now you can experience our premium quality with the fine design! Premium quality made from high-quality materials / Good for modern style bathroom - Material: Brass with chrome coating - Size: TBA"
+ORIGINAL LENGTH : 391
+========================================================================================
+2023-02-08 16:53:29.794947+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Dobidos <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 11cm x 8.5cm x 9.5cm <br>Ukuran Barang 12cm x 9cm x 10cm <br>Berat 0.6kg 
+ORIGINAL LENGTH : 153
+========================================================================================
+2023-02-08 16:53:29.795113+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:29.795201+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 16:53:29.795273+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+12
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:29.795342+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+9
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 16:53:29.795408+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+10
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:29.795477+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:29.795585+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+0.6
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:53:29.795660+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:34.127033+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+"DAELIM was established in 1970 in KOREA, thus accumulated manufacturing knowledge of 50 years concerning kitchen and bathroom products. DOBIDOS is DAELIM's premium total toilet solution brand. Now you can experience our premium quality with the fine design! Premium quality made from high-quality materials / Good for modern style bathroom - Material: Brass with chrome coating - Size: TBA"360000
+ORIGINAL LENGTH : 397
+========================================================================================
+2023-02-08 16:53:34.127233+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Dobidos <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 20cm x 15cm x 10cm <br>Ukuran Barang 18cm x 13cm x 8cm <br>Berat 0.3kg 
+ORIGINAL LENGTH : 151
+========================================================================================
+2023-02-08 16:53:34.127285+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:34.127325+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 16:53:34.127375+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+18
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:34.127414+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+13
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:34.127448+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+8
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 16:53:34.127496+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:34.127583+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+0.3
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:53:34.127657+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:38.807428+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+"DAELIM was established in 1970 in KOREA, thus accumulated manufacturing knowledge of 50 years concerning kitchen and bathroom products. DOBIDOS is DAELIM's premium total toilet solution brand. Now you can experience our premium quality with the fine design! Premium quality made from high-quality materials / Good for modern style bathroom - Material: Brass with chrome coating - Size: TBA"
+ORIGINAL LENGTH : 391
+========================================================================================
+2023-02-08 16:53:38.807672+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Dobidos <br>Warna Metalik <br>Material Stainless Steel <br>Ukuran Kemasan 68cm x 13cm x 12cm <br>Ukuran Barang 66cm x 10cm x 9cm <br>Berat 0.3kg 
+ORIGINAL LENGTH : 151
+========================================================================================
+2023-02-08 16:53:38.807733+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+metalic
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 16:53:38.807772+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+glass,stainless steel
+ORIGINAL LENGTH : 21
+========================================================================================
+2023-02-08 16:53:38.807810+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+66
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:38.807871+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+10
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:38.807926+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+9
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 16:53:38.807980+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:38.808015+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+0.3
+ORIGINAL LENGTH : 3
+========================================================================================
+2023-02-08 16:53:38.808047+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:43.684927+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+"Smart Power Saving System by closing the bidet cover, smart power saving system automatically switch the setting to power saving mode User-Friendly Encoder Type Control Panel User can easly control diverse functions with encoder and LED shows temperature setting for efficient energy use Stainless Steel Nozzle integral stainless steel nozzle reduces the gap between the nozzle and W.C. for corrosion-resistant purpose and hygienic use Soft Opening and Closing damper with high durability is used for long-term use Pleasant Dry Function dry air temperature is adjustable at 4 levels for pleasant use Hybrid Water Heating heats water only during the use to prevent waste of energy and heated water is provided continuosly One Touch Decouple Structure during cleaning or moving, user can easily decouple the bidet from W.C. Nozzle Contamination Prevention System locates nozzle deep inside the main body to protect the nozzle from contamination"
+ORIGINAL LENGTH : 944
+========================================================================================
+2023-02-08 16:53:43.685183+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Dobidos <br>Warna Putih <br>Material Plastik ABS <br>Ukuran Kemasan 50cm x 58cm x 23cm <br>Ukuran Barang 49cm x 57cm x 22cm <br>Berat 23kg 
+ORIGINAL LENGTH : 145
+========================================================================================
+2023-02-08 16:53:43.685442+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:53:43.685513+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic abs
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 16:53:43.685560+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+49
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:43.685597+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+57
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:43.685634+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:43.685668+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:43.685703+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+23
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:43.685738+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:48.251735+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+"ser-Friendly Ergonomically Designed Control Panel user can easly control diverse functions with clear image Hybrid Water Heating type heats water only during the use to prevent waste of energy and heated water is provided continously Nozzle Contamination Prevention System Locates nozzle deep inside the main body to protect the nozzle from contamination Stainless Steel Nozzle Integral stainless steel nozzle reduces the gap between the nozzle and W.C for corrosion-resistant purpose and hygienic use Pleasant Dry Function Dry air temperatur is adjustable at 4 levels for pleasant use Self-Diagnoses Micro processor diagnoses malfunction, which is indicated by LED on control panel"
+ORIGINAL LENGTH : 684
+========================================================================================
+2023-02-08 16:53:48.252107+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Dobidos <br>Warna Putih <br>Material Plastik ABS <br>Ukuran Kemasan 50cm x 58cm x 23cm <br>Ukuran Barang 49cm x 57cm x 22cm <br>Berat 23kg 
+ORIGINAL LENGTH : 145
+========================================================================================
+2023-02-08 16:53:48.252180+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:53:48.252238+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic abs
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 16:53:48.252287+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+49
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:48.252363+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+57
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:48.252418+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+22
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:48.252472+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:48.252523+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+23
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:48.252571+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:53.162375+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Non-electric equipment, operate by a water pressure system Product is designed in Korea. After verifying and test producing, now Bidet has gone into mass-produce in VIet Nam. With one button is designed for multi-function, you can easily choose the washing system, women cleaning system or self- cleaning nozzles system. We use the CERAMIC disks to make components so you can control the water pressure high or low arbitrarily. Nozzles are removable and convenient for cleaning. Nozzles are plated with chromium Button is plated with chromium Spare parts included plastic T-adapter and hose OR metal T-adapter and hose We can produce in the form of OEM production
+ORIGINAL LENGTH : 663
+========================================================================================
+2023-02-08 16:53:53.162648+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Brand Dobidos <br>Warna Putih <br>Material Plastik ABS <br>Ukuran Kemasan 44cm x 20cm x 8cm <br>Ukuran Barang 43cm x 19cm x 6cm <br>Berat 1kg 
+ORIGINAL LENGTH : 142
+========================================================================================
+2023-02-08 16:53:53.162758+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+white
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 16:53:53.162828+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+plastic abs
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 16:53:53.162901+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+43
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:53.162967+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+19
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:53.163042+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+6
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 16:53:53.163113+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:53:53.163179+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+1
+ORIGINAL LENGTH : 1
+========================================================================================
+2023-02-08 16:53:53.163248+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 16:54:15.940178+07:00
+USERNAME: MAIN
+FINISHED AER DOBIDOS WEB SCRAPING....
+============================================

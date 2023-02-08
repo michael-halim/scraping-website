@@ -1,0 +1,1821 @@
+============================================
+2023-02-08 19:16:40.371451+07:00
+USERNAME: MAIN
+RUNNING OLX WEB SCRAPING....
+========================================================================================
+2023-02-08 19:17:10.501367+07:00
+USERNAME: GET EVERY PRODUCT
+BTN LOAD MORE LEN
+========================================================================================
+2023-02-08 19:20:48.431016+07:00
+USERNAME: GET EVERY PRODUCT
+PAGE NOT FOUND, CONTINUE NEXT LINK
+========================================================================================
+2023-02-08 19:21:21.095515+07:00
+USERNAME: GET EVERY PRODUCT
+BTN LOAD MORE LEN
+========================================================================================
+2023-02-08 19:21:26.469875+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+JASA KONTRAKTOR /  ARSITEKTUR / INTERIOR - UBAYLANA DESIGN
+ORIGINAL LENGTH : 58
+========================================================================================
+2023-02-08 19:21:26.470170+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+3500000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:21:26.470231+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/6dv0z5a67pa9-ID/image;s=272x0
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 19:21:26.470289+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jasa-kontraktor-arsitektur-interior-ubaylana-design-iid-882949156
+ORIGINAL LENGTH : 92
+========================================================================================
+2023-02-08 19:21:26.576830+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+(Profesional) Jasa Design Rumah Arsitek Desain Interior Gambar Gudang
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 19:21:26.577087+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+15000
+ORIGINAL LENGTH : 5
+========================================================================================
+2023-02-08 19:21:26.577151+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/7zvm0i4q00353-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:21:26.577269+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/profesional-jasa-design-rumah-arsitek-desain-interior-gambar-gudang-iid-886022537
+ORIGINAL LENGTH : 108
+========================================================================================
+2023-02-08 19:21:26.652809+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Kontraktor | Design | Bangun Rumah | Renovasi | Interiors
+ORIGINAL LENGTH : 57
+========================================================================================
+2023-02-08 19:21:26.653057+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1800000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:21:26.653137+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/zmlgvs01z50w3-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:21:26.653202+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/kontraktor-design-bangun-rumah-renovasi-interiors-iid-865352470
+ORIGINAL LENGTH : 90
+========================================================================================
+2023-02-08 19:21:26.728134+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Kontraktor | Design | Bangun dari NOL | Renovasi | Interiors
+ORIGINAL LENGTH : 60
+========================================================================================
+2023-02-08 19:21:26.728356+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1850000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:21:26.728449+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/fu4iaeip2zjo-ID/image;s=272x0
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 19:21:26.728541+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/kontraktor-design-bangun-dari-nol-renovasi-interiors-iid-865352671
+ORIGINAL LENGTH : 93
+========================================================================================
+2023-02-08 19:21:26.800343+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Kontraktor | Design | Bangun Rumah | Interior | Renov
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 19:21:26.800506+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2200000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:21:26.800582+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/8jbwy9lwjx6o2-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:21:26.800781+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/kontraktor-design-bangun-rumah-interior-renov-iid-865353900
+ORIGINAL LENGTH : 86
+========================================================================================
+2023-02-08 19:21:26.888936+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Kontraktor | Design | Bangunan | Renovate | Interiors
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 19:21:26.889219+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1500000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:21:26.889294+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/4od35u8iyucl-ID/image;s=272x0
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 19:21:26.889353+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/kontraktor-design-bangunan-renovate-interiors-iid-865355018
+ORIGINAL LENGTH : 86
+========================================================================================
+2023-02-08 19:21:26.993099+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Kontraktor | Bangunan | Design | Renovasi | Interiors
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 19:21:26.993334+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+1950000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:21:26.993436+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/6opqrmgy23ay2-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:21:26.993539+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/kontraktor-bangunan-design-renovasi-interiors-iid-865356638
+ORIGINAL LENGTH : 86
+========================================================================================
+2023-02-08 19:21:27.077764+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+jasa design interior 150rb/m - perspektif 3D
+ORIGINAL LENGTH : 44
+========================================================================================
+2023-02-08 19:21:27.078040+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+111111
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:21:27.078126+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/7o3v8k60kbw73-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:21:27.078195+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jasa-design-interior-150rbm-perspektif-3d-iid-775011241
+ORIGINAL LENGTH : 82
+========================================================================================
+2023-02-08 19:21:27.195115+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Interior design 3d
+ORIGINAL LENGTH : 18
+========================================================================================
+2023-02-08 19:21:27.195321+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+500000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:21:27.195369+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/168o1th7he382-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:21:27.195411+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/interior-design-3d-iid-875516029
+ORIGINAL LENGTH : 59
+========================================================================================
+2023-02-08 19:21:58.499424+07:00
+USERNAME: GET EVERY PRODUCT
+BTN LOAD MORE LEN
+========================================================================================
+2023-02-08 19:22:03.739314+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Karpet mobil comfort Alphard Vellfire Voxy Cetakan Custom interior
+ORIGINAL LENGTH : 66
+========================================================================================
+2023-02-08 19:22:03.739564+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+500000
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:22:03.739656+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/7cdjmmw09l6s-ID/image;s=272x0
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 19:22:03.739764+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/karpet-mobil-comfort-alphard-vellfire-voxy-cetakan-custom-interior-iid-882596492
+ORIGINAL LENGTH : 107
+========================================================================================
+2023-02-08 19:22:03.903630+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Jual Lemari Custom Minimalis Surabaya Kaloka Interior
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 19:22:03.903876+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:03.903952+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/ekapr2bpfae11-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:22:03.904020+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jual-lemari-custom-minimalis-surabaya-kaloka-interior-iid-885343559
+ORIGINAL LENGTH : 94
+========================================================================================
+2023-02-08 19:22:04.091915+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Kontraktor Interior Furniture Custom Untuk Rumah Kantor dan Apartemen
+ORIGINAL LENGTH : 69
+========================================================================================
+2023-02-08 19:22:04.092196+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:04.092307+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/vh5d5mbwsjg8-ID/image;s=272x0
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 19:22:04.092377+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/kontraktor-interior-furniture-custom-untuk-rumah-kantor-dan-apartemen-iid-803898168
+ORIGINAL LENGTH : 110
+========================================================================================
+2023-02-08 19:22:04.180201+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Jasa Buat Lemari Pakaian Custom Surabaya, KALOKA INTERIOR
+ORIGINAL LENGTH : 57
+========================================================================================
+2023-02-08 19:22:04.180435+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:04.180500+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/y6cfyaox2og21-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:22:04.180557+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jasa-buat-lemari-pakaian-custom-surabaya-kaloka-interior-iid-884649680
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 19:22:04.279798+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Jasa Bikin Buat Lemari Custom Surabaya, KALOKA INTERIOR
+ORIGINAL LENGTH : 55
+========================================================================================
+2023-02-08 19:22:04.280278+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:04.280412+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/pc9qr9a2kda4-ID/image;s=272x0
+ORIGINAL LENGTH : 77
+========================================================================================
+2023-02-08 19:22:04.280503+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jasa-bikin-buat-lemari-custom-surabaya-kaloka-interior-iid-884648613
+ORIGINAL LENGTH : 95
+========================================================================================
+2023-02-08 19:22:04.362101+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Jasa Buat Lemari Custom Minimalis Surabaya, KALOKA INTERIOR |
+ORIGINAL LENGTH : 61
+========================================================================================
+2023-02-08 19:22:04.362348+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:04.362417+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/s2unjri1nq1r3-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:22:04.362474+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jasa-buat-lemari-custom-minimalis-surabaya-kaloka-interior--iid-884647177
+ORIGINAL LENGTH : 100
+========================================================================================
+2023-02-08 19:22:04.461478+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Jasa Buat Lemari Custom Murah Surabaya, KALOKA INTERIOR
+ORIGINAL LENGTH : 55
+========================================================================================
+2023-02-08 19:22:04.462033+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:04.462125+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/7trqwkksyssu2-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:22:04.462181+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jasa-buat-lemari-custom-murah-surabaya-kaloka-interior-iid-884646974
+ORIGINAL LENGTH : 95
+========================================================================================
+2023-02-08 19:22:04.586596+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Jasa Pembuatan Lemari Custom Per Meter Surabaya, KALOKA INTERIOR
+ORIGINAL LENGTH : 64
+========================================================================================
+2023-02-08 19:22:04.586848+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:04.586920+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/iy0la4cku2552-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:22:04.586979+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/jasa-pembuatan-lemari-custom-per-meter-surabaya-kaloka-interior-iid-884645993
+ORIGINAL LENGTH : 104
+========================================================================================
+2023-02-08 19:22:04.752215+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT NAME
+Harga Custom Lemari Pakaian Surabaya, KALOKA INTERIOR
+ORIGINAL LENGTH : 53
+========================================================================================
+2023-02-08 19:22:04.752469+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PRICE
+2000000
+ORIGINAL LENGTH : 7
+========================================================================================
+2023-02-08 19:22:04.752525+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT PICTURE
+https://apollo-singapore.akamaized.net/v1/files/uoaubeewet403-ID/image;s=272x0
+ORIGINAL LENGTH : 78
+========================================================================================
+2023-02-08 19:22:04.752565+07:00
+USERNAME: GET EVERY PRODUCT
+PRODUCT LINK
+https://www.olx.co.id/item/harga-custom-lemari-pakaian-surabaya-kaloka-interior-iid-884644404
+ORIGINAL LENGTH : 93
+========================================================================================
+2023-02-08 19:22:04.752608+07:00
+USERNAME: GET EVERY PRODUCT
+TOTAL ITEM
+18
+========================================================================================
+2023-02-08 19:22:06.257032+07:00
+USERNAME: GET EVERY DETAIL
+WAIT VISIBILITY LOGIN BUTTON ELEMENT
+========================================================================================
+2023-02-08 19:22:07.514576+07:00
+USERNAME: GET EVERY DETAIL
+GET LOGIN BUTTON ELEMENT
+========================================================================================
+2023-02-08 19:22:08.690925+07:00
+USERNAME: GET EVERY DETAIL
+GET EMAIL BUTTON ELEMENT
+========================================================================================
+2023-02-08 19:22:10.495771+07:00
+USERNAME: GET EVERY DETAIL
+WAIT VISIBILITY INPUT EMAIL ELEMENTS
+========================================================================================
+2023-02-08 19:22:13.780674+07:00
+USERNAME: GET EVERY DETAIL
+INSERT EMAIL INPUT
+========================================================================================
+2023-02-08 19:22:26.022471+07:00
+USERNAME: GET EVERY DETAIL
+SUBMIT EMAIL INPUT
+========================================================================================
+2023-02-08 19:22:32.354023+07:00
+USERNAME: GET EVERY DETAIL
+WAIT VISIBILITY INPUT PASSWORD ELEMENTS
+========================================================================================
+2023-02-08 19:23:02.867461+07:00
+USERNAME: GET EVERY DETAIL
+EXCEPTION
+Message: 
+
+========================================================================================
+2023-02-08 19:23:02.867817+07:00
+USERNAME: GET EVERY DETAIL
+NOT LOGGED IN
+========================================================================================
+2023-02-08 19:23:08.939714+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:09.137300+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/jasa-kontraktor-arsitektur-interior-ubaylana-design-iid-882949156
+ORIGINAL LENGTH : 92
+========================================================================================
+2023-02-08 19:23:09.137525+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+UBAYLANA DESIGN<br>KONTRAKTOR / ARSITEKTUR / INTERIOR<br>Profesional dan Terjangkau<br><br>Mengerjakan :<br>- Design<br>- Bangun<br>- Renovasi<br>- Eksterior<br>- Interior :<br>&nbsp;&nbsp; - Backdrop TV<br>&nbsp;&nbsp; - Partisi<br>&nbsp;&nbsp; - Kitchen set<br>&nbsp;&nbsp; - Bed set<br>&nbsp;&nbsp; - dll<br><br>Free :<br>Gambar Design dan revisi gambar<br><br>Menerima Jasa :<br>- Gambar Design<br>- Gambar Kerja<br>- Gambar IMB<br><br>Point of interest :<br>- Harga lebih terjangkau tapi tetap<br>&nbsp; menjaga mutu dan kualitas karena<br>&nbsp; kepercayaan dan kepuasan anda <br>&nbsp; adalah prioritas utama kami .<br>- Semua Dokumen Perjanjian Kontrak<br>&nbsp; Kerja tertulis dan ditandatangani diatas<br>&nbsp; materai<br>- Dikerjakan oleh tenaga ahli yang <br>&nbsp; profesional dan berpengalaman di<br>&nbsp; bidangnya .<br>- Kami membantu dalam membuat<br>&nbsp; perencanaan design dari awal sampai <br>&nbsp; akhir dan memberikan opsi dan solusi <br>&nbsp; sesuai dengan budget .<br>- Setelah gambar design selesai anda juga<br>&nbsp; bisa bebas merevisi gambar sampai <br>&nbsp; Sesuai keinginan anda tanpa biaya <br>&nbsp; tambahan<br><br>Anda akan mendapat :<br>&nbsp; - Gambar 3D<br>&nbsp; - Denah<br>&nbsp; - Gambar DED<br>&nbsp; - MEP ( Mechancal, Electrical, Plumbing )<br>&nbsp; -&nbsp; Rencana Anggaran Biaya ( RAB )<br>&nbsp; - Time schedule pelaksanaan<br><br>SEGERA WUJUDKAN DESIGN HUNIAN IMPIAN ANDA BERSAMA KAMI<br>
+ORIGINAL LENGTH : 1444
+========================================================================================
+2023-02-08 19:23:09.137577+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Desain<br>Kondisi: Baru
+ORIGINAL LENGTH : 29
+========================================================================================
+2023-02-08 19:23:09.137662+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:09.137721+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:09.137784+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:09.137883+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:09.138108+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:09.138190+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:09.138257+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:09.138360+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:09.138425+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:09.138493+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:14.035568+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:14.151335+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/profesional-jasa-design-rumah-arsitek-desain-interior-gambar-gudang-iid-886022537
+ORIGINAL LENGTH : 108
+========================================================================================
+2023-02-08 19:23:14.151564+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Start Desain mulai 15rb/meter. <br><br>Jago Kontraktor dan Interior.<br>(Profesional, Harga Terjangkau dan Bergaransi)<br><br>**FREE DESAIN IMB dan 3D<br>**FREE SURVEY<br>**FREE KONSULTASI<br>**Garansi 1 TAHUN<br><br>Bangun Rumah Bergaransi<br>Start mulai 2.800.000 / meter.<br><br>PASTIKAN SIMPAN NOMER KAMI<br><br>Instagram: @jagokontraktor <br><br>Jasa Bangun / Renovasi / Pembuatan Interior<br> <br>Jasa Design Exterior dan Interior 2D / 3D<br>1. Rumah<br>2. Ruko<br>3. Perumahan <br>4. Gudang<br>5. Masjid / Musholah<br>6. Villa<br><br>Kami Menerima Jasa Design <br>Gambar IMB / Gambar Kerja / Gambar Detail Bangunan<br><br>Start dari 20rb/meter <br><br>**Kenapa kami bisa lebih murah, karena kami perorangan, belum berwujud PT. karena itu beban operasional kami tentu lebih murah tanpa mengurangi kualitas mutu bangunan dan pengawasan maksimal. owner sendiri lulusan teknik sipil dan mengawasi langsung segala proyek. segala kontrak kerja tertulis dalam perjanjian diatas materai untuk kenyamanan owner.<br><br>**Gratis Konsultasi Struktur Bangunan dan Design<br>**Gratis Survey <br><br>PASTIKAN SIMPAN NOMER KAMI. <br><br>Kami Kontraktor Profesional Pembangunan Rumah, Kantor, Ruko dan Gudang. <br><br>Kami Siap Mengajukan Penawaran Terbaik. <br><br>Percayakan pembangunan rumah anda kepada kami yang telah berpengalaman dan jujur, sehingga anda bisa duduk tenang di rumah. <br><br>**kami hanya menggunakan tukang yang handal dan profesional. <br><br>kami melayani:<br>Bangun Dari Nol (Rumah/Toko/Ruko/Gudang)<br>Renovasi <br>Renovasi Total<br>Desain Interior <br>Desain Exterior <br>Perhitungan RAB<br>Perhitungan Struktur <br><br>segala proyek kami selalu diawasi oleh pengawas sarjana teknik sipil dan arsitek. <br><br>InsyaAllah aman dan terpecaya. <br><br>info lainnya bisa langsung chat WA kami. terimakasih. salam sejahtera bagi kita semua<br><br>#kontraktorsurabaya #jasakontraktorsurabaya #jasabangunrumahsurabaya #jasabangunrumah #jasainteriorsurabaya #jasarenovasisurabaya<br>
+ORIGINAL LENGTH : 1994
+========================================================================================
+2023-02-08 19:23:14.151711+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Bangunan dan Rumah Tangga<br>
+ORIGINAL LENGTH : 35
+========================================================================================
+2023-02-08 19:23:14.151769+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:14.151823+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:14.151874+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:14.151923+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:14.151981+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:14.152032+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:14.152082+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:14.152142+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:14.152197+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:14.152257+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:19.583276+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:19.886652+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/kontraktor-design-bangun-rumah-renovasi-interiors-iid-865352470
+ORIGINAL LENGTH : 90
+========================================================================================
+2023-02-08 19:23:19.886908+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Trustzu.id | Bikin Glowing Rumahmu!<br>Desain Menakjubkan, Harga Menyesuaikan (Nego sampai deal!) | Great Design, Adjustable Budget dan Negotiable!<br>Berasal dari keluarga kontraktor turun-temurun, dari generasi ke generasi<br><br>--<br>Baca seluruh pesan kami ini cuma 3 menit aja, manfaatnya seumur hidup!<br>--<br><br>Pasangan anda yakin bisa membangun rumah sendiri tapi ternyata biayanya malah membengkak, bentuk bangunan atau tukangnya jadi nggak jelas<br>Tambah lagi dia jadi nggak fokus ke kerjaan, omzet menurun, kalah bersaing dengan kompetitor, dana malah berhenti dibangunan yang nggak rampung-rampung<br>Bangunan jadi eh ternyata miring, tiap sudut ukurannya berbeda-beda, Mungkin nggak ambruk sih cuma menyesalnya terus2an banyak yang masuk rumah malah kesurupan!<br><br>Buang waktu = Buang biaya = Buang kesempatan<br>Makanya ada jurusan kuliah Arsitek, Sipil dan Interior<br><br>Yang benar itu "Pilih KONTRAKTOR dulu, lalu buat DESAIN setelah itu kemudian MEMBANGUNNYA"<br>Banyak orang merasa mengerti tapi pada akhirnya banyak yang disesalinya (lagu lama, kaset baru)<br><br>Makanya gunakan jasa kami kontraktor PT.TRUSTZU PILAR MILENIA:<br><br>GRATIS KONSULTASI dan SURVEY dari awal sampai akhir<br>Membantu membuat perencanaan awal secara matang hingga tahap pengakhiran (finishing)<br>Membantu modernisasi ide , konsep dan gagasan untuk bangunan anda<br>Membantu memberikan batasan yang jelas pada visi utama pada bangunan anda<br>Membantu memberikan opsi-opsi terbaik untuk semua keperluan bangunanmu sesuai bujet anda<br>Setelah desain jadi, anda bisa revisi, penyesuaian dan mengerti besaran biaya<br>Setelah itu anda tahu mana yang bisa dicicil dikerjakan dahulu<br>Dengan desain sesuai disiplin ilmu arsitek/desainer anda lebih hemat dalam penggunaan material, waktu dan tenaganya<br>Membantu mengawasi dan memastikan kualitas bangunan anda<br>Membantu merealisasikan desain menjadi kenyataan<br>Memberikan garansi pekerjaan dan retensi<br>--<br><br>SPESIALISASI KAMI | OUR SPECIALITY:<br> Rumah Tinggal (Residential)<br> Villa<br> Cafe | Resto<br> Ruko | Toko<br>--<br><br>STYLE ARSITEKTURAL BANGUNAN | BUILDING ARCHITECTURAL STYLE:<br> Kekinian<br> Villa Bali<br> Klasik / Classic<br> Minimalis<br> Mediterania<br> Modern<br> Others / Lainnya<br>--<br><br>SKALA PEKERJAAN | SCOPE OF WORK:<br> Kontrak Kerja Jelas<br> RAB detail dan spek juga merk bahan<br> Gambar kerja | Skematik MEE/MEP<br> Perencanaan dan Pengawasan oleh ahli (Estimator,Struktur,Pelaksana Teknik hingga Quantity Surveyor)<br>--<br><br>LAYANAN KAMI | OUR SERVICES:<br> Jasa Desain Interior dan Arsitektur<br> Bangun dari nol | Renovasi | Perbaikan | Perawatan | Finishing<br> Instalasi Listrik | Gas Central | AC | Ducting | Kitchen Hood | Blower dan MEE/MEP lainnya<br> Kustom | Mezzanine | Furniture | Meubel | Meja | Kursi | Credenza | Kitchen Set | Wall Panel | Wall Moulding | Flooring | Vynil | Dekoratif lainnya<br> Exterior | Kaca Grafir Inlay Stained Tempered Laminated | Ralling | Balkon | Pagar | Kanopi | Kusen Aluminium<br> Kolam | Pool | Taman<br> Borongan | Borongan jasa saja tanpa material<br> Kontraktor Interior<br>--<br><br>KEUNGGULAN KAMI | OUR STRENGTHS:<br> Perseroan Terbatas (PT)<br> Garansi hasil kerja<br> Memiliki workshop sendiri<br> Spek sesuai RAB dan bekerja dengan amanah<br> Alamat kantor jelas Surabaya (JAWA) dan Denpasar (BALI)<br> Memelihara kepentingan hubungan jangka panjang: komitmen, amanah dan tuntas<br> Memiliki wawasan dan pengalaman berbagai macam fungsi bangunan residensial atau usaha/bisnis<br> Berhasrat memberikan yang terbaik, merealisasikan mimpi rumah atau interior anda menjadi kenyataan<br> Kami setiap hari bangun jam 5 pagi berkomitmen tinggi, berdedikasi dan memberikan pelayan terbaik dengan harga terjangkau<br> Dapat bekerja dengan atau tanpa jasa desain atau dengan kloning bahan video tiktok, gambar google dan instagram skala 1:1<br>--<br><br>DAERAH LAYANAN KAMI / SERVICE AREA:<br> Surabaya, Sidoarjo, Gresik<br> Malang Kota dan Kabupaten<br> Denpasar, Badung, Tabanan, Jembrana, Gianyar dan Ubud<br> Daerah lain dan sekitarnya<br> Permintaan u/ luar pulau Jawa - Bali harap kontak kami untuk informasi lebih lanjut<br>--<br>
+ORIGINAL LENGTH : 4191
+========================================================================================
+2023-02-08 19:23:19.887080+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Bangunan dan Rumah Tangga<br>Kondisi: Baru
+ORIGINAL LENGTH : 48
+========================================================================================
+2023-02-08 19:23:19.887157+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:19.887231+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:19.887300+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:19.887366+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:19.887432+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:19.887501+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:19.887568+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:19.887634+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:19.887700+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:19.887775+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:25.275912+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:25.517353+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/kontraktor-design-bangun-dari-nol-renovasi-interiors-iid-865352671
+ORIGINAL LENGTH : 93
+========================================================================================
+2023-02-08 19:23:25.517795+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Trustzu.id | Bikin Glowing Rumahmu!<br>Desain Menakjubkan, Harga Menyesuaikan (Nego sampai deal!) | Great Design, Adjustable Budget dan Negotiable!<br>Berasal dari keluarga kontraktor turun-temurun, dari generasi ke generasi<br><br>--<br>Baca seluruh pesan kami ini cuma 3 menit aja, manfaatnya seumur hidup!<br>--<br><br>Pasangan anda yakin bisa membangun rumah sendiri tapi ternyata biayanya malah membengkak, bentuk bangunan atau tukangnya jadi nggak jelas<br>Tambah lagi dia jadi nggak fokus ke kerjaan, omzet menurun, kalah bersaing dengan kompetitor, dana malah berhenti dibangunan yang nggak rampung-rampung<br>Bangunan jadi eh ternyata miring, tiap sudut ukurannya berbeda-beda, Mungkin nggak ambruk sih cuma menyesalnya terus2an banyak yang masuk rumah malah kesurupan!<br><br>Buang waktu = Buang biaya = Buang kesempatan<br>Makanya ada jurusan kuliah Arsitek, Sipil dan Interior<br><br>Yang benar itu "Pilih KONTRAKTOR dulu, lalu buat DESAIN setelah itu kemudian MEMBANGUNNYA"<br>Banyak orang merasa mengerti tapi pada akhirnya banyak yang disesalinya (lagu lama, kaset baru)<br><br>Makanya gunakan jasa kami kontraktor PT.TRUSTZU PILAR MILENIA:<br><br>GRATIS KONSULTASI dan SURVEY dari awal sampai akhir<br>Membantu membuat perencanaan awal secara matang hingga tahap pengakhiran (finishing)<br>Membantu modernisasi ide , konsep dan gagasan untuk bangunan anda<br>Membantu memberikan batasan yang jelas pada visi utama pada bangunan anda<br>Membantu memberikan opsi-opsi terbaik untuk semua keperluan bangunanmu sesuai bujet anda<br>Setelah desain jadi, anda bisa revisi, penyesuaian dan mengerti besaran biaya<br>Setelah itu anda tahu mana yang bisa dicicil dikerjakan dahulu<br>Dengan desain sesuai disiplin ilmu arsitek/desainer anda lebih hemat dalam penggunaan material, waktu dan tenaganya<br>Membantu mengawasi dan memastikan kualitas bangunan anda<br>Membantu merealisasikan desain menjadi kenyataan<br>Memberikan garansi pekerjaan dan retensi<br>--<br><br>SPESIALISASI KAMI | OUR SPECIALITY:<br> Rumah Tinggal (Residential)<br> Villa<br> Cafe | Resto<br> Ruko | Toko<br>--<br><br>STYLE ARSITEKTURAL BANGUNAN | BUILDING ARCHITECTURAL STYLE:<br> Kekinian<br> Villa Bali<br> Klasik / Classic<br> Minimalis<br> Mediterania<br> Modern<br> Others / Lainnya<br>--<br><br>SKALA PEKERJAAN | SCOPE OF WORK:<br> Kontrak Kerja Jelas<br> RAB detail dan spek juga merk bahan<br> Gambar kerja | Skematik MEE/MEP<br> Perencanaan dan Pengawasan oleh ahli (Estimator,Struktur,Pelaksana Teknik hingga Quantity Surveyor)<br>--<br><br>LAYANAN KAMI | OUR SERVICES:<br> Jasa Desain Interior dan Arsitektur<br> Bangun dari nol | Renovasi | Perbaikan | Perawatan | Finishing<br> Instalasi Listrik | Gas Central | AC | Ducting | Kitchen Hood | Blower dan MEE/MEP lainnya<br> Kustom | Mezzanine | Furniture | Meubel | Meja | Kursi | Credenza | Kitchen Set | Wall Panel | Wall Moulding | Flooring | Vynil | Dekoratif lainnya<br> Exterior | Kaca Grafir Inlay Stained Tempered Laminated | Ralling | Balkon | Pagar | Kanopi | Kusen Aluminium<br> Kolam | Pool | Taman<br> Borongan | Borongan jasa saja tanpa material<br> Kontraktor Interior<br>--<br><br>KEUNGGULAN KAMI | OUR STRENGTHS:<br> Perseroan Terbatas (PT)<br> Garansi hasil kerja<br> Memiliki workshop sendiri<br> Spek sesuai RAB dan bekerja dengan amanah<br> Alamat kantor jelas Surabaya (JAWA) dan Denpasar (BALI)<br> Memelihara kepentingan hubungan jangka panjang: komitmen, amanah dan tuntas<br> Memiliki wawasan dan pengalaman berbagai macam fungsi bangunan residensial atau usaha/bisnis<br> Berhasrat memberikan yang terbaik, merealisasikan mimpi rumah atau interior anda menjadi kenyataan<br> Kami setiap hari bangun jam 5 pagi berkomitmen tinggi, berdedikasi dan memberikan pelayan terbaik dengan harga terjangkau<br> Dapat bekerja dengan atau tanpa jasa desain atau dengan kloning bahan video tiktok, gambar google dan instagram skala 1:1<br>--<br><br>DAERAH LAYANAN KAMI / SERVICE AREA:<br> Surabaya, Sidoarjo, Gresik<br> Malang Kota dan Kabupaten<br> Denpasar, Badung, Tabanan, Jembrana, Gianyar dan Ubud<br> Daerah lain dan sekitarnya<br> Permintaan u/ luar pulau Jawa - Bali harap kontak kami untuk informasi lebih lanjut<br>--<br>
+ORIGINAL LENGTH : 4191
+========================================================================================
+2023-02-08 19:23:25.518009+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Bangunan dan Rumah Tangga<br>Kondisi: Baru
+ORIGINAL LENGTH : 48
+========================================================================================
+2023-02-08 19:23:25.518082+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:25.518153+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:25.518274+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:25.518344+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:25.518395+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:25.518439+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:25.518485+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:25.518529+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:25.518575+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:25.518630+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:31.216158+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:31.414876+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/kontraktor-design-bangun-rumah-interior-renov-iid-865353900
+ORIGINAL LENGTH : 86
+========================================================================================
+2023-02-08 19:23:31.415148+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Trustzu.id | Bikin Glowing Rumahmu!<br>Desain Menakjubkan, Harga Menyesuaikan (Nego sampai deal!) | Great Design, Adjustable Budget dan Negotiable!<br>Berasal dari keluarga kontraktor turun-temurun, dari generasi ke generasi<br><br>--<br>Baca seluruh pesan kami ini cuma 3 menit aja, manfaatnya seumur hidup!<br>--<br><br>Pasangan anda yakin bisa membangun rumah sendiri tapi ternyata biayanya malah membengkak, bentuk bangunan atau tukangnya jadi nggak jelas<br>Tambah lagi dia jadi nggak fokus ke kerjaan, omzet menurun, kalah bersaing dengan kompetitor, dana malah berhenti dibangunan yang nggak rampung-rampung<br>Bangunan jadi eh ternyata miring, tiap sudut ukurannya berbeda-beda, Mungkin nggak ambruk sih cuma menyesalnya terus2an banyak yang masuk rumah malah kesurupan!<br><br>Buang waktu = Buang biaya = Buang kesempatan<br>Makanya ada jurusan kuliah Arsitek, Sipil dan Interior<br><br>Yang benar itu "Pilih KONTRAKTOR dulu, lalu buat DESAIN setelah itu kemudian MEMBANGUNNYA"<br>Banyak orang merasa mengerti tapi pada akhirnya banyak yang disesalinya (lagu lama, kaset baru)<br><br>Makanya gunakan jasa kami kontraktor PT.TRUSTZU PILAR MILENIA:<br><br>GRATIS KONSULTASI dan SURVEY dari awal sampai akhir<br>Membantu membuat perencanaan awal secara matang hingga tahap pengakhiran (finishing)<br>Membantu modernisasi ide , konsep dan gagasan untuk bangunan anda<br>Membantu memberikan batasan yang jelas pada visi utama pada bangunan anda<br>Membantu memberikan opsi-opsi terbaik untuk semua keperluan bangunanmu sesuai bujet anda<br>Setelah desain jadi, anda bisa revisi, penyesuaian dan mengerti besaran biaya<br>Setelah itu anda tahu mana yang bisa dicicil dikerjakan dahulu<br>Dengan desain sesuai disiplin ilmu arsitek/desainer anda lebih hemat dalam penggunaan material, waktu dan tenaganya<br>Membantu mengawasi dan memastikan kualitas bangunan anda<br>Membantu merealisasikan desain menjadi kenyataan<br>Memberikan garansi pekerjaan dan retensi<br>--<br><br>SPESIALISASI KAMI | OUR SPECIALITY:<br> Rumah Tinggal (Residential)<br> Villa<br> Cafe | Resto<br> Ruko | Toko<br>--<br><br>STYLE ARSITEKTURAL BANGUNAN | BUILDING ARCHITECTURAL STYLE:<br> Kekinian<br> Villa Bali<br> Klasik / Classic<br> Minimalis<br> Mediterania<br> Modern<br> Others / Lainnya<br>--<br><br>SKALA PEKERJAAN | SCOPE OF WORK:<br> Kontrak Kerja Jelas<br> RAB detail dan spek juga merk bahan<br> Gambar kerja | Skematik MEE/MEP<br> Perencanaan dan Pengawasan oleh ahli (Estimator,Struktur,Pelaksana Teknik hingga Quantity Surveyor)<br>--<br><br>LAYANAN KAMI | OUR SERVICES:<br> Jasa Desain Interior dan Arsitektur<br> Bangun dari nol | Renovasi | Perbaikan | Perawatan | Finishing<br> Instalasi Listrik | Gas Central | AC | Ducting | Kitchen Hood | Blower dan MEE/MEP lainnya<br> Kustom | Mezzanine | Furniture | Meubel | Meja | Kursi | Credenza | Kitchen Set | Wall Panel | Wall Moulding | Flooring | Vynil | Dekoratif lainnya<br> Exterior | Kaca Grafir Inlay Stained Tempered Laminated | Ralling | Balkon | Pagar | Kanopi | Kusen Aluminium<br> Kolam | Pool | Taman<br> Borongan | Borongan jasa saja tanpa material<br> Kontraktor Interior<br>--<br><br>KEUNGGULAN KAMI | OUR STRENGTHS:<br> Perseroan Terbatas (PT)<br> Garansi hasil kerja<br> Memiliki workshop sendiri<br> Spek sesuai RAB dan bekerja dengan amanah<br> Alamat kantor jelas Surabaya (JAWA) dan Denpasar (BALI)<br> Memelihara kepentingan hubungan jangka panjang: komitmen, amanah dan tuntas<br> Memiliki wawasan dan pengalaman berbagai macam fungsi bangunan residensial atau usaha/bisnis<br> Berhasrat memberikan yang terbaik, merealisasikan mimpi rumah atau interior anda menjadi kenyataan<br> Kami setiap hari bangun jam 5 pagi berkomitmen tinggi, berdedikasi dan memberikan pelayan terbaik dengan harga terjangkau<br> Dapat bekerja dengan atau tanpa jasa desain atau dengan kloning bahan video tiktok, gambar google dan instagram skala 1:1<br>--<br><br>DAERAH LAYANAN KAMI / SERVICE AREA:<br> Surabaya, Sidoarjo, Gresik<br> Malang Kota dan Kabupaten<br> Denpasar, Badung, Tabanan, Jembrana, Gianyar dan Ubud<br> Daerah lain dan sekitarnya<br> Permintaan u/ luar pulau Jawa - Bali harap kontak kami untuk informasi lebih lanjut<br>--<br>
+ORIGINAL LENGTH : 4191
+========================================================================================
+2023-02-08 19:23:31.415365+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Bangunan dan Rumah Tangga<br>Kondisi: Baru
+ORIGINAL LENGTH : 48
+========================================================================================
+2023-02-08 19:23:31.415461+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:31.415533+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:31.415605+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:31.415730+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:31.415851+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:31.415946+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:31.416033+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:31.416115+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:31.416206+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:31.416309+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:36.921200+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:37.058407+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/kontraktor-design-bangunan-renovate-interiors-iid-865355018
+ORIGINAL LENGTH : 86
+========================================================================================
+2023-02-08 19:23:37.058666+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Trustzu.id | Bikin Glowing Rumahmu!<br>Desain Menakjubkan, Harga Menyesuaikan (Nego sampai deal!) | Great Design, Adjustable Budget dan Negotiable!<br>Berasal dari keluarga kontraktor turun-temurun, dari generasi ke generasi<br><br>--<br>Baca seluruh pesan kami ini cuma 3 menit aja, manfaatnya seumur hidup!<br>--<br><br>Pasangan anda yakin bisa membangun rumah sendiri tapi ternyata biayanya malah membengkak, bentuk bangunan atau tukangnya jadi nggak jelas<br>Tambah lagi dia jadi nggak fokus ke kerjaan, omzet menurun, kalah bersaing dengan kompetitor, dana malah berhenti dibangunan yang nggak rampung-rampung<br>Bangunan jadi eh ternyata miring, tiap sudut ukurannya berbeda-beda, Mungkin nggak ambruk sih cuma menyesalnya terus2an banyak yang masuk rumah malah kesurupan!<br><br>Buang waktu = Buang biaya = Buang kesempatan<br>Makanya ada jurusan kuliah Arsitek, Sipil dan Interior<br><br>Yang benar itu "Pilih KONTRAKTOR dulu, lalu buat DESAIN setelah itu kemudian MEMBANGUNNYA"<br>Banyak orang merasa mengerti tapi pada akhirnya banyak yang disesalinya (lagu lama, kaset baru)<br><br>Makanya gunakan jasa kami kontraktor PT.TRUSTZU PILAR MILENIA:<br><br>GRATIS KONSULTASI dan SURVEY dari awal sampai akhir<br>Membantu membuat perencanaan awal secara matang hingga tahap pengakhiran (finishing)<br>Membantu modernisasi ide , konsep dan gagasan untuk bangunan anda<br>Membantu memberikan batasan yang jelas pada visi utama pada bangunan anda<br>Membantu memberikan opsi-opsi terbaik untuk semua keperluan bangunanmu sesuai bujet anda<br>Setelah desain jadi, anda bisa revisi, penyesuaian dan mengerti besaran biaya<br>Setelah itu anda tahu mana yang bisa dicicil dikerjakan dahulu<br>Dengan desain sesuai disiplin ilmu arsitek/desainer anda lebih hemat dalam penggunaan material, waktu dan tenaganya<br>Membantu mengawasi dan memastikan kualitas bangunan anda<br>Membantu merealisasikan desain menjadi kenyataan<br>Memberikan garansi pekerjaan dan retensi<br>--<br><br>SPESIALISASI KAMI | OUR SPECIALITY:<br> Rumah Tinggal (Residential)<br> Villa<br> Cafe | Resto<br> Ruko | Toko<br>--<br><br>STYLE ARSITEKTURAL BANGUNAN | BUILDING ARCHITECTURAL STYLE:<br> Kekinian<br> Villa Bali<br> Klasik / Classic<br> Minimalis<br> Mediterania<br> Modern<br> Others / Lainnya<br>--<br><br>SKALA PEKERJAAN | SCOPE OF WORK:<br> Kontrak Kerja Jelas<br> RAB detail dan spek juga merk bahan<br> Gambar kerja | Skematik MEE/MEP<br> Perencanaan dan Pengawasan oleh ahli (Estimator,Struktur,Pelaksana Teknik hingga Quantity Surveyor)<br>--<br><br>LAYANAN KAMI | OUR SERVICES:<br> Jasa Desain Interior dan Arsitektur<br> Bangun dari nol | Renovasi | Perbaikan | Perawatan | Finishing<br> Instalasi Listrik | Gas Central | AC | Ducting | Kitchen Hood | Blower dan MEE/MEP lainnya<br> Kustom | Mezzanine | Furniture | Meubel | Meja | Kursi | Credenza | Kitchen Set | Wall Panel | Wall Moulding | Flooring | Vynil | Dekoratif lainnya<br> Exterior | Kaca Grafir Inlay Stained Tempered Laminated | Ralling | Balkon | Pagar | Kanopi | Kusen Aluminium<br> Kolam | Pool | Taman<br> Borongan | Borongan jasa saja tanpa material<br> Kontraktor Interior<br>--<br><br>KEUNGGULAN KAMI | OUR STRENGTHS:<br> Perseroan Terbatas (PT)<br> Garansi hasil kerja<br> Memiliki workshop sendiri<br> Spek sesuai RAB dan bekerja dengan amanah<br> Alamat kantor jelas Surabaya (JAWA) dan Denpasar (BALI)<br> Memelihara kepentingan hubungan jangka panjang: komitmen, amanah dan tuntas<br> Memiliki wawasan dan pengalaman berbagai macam fungsi bangunan residensial atau usaha/bisnis<br> Berhasrat memberikan yang terbaik, merealisasikan mimpi rumah atau interior anda menjadi kenyataan<br> Kami setiap hari bangun jam 5 pagi berkomitmen tinggi, berdedikasi dan memberikan pelayan terbaik dengan harga terjangkau<br> Dapat bekerja dengan atau tanpa jasa desain atau dengan kloning bahan video tiktok, gambar google dan instagram skala 1:1<br>--<br><br>DAERAH LAYANAN KAMI / SERVICE AREA:<br> Surabaya, Sidoarjo, Gresik<br> Malang Kota dan Kabupaten<br> Denpasar, Badung, Tabanan, Jembrana, Gianyar dan Ubud<br> Daerah lain dan sekitarnya<br> Permintaan u/ luar pulau Jawa - Bali harap kontak kami untuk informasi lebih lanjut<br>--<br>
+ORIGINAL LENGTH : 4191
+========================================================================================
+2023-02-08 19:23:37.058934+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Bangunan dan Rumah Tangga<br>Kondisi: Baru
+ORIGINAL LENGTH : 48
+========================================================================================
+2023-02-08 19:23:37.059010+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:37.059098+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:37.059165+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:37.059224+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:37.059284+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:37.059349+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:37.059420+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:37.059489+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:37.059596+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:37.059657+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:42.545257+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:42.772335+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/kontraktor-bangunan-design-renovasi-interiors-iid-865356638
+ORIGINAL LENGTH : 86
+========================================================================================
+2023-02-08 19:23:42.772689+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Trustzu.id | Bikin Glowing Rumahmu!<br>Desain Menakjubkan, Harga Menyesuaikan (Nego sampai deal!) | Great Design, Adjustable Budget dan Negotiable!<br>Berasal dari keluarga kontraktor turun-temurun, dari generasi ke generasi<br><br>--<br>Baca seluruh pesan kami ini cuma 3 menit aja, manfaatnya seumur hidup!<br>--<br><br>Pasangan anda yakin bisa membangun rumah sendiri tapi ternyata biayanya malah membengkak, bentuk bangunan atau tukangnya jadi nggak jelas<br>Tambah lagi dia jadi nggak fokus ke kerjaan, omzet menurun, kalah bersaing dengan kompetitor, dana malah berhenti dibangunan yang nggak rampung-rampung<br>Bangunan jadi eh ternyata miring, tiap sudut ukurannya berbeda-beda, Mungkin nggak ambruk sih cuma menyesalnya terus2an banyak yang masuk rumah malah kesurupan!<br><br>Buang waktu = Buang biaya = Buang kesempatan<br>Makanya ada jurusan kuliah Arsitek, Sipil dan Interior<br><br>Yang benar itu "Pilih KONTRAKTOR dulu, lalu buat DESAIN setelah itu kemudian MEMBANGUNNYA"<br>Banyak orang merasa mengerti tapi pada akhirnya banyak yang disesalinya (lagu lama, kaset baru)<br><br>Makanya gunakan jasa kami kontraktor PT.TRUSTZU PILAR MILENIA:<br><br>GRATIS KONSULTASI dan SURVEY dari awal sampai akhir<br>Membantu membuat perencanaan awal secara matang hingga tahap pengakhiran (finishing)<br>Membantu modernisasi ide , konsep dan gagasan untuk bangunan anda<br>Membantu memberikan batasan yang jelas pada visi utama pada bangunan anda<br>Membantu memberikan opsi-opsi terbaik untuk semua keperluan bangunanmu sesuai bujet anda<br>Setelah desain jadi, anda bisa revisi, penyesuaian dan mengerti besaran biaya<br>Setelah itu anda tahu mana yang bisa dicicil dikerjakan dahulu<br>Dengan desain sesuai disiplin ilmu arsitek/desainer anda lebih hemat dalam penggunaan material, waktu dan tenaganya<br>Membantu mengawasi dan memastikan kualitas bangunan anda<br>Membantu merealisasikan desain menjadi kenyataan<br>Memberikan garansi pekerjaan dan retensi<br>--<br><br>SPESIALISASI KAMI | OUR SPECIALITY:<br> Rumah Tinggal (Residential)<br> Villa<br> Cafe | Resto<br> Ruko | Toko<br>--<br><br>STYLE ARSITEKTURAL BANGUNAN | BUILDING ARCHITECTURAL STYLE:<br> Kekinian<br> Villa Bali<br> Klasik / Classic<br> Minimalis<br> Mediterania<br> Modern<br> Others / Lainnya<br>--<br><br>SKALA PEKERJAAN | SCOPE OF WORK:<br> Kontrak Kerja Jelas<br> RAB detail dan spek juga merk bahan<br> Gambar kerja | Skematik MEE/MEP<br> Perencanaan dan Pengawasan oleh ahli (Estimator,Struktur,Pelaksana Teknik hingga Quantity Surveyor)<br>--<br><br>LAYANAN KAMI | OUR SERVICES:<br> Jasa Desain Interior dan Arsitektur<br> Bangun dari nol | Renovasi | Perbaikan | Perawatan | Finishing<br> Instalasi Listrik | Gas Central | AC | Ducting | Kitchen Hood | Blower dan MEE/MEP lainnya<br> Kustom | Mezzanine | Furniture | Meubel | Meja | Kursi | Credenza | Kitchen Set | Wall Panel | Wall Moulding | Flooring | Vynil | Dekoratif lainnya<br> Exterior | Kaca Grafir Inlay Stained Tempered Laminated | Ralling | Balkon | Pagar | Kanopi | Kusen Aluminium<br> Kolam | Pool | Taman<br> Borongan | Borongan jasa saja tanpa material<br> Kontraktor Interior<br>--<br><br>KEUNGGULAN KAMI | OUR STRENGTHS:<br> Perseroan Terbatas (PT)<br> Garansi hasil kerja<br> Memiliki workshop sendiri<br> Spek sesuai RAB dan bekerja dengan amanah<br> Alamat kantor jelas Surabaya (JAWA) dan Denpasar (BALI)<br> Memelihara kepentingan hubungan jangka panjang: komitmen, amanah dan tuntas<br> Memiliki wawasan dan pengalaman berbagai macam fungsi bangunan residensial atau usaha/bisnis<br> Berhasrat memberikan yang terbaik, merealisasikan mimpi rumah atau interior anda menjadi kenyataan<br> Kami setiap hari bangun jam 5 pagi berkomitmen tinggi, berdedikasi dan memberikan pelayan terbaik dengan harga terjangkau<br> Dapat bekerja dengan atau tanpa jasa desain atau dengan kloning bahan video tiktok, gambar google dan instagram skala 1:1<br>--<br><br>DAERAH LAYANAN KAMI / SERVICE AREA:<br> Surabaya, Sidoarjo, Gresik<br> Malang Kota dan Kabupaten<br> Denpasar, Badung, Tabanan, Jembrana, Gianyar dan Ubud<br> Daerah lain dan sekitarnya<br> Permintaan u/ luar pulau Jawa - Bali harap kontak kami untuk informasi lebih lanjut<br>--<br>
+ORIGINAL LENGTH : 4191
+========================================================================================
+2023-02-08 19:23:42.772849+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Bangunan dan Rumah Tangga<br>Kondisi: Baru
+ORIGINAL LENGTH : 48
+========================================================================================
+2023-02-08 19:23:42.772899+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:42.772939+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:42.772979+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:42.773074+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:42.774085+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:42.774172+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:42.774234+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:42.774274+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:42.774342+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:42.774431+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:48.408360+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:48.560211+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/jasa-design-interior-150rbm-perspektif-3d-iid-775011241
+ORIGINAL LENGTH : 82
+========================================================================================
+2023-02-08 19:23:48.560425+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+menerima konsultasi design interior residence, office, showroom, apartment, housing, hotel, bar, lounge etc<br>include tata letak layout, design animasi 3D dan rendering<br>jika pengerjaannya di kita juga maka fee design ini akan dipotongkan ke quotation pengerjaan. jadi fee design FREE!!!<br><br>kita juga menerima pengerjaan produksi furniture custom. dengan harga bersaing. <br><br>we also provide<br>produksi furniture, setting di lokasi, renovasi<br>
+ORIGINAL LENGTH : 456
+========================================================================================
+2023-02-08 19:23:48.560503+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Desain<br>Kondisi: Baru
+ORIGINAL LENGTH : 29
+========================================================================================
+2023-02-08 19:23:48.560752+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:48.560903+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:48.560959+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:48.561199+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:48.561289+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:48.561342+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:48.561390+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:48.561439+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:48.561485+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:48.561542+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:53.544371+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:53.707799+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/interior-design-3d-iid-875516029
+ORIGINAL LENGTH : 59
+========================================================================================
+2023-02-08 19:23:53.708013+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Kami menyediakan jasa 3d desain interior (dengan konsep)<br><br>Kami telah dipercaya oleh beberapa perusahaan, konsultan arsitek dan interior sejak 2012 untuk mendesain maupun rendering berbagai project guna untuk presentasi.<br><br>Ketentuan harga :<br>1.	Untuk desain Modern 500rb/ view <br>2.	Untuk desain Semi classic 550rb/ view <br>3. Revisi 2x (1x revisi total konsep, 1x revisi setengah (bentukan, warna)<br><br>Cara Order :<br><br>-. Email data, (berupa gambar tangan(sketch denah)/CAD<br>-. Penjelasan konsep (bisa melalui telephone (bisa untuk wilayah / kota/ daerah manapun) atau bertemu (hanya bisa di Surabaya))<br>-. Persetujuan Deadline<br>-. Permintaan / kebutuhan view<br><br>Portofolio dapat kami kirim melalui email anda atau langsung hubungi melalui whatsapp, atau anda dapat melihat portofolio kami melalui instagram elliot_design89<br>
+ORIGINAL LENGTH : 858
+========================================================================================
+2023-02-08 19:23:53.708098+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Tipe: Desain<br>Kondisi: Baru
+ORIGINAL LENGTH : 29
+========================================================================================
+2023-02-08 19:23:53.708175+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:53.708239+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:53.708278+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:53.708314+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:53.708348+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:53.708384+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:53.708419+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:53.708454+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:53.708493+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:53.708554+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:58.336170+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:23:58.452721+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/karpet-mobil-comfort-alphard-vellfire-voxy-cetakan-custom-interior-iid-882596492
+ORIGINAL LENGTH : 107
+========================================================================================
+2023-02-08 19:23:58.452973+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+TERSEDIA SEMUA TYPE KARPET MOBIL<br>NOTE <br>500.000 hanya baris depan khusus Alphard,Voxy Vellfire,Hiace<br>500.000 2 baris depan dan Tengah khusus mobil standart<br><br>- UKURAN COSTOME INTERIOR MOBIL<br>- ANTI BAKTERI<br>- TEBL 1.7cm-2cm<br>- TIDAK MUDAH TERBAKAR<br>- MENYERAP AIR dan DEBU<br>- ANTI SLIP<br>- GRATIS PEMASANGAN LOKASI<br><br>Note: ANDA DI RUMAH SAJA TERIMA BERES<br>
+ORIGINAL LENGTH : 387
+========================================================================================
+2023-02-08 19:23:58.453043+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Kondisi: Baru<br>
+ORIGINAL LENGTH : 17
+========================================================================================
+2023-02-08 19:23:58.453109+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:58.453169+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:58.453224+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:58.453283+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:58.453459+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:58.453537+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:58.453604+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:23:58.454004+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:23:58.454069+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:23:58.454122+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:24:03.421612+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:24:03.501247+07:00
+USERNAME: GET EVERY DETAIL
+EXCEPTION
+Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=110.0.5481.77)
+Stacktrace:
+#0 0x55f014170b03 <unknown>
+#1 0x55f013f40f27 <unknown>
+#2 0x55f013f44523 <unknown>
+#3 0x55f013f44292 <unknown>
+#4 0x55f013f44f0c <unknown>
+#5 0x55f013fb9c1e <unknown>
+#6 0x55f013fa1092 <unknown>
+#7 0x55f013fb90d9 <unknown>
+#8 0x55f013fa0df3 <unknown>
+#9 0x55f013f70900 <unknown>
+#10 0x55f013f71af8 <unknown>
+#11 0x55f0141c50ce <unknown>
+#12 0x55f0141c9090 <unknown>
+#13 0x55f0141a9590 <unknown>
+#14 0x55f0141ca31d <unknown>
+#15 0x55f01419a928 <unknown>
+#16 0x55f0141ef3a8 <unknown>
+#17 0x55f0141ef536 <unknown>
+#18 0x55f0142093f7 <unknown>
+#19 0x7f3898090402 <unknown>
+
+========================================================================================
+2023-02-08 19:24:03.501488+07:00
+USERNAME: GET EVERY DETAIL
+ERROR IN FOR DATASET
+========================================================================================
+2023-02-08 19:24:09.534529+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:24:09.592557+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/kontraktor-interior-furniture-custom-untuk-rumah-kantor-dan-apartemen-iid-803898168
+ORIGINAL LENGTH : 110
+========================================================================================
+2023-02-08 19:24:09.592777+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+CV. Mandala Mukti Artadaya<br>Kontraktor Interior<br>. <br>Furniture Custom :<br>- Backdrop<br>- Credenza<br>- Meja Resepsionis<br>- Meja Meeting<br>- Wardrobe<br>- Kitchen Set<br>- dipan<br>- dll<br>. <br>Dekorasi :<br>- Lantai Vinyl<br>- Wallpaper<br>- Wallpanel<br>- dll<br>. <br>Info Telp / WA<br>-<br>
+ORIGINAL LENGTH : 306
+========================================================================================
+2023-02-08 19:24:09.592861+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Kondisi: Baru<br>
+ORIGINAL LENGTH : 17
+========================================================================================
+2023-02-08 19:24:09.592910+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:24:09.592947+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:24:09.592982+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:09.593017+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:09.593074+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:09.593110+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:09.593148+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:09.593184+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:09.593218+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'kamar mandi', 'ruang makan', 'dapur', 'ruang keluarga']
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:24:09.593263+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:24:16.141228+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:24:16.282798+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/jasa-buat-lemari-pakaian-custom-surabaya-kaloka-interior-iid-884649680
+ORIGINAL LENGTH : 97
+========================================================================================
+2023-02-08 19:24:16.283026+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Jasa Buat Lemari Pakaian Custom Surabaya, KALOKA INTERIOR | Lemari Buku Custom, Lemari Kaca Custom, Lemari Custom, Custom Lemari Murah<br><br>Kami adalah Profesional jasa pembuatan interior di surabaya terbaik dan berpengalaman memproduksi :<br><br>- Lemari Custom<br>- Kitchen Set<br>- Meja resepsionis,Meja kantor<br>- Backdrop<br>- Partisi dll<br><br>Alasan anda memilih kami adalah :<br><br>1. Kami adalah produsen langsung yang memberikan penawaran terbaik kepada anda dan setara dengan apa yang kami kerjakan<br>2. Kami menggunakan material terbaik yang telah disesuaikan dengan budget yang telah disetujui klien<br>3. kami telah mengerjakan berbagai macam project seperti : rumah, apartemen,kantor dll<br>4. Bahan Awet dan tahan Lama<br>5. Lama pengerjaan 2 minggu dan Free biaya survei<br>6. Bisa di desainkan atau desain sendiri<br>7. Kami selalu bekerja sepenuh hati dan profesional, serta bertanggung jawab terhadap apa yang kami kerjakan<br>8. Percayakanlah pembuatan interior ruangan anda kepada kami dan kami akan memberikan pelayanan yang terbaik<br><br>Produsen Lemari Custom "Kaloka Interior"<br><br>Jl Rungkut Menanggal Harapan V/9<br>Surabaya<br><br>#lemaripakaiancustom, #lemaribukucustom, #lemarikacacustom, #lemaricustom, #customlemarimurah, #lemaripakaiancustommurah, #membuatlemaricustom, #pembuatanlemaricustom, #lemaricustome, #lemaricustom<br>
+ORIGINAL LENGTH : 1370
+========================================================================================
+2023-02-08 19:24:16.283087+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Kondisi: Baru<br>
+ORIGINAL LENGTH : 17
+========================================================================================
+2023-02-08 19:24:16.283213+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:24:16.283259+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:24:16.283306+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:16.283357+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:16.283403+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:16.283446+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:16.283491+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:16.283533+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:16.283576+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'ruang keluarga']
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:16.283627+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:24:50.087686+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:24:50.153268+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/jasa-bikin-buat-lemari-custom-surabaya-kaloka-interior-iid-884648613
+ORIGINAL LENGTH : 95
+========================================================================================
+2023-02-08 19:24:50.153501+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Jasa Bikin Buat Lemari Custom Surabaya, KALOKA INTERIOR | Lemari Custom Minimalis, Custom Lemari Bawah Tangga, Pembuatan Lemari Custom, Custom Lemari<br><br>Kami adalah Profesional jasa pembuatan interior di surabaya terbaik dan berpengalaman memproduksi :<br><br>- Lemari Custom<br>- Kitchen Set<br>- Meja resepsionis,Meja kantor<br>- Backdrop<br>- Partisi dll<br><br>Alasan anda memilih kami adalah :<br><br>1. Kami adalah produsen langsung yang memberikan penawaran terbaik kepada anda dan setara dengan apa yang kami kerjakan<br>2. Kami menggunakan material terbaik yang telah disesuaikan dengan budget yang telah disetujui klien<br>3. kami telah mengerjakan berbagai macam project seperti : rumah, apartemen,kantor dll<br>4. Bahan Awet dan tahan Lama<br>5. Lama pengerjaan 2 minggu dan Free biaya survei<br>6. Bisa di desainkan atau desain sendiri<br>7. Kami selalu bekerja sepenuh hati dan profesional, serta bertanggung jawab terhadap apa yang kami kerjakan<br>8. Percayakanlah pembuatan interior ruangan anda kepada kami dan kami akan memberikan pelayanan yang terbaik<br><br>Produsen Lemari Custom "Kaloka Interior"<br><br>Jl Rungkut Menanggal Harapan V/9<br>Surabaya<br><br><br>#buatlemaricustom, #lemaricustomminimalis, #customlemaribawahtangga, #pembuatanlemaricustom, #customlemari, #lemaritvcustom, #lemarikayucustom, #customlemarikayu, #customlemarikaca, #customlemaribaju<br>
+ORIGINAL LENGTH : 1391
+========================================================================================
+2023-02-08 19:24:50.153568+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:50.153628+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:24:50.153813+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:24:50.153880+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:50.154033+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:50.154091+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:50.154145+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:50.154204+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:24:50.154262+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:50.154318+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'ruang keluarga']
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:24:50.154377+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:26:21.850866+07:00
+USERNAME: GET EVERY DETAIL
+EXCEPTION
+Message: no such element: Unable to locate element: {"method":"css selector","selector":"button[data-aut-id="btnChat"] + div > div + div"}
+  (Session info: headless chrome=110.0.5481.77)
+Stacktrace:
+#0 0x55f014170b03 <unknown>
+#1 0x55f013f40f27 <unknown>
+#2 0x55f013f7d74a <unknown>
+#3 0x55f013f7d851 <unknown>
+#4 0x55f013fbb3b4 <unknown>
+#5 0x55f013fa10bd <unknown>
+#6 0x55f013fb90d9 <unknown>
+#7 0x55f013fa0df3 <unknown>
+#8 0x55f013f70900 <unknown>
+#9 0x55f013f71af8 <unknown>
+#10 0x55f0141c50ce <unknown>
+#11 0x55f0141c9090 <unknown>
+#12 0x55f0141a9590 <unknown>
+#13 0x55f0141ca31d <unknown>
+#14 0x55f01419a928 <unknown>
+#15 0x55f0141ef3a8 <unknown>
+#16 0x55f0141ef536 <unknown>
+#17 0x55f0142093f7 <unknown>
+#18 0x7f3898090402 <unknown>
+
+========================================================================================
+2023-02-08 19:26:21.851103+07:00
+USERNAME: GET EVERY DETAIL
+ERROR IN FOR DATASET
+========================================================================================
+2023-02-08 19:26:26.961164+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:26:27.030415+07:00
+USERNAME: GET EVERY DETAIL
+EXCEPTION
+Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=110.0.5481.77)
+Stacktrace:
+#0 0x55f014170b03 <unknown>
+#1 0x55f013f40f27 <unknown>
+#2 0x55f013f44523 <unknown>
+#3 0x55f013f44292 <unknown>
+#4 0x55f013f44f0c <unknown>
+#5 0x55f013fb9c1e <unknown>
+#6 0x55f013fa1092 <unknown>
+#7 0x55f013fb90d9 <unknown>
+#8 0x55f013fa0df3 <unknown>
+#9 0x55f013f70900 <unknown>
+#10 0x55f013f71af8 <unknown>
+#11 0x55f0141c50ce <unknown>
+#12 0x55f0141c9090 <unknown>
+#13 0x55f0141a9590 <unknown>
+#14 0x55f0141ca31d <unknown>
+#15 0x55f01419a928 <unknown>
+#16 0x55f0141ef3a8 <unknown>
+#17 0x55f0141ef536 <unknown>
+#18 0x55f0142093f7 <unknown>
+#19 0x7f3898090402 <unknown>
+
+========================================================================================
+2023-02-08 19:26:27.030815+07:00
+USERNAME: GET EVERY DETAIL
+ERROR IN FOR DATASET
+========================================================================================
+2023-02-08 19:26:32.173161+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:26:32.281194+07:00
+USERNAME: GET EVERY DETAIL
+ORIGINAL LINK
+https://www.olx.co.id/item/jasa-pembuatan-lemari-custom-per-meter-surabaya-kaloka-interior-iid-884645993
+ORIGINAL LENGTH : 104
+========================================================================================
+2023-02-08 19:26:32.281419+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DESC
+Jasa Pembuatan Lemari Custom Per Meter Surabaya, KALOKA INTERIOR | Lemari Custom Murah, Lemari Baju Custom, Buat Lemari Custom, Lemari Custom Minimalis<br><br>Kami adalah Profesional jasa pembuatan interior di surabaya terbaik dan berpengalaman memproduksi :<br><br>- Lemari Custom<br>- Kitchen Set<br>- Meja resepsionis,Meja kantor<br>- Backdrop<br>- Partisi dll<br><br>Alasan anda memilih kami adalah :<br><br>1. Kami adalah produsen langsung yang memberikan penawaran terbaik kepada anda dan setara dengan apa yang kami kerjakan<br>2. Kami menggunakan material terbaik yang telah disesuaikan dengan budget yang telah disetujui klien<br>3. kami telah mengerjakan berbagai macam project seperti : rumah, apartemen,kantor dll<br>4. Bahan Awet dan tahan Lama<br>5. Lama pengerjaan 2 minggu dan Free biaya survei<br>6. Bisa di desainkan atau desain sendiri<br>7. Kami selalu bekerja sepenuh hati dan profesional, serta bertanggung jawab terhadap apa yang kami kerjakan<br>8. Percayakanlah pembuatan interior ruangan anda kepada kami dan kami akan memberikan pelayanan yang terbaik<br><br>Produsen Lemari Custom "Kaloka Interior"<br><br>Jl Rungkut Menanggal Harapan V/9<br>Surabaya<br><br><br>#lemaricustompermeter, #lemaricustommurah, #lemaribajucustom, #buatlemaricustom, #lemaricustomminimalis, #customlemaribawahtangga, #pembuatanlemaricustom, #customlemari, #lemaritvcustom, #lemarikayucustom<br>
+ORIGINAL LENGTH : 1398
+========================================================================================
+2023-02-08 19:26:32.281479+07:00
+USERNAME: GET EVERY DETAIL
+ADDITIONAL DESC
+Kondisi: Baru<br>
+ORIGINAL LENGTH : 17
+========================================================================================
+2023-02-08 19:26:32.281529+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT COLOR
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:26:32.281592+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT MATERIAL
+custom
+ORIGINAL LENGTH : 6
+========================================================================================
+2023-02-08 19:26:32.281644+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION LENGTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:26:32.282073+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION WIDTH
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:26:32.282168+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT DIMENSION HEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:26:32.282217+07:00
+USERNAME: GET EVERY DETAIL
+DIMENSION UNIT
+cm
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:26:32.282262+07:00
+USERNAME: GET EVERY DETAIL
+PRODUCT WEIGHT
+
+ORIGINAL LENGTH : 0
+========================================================================================
+2023-02-08 19:26:32.282305+07:00
+USERNAME: GET EVERY DETAIL
+WEIGHT UNIT
+kg
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:26:32.282374+07:00
+USERNAME: GET EVERY DETAIL
+FURNITURE LOCATION
+['kamar tidur', 'ruang keluarga']
+ORIGINAL LENGTH : 2
+========================================================================================
+2023-02-08 19:26:32.282475+07:00
+USERNAME: GET EVERY DETAIL
+CONTACT PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:26:37.482936+07:00
+USERNAME: GET EVERY DETAIL
+PHONE
+** *** ****
+ORIGINAL LENGTH : 11
+========================================================================================
+2023-02-08 19:26:37.563912+07:00
+USERNAME: GET EVERY DETAIL
+EXCEPTION
+Message: stale element reference: element is not attached to the page document
+  (Session info: headless chrome=110.0.5481.77)
+Stacktrace:
+#0 0x55f014170b03 <unknown>
+#1 0x55f013f40f27 <unknown>
+#2 0x55f013f44523 <unknown>
+#3 0x55f013f44292 <unknown>
+#4 0x55f013f44f0c <unknown>
+#5 0x55f013fb9c1e <unknown>
+#6 0x55f013fa1092 <unknown>
+#7 0x55f013fb90d9 <unknown>
+#8 0x55f013fa0df3 <unknown>
+#9 0x55f013f70900 <unknown>
+#10 0x55f013f71af8 <unknown>
+#11 0x55f0141c50ce <unknown>
+#12 0x55f0141c9090 <unknown>
+#13 0x55f0141a9590 <unknown>
+#14 0x55f0141ca31d <unknown>
+#15 0x55f01419a928 <unknown>
+#16 0x55f0141ef3a8 <unknown>
+#17 0x55f0141ef536 <unknown>
+#18 0x55f0142093f7 <unknown>
+#19 0x7f3898090402 <unknown>
+
+========================================================================================
+2023-02-08 19:26:37.564184+07:00
+USERNAME: GET EVERY DETAIL
+ERROR IN FOR DATASET
+========================================================================================
+2023-02-08 19:26:37.678296+07:00
+USERNAME: MAIN
+FINSIHED OLX WEB SCRAPING....
+============================================
